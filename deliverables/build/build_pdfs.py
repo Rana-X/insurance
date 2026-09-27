@@ -1,72 +1,104 @@
-"""Build HTML and PDF versions of the Harborline deliverables from Markdown.
+"""Build HTML and PDF versions of the Harborline deliverables, plus the submission package.
 
 Usage: python3 deliverables/build/build_pdfs.py
-Needs: pip install markdown playwright; a Chromium binary (CHROME env var or the Playwright default path).
+Needs: pip install markdown playwright pypdf; a Chromium binary (CHROME env var or the Playwright default path).
 """
 import html
 import os
 import re
+import shutil
 import sys
 from pathlib import Path
 
 import markdown
+from pypdf import PdfReader, PdfWriter
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT_HTML = ROOT / "html"
 OUT_PDF = ROOT / "pdf"
+PKG = ROOT / "package" / "Harborline_Corgi_Package"
 CHROME = os.environ.get("CHROME", "/opt/pw-browsers/chromium-1194/chrome-linux/chrome")
 
 DOCS = [
-    ("Harborline_Policy.md", "Harborline Cyber Protection Policy (Specimen)", "HIC-CY-100 (10/26) · Specimen"),
-    ("Harborline_Application_Cedar_Ridge.md", "Cyber Protection Policy Application (Sample)", "HIC-CY-APP (10/26) · Sample"),
-    ("Harborline_Decision_Rationale.md", "Decision Rationale", "Harborline Cyber Protection Policy"),
+    # source, title, footer, package name
+    ("Submission_Guide.md", "Submission Guide", "Harborline Cyber Protection Policy · Submission Guide", "00_Submission_Guide.pdf"),
+    ("Harborline_Policy.md", "Harborline Cyber Protection Policy (Specimen)", "HIC-CY-100 (10/26) · Specimen", "01_Harborline_Policy_Specimen.pdf"),
+    ("Harborline_Application_Cedar_Ridge.md", "Cyber Protection Policy Application (Sample)", "HIC-CY-APP (10/26) · Sample", "02_Sample_Application_Cedar_Ridge.pdf"),
+    ("Harborline_Decision_Rationale.md", "Decision Rationale", "Harborline Cyber Protection Policy · Decision Rationale", "03_Decision_Rationale.pdf"),
 ]
 
 CSS = """
 @page { size: Letter; margin: 0.8in 0.75in 0.85in 0.75in; }
 html { font-family: "Source Serif 4", Georgia, "Times New Roman", serif; font-size: 10.5pt; color: #1b1b1b; }
 body { line-height: 1.42; margin: 0; }
-h1 { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 20pt; color: #0b3954; margin: 0 0 6pt; }
+h1 { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 20pt; color: #0b3954; margin: 0 0 8pt; }
 h2 { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14pt; color: #0b3954; border-bottom: 1.5pt solid #0b3954;
      padding-bottom: 3pt; margin: 18pt 0 8pt; break-after: avoid; }
 h3 { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 11.5pt; color: #0b3954; margin: 12pt 0 5pt; break-after: avoid; }
+h4 { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10.5pt; color: #0b3954; margin: 10pt 0 4pt; break-after: avoid; }
 p, li { orphans: 3; widows: 3; }
 p { margin: 0 0 6pt; }
 ol, ul { margin: 0 0 6pt 18pt; padding: 0; }
 li { margin: 0 0 3pt; }
-table { border-collapse: collapse; width: 100%; margin: 4pt 0 10pt; font-size: 9pt; break-inside: auto; }
+table { border-collapse: collapse; width: 100%; margin: 4pt 0 10pt; font-size: 9pt; }
+table.keep { break-inside: avoid; }
 tr { break-inside: avoid; }
 th, td { border: 0.6pt solid #9aa5b1; padding: 3pt 5pt; vertical-align: top; text-align: left; }
 th { background: #e8eef3; font-family: "Helvetica Neue", Arial, sans-serif; }
 blockquote { margin: 6pt 0; padding: 6pt 10pt; border-left: 3pt solid #c0392b; background: #fbeeee; }
-code { font-size: 9pt; }
+a { color: #0b5394; text-decoration: none; word-break: break-all; }
 .pagebreak { break-before: page; }
-.footer-note { color: #555; font-size: 8.5pt; }
 """
 
-MAJOR = re.compile(r"^## (Important notices|Policy declarations|Section I\.|Section II\.|Section III\.|Section IV\.|Section V\.|Back page|Part 1:|For underwriter use|1\. Who|Sources)")
+MAJOR = re.compile(
+    r"^## (Important notices|Declarations|Section I\.|Section II\.|Section III\.|Section IV\.|Section V\.|"
+    r"If something happens|Part 1:|For underwriter use|Sources)"
+)
+LIST_ITEM = re.compile(r"^(- |\d+\. )")
+URL = re.compile(r"(?<![<(\"])(https?://[^\s<>|)]+)")
 
 
-def md_to_html(md_text: str) -> str:
-    lines = md_text.splitlines()
+def preprocess(md_text: str) -> str:
     out = []
     first_h2 = True
-    for line in lines:
+    for line in md_text.splitlines():
+        # A list must follow a blank line, or Markdown runs it into the paragraph above.
+        if LIST_ITEM.match(line) and out and out[-1].strip() and not LIST_ITEM.match(out[-1]) \
+                and not out[-1].startswith("|") and not out[-1].startswith("    "):
+            out.append("")
         if line.startswith("## ") and MAJOR.match(line) and not first_h2:
             out.append('<div class="pagebreak"></div>')
+            out.append("")
         if line.startswith("## "):
             first_h2 = False
+        # Bare URLs become autolinks, which also protects underscores from emphasis.
+        line = URL.sub(lambda m: "<" + m.group(1).rstrip(".,;") + ">" + m.group(1)[len(m.group(1).rstrip(".,;")):], line)
         out.append(line)
-    return markdown.markdown("\n".join(out), extensions=["tables", "sane_lists"])
+    return "\n".join(out)
 
 
-def build(md_name: str, title: str, footer: str) -> Path:
+def postprocess(body: str) -> str:
+    # Keep short tables on one page.
+    def mark(m):
+        rows = m.group(0).count("<tr>")
+        return m.group(0).replace("<table>", '<table class="keep">', 1) if rows <= 8 else m.group(0)
+    return re.sub(r"<table>.*?</table>", mark, body, flags=re.S)
+
+
+GUIDE_CSS = "html { font-size: 9.6pt; } table { font-size: 8.4pt; margin: 2pt 0 6pt; } h1 { font-size: 17pt; } h3 { margin: 7pt 0 3pt; } li, p { margin-bottom: 2pt; }"
+
+
+def build(md_name: str, title: str, footer: str, fill: dict | None = None) -> Path:
     src = ROOT / md_name
-    body = md_to_html(src.read_text(encoding="utf-8"))
+    text = src.read_text(encoding="utf-8")
+    for k, v in (fill or {}).items():
+        text = text.replace("{" + k + "}", str(v))
+    body = postprocess(markdown.markdown(preprocess(text), extensions=["tables", "sane_lists"]))
+    extra_css = GUIDE_CSS if md_name.startswith("Submission_Guide") else ""
     OUT_HTML.mkdir(exist_ok=True)
     OUT_PDF.mkdir(exist_ok=True)
-    page = f"""<!doctype html><html><head><meta charset="utf-8"><title>{html.escape(title)}</title>
-<style>{CSS}</style></head><body>{body}</body></html>"""
+    page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{html.escape(title)}</title>
+<style>{CSS}{extra_css}</style></head><body>{body}</body></html>"""
     html_path = OUT_HTML / (src.stem + ".html")
     html_path.write_text(page, encoding="utf-8")
     pdf_path = OUT_PDF / (src.stem + ".pdf")
@@ -80,17 +112,77 @@ def build(md_name: str, title: str, footer: str) -> Path:
         browser = pw.chromium.launch(executable_path=CHROME, args=["--no-sandbox"])
         page_obj = browser.new_page()
         page_obj.goto(html_path.as_uri())
-        page_obj.pdf(
+        kwargs = dict(
             path=str(pdf_path), format="Letter", print_background=True, prefer_css_page_size=True,
             display_header_footer=True, header_template="<span></span>", footer_template=footer_tpl,
             margin={"top": "0.8in", "bottom": "0.85in", "left": "0.75in", "right": "0.75in"},
         )
+        try:
+            page_obj.pdf(outline=True, tagged=True, **kwargs)
+        except TypeError:
+            page_obj.pdf(**kwargs)
         browser.close()
     return pdf_path
 
 
+def package(built):
+    send = PKG / "1_Send_to_Corgi"
+    private = PKG / "2_Keep_Private_Working_Files"
+    if PKG.exists():
+        shutil.rmtree(PKG)
+    send.mkdir(parents=True)
+    private.mkdir(parents=True)
+    writer = PdfWriter()
+    for (src, title, _footer, pkg_name), pdf in zip(DOCS, built):
+        shutil.copy(pdf, send / pkg_name)
+        start = len(writer.pages)
+        reader = PdfReader(str(pdf))
+        for p in reader.pages:
+            writer.add_page(p)
+        parent = writer.add_outline_item(title, start)
+
+        def copy_outline(items, parent_item, depth):
+            last = None
+            for item in items:
+                if isinstance(item, list):
+                    if last is not None and depth < 2:
+                        copy_outline(item, last, depth + 1)
+                    continue
+                try:
+                    last = writer.add_outline_item(item.title, start + reader.get_destination_page_number(item), parent=parent_item)
+                except Exception:
+                    last = None
+
+        # Chromium nests everything under the H1; skip that level so sections sit directly under the document.
+        top = reader.outline
+        if len(top) >= 2 and not isinstance(top[0], list) and isinstance(top[1], list):
+            top = top[1]
+        copy_outline(top, parent, 0)
+    writer.add_metadata({"/Title": "Harborline Cyber Protection Policy: Complete Submission"})
+    with open(send / "Harborline_Complete_Submission.pdf", "wb") as f:
+        writer.write(f)
+    for name in ["Harborline_Policy.md", "Harborline_Application_Cedar_Ridge.md", "Harborline_Decision_Rationale.md"]:
+        shutil.copy(ROOT / name, private / ("source_" + name))
+    for extra in (ROOT / "validation").glob("*.md"):
+        shutil.copy(extra, private / extra.name)
+    (PKG / "READ_ME_FIRST.txt").write_text((ROOT / "build" / "READ_ME_FIRST.txt").read_text(encoding="utf-8"), encoding="utf-8")
+    zip_base = ROOT / "Harborline_Corgi_Package"
+    shutil.make_archive(str(zip_base), "zip", root_dir=PKG.parent, base_dir=PKG.name)
+    return zip_base.with_suffix(".zip")
+
+
 if __name__ == "__main__":
-    for name, title, footer in DOCS:
-        p = build(name, title, footer)
-        print(p, p.stat().st_size, "bytes")
+    built = {}
+    for name, title, footer, _pkg in DOCS[1:]:
+        built[name] = build(name, title, footer)
+    counts = {k: len(PdfReader(str(v)).pages) for k, v in built.items()}
+    fill = {"POLICY_PAGES": counts["Harborline_Policy.md"], "APP_PAGES": counts["Harborline_Application_Cedar_Ridge.md"],
+            "RAT_PAGES": counts["Harborline_Decision_Rationale.md"]}
+    g = DOCS[0]
+    built[g[0]] = build(g[0], g[1], g[2], fill)
+    built = [built[d[0]] for d in DOCS]
+    for p in built:
+        print(p, len(PdfReader(str(p)).pages), "pages")
+    z = package(built)
+    print(z, z.stat().st_size, "bytes")
     sys.exit(0)

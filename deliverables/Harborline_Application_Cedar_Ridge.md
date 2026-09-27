@@ -9,13 +9,14 @@
 ### Before you start
 
 - **This application becomes part of your policy** if we issue one. We rely on your answers to decide whether to insure you, on what terms and at what price.
+- **Who can apply:** U.S. businesses with $1M–$50M in revenue that are not in the classes listed in question 1.13.
 - **Answer honestly, and say so if you're unsure.** Honest mistakes lead to adjusted terms, not a void policy (policy Section V, part 3). Only deliberate, material misstatements can void coverage.
 - **We only hold you to the questions we ask.** You don't need to volunteer anything else. Answers marked "optional" are for our information only.
 - **Ask your IT provider to help.** Many security questions are best answered with them. Where we ask for evidence, attach a screenshot or export.
-- **We scan your internet-facing systems before we issue a policy.** We won't later use anything that scan showed to deny a claim. The one exception: a known-exploited vulnerability we warned you about in writing that stayed unfixed for 45 days (policy Section III, part 1.7).
+- **We scan your internet-facing systems before we issue a policy.** We won't later use anything that scan showed to deny or reduce a claim. The one exception: a known-exploited vulnerability we warned you about in writing that stayed unfixed for 45 days (policy Section III, part 1.7).
 - **Liability coverages are claims-made and reported,** and defense costs reduce your limits.
 
-Most businesses finish in about 20 minutes. Checked boxes (☒) show this sample applicant's answers.
+Most businesses finish in about 30–45 minutes, plus time to gather the evidence we ask for. Checked boxes (☒) show this sample applicant's answers.
 
 ## Part 1: Applicant and business information
 
@@ -70,7 +71,7 @@ Most businesses finish in about 20 minutes. Checked boxes (☒) show this sample
 
 ## Part 4: Security controls
 
-Questions follow the six functions of the NIST Cybersecurity Framework 2.0 and the CIS Controls v8.1 essential safeguards. Answers marked ★ decide your security credits.
+Questions follow the six functions of the NIST Cybersecurity Framework 2.0 and the CIS Controls v8.1 essential safeguards. Answers marked ★ set your security credits, whether ransomware coinsurance applies, and your Coverage H limit.
 
 ### Govern
 
@@ -207,18 +208,19 @@ Every ★ answer, and each answer below, maps to a specific term on the Declarat
 | --- | --- |
 | Revenue $8.5M (1.9) | Standard retention $10,000 (revenue band $5M–$25M) |
 | MFA on all listed systems and EDR on all devices (4.7, 4.15) | 25% retention credit: retention $7,500 |
-| No 24/7 managed detection and response (4.17) | Retention not cut 50%; waiting period for attacks stays at 8 hours |
+| No 24/7 managed detection and response (4.17) | Retention not cut 50%; waiting period for Coverages D and E stays at 8 hours |
 | MFA on all remote access, no end-of-life VPN (4.9) | 10% premium credit: −$853 |
 | Restore tested June 2026, immutable and offline copies (4.21, 4.23) | No ransomware coinsurance. To keep the credit, retest by June 12, 2027 |
 | Written verification procedure, with training (5.2, 5.3) | Coverage H at its full limit |
-| Client payroll of $2.4M a month, largest batch $210,000 (5.4, 5.5) | Coverage R recommended and purchased: fraud limit $500,000, so one diverted batch plus recovery costs fits within the limit |
+| Client payroll of $2.4M a month, largest batch $210,000 (5.4, 5.5) | Coverage R recommended and purchased: fraud limit $500,000. The core $250,000 would pay one diverted batch, but it is the limit for the whole year: a second diversion, or one compromise that redirects several clients' batches, would exhaust it |
 | About 31,000 records, mostly with Social Security numbers, and a tax-season peak (3.2, 4.24) | $2,000,000 limit, under our limit rule: $1M base; $2M for more than about 25,000 sensitive records, client money or a seasonal peak; $3M where a contract requires it |
-| Tax and payroll platforms would stop the business; 1-day tolerance in tax season (6.1, 4.24) | Coverage P recommended and purchased: $250,000, 24-hour waiting period |
+| Tax and payroll platforms would stop the business; 1-day tolerance in tax season (6.1, 4.24) | Attacks on these platforms are covered by core Coverage E ($500,000). Coverage P recommended and purchased for non-malicious outages (a platform's own bad update or failure): $250,000, 24-hour waiting period |
 | No customer above 10% of revenue (1.10) | Coverage S not needed |
 | Google Analytics only, with consent banner (3.8) | Coverage Q offered but not required |
 | Accountants' professional liability in force (2.9) | Coordination under policy Section V, part 9.2 |
 | Scanner service account without MFA, disclosed (4.8) | Accepted. Because it was disclosed, it cannot later be used to deny a claim |
-| Legacy print server past end of support, isolated (4.6); pre-issue scan, September 20, 2026: no critical findings, one medium finding (outdated encryption settings on the same server) | Recorded. Fix requested within 30 days. A medium finding does not affect the claim-free reduction, which depends only on critical issues |
+| Legacy print server past end of support, isolated on its own network segment (4.6) | Recorded; replacement due December 2026 |
+| Pre-issue scan, September 20, 2026: no critical findings; one medium finding (an outdated TLS setting on the firm's public website) | Recorded. Fix requested within 30 days. A medium finding does not affect the claim-free reduction, which depends only on critical issues |
 | Mid-term changes | Cedar Ridge must tell us within 30 days if it stops using a verified control in Item 7 |
 
 **Premium build:** core coverages at the $1M base limit $6,120, plus the increase to $2M $1,530, plus Coverage P $600, plus Coverage R $280, equals $8,530. Less the 10% security credit ($853): **$7,677**.
