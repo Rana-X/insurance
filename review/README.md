@@ -409,5 +409,6 @@ Open these at source (they were blocked here):
 | `06_traceability_audit.md` | The "why each word and number" audit: 207 elements, the top 30 gaps with draft explanations, cross-reference and consistency checks |
 | `07_wording_counsel_review.md` | Coverage-counsel review: loss scenarios run through the wording, findings by severity with replacement text |
 | `08_strategy_corgi_fit.md` | Corgi fact base, the SMB cyber opportunity, business case, how a hiring manager will read the package, recommendations and interview prep |
+| `09_2026_policy_search.md` | Search for 2026 wordings: no full 2026 US small-business wording is public. It covers the LMA's 2026 draft standard SME wording (UK, US version planned), Coalition's 2026 UK specimen, Beazley's Sept 2026 AI endorsements, Brit's per-event limits, US public bodies' 2026–27 policies, and Munich Re's acquisition of At-Bay |
 
 Draft sentences in these reports are labeled "draft — rewrite in your own words". They're there to show the reasoning, not to be pasted in.
