@@ -28,7 +28,16 @@ This is the synthesis. The eight detailed reports behind it are in this folder (
 1. **Reframe around Corgi's own news.** On August 26, 2026, Corgi launched an admitted carrier, Corgi Insurance Company, Inc., for small-business risks. Its named segments include "professional and administrative offices". Harborline fits that almost exactly. Yet the rationale uses Corgi as a foil ("liability-first … suits startups"). Separately, the rationale labels Coalition "admitted", but the Coalition form it borrows most from, the Active Cyber Policy, is surplus lines in the US.
 2. **Add a business case and drop the unverifiable price benchmarks.** There is no loss-cost logic behind the $5,508 premium. The Vouch "$7,078 median" can't be found anywhere. The "$2,330–$4,048" figures are unledgered. A rough sketch puts expected loss at roughly $1.1K–$5.2K, a loss ratio of about 20–95% on $5,508 (mid case about 47%). The price is plausible but unproven, and the swing factor is claim frequency for accounting firms.
 3. **Fix the Colorado-law conflicts and required disclosures.** These are the late-notice clause (*Craft*), the 30-day fraud-cancellation notice (Colorado requires 45), punitive damages (uninsurable in Colorado), the service-standard interest rate, the terrorism notice (missing the 80% federal share and $100B cap) and the Colorado fraud warning (missing its third sentence).
-4. **Close the substantive coverage gaps.** These are bank-direct fraud, the unfair-trade-practices exclusion, system-failure and utility "leaks" that undercut the systemic-risk promise, the AI-agent trigger, the scope of the ransomware coinsurance, and uncapped services outside the limit.
+4. **Close the substantive coverage gaps.** The coverage-counsel review (report 07) found 59 drafting problems: 7 Critical, 12 High, 26 Medium and 14 Low. The Critical ones:
+   - **Cloud accounts vs vendor systems.** Your Microsoft 365, tax-platform and banking accounts are both "your computer systems" and "dependent systems", so the most common claims can be argued either way.
+   - **Fraud paths.** Bank-by-phone fraud, online-banking takeover and an altered payroll batch fit no definition.
+   - **Partners aren't "employees".** At Cedar Ridge the partners send wires, so a deepfake of one partner fooling the other isn't covered.
+   - **The rogue IT manager.** As an "executive" he falls outside the insider cover, and exclusion 4 can then reach the firm itself.
+   - **Contract duties.** The "damages" definition strips out contractual indemnities that the contract exclusion meant to keep.
+   - **Incidents and later claims.** Nothing links a reported incident to the lawsuits that follow in the next policy year, so neither policy may respond.
+   - **Known problems.** The exclusion's "should have known" test brings patching denials back in.
+
+   Add the earlier findings: the unfair-trade-practices exclusion, system-failure and utility "leaks" that undercut the systemic-risk promise, the AI-agent trigger, the scope of the ransomware coinsurance, and uncapped services outside the limit.
 5. **Explain the numbers.** The rationale explains *what* was borrowed and *why a feature exists*, but not *why a specific number*. Only 23 of 86 numeric design choices have a stated reason. Premium, retention bands, credit percentages, sublimit sizes and time windows are the ones a reviewer will ask about.
 
 **The brief's "do not submit an AI output" item is still open.** Your own quality review flags it. It is yours to meet, by reading everything and rewriting the rationale in your own words. The rationale also carries process residue (a "Verification check", a "Correction to the research", "state this in the memo", revision notes) that reads as an audit trail rather than reasoning. At 30 pages it is also long. Cutting it to about 10 pages plus appendices would signal judgment about the reader's time.
@@ -114,6 +123,7 @@ Other data points:
 | C.R.S. 10-3-1115/1116; 5-12-102 | Business insureds can sue for twice the benefit plus fees. Statutory interest is 8% compounded | The 30- and 15-day "aims" will become the reasonableness yardstick. Name the rate, and say it adds to statutory remedies |
 | C.R.S. 10-3-1116(3) | The arbitration ban covers health, life and disability only | Arbitration is allowed here, but "binding where state law allows" is vague |
 | TRIA (Treasury cyber guidance, Dec 27, 2016) | Standalone cyber is covered by the program. The notice must state the 80% federal share and $100B cap | Notice 7 is incomplete, and Item 12 points back to it, which is circular |
+| C.R.S. 10-4-520 (search-result level) | Colorado's guaranty-association act appears to bar using the association for sales or inducement | Notice 4 and the rationale's "guaranty fund protection" selling point need rewording |
 | C.R.S. 10-1-128(6)(a) | Colorado fraud warning has three sentences | The application omits the third (insurers who defraud policyholders are reported to the Division of Insurance) |
 | Colorado Privacy Act | The 25,000-consumer prong needs data-sale revenue. There is an **entity-level GLBA exemption** | Application 7.5 "No" is correct. The reason should cite both grounds |
 | Colorado SB 26-189 | Signed May 14, 2026, effective Jan 1, 2027; replaces the Colorado AI Act | Accurate in the rationale; add a source |
@@ -145,7 +155,7 @@ Other data points:
 | 16 | Website tracking liability optional | Defensible for a B2B firm like Cedar Ridge; weak for consumer-facing insureds | Keep optional. Ask about pixels, and fix the unfair-trade-practices carve-back |
 | 17 | Modern war exclusion | Matches the Lloyd's/LMA model structure and adds an attribution rule Beazley lacks | Four drafting gaps (section 5, T2-9). Payments pending attribution may not be reinsured |
 | 18 | Infrastructure exclusion with dependent-provider carve-back | Sound concept, but the carve-back is too wide: utilities and ISPs on click-through terms are "dependent providers" | Define "infrastructure provider" and remove it from the carve-back |
-| 19 | Admitted paper | Sensible for this segment, and better loss ratios than surplus lines in 2025. **No longer a differentiator** (Cowbell, Beazley and now Corgi) | Reframe as fit with Corgi's admitted carrier. State the trade-off (slower filings and rate changes) |
+| 19 | Admitted paper | Sensible for this segment, and better loss ratios than surplus lines in 2025. **No longer a differentiator** (Cowbell, Beazley and now Corgi) | Reframe as fit with Corgi's admitted carrier. State the trade-off (slower filings and rate changes). Argue from state-approved forms and first-party cover, not the guaranty fund (T2-1i) |
 | 20 | Firm 50% BI advance; written service standards | Genuinely ahead of Coalition's discretionary Cashflow Lifeline | Keep. Move the advance out of "service standards" so it reads as coverage |
 | 21 | $5,508 premium | Plausible: an underwriter's judgment range is about $4,500–$8,500 | Replace the benchmark sentence with a loss-cost sketch (section 4.2) |
 
@@ -264,7 +274,17 @@ Report numbers show where the detail is.
 
 | ID | Fix | Where | Tag / report |
 | --- | --- | --- | --- |
-| T2-1 | Bank-direct fraud: "leads an employee, **or your financial institution**, to transfer…". Replace "direct result" with "resulting from" in funds transfer loss | Fraudulent instruction; funds transfer loss; III.6.1 | R1, P1-2 · 05 |
+| T2-0 | **Cloud accounts vs dependent systems.** Define "cloud accounts" (the tenants, identities, settings and data you control in an online service) as part of *your* computer systems. Exclude them from "dependent systems". Say a provider's own bug or update is a system failure at a dependent provider (Coverage P) | Computer systems; dependent systems; system failure | New · 07 (W-01) |
+| T2-1 | **Fraud paths.** Bank-direct fraud ("leads an employee, **or your financial institution**, to transfer…", or a separate "bank impersonation fraud"). Extend computer fraud to **client accounts** and to transfers you approved without knowing they'd been altered (payroll batches). Replace "direct result" with "resulting from" | Fraudulent instruction; computer fraud; funds transfer loss; III.6.1 | R1, P1-2 · 05, 07 (W-02) |
+| T2-1a | **Partners aren't employees.** Fraudulent instruction item 3 requires an *employee* to transfer. Change it to anyone authorized to make, approve or change payments (executives, employees, contractors, and an AI agent acting within its authority). Use "whoever receives or approves the request" in III.6 | Fraudulent instruction item 3; III.6.1–6.2 | New · 07 (W-03) |
+| T2-1b | **Contract duties.** Carve back into "damages" contractual duties to keep data secure, to pay for notifying people after a privacy event, and PCI amounts. Otherwise the contract-exclusion carve-back saves only defense costs | Damages item 4; IV.2.5 | New · 07 (W-05) |
+| T2-1c | **Incident-to-claim linkage.** A reported incident locks in every later claim from it under this policy, without having to name who might sue. Exclusion 2's "reported under a prior policy" applies only where that earlier policy covers it. One retention covers an incident and all its claims. Define "related" | V.1.4; IV.2.2; III.1.3; incident and claim | New · 07 (W-06) |
+| T2-1d | **Known problems.** Tie "should have known" to the continuity date. Carve out unexploited vulnerabilities and anything disclosed in the application | IV.2.2; Item 8 | New · 07 (W-07) |
+| T2-1e | **Sublimits per period.** Say whether each Item 6 sublimit is per incident or per policy period, and whether proof-of-loss help erodes it | Item 6; III.1.1; III.1.8 | New · 07 (W-08) |
+| T2-1f | **Suspected incidents.** The trigger ("first happened") can defeat Coverages A and B when an investigation finds nothing. Say a reasonably suspected incident qualifies | Section I trigger item 1 | New · 07 (W-09) |
+| T2-1g | **Carve-backs as grants.** "Where an exclusion says it does not apply to something, that thing stays covered" turns every carve-back into a grant (e.g., unpurchased Coverage P through exclusion 12). Say coverage still depends on the insuring agreements | Section IV introduction | New · 07 (W-14) |
+| T2-1h | **Exclusion 4 scope.** "Committed with an executive's knowledge" can reach an outside attack the IT manager is watching, and "criminal" reaches statutory crimes such as CIPA. Require "knowledge and consent", a final ruling or admission, and apply that standard to all coverages | IV.2.4; IV.2.19 | New · 07 (W-13) |
+| T2-1i | **Guaranty association.** Colorado's guaranty-association statute (C.R.S. 10-4-520, search-result level) appears to bar using the association for sales or inducement. Replace notice 4's guaranty sentence with "licensed by the Colorado Division of Insurance; this form is filed with it". Stop using "guaranty fund protection" as a selling point in the rationale | Notice 4; rationale Declarations row | New · 07 (W-16) |
 | T2-2 | Unfair-trade-practices exclusion: carve back claims under I (and Q, if bought) arising from a security failure, privacy event or wrongful collection | IV.2.8 | R1 · 05 |
 | T2-3 | Widespread events and system-failure leak: apply the $250K system-failure sublimit to D and F combined. If you add a widespread-event limit, scope it to E, P and system-failure F only, never to attacks on the insured's own systems | I.F; Item 6 | P1-5 (scoped) · 04 |
 | T2-4 | Infrastructure carve-back: define "infrastructure provider" (utilities, telecoms, internet backbone, DNS) and remove it from "dependent provider" or from the carve-back | IV.2.12; dependent provider definition | New · 04 |
@@ -272,11 +292,11 @@ Report numbers show where the detail is.
 | T2-6 | Ransomware coinsurance: define ransomware; apply only to restoration and BI from encryption (not data-theft extortion); say it doesn't stack with the known-exploited-vulnerability coinsurance (cap 20% in total) | III.1.6–1.7 | P1-11, P1-15 · 01, 05 |
 | T2-7 | Scan estoppel: delete "or should have shown"; carve out known-exploited vulnerabilities you were notified about; remove scan results from the definition of "application" | V.3.4; III.1.7; application definition | P1-16 · 03, 04, 05 |
 | T2-8 | Services outside the limit: per-period caps for Coverage A and pre-incident help; state that pre-incident help is also outside the aggregate in III.1; resolve the overlap with "suspected incident" | Item 4; I.A; III.1.2; V.2.3 | R1, P1-1 · 06 |
-| T2-9 | War exclusion: add "a cyber operation carried out as part of a war"; restore LMA's "functioning of the state" qualifier; add a cloud-location rule; say evidence relied on is shared; decide how pending-attribution payments sit with reinsurance | IV.2.15 | New · 04, 05 |
-| T2-10 | Define "discover" (executive awareness), matching notice and exclusion 2 | Section I trigger; definitions | P1-4 |
-| T2-11 | Rogue IT lead: carve back into "security failure" for rogue acts, keep in the knowledge group, and stop exclusion 4 imputing their knowledge to the named insured. Also narrow rescission imputation to the executive who signed or the managing partner | Security failure; IV.2.4; V.3.3 | P1-6 · 05 |
+| T2-9 | War exclusion: say "state" means a sovereign country, never a U.S. state (otherwise "outside the state that suffered" can read as outside Virginia); add "a cyber operation carried out as part of a war"; restore LMA's "functioning of the state" qualifier; add a cloud-location rule; say evidence relied on is shared; decide how pending-attribution payments sit with reinsurance | IV.2.15 | New · 04, 05, 07 (W-10) |
+| T2-10 | Define "discover" (an executive's or the named security contact's awareness), matching notice and exclusion 2. Also limit "you" in the first-party coverages to the named insured and its subsidiaries | Section I trigger; definitions; insured/you | P1-4 · 07 (W-18) |
+| T2-11 | Rogue IT lead: carve back into "security failure" for rogue acts by employees *or executives* acting against your interests. Keep them in the knowledge group. Stop exclusion 4 and imputation reaching the firm unless the managing partner, CFO or general counsel took part or knew | Security failure; IV.2.4; IV.1; V.3.3 | P1-6 · 05, 07 (W-04) |
 | T2-12 | Voluntary payments and consent: reimburse reasonable, necessary unconsented costs absent prejudice; exempt panel vendors, legally required notices and first-72-hour containment from "with our consent" | V.2.2; breach response costs definition | New · 05 |
-| T2-13 | Honest-mistake remedy: say what happens if the true answer would have led to a decline | V.3.2 | New · 03, 05 |
+| T2-13 | Honest-mistake remedy. "Terms we would have offered" could let the insurer add an exclusion after a loss, so limit it to premium, retention and credits. Say what happens if the true answer would have led to a decline (cancel on notice, keep covering what came before). Apply rescission only to the insureds who made or knew of the misstatement | V.3.2–3.3 | New · 03, 05, 07 (W-15) |
 | T2-14 | Insured-vs-insured: carve back a claim by *any* natural-person insured (partners too) about their own personal information | IV.2.6 | New · 05 |
 | T2-15 | Key customer: add a naming field (or drop "named"); align "at least 10%" with the application's "more than 10%"; define a key-customer event; pay "during the outage and up to 90 days after" | I.S; definition; Item 6 | P1-8 · 06 |
 | T2-16 | Credits: one rule for stacking; fix "would halve it" ($3,750 vs $5,000); define claim-free and whether the 25% compounds; define qualifying MDR | Items 5 and 7; V.6.1 | R1, P1-9, P1-10 · 03 |
@@ -340,6 +360,7 @@ From report 08:
 - **Other session, pass 1.** It praised the late-notice clause; under *Craft* it needs the fix in T1-6. Its item 17 is already handled by III.1.3.
 - **Other session, pass 2.** Its HIPAA fix (#24) risks a new inaccuracy (T3-4). Its terrorism citation should be the Dec 27, 2016 cyber guidance. "The references file and submission guide match the documents" isn't quite right (T4-8).
 - **At-Bay's AI claim.** The other session checked the At-Bay PDF and found it supports the rationale's AI claim. Keep it, and add IC3 2025 as a second source.
+- **Guaranty fund as a selling point.** Reports 02, 04 and 08 (and the "why admitted" interview answer in 08) treat guaranty-fund protection as a benefit to cite. Report 07 found Colorado appears to bar using the guaranty association in sales, so drop that argument (T2-1i).
 
 ---
 
@@ -349,7 +370,7 @@ Report 08 section 7 has 15 likely questions with answers grounded in the package
 
 1. "Walk me through the $5,508. Is it adequate?" Use the loss-cost sketch (4.2), and name the swing factor (accounting-firm frequency).
 2. "Why SMBs, when Corgi insures startups?" Corgi's admitted carrier, graduating startups, and the same contract-driven purchase trigger. Cedar Ridge is buying because two clients require $1M.
-3. "Why admitted, not a risk retention group or surplus lines?" Most of this cover is first-party, which a risk retention group can't write. Guaranty-fund protection and admitted loss ratios help. The cost is filing time.
+3. "Why admitted, not a risk retention group or surplus lines?" Most of this cover is first-party, which a risk retention group can't write. State-approved forms fit small-business buyers, and admitted cyber ran a better loss ratio than surplus lines in 2025. The cost is filing time. Don't pitch the guaranty fund as a benefit: Colorado appears to bar using it for sales (T2-1i).
 4. "What's the biggest risk?" Adverse selection in a soft market, and vendor concentration across a vertical book in tax season.
 5. "What would you cut?" Reputational harm and cryptojacking back to options, the claim-free reduction until priced, and a shorter rationale.
 
@@ -369,6 +390,7 @@ Open these at source (they were blocked here):
 - **Beazley and CFC affirmative AI (Sept 2026).**
 - **Case citations recalled from memory:** Stresscon, Lira, Craft and Principle Solutions v. Ironshore. Check reporter cites before quoting.
 - **Colorado non-renewal notice period** (C.R.S. 10-4-110) and whether 10-4-109.7 reaches cyber.
+- **Colorado guaranty-association advertising rule** (C.R.S. 10-4-520): what it bars, and whether any notice is prescribed.
 - **Chubb Neglected Software Exploit percentages:** unconfirmed; don't quote any.
 - **The issued At-Bay, Coalition and Vouch documents:** reconfirm the ERP, hammer, $1,010 pre-claim and short-rate refund claims if you keep them.
 
