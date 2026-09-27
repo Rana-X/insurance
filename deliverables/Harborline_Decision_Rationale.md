@@ -128,7 +128,7 @@ The coverages follow Coalition's plain "we will pay" style and At-Bay's split be
 - In *RealPage v. National Union* (5th Cir. 2021), the insured controlled client funds but did not "hold" them.
 - In *Mississippi Silicon v. AXIS* (5th Cir. 2021), an employee-authorized transfer fell to a small social-engineering sublimit.
 
-*Apache v. Great American* (5th Cir. 2016) turned on the phrase "direct loss". My first draft had four of these gaps:
+In *Apache v. Great American* (5th Cir. 2016), a spoofed email was held "merely incidental" to an authorized transfer, so the loss did not result "directly" from computer use. My first draft had four of these gaps:
 - only employees could be deceived, not partners;
 - only the insured, not its bank;
 - only accounts the insured "held" for clients;
@@ -157,15 +157,14 @@ Every restriction names one of five reasons:
 | Bodily injury, property damage, patents, employment practices, securities | OP | Another line of insurance is built for it. Breach-related emotional distress and employee privacy claims stay covered |
 | Wrongful collection (tracking pixels) and biometric collection laws | NP | The claim is about how data was collected, not a breach. Coverage Q offers pixel cover for businesses that need it |
 
-**One rule for security.** Section III, part 1.9 lists the only three terms that can reduce a payment because of security practices, and applies each only if the missing control caused the incident or made the loss larger. The insurer must show that link. The idea comes from the UK Insurance Act 2015 (s11), which stops an insurer relying on a risk-control term when the breach could not have mattered to the loss. Colorado has no such rule, so the policy supplies it.
+**One rule for security.** Section III, part 1.9 lists the only three terms that can reduce a payment because of security practices, and applies each only if the missing control caused the incident or made the loss larger. The insurer must show that link. The idea comes from the UK Insurance Act 2015 (s11), which stops an insurer relying on a risk-control term when the breach could not have mattered to the loss. I found no Colorado equivalent, so the policy supplies the rule itself.
 
 I did not copy the German approach of cutting payment in proportion to how careless the insured was. In a Colorado form that becomes a discretionary percentage dispute, and it can't be priced.
 
-**The war exclusion.** At-Bay's AB-CYB-001.2 (08/2023) form and the Coalition policy issued for 2025–26 that I reviewed still use legacy "war, hostilities, warlike operations" wording. That is the kind of language the New Jersey courts refused to apply to NotPetya in *Merck v. ACE*. Harborline follows Beazley's war and cyber war exclusion and the Lloyd's Y5381 criteria. Y5381 requires a robust basis for attribution but leaves the process to each insurer, so Harborline adds, for small insureds:
-- a defined attribution process;
-- the burden of proof on the insurer;
-- continued help while attribution is pending;
-- a definition of "state" as a sovereign country, so it can't be read as a U.S. state.
+**The war exclusion.** At-Bay's AB-CYB-001.2 (08/2023) form and the Coalition policy issued for 2025–26 that I reviewed still use legacy "war, hostilities, warlike operations" wording. That is the kind of language the New Jersey courts refused to apply to NotPetya in *Merck v. ACE*. Harborline follows the Lloyd's Y5381 criteria and the LMA 5567 model clause, and borrows the physical-force war definition and bystander carve-back from Beazley's war and cyber war exclusion. Beazley's clause has no attribution process, so Harborline uses LMA 5567's rule (attribution by the government where the affected systems are located). It adds what the models lack for small insureds:
+- continued help while attribution is pending, with no repayment;
+- a plain statement that the insurer bears the burden of proof;
+- a reminder that "state" means a sovereign country, never a U.S. state, which matters in a U.S. form.
 
 ## 6. How the definitions are built
 
@@ -240,8 +239,8 @@ At $1M with no options, the same business would pay $5,508. The rationale for sp
 | A written coverage position we aim to give within 30 days; payment within 15 days of agreement, or 8% interest compounded annually (Colorado's statutory rate) on top of any legal remedy | Only the payment promise carries a contractual remedy. The others are stated as aims, and Colorado's unfair claims practices law still applies |
 | Free internal review, then insurer-paid mediation | A path to challenge decisions without hiring lawyers first |
 | Late notice of incidents reduces payment only if it caused harm; claims have a firm 90-day window after expiry | Colorado enforces claims-made reporting deadlines strictly (*Craft v. Philadelphia Indemnity*, 2015), so the policy says the claims deadline is firm and makes the automatic 60-day extended reporting period cover claims first made during it |
-| Honest application mistakes change only price, retention and credits | *Travelers v. International Control Services* (2022): a policy voided from inception over an MFA answer |
-| Cancellation only for non-payment (10 days) or fraud (45 days) | Colorado requires 45 days' notice for commercial cancellations other than non-payment |
+| Honest application mistakes change only price, retention and credits | In *Travelers v. International Control Services* (C.D. Ill. 2022), after Travelers alleged a false MFA answer, the insured agreed to an order rescinding its policy from inception. There was no ruling on the merits, but the case shows the risk |
+| Cancellation only for non-payment (10 days, with reasons), a knowingly false application answer (45 days), or an honest application error that shows a substantially different risk we would not have written (60 days) | Colorado (C.R.S. 10-4-109.7) allows cancellation of a commercial policy only for non-payment, a knowingly false application statement or a substantial change in the risk from what the application described, and requires 45 days' notice for all but non-payment |
 | Coverage I responds even where the firm's professional liability policy might also apply | Stops a client lawsuit after a breach falling between two policies |
 
 ## 9. Trade-offs, and what I'd test next
@@ -289,7 +288,7 @@ Regulatory status as of September 27, 2026:
 | Item | Status | Effect on the policy |
 | --- | --- | --- |
 | CIRCIA final rule (federal incident and ransom-payment reporting) | Not confirmed as published | The policy already lets insureds make any legally required report without consent |
-| California SB 690 (limits wiretap suits over website tracking) | Awaiting the Governor's decision (deadline September 30, 2026) | Other California Invasion of Privacy Act claims would remain, so Coverage Q stays |
+| California SB 690 (ends private suits under California's pen-register and trap-and-trace law over website and app tracking) | Passed the Legislature August 28, 2026; awaiting the Governor's decision (deadline September 30, 2026); would take effect January 1, 2027 | Wiretapping and other California Invasion of Privacy Act claims would remain, so Coverage Q stays |
 | California SB 446 | In effect January 1, 2026: 30-day consumer breach notice | Breach response is built around 30-day deadlines |
 | Colorado AI law (SB 26-189) | Signed May 2026; effective January 1, 2027 | AI regulatory defense deferred (part 9) |
 | ISO generative-AI exclusions for general liability | Optional endorsements since January 2026 | Affirmative AI cover is now common in cyber (Beazley, CFC). Harborline's distinctive element is its AI-agent definition |
@@ -341,5 +340,5 @@ Regulatory status as of September 27, 2026:
 - *Taylor & Lieberman v. Federal Insurance Co.* (9th Cir. 2017)
 - *RealPage, Inc. v. National Union Fire Insurance Co.* (5th Cir. 2021)
 - *Mississippi Silicon Holdings v. AXIS Insurance Co.* (5th Cir. 2021)
-- *Apache Corp. v. Great American Insurance Co.* (5th Cir. 2016)
+- *Apache Corp. v. Great American Insurance Co.*, 662 F. App'x 252 (5th Cir. 2016)
 - *Craft v. Philadelphia Indemnity Insurance Co.*, 2015 CO 11

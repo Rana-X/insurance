@@ -155,11 +155,11 @@ Questions follow the six functions of the NIST Cybersecurity Framework 2.0 and t
 
 | # | Question | Answer |
 | --- | --- | --- |
-| 7.1 | Are you subject to the FTC Safeguards Rule? | ☒ Yes ☐ No. Tax preparers are financial institutions under the Gramm-Leach-Bliley Act; our written information security plan follows IRS Publication 4557 |
+| 7.1 | Do you prepare tax returns, run payroll or provide other financial services for individuals? | ☒ Yes ☐ No. Tax preparation and payroll. Our written information security plan follows IRS Publication 4557 and the FTC Safeguards Rule |
 | 7.2 | Do you receive patient information from healthcare providers or health plans (HIPAA)? | ☐ Yes ☒ No. The health information in 3.1 comes from individual tax clients about themselves |
 | 7.3 | Are you an SEC reporting company, or regulated by the New York Department of Financial Services? | ☐ Yes ☒ No |
-| 7.4 | Must you comply with PCI DSS? | ☒ Yes ☐ No. Self-assessment SAQ A, through our processor |
-| 7.5 | Do you process the personal data of 100,000 or more Colorado residents a year, or sell personal data? | ☐ Yes ☒ No. About 27,000 Colorado residents; we don't sell data |
+| 7.4 | Which PCI DSS self-assessment questionnaire does your card processor require? | SAQ A |
+| 7.5 | In the last calendar year, did you process the personal data of 100,000 or more Colorado consumers (not counting employees or business contacts)? Do you earn revenue or discounts from selling personal data? | ☐ Yes ☒ No / ☐ Yes ☒ No. About 27,000 Colorado individuals in total, including employees; we don't sell data |
 | 7.6 | Do you collect biometric data (fingerprints, face or voice scans)? | ☐ Yes ☒ No |
 
 ## Part 8: Loss history and known circumstances
@@ -188,7 +188,7 @@ We agree to receive policy documents and notices electronically.
 
 **All applicants:** Anyone who knowingly gives false or misleading information to obtain insurance, or to be paid on a claim, may be committing a crime and may face fines, imprisonment and denial of benefits.
 
-**Colorado applicants:** It is unlawful to knowingly provide false, incomplete, or misleading facts or information to an insurance company for the purpose of defrauding or attempting to defraud the company. Penalties may include imprisonment, fines, denial of insurance and civil damages. Any insurance company or agent of an insurance company who knowingly provides false, incomplete, or misleading facts or information to a policyholder or claimant for the purpose of defrauding or attempting to defraud the policyholder or claimant with regard to a settlement or award payable from insurance proceeds shall be reported to the Colorado Division of Insurance within the Department of Regulatory Agencies.
+**Colorado applicants:** It is unlawful to knowingly provide false, incomplete, or misleading facts or information to an insurance company for the purpose of defrauding or attempting to defraud the company. Penalties may include imprisonment, fines, denial of insurance, and civil damages. Any insurance company or agent of an insurance company who knowingly provides false, incomplete, or misleading facts or information to a policyholder or claimant for the purpose of defrauding or attempting to defraud the policyholder or claimant with regard to a settlement or award payable from insurance proceeds shall be reported to the Colorado Division of Insurance within the Department of Regulatory Agencies.
 
 *Other states' required warnings are included on the state-specific version of this form.*
 
