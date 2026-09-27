@@ -1,0 +1,98 @@
+/* Shared design system for the Harborline specimen documents (rendered with WeasyPrint). */
+
+@font-face { font-family: "HSerif"; src: url(../fonts/source-serif-4-latin-400-normal.woff2); font-weight: 400; font-style: normal; }
+@font-face { font-family: "HSerif"; src: url(../fonts/source-serif-4-latin-400-italic.woff2); font-weight: 400; font-style: italic; }
+@font-face { font-family: "HSerif"; src: url(../fonts/source-serif-4-latin-600-normal.woff2); font-weight: 600; font-style: normal; }
+@font-face { font-family: "HSerif"; src: url(../fonts/source-serif-4-latin-600-italic.woff2); font-weight: 600; font-style: italic; }
+@font-face { font-family: "HSerif"; src: url(../fonts/source-serif-4-latin-700-normal.woff2); font-weight: 700; font-style: normal; }
+@font-face { font-family: "HSans"; src: url(../fonts/inter-latin-400-normal.woff2); font-weight: 400; }
+@font-face { font-family: "HSans"; src: url(../fonts/inter-latin-400-italic.woff2); font-weight: 400; font-style: italic; }
+@font-face { font-family: "HSans"; src: url(../fonts/inter-latin-500-normal.woff2); font-weight: 500; }
+@font-face { font-family: "HSans"; src: url(../fonts/inter-latin-600-normal.woff2); font-weight: 600; }
+@font-face { font-family: "HSans"; src: url(../fonts/inter-latin-700-normal.woff2); font-weight: 700; }
+@font-face { font-family: "HMono"; src: url(../fonts/ibm-plex-mono-latin-400-normal.woff2); font-weight: 400; }
+@font-face { font-family: "HSig"; src: url(../fonts/mrs-saint-delafield-latin-400-normal.woff2); font-weight: 400; }
+
+:root {
+  --navy: #14284b;
+  --teal: #0e6b73;
+  --ink: #1b1f24;
+  --muted: #5b6573;
+  --rule: #c8d1db;
+  --fill: #f3f6f9;
+  --fill2: #e6edf3;
+  --entry: #1c3f94;
+  --warn: #8a4b08;
+  --warnfill: #fdf6ec;
+}
+
+/* ---------- Page frame ---------- */
+@page {
+  size: letter;
+  margin: 0.85in 0.8in 0.8in 0.8in;
+  @top-left { content: string(runhead); font-family: HSans, sans-serif; font-size: 7.2pt; font-weight: 500; color: #5b6573; letter-spacing: 0.02em; vertical-align: bottom; padding-bottom: 8pt; }
+  @top-right { content: string(section, start); font-family: HSans, sans-serif; font-size: 7.2pt; color: #5b6573; vertical-align: bottom; padding-bottom: 8pt; }
+  @bottom-left { content: string(formno); font-family: HSans, sans-serif; font-size: 7pt; color: #5b6573; vertical-align: top; padding-top: 8pt; }
+  @bottom-center { content: "Page " counter(page) " of " counter(pages); font-family: HSans, sans-serif; font-size: 7pt; color: #5b6573; vertical-align: top; padding-top: 8pt; }
+  @bottom-right { content: string(footright); font-family: HSans, sans-serif; font-size: 7pt; color: #5b6573; vertical-align: top; padding-top: 8pt; }
+}
+@page cover {
+  margin: 0;
+  @top-left { content: none; } @top-right { content: none; }
+  @bottom-left { content: none; } @bottom-center { content: none; } @bottom-right { content: none; }
+}
+
+html { font-family: HSerif, serif; font-size: 9.6pt; line-height: 1.42; color: var(--ink); }
+body { margin: 0; }
+.runhead, .footright, .setsec { visibility: hidden; height: 0; margin: 0; padding: 0; line-height: 0; font-size: 1pt; overflow: hidden; }
+.runhead { string-set: runhead content(); }
+.footright { string-set: footright content(); }
+.setsec { string-set: section content(); }
+[data-form] { string-set: formno attr(data-form); }
+
+/* ---------- Type ---------- */
+h1, h2, h3, h4, h5 { font-family: HSans, sans-serif; color: var(--navy); line-height: 1.2; margin: 0; }
+h1 { font-size: 17pt; font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 11pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+h3 { font-size: 10pt; font-weight: 600; }
+h4 { font-size: 9.4pt; font-weight: 600; }
+p { margin: 0 0 5.5pt 0; }
+b, strong { font-weight: 600; }
+.sans { font-family: HSans, sans-serif; }
+.muted { color: var(--muted); }
+.small { font-size: 8.2pt; }
+.tiny { font-size: 7.2pt; }
+.caps { text-transform: uppercase; letter-spacing: 0.05em; }
+.nowrap { white-space: nowrap; }
+.center { text-align: center; }
+.right { text-align: right; }
+a { color: inherit; text-decoration: none; }
+.pagebreak { break-before: page; }
+.keep { break-inside: avoid; }
+
+/* ---------- Tables ---------- */
+table { width: 100%; border-collapse: collapse; font-family: HSans, sans-serif; font-size: 8.1pt; line-height: 1.35; }
+th, td { text-align: left; vertical-align: top; padding: 4pt 6pt; border-bottom: 0.6pt solid var(--rule); }
+th { font-weight: 600; color: var(--navy); background: var(--fill2); border-bottom: 0.9pt solid var(--navy); font-size: 7.6pt; text-transform: uppercase; letter-spacing: 0.04em; }
+tr { break-inside: avoid; }
+td.num, th.num { text-align: right; white-space: nowrap; }
+table.plain td { border-bottom: none; padding: 2pt 6pt 2pt 0; }
+
+/* ---------- Callouts ---------- */
+.notice { border: 1pt solid var(--navy); padding: 8pt 11pt; background: var(--fill); break-inside: avoid; margin: 8pt 0; }
+.notice h4 { margin-bottom: 4pt; }
+.warnbox { border-left: 3pt solid var(--warn); background: var(--warnfill); padding: 7pt 10pt; font-family: HSans, sans-serif; font-size: 8.2pt; break-inside: avoid; margin: 8pt 0; }
+.inshort { font-family: HSans, sans-serif; font-size: 7.9pt; color: #324154; background: var(--fill); border-left: 2.5pt solid var(--teal); padding: 4pt 8pt; margin: 3pt 0 7pt 0; break-inside: avoid; }
+.inshort b { color: var(--teal); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; font-size: 7pt; margin-right: 3pt; }
+
+/* ---------- Logo ---------- */
+.logo { display: flex; align-items: center; gap: 8pt; }
+.logo svg { width: 26pt; height: 26pt; }
+.logo .wordmark { font-family: HSans, sans-serif; font-weight: 700; letter-spacing: 0.02em; }
+.logo .wordmark small { display: block; font-weight: 500; font-size: 0.55em; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.85; }
+
+/* ---------- Form fields (application) ---------- */
+.cb { display: inline-block; width: 7.6pt; height: 7.6pt; border: 0.8pt solid #3c4654; vertical-align: -1pt; margin-right: 3pt; position: relative; background: #fff; }
+.cb.on::after { content: ""; position: absolute; left: 2.2pt; top: 0.1pt; width: 2.4pt; height: 5pt; border: solid #1c3f94; border-width: 0 1.3pt 1.3pt 0; transform: rotate(45deg); }
+.entry { color: var(--entry); font-family: HSans, sans-serif; font-weight: 500; }
+.sig { font-family: HSig, cursive; font-size: 22pt; color: #1c2f6b; line-height: 1; }

@@ -1,0 +1,45 @@
+/* Completed application form HIC-CY-APP. */
+.app { font-family: HSans, sans-serif; font-size: 8.3pt; line-height: 1.38; }
+.app .ahead { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1.6pt solid #14284b; padding-bottom: 8pt; margin-bottom: 8pt; }
+.app .ahead .logo .wordmark { font-size: 11pt; color: #14284b; }
+.app .ahead .title { text-align: right; }
+.app .ahead .title .t { font-size: 14pt; font-weight: 700; color: #14284b; }
+.app .ahead .title .s { font-size: 7.6pt; color: #5b6573; }
+.app .spec { font-size: 7.2pt; color: #8a4b08; background: #fdf6ec; padding: 3pt 7pt; margin-bottom: 8pt; }
+.app .instr { border: 1pt solid #14284b; padding: 6pt 10pt; font-size: 7.9pt; margin-bottom: 6pt; }
+.app .instr .h { font-weight: 700; color: #14284b; text-transform: uppercase; letter-spacing: 0.06em; font-size: 7.2pt; margin-bottom: 2pt; }
+.app .instr ul { margin: 0; padding-left: 11pt; }
+.app .legend { font-size: 7.2pt; color: #5b6573; margin: 4pt 0 2pt 0; }
+.app h2.as { font-size: 8.4pt; text-transform: uppercase; letter-spacing: 0.08em; color: #fff; background: #14284b; padding: 4pt 7pt; margin: 11pt 0 0 0; break-after: avoid; }
+.app h2.as .no { color: #8fd3d8; margin-right: 6pt; }
+.app table { font-size: 8pt; }
+.app td, .app th { padding: 3.4pt 6pt; }
+.app table.fields td.k { width: 1.7in; color: #3c4654; background: #f3f6f9; font-weight: 500; }
+.app table.fields td.k2 { width: 1.25in; color: #3c4654; background: #f3f6f9; font-weight: 500; }
+.app table.qs td.n { width: 22pt; color: #5b6573; font-weight: 600; }
+.app table.qs td.a { width: 1.95in; }
+.app table.qs td.q .sub { display: block; margin-top: 2pt; }
+.app .yn { white-space: nowrap; font-weight: 500; }
+.app .yn .cb { margin-left: 6pt; }
+.app .yn .cb:first-child { margin-left: 0; }
+.app .tag { display: inline-block; font-size: 6.2pt; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; padding: 0.5pt 3.5pt; border-radius: 2pt; margin-left: 4pt; vertical-align: 1pt; }
+.app .tag.credit { background: #0e6b73; color: #fff; }
+.app .tag.csf { background: #e6edf3; color: #14284b; }
+.app .ans { display: block; margin-top: 2.5pt; }
+.app .note { font-size: 7.2pt; color: #5b6573; margin: 3pt 0 0 0; }
+.app .fraud { font-size: 7.4pt; line-height: 1.4; border: 0.8pt solid #c8d1db; padding: 6pt 9pt; margin-top: 6pt; break-inside: avoid; }
+.app .fraud p { margin: 0 0 4pt 0; }
+.app .fraud b { color: #14284b; }
+.app .sigrow { display: flex; gap: 18pt; margin-top: 30pt; break-inside: avoid; }
+.app .sigrow > div { flex: 1; border-top: 0.7pt solid #1b1f24; padding-top: 3pt; font-size: 7.2pt; color: #5b6573; position: relative; }
+.app .sigrow .sig { position: absolute; top: -25pt; left: 4pt; }
+.app .sigrow .typed { position: absolute; top: -13pt; left: 4pt; color: #1c3f94; font-weight: 500; font-size: 8.6pt; }
+.app .uw { margin-top: 12pt; border: 1.2pt dashed #0e6b73; padding: 7pt 10pt; background: #f4fafa; break-inside: avoid; }
+.app .uw .h { font-weight: 700; color: #0e6b73; text-transform: uppercase; letter-spacing: 0.08em; font-size: 7.2pt; margin-bottom: 4pt; }
+.app .uw table td { font-size: 7.8pt; border-bottom: 0.5pt solid #cfe3e4; }
+.app .uw td.k { width: 1.6in; color: #3c4654; font-weight: 500; }
+.app .check { color: #0e6b73; font-weight: 700; }
+.app .cross { color: #8a4b08; font-weight: 700; }
+
+.app table.qs tr.subq td { border-bottom: 0.4pt dotted #c8d1db; padding-top: 2pt; padding-bottom: 2pt; }
+.app table.qs tr.subq td.q { padding-left: 14pt; }

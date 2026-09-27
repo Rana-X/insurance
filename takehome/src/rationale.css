@@ -1,0 +1,33 @@
+/* Decision rationale report. */
+.rat { font-size: 9.5pt; }
+.rat .titleblock { border-bottom: 1.6pt solid #14284b; padding-bottom: 10pt; margin-bottom: 12pt; }
+.rat .titleblock .kicker { font-family: HSans, sans-serif; font-size: 7.6pt; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #0e6b73; }
+.rat .titleblock h1 { font-size: 22pt; margin: 4pt 0 3pt 0; letter-spacing: -0.015em; }
+.rat .titleblock .sub { font-family: HSans, sans-serif; font-size: 10pt; color: #5b6573; }
+.rat .titleblock .meta { display: flex; gap: 22pt; margin-top: 10pt; font-family: HSans, sans-serif; font-size: 7.8pt; color: #3c4654; }
+.rat .titleblock .meta b { display: block; font-size: 6.8pt; text-transform: uppercase; letter-spacing: 0.08em; color: #5b6573; font-weight: 600; }
+.rat h2 { font-size: 11.5pt; text-transform: none; letter-spacing: 0; margin: 16pt 0 6pt 0; padding-top: 6pt; border-top: 1pt solid #c8d1db; break-after: avoid; }
+.rat h2 .n { color: #0e6b73; margin-right: 7pt; }
+.rat h3 { font-size: 9.6pt; margin: 10pt 0 3pt 0; break-after: avoid; }
+.rat p { margin-bottom: 5.5pt; }
+.rat ul, .rat ol { margin: 0 0 6pt 0; padding-left: 14pt; }
+.rat li { margin-bottom: 2.5pt; }
+.rat .summary { background: #f3f6f9; border-left: 3pt solid #14284b; padding: 8pt 12pt; margin: 6pt 0 10pt 0; }
+.rat .summary h3 { margin-top: 0; }
+.rat .summary ol { margin-bottom: 0; }
+.rat table { font-size: 7.9pt; margin: 4pt 0 8pt 0; }
+.rat td, .rat th { padding: 3.6pt 5.5pt; }
+.rat table.dec td:first-child { font-weight: 600; color: #14284b; width: 1.35in; }
+.rat table.dec td.c { width: 1.15in; }
+.rat .cite { font-family: HSans, sans-serif; font-size: 0.78em; color: #0e6b73; font-weight: 600; vertical-align: 0.15em; }
+.rat .tradeoff { font-family: HSans, sans-serif; font-size: 8pt; background: #fdf6ec; border-left: 2.5pt solid #8a4b08; padding: 4pt 8pt; margin: 2pt 0 8pt 0; break-inside: avoid; }
+.rat .tradeoff b { color: #8a4b08; text-transform: uppercase; letter-spacing: 0.05em; font-size: 6.9pt; margin-right: 3pt; }
+.rat .example { border: 1pt solid #14284b; margin: 8pt 0 12pt 0; break-inside: avoid; }
+.rat .example .eh { background: #14284b; color: #fff; font-family: HSans, sans-serif; font-weight: 600; font-size: 8.4pt; padding: 4pt 9pt; }
+.rat .example .eb { padding: 6pt 9pt; }
+.rat .example p { font-size: 8.9pt; }
+.rat .example table { margin-bottom: 4pt; }
+.rat .example tr.total td { font-weight: 700; color: #14284b; border-top: 1pt solid #14284b; background: #f3f6f9; }
+.rat .refs li { margin-bottom: 4pt; font-size: 8.4pt; line-height: 1.38; }
+.rat .refs .url { font-family: HSans, sans-serif; font-size: 7.2pt; color: #5b6573; word-break: break-all; }
+.rat .appx td { font-size: 7.6pt; }
