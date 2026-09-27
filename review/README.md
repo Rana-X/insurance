@@ -421,5 +421,6 @@ Open these at source (they were blocked here):
 | `11a_us_law_fit.md` | US and Colorado legal fit and filing for each idea, with default-law and case-law checks |
 | `11b_loss_utility.md` | Loss-data utility: how often each scenario hits a firm like Cedar Ridge, the dollars at stake, and the expected value per year |
 | `11c_us_market.md` | US market check: who offers each idea, broker and buyer value, US claim disputes each would prevent, and gaps missing from the list |
+| `12_design_spine.md` | **Start here to rewrite the package.** The policy rebuilt from first principles: the brief and how it's judged, the one-sentence purpose, eight questions in order (who it's for, how these firms lose money, retention, limit including why Corgi sells $1M per claim / $2M aggregate, coverages, restrictions with a named reason each, underwriting and price, claims), the rationale outline, the work list in order, and the decisions left for you |
 
 Draft sentences in these reports are labeled "draft — rewrite in your own words". They're there to show the reasoning, not to be pasted in.
