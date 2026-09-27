@@ -16,7 +16,7 @@ Protection from cyberattacks, data breaches and online fraud, plus help getting 
 
 **One form for every business.** This policy wording (Sections I to V) is the same for every small or mid-sized business we insure. Only the Declarations change: they show what each business bought. This specimen's Declarations are for a sample policyholder, Cedar Ridge Accounting Group, the business in the accompanying sample application.
 
-> **Think something is wrong? Call us first: 1-800-555-0142 (24/7).** Suspicious email, locked files or a strange payment request? Calling early costs you nothing and never counts against you.
+> **Think something is wrong? Call us first: (303) 555-0142 (24/7).** Suspicious email, locked files or a strange payment request? Calling early costs you nothing and never counts against you.
 
 ### What's inside
 
@@ -183,7 +183,7 @@ Retention credits do not add together: you get the single largest retention cred
 
 | Channel | Contact |
 | --- | --- |
-| **Hotline** | 1-800-555-0142 |
+| **Hotline** | (303) 555-0142 |
 | **Email** | incidents@harborlineinsurance.com |
 | **Online** | harborlineinsurance.com/report |
 
@@ -684,7 +684,7 @@ We may offer you security tools and services, such as vulnerability alerts, phis
 
 ## Back page: what to do if something happens
 
-1. **Call the hotline first** (1-800-555-0142). Our breach coach answers 24/7, and the first 7 days of expert help cost you nothing.
+1. **Call the hotline first** ((303) 555-0142). Our breach coach answers 24/7, and the first 7 days of expert help cost you nothing.
 2. **Don't pay a ransom, negotiate or admit fault** before talking to us. You never have to pay a ransom to keep your coverage.
 3. **Preserve evidence.** Don't wipe or rebuild systems until our forensics team says so.
 4. **Money sent to a fraudster? Call your bank at once**, then us. The first 24 hours matter most for getting it back.

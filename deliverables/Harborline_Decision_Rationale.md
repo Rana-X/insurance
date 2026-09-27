@@ -2,13 +2,13 @@
 
 This document explains the reasoning behind the Harborline Cyber Protection Policy: who it is for, how its numbers were set, what it covers and leaves out, and the trade-offs I accepted. It follows the order in which I made the decisions. Each step answers one question, and each answer sets part of the policy.
 
-**A note on numbers.** Harborline and Cedar Ridge are fictional. Market statistics come from published sources, listed at the end, and were checked at the level noted there. Premiums, limits and loss estimates for Cedar Ridge are my own illustrative judgments, and the arithmetic is shown so each can be challenged.
+**A note on numbers.** Harborline and Cedar Ridge are fictional. Market statistics come from the published sources listed at the end. At-Bay figures come from the full 2026 InsurSec Report; most others were checked against the publishers' own summaries. Premiums, limits and loss estimates for Cedar Ridge are my own illustrative judgments, and the arithmetic is shown so each can be challenged.
 
 ## Summary
 
 **What the policy is for.** Harborline keeps a small business open and solvent after a cyber event. It pays the losses the business can't absorb, pays them fast enough to keep it running, and leaves the small, predictable costs with the business. Every term had to serve that purpose, or protect the insurer's ability to keep offering it (by limiting moral hazard, accumulation or what the law forbids).
 
-**Who it's for.** U.S. businesses with $1M–$50M in revenue, such as accounting firms, clinics, agencies, retailers and light manufacturers. Most buy cyber insurance to survive ransomware and fraud, often without a broker or IT team to guide them. The sample policyholder is Cedar Ridge Accounting Group, a Denver CPA firm with $8.5M revenue and 62 staff that runs payroll for 40 clients.
+**Who it's for.** U.S. businesses with $1M–$50M in revenue, such as accounting firms, clinics, agencies, retailers and light manufacturers. In my view, most buy cyber insurance to survive ransomware and fraud, and many have no broker or in-house IT team to guide them. The sample policyholder is Cedar Ridge Accounting Group, a Denver CPA firm with $8.5M revenue and 62 staff that runs payroll for 40 clients.
 
 **The five decisions that matter most:**
 
@@ -24,7 +24,7 @@ This document explains the reasoning behind the Harborline Cyber Protection Poli
 
 | Question | Answer | Reason |
 | --- | --- | --- |
-| Segment | U.S. businesses with $1M–$50M revenue | The brief asks for a small-to-mid-sized business. This is also where standalone cyber cover is thinnest: many firms rely on a small cyber sublimit inside a business owners policy, as Cedar Ridge did ($50,000) |
+| Segment | U.S. businesses with $1M–$50M revenue | The brief asks for a small-to-mid-sized business. In my judgment this is also where standalone cyber cover is thinnest: many firms rely on a small cyber sublimit inside a business owners policy, as Cedar Ridge did ($50,000) |
 | Paper | Admitted, Colorado law | Small businesses buy directly or through generalist agents and expect a filed, state-regulated form. Admitted paper is now common (Beazley, Cowbell, and since August 2026 Corgi's own admitted carrier), so it is a baseline rather than a selling point |
 | Form design | One general form; Declarations show what each business bought | The same wording works for a dental office or a CPA firm. The Declarations, the options and the application carry the differences |
 | Sample policyholder | Cedar Ridge Accounting Group | A demanding test: it holds Social Security numbers for thousands of people, moves client money, depends on cloud tax and payroll platforms, and peaks in tax season |
@@ -37,14 +37,14 @@ Every coverage in the policy maps to a row in this table, and every row has a co
 
 | # | How the money is lost | How often and how much | What it means for a firm like Cedar Ridge | Coverage |
 | --- | --- | --- | --- | --- |
-| L1 | **Payment fraud:** fake invoices, spoofed partner or client emails, bank impersonation, altered payroll batches | The most common claim type. Business email compromise and funds transfer fraud made up 58% of Coalition's 2025 claims. At-Bay's average fraud loss was $208K for firms under $25M revenue | Cedar Ridge moves about $2.4M a month of client payroll. One diverted batch (up to about $210K) is a loss it would have to make good | H (and R) |
+| L1 | **Payment fraud:** fake invoices, spoofed partner or client emails, bank impersonation, altered payroll batches | The most common claim type. Business email compromise and funds transfer fraud made up 58% of Coalition's 2025 claims. At-Bay's average fraud loss was $208K for firms under $25M revenue ($285K across all sizes) | Cedar Ridge moves about $2.4M a month of client payroll. One diverted batch (up to about $210K) is a loss it would have to make good | H (and R) |
 | L2 | **Ransomware:** downtime, restoration, extortion | Less frequent, but the most severe: At-Bay's average ransomware claim was $422K for firms under $25M ($508K across all sizes) | Cedar Ridge can run about one day without its systems in tax season. Revenue averages about $34K per business day, more in February to April | C, D, F, A, B |
-| L3 | **Data breach:** notification, credit monitoring, then lawsuits and regulators | Data-breach class actions reached a record 1,822 filings in 2025. Coalition reported privacy claims doubled in the first half of 2026 | About 31,000 people's records, most with Social Security numbers. Tax data breaches also trigger identity-theft follow-up with the IRS | B, I, J, K |
-| L4 | **Vendor or cloud outage** | Vendors and customers caused 14% of At-Bay's 2025 claims, averaging $145K. Multi-day outages of shared platforms are rare but severe | The outages CPA firms fear: CCH (May 2019, days, with an IRS filing extension) and Kronos (December 2021, weeks) | E (attacks); P (non-malicious, optional) |
+| L3 | **Data breach:** notification, credit monitoring, then lawsuits and regulators | Data-breach class actions reached a record 1,822 filings in 2025. Separately, Coalition reported that privacy-rights claims, mostly website-tracking suits, doubled in the first half of 2026 | About 31,000 people's records, most with Social Security numbers. Tax data breaches also trigger identity-theft follow-up with the IRS | B, I, J, K (Q for tracking suits) |
+| L4 | **Vendor or cloud outage** | Vendors and customers caused 14% of At-Bay's 2025 claims, averaging $145K. In my judgment, multi-day outages of shared platforms are uncommon but severe | The outages CPA firms remember were attacks: CCH (May 2019, malware, days, with an IRS filing extension) and Kronos (December 2021, ransomware, weeks). A platform's own bad update or internal failure is the non-malicious version | E (attacks on vendors); P (non-malicious, optional) |
 | L5 | **Own system failure:** a bad update or failed server | CrowdStrike (July 2024) showed one faulty update can hit many firms at once | Usually small for a firm with tested backups | D and F, capped |
 | L6 | **Regulators** | Follows L3 | Tax preparers are covered by the FTC Safeguards Rule and must report breaches of unencrypted data affecting 500 or more people within 30 days | J |
 | L7 | **Rogue insider** | Rare | An IT lead with admin rights | Built into **security failure** |
-| L8 | **AI-enabled attacks:** cloned voices, deepfake video calls, hijacked AI agents | Rising; so far mostly a new route to L1 and L2 | Partner voice cloning to push an urgent payment in tax season | Through L1 and L2; AI-agent definitions |
+| L8 | **AI-enabled attacks:** cloned voices, deepfake video calls, hijacked AI agents | Rising. Coalition said in December 2025 that deepfakes were still a small fraction of claims; so far mostly a new route to L1 and L2 | Partner voice cloning to push an urgent payment in tax season | Through L1 and L2; AI-agent definitions |
 
 ## 3. The structure: retention, limit and sublimits
 
@@ -80,7 +80,7 @@ A limit should cover the worst realistic single event, then be checked for price
 | Class action (I assume a 25–35% chance after a Social Security number breach) | +$0.3M–$1M |
 | **Severe total** | **about $0.9M–$2.2M** |
 
-A $1M limit covers the typical claim easily. Average claims for firms under $25M were $116K (Coalition) and $180K (At-Bay). But a $1M limit can run out in exactly the event that would threaten the business. A $2M limit covers it.
+A $1M limit covers the typical claim easily. At-Bay's average claim was $180K for firms under $25M revenue ($221K across all sizes), and Coalition's average across all its policyholders was $116K. But a $1M limit can run out in exactly the event that would threaten the business. A $2M limit covers it.
 
 I also considered Corgi's structure of $1M per claim with a $2M aggregate. That protects against two bad events in one year. It does not protect against one very bad event, which is the real danger for a small business. By my estimate, raising the single-event cover to $2M is worth $60–150 a year in expected payments to Cedar Ridge. A second, separate $1M is worth under $5.
 
@@ -98,8 +98,8 @@ I capped this form at $3M. Above that, businesses in this band usually need a ta
 | System failure (D and F combined) | $250K, "applies across coverages" | Accumulation: one bad vendor update can hit many insureds at once (CrowdStrike, 2024). The label matters: in *CiCi Enterprises v. HSB Specialty* (N.D. Tex., February 2026), a court refused to apply a ransomware sublimit across coverages because the wording didn't say it did. A full-limit option is available and priced |
 | Payment fraud (H) | $250K core; $500K or $1M option (R) | Covers At-Bay's $208K average fraud loss. Firms that move client money need more: Cedar Ridge's largest batch is about $210K, so it buys $500K |
 | Fraud without a verification procedure | $100K | Moral hazard: callback verification stops most payment fraud. It applies only if the business had no procedure or training, never when the bank was deceived, and one person's slip never triggers it |
-| Dependent business interruption (E) | $500K | Accumulation across shared vendors, balanced against 14% of claims coming from vendors |
-| Dependent system failure (P, optional) | $250K, 24-hour wait | The most systemic trigger, so it is optional, with a longer wait. It targets the multi-day platform outages CPA firms fear, not short blips |
+| Dependent business interruption (E) | $500K | Accumulation across shared vendors, balanced against the 14% of claims that vendors or customers caused |
+| Dependent system failure (P, optional) | $250K, 24-hour wait | The most systemic trigger, so it is optional, with a longer wait. It covers a platform's own bad update or internal failure lasting more than a day (the non-malicious counterpart of the CCH and Kronos attacks, which Coverage E covers), not short blips |
 | Coverage A | $25K per incident, $75K per year, outside the aggregate | Encourages early calls, which make losses smaller; capped so it can be priced |
 | Bricking, reputational harm, cryptojacking | $100K, $100K, $50K | Real but smaller exposures, included in the core as leading forms now do |
 
@@ -109,18 +109,18 @@ The coverages follow Coalition's plain "we will pay" style and At-Bay's split be
 
 | Coverage | Loss path | Borrowed from, and what I changed | Why |
 | --- | --- | --- | --- |
-| A. Incident response, 7 days, outside the limit, no retention | All | Coalition's breach response services (72 hours); extended to 7 days | Email-compromise reviews often run past 72 hours. The dollar cap is unchanged, so the extra time costs little but finishes small cases without a retention |
+| A. Incident response, 7 days, outside the limit, no retention | All | The Coalition policy issued for 2025–26 (72 hours of breach response outside the limit); extended to 7 days | Email-compromise reviews often run past 72 hours. The dollar cap is unchanged, so the extra time costs little but finishes small cases without a retention |
 | B. Breach response, including suspected events | L3 | At-Bay's event definitions | Businesses shouldn't wait for proof before calling. B also pays to help people with tax-related identity theft, a real follow-on cost when tax data is stolen |
 | C. Extortion, with "paying is never required" | L2 | Coalition's consent rules; the OFAC 2021 advisory; the UK National Cyber Security Centre's 2024 guidance with the insurance associations | Without the "never required" line, a "reasonable steps to resume operations" condition could be read to push an insured to pay |
-| D. Business interruption: attacks at full limit, system failure capped | L2, L5 | Aon's post-CrowdStrike split between attack and non-malicious triggers | Each trigger carries different accumulation risk |
-| E. Dependent business interruption (attacks on vendors) | L4 | At-Bay's external computer systems; Coalition's hosted systems | Vendors caused 14% of At-Bay's 2025 claims |
+| D. Business interruption: attacks at full limit, system failure capped | L2, L5 | The market's post-CrowdStrike distinction between malicious and non-malicious triggers (see Aon, July 2024) | Each trigger carries different accumulation risk |
+| E. Dependent business interruption (attacks on vendors) | L4 | At-Bay's external computer systems; Coalition's hosted systems | Vendors and customers caused 14% of At-Bay's 2025 claims |
 | F. Data restoration | L2, L5 | Coalition; At-Bay; Beazley BBR 5.0 added system failure | Restoration is a large part of ransomware cost |
 | G. Security improvement costs | L2 | At-Bay's post-event hardening; Coalition's betterment allowance | A small, clear budget to fix the weakness that was exploited |
 | H. Payment fraud and invoice fraud | L1 | HSB Cyber Suite's single "wrongful transfer event" trigger (deception of the insured or its bank); CFC's client-account cover; Coalition's invoice manipulation | See below |
 | I. Privacy liability, including employees' own claims | L3 | Coalition carves back employee claims; Corgi sells this by endorsement | Payroll and HR data breaches are common |
 | J. Regulatory defense and penalties, including agencies outside the U.S. | L6 | At-Bay and Coalition (core) | Breach notice deadlines of 30–60 days make regulatory scrutiny normal |
 | K, L. PCI and media | L3 | At-Bay, Coalition, Cowbell Prime 100 (core) | Most small businesses take cards and publish content |
-| M, N, O. Bricking, reputational harm, cryptojacking (now including AI-service charges) | L2, L3 | In the base forms of Coalition's Active Cyber Policy and Beazley BBR 5.0 | Real exposures; small sublimits keep them affordable |
+| M, N, O. Bricking, reputational harm, cryptojacking (now including AI-service charges) | L2, L3 | Similar cover appears in the base forms of Coalition's Active Cyber Policy and Beazley BBR 5.0 | Real exposures; small sublimits keep them affordable |
 | P–T and the system-failure option | L4, L5, others | Optional | Systemic, rare or class-specific risks stay priced and visible |
 
 **Why payment fraud was rewritten.** Fraud coverage is where U.S. courts disagree most often. Three examples:
@@ -161,8 +161,8 @@ Every restriction names one of five reasons:
 
 I did not copy the German approach of cutting payment in proportion to how careless the insured was. In a Colorado form that becomes a discretionary percentage dispute, and it can't be priced.
 
-**The war exclusion.** At-Bay's form and Coalition's 2025–26 issued policy still use legacy "war, hostilities, warlike operations" wording. That is the kind of language the New Jersey courts refused to apply to NotPetya in *Merck v. ACE*. Harborline follows Beazley's war and cyber war exclusion and the Lloyd's Y5381 criteria, and adds what those lack for small insureds:
-- an attribution process;
+**The war exclusion.** At-Bay's AB-CYB-001.2 (08/2023) form and the Coalition policy issued for 2025–26 that I reviewed still use legacy "war, hostilities, warlike operations" wording. That is the kind of language the New Jersey courts refused to apply to NotPetya in *Merck v. ACE*. Harborline follows Beazley's war and cyber war exclusion and the Lloyd's Y5381 criteria. Y5381 requires a robust basis for attribution but leaves the process to each insurer, so Harborline adds, for small insureds:
+- a defined attribution process;
 - the burden of proof on the insurer;
 - continued help while attribution is pending;
 - a definition of "state" as a sovereign country, so it can't be read as a U.S. state.
@@ -215,7 +215,7 @@ I also removed traps. The application no longer asks the insured to state legal 
 
 | Expected annual loss | Low | Mid | High |
 | --- | --- | --- | --- |
-| Paid-claim frequency (Coalition: 1.21% under $25M; higher for firms holding tax data) | 1.2% | 1.5% | 1.8% |
+| Claim frequency (Coalition: 1.21% for businesses under $25M revenue; I assume higher for firms holding tax data) | 1.2% | 1.5% | 1.8% |
 | Average paid claim after retention | $110K | $150K | $175K |
 | Claims within the first $1M | $1,320 | $2,250 | $3,150 |
 | Coverage A and pre-incident help | $250 | $400 | $600 |
@@ -248,11 +248,11 @@ At $1M with no options, the same business would pay $5,508. The rationale for sp
 
 | Considered | Decision | Why |
 | --- | --- | --- |
-| Per-event limits or unlimited reinstatements (Brit, CFC) | Declined | Uncapped frequency is hard to rate and reinsure on admitted paper. For a small business, one severe event is the bigger risk, so a higher single limit protects more per dollar |
+| Per-event limits (Brit C360, March 2026) or unlimited reinstatements (CFC) | Declined | Uncapped frequency is hard to rate and reinsure on admitted paper. For a small business, one severe event is the bigger risk, so a higher single limit protects more per dollar |
 | Parametric "fast downtime payment" (AIG with Parametrix, August 2026; a UK Lloyd's Market Association draft) | Declined for now; test next | For a CPA firm it would pay for downtime that is mostly deferrable, at 25–50% of the premium. Every firm on the same platform would claim at once. The firm 50% advance delivers cash speed for attacks |
 | Full-limit system failure in the core (Coalition's surplus-lines form) | Priced option | Accumulation. Harborline is narrower than Coalition here, and says so |
 | Deepfake and impersonation response (Coalition, December 2025) | Optional Coverage T | Real, but a small-dollar exposure. Deepfake-driven payment fraud is already covered in H |
-| $0 retention tied to insurer-sold MDR (At-Bay, Coalition) | Credit only | Harborline doesn't sell MDR; the 50% credit rewards it |
+| $0 retention paths (At-Bay's MDR packages; Coalition's in-house incident response) | Credit only | Harborline doesn't sell MDR or run its own response team; the 50% credit rewards MDR |
 | AI regulatory defense (Beazley, September 2026) | Later | Colorado's AI law takes effect in 2027. Penalties under it are likely uninsurable |
 | German fault-based payment cuts (VVG §28) | Declined | Not priceable, and a source of disputes under Colorado bad-faith law. Part 1.9's causation rule takes the fair part |
 
@@ -268,7 +268,7 @@ At $1M with no options, the same business would pay $5,508. The rationale for sp
 **Where it is narrower:**
 - the $250K system-failure cap;
 - optional vendor system failure;
-- 70% rather than 80% on the settlement clause (At-Bay uses 80%).
+- 70% rather than 80% on the settlement clause (At-Bay's AB-CYB-001.2 form uses 80%).
 
 **With more time I would:**
 - price every term against claims data with an actuary;
@@ -313,8 +313,9 @@ Regulatory status as of September 27, 2026:
 - Brit C360 (March 2026): https://www.britinsurance.com/news/brit-launches-new-cyber-product-for-smes
 
 **Claims and market data**
-- At-Bay, The 2026 InsurSec Report (April 2026)
+- At-Bay, The 2026 InsurSec Report (April 2026), full PDF: source of the $180K, $208K, $422K, $508K and 14% figures
 - Coalition, 2026 Cyber Claims Report: https://www.coalitioninc.com/claims-report/2026
+- Coalition, Understanding Why Privacy Claims Doubled in H1 2026 (July 2026): https://www.coalitioninc.com/blog/cyber-insurance/understanding-why-privacy-claims-doubled-in-h1-2026
 - Duane Morris, Data Breach Class Action Review 2026: https://blogs.duanemorris.com/classactiondefense/2026/02/03/hot-off-the-presses-the-duane-morris-data-breach-class-action-review-2026-and-the-duane-morris-privacy-class-action-review-2026/
 - Marsh, U.S. Insurance Market Rates Q2 2026: https://www.marsh.com/en/services/international-placement-services/insights/us-insurance-rates.html
 - Aon, CrowdStrike event briefing (July 2024): https://www.aon.com/en/insights/alerts/crowdstrike-and-windows-event-briefing-implications-and-initial-findings-for-cyber-reinsurers

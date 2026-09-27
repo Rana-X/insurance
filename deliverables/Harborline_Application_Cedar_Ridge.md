@@ -62,7 +62,7 @@ Most businesses finish in about 20 minutes. Checked boxes (☒) show this sample
 | 3.5a | Are laptops encrypted? | ☒ Yes ☐ No. Full-disk encryption on all laptops |
 | 3.5b | How do you send documents containing personal information? | Through our encrypted client portal. A data-loss rule blocks Social Security numbers in outgoing email |
 | 3.5c | Is cloud storage encrypted? | ☒ Yes ☐ No |
-| 3.6 | Do you have a written retention and deletion schedule? | ☒ Yes ☐ No. Records kept 7 years, following IRS guidance, then securely deleted |
+| 3.6 | Do you have a written retention and deletion schedule? | ☒ Yes ☐ No. Records kept 7 years under our schedule (longer than the IRS minimum periods), then securely deleted |
 | 3.7 | Does your website have a privacy policy? | ☒ Yes ☐ No. Last reviewed March 2026 |
 | 3.8 | Which tracking tools run on your website or apps? | Google Analytics 4 only, behind a cookie consent banner. ☐ Meta or ad pixels ☐ Session replay ☐ Chat widgets |
 | 3.9 | Do you sell or share personal information for advertising? | ☐ Yes ☒ No |
