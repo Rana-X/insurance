@@ -119,8 +119,10 @@
 .roadmap .contacts table td { font-size: 8.2pt; }
 .roadmap .contacts td.k { width: 2.1in; font-weight: 600; color: #14284b; background: #f3f6f9; }
 
-.notices p { font-size: 9.1pt; line-height: 1.38; }
-.notices .n { margin-bottom: 7pt; }
+.notices p { font-size: 8.9pt; line-height: 1.34; }
+.notices .n { margin-bottom: 5.5pt; }
+.notices .lede { margin-bottom: 8pt !important; }
+.notices .warnbox { margin-top: 4pt; }
 .toc .cols { display: flex; gap: 22pt; }
 .toc .cols > div { flex: 1; }
 .toc h4 { font-size: 7.4pt; text-transform: uppercase; letter-spacing: 0.09em; color: #5b6573; margin: 14pt 0 4pt 0; }
