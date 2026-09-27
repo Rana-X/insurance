@@ -254,6 +254,8 @@ The rule is roughly 0.1–0.15% of revenue, rounded to market steps. It also fix
 
 Report numbers show where the detail is.
 
+Report 10 proposes merges into this list: its idea A3 (one payment-fraud trigger) **replaces** T2-1 and T2-1a, and A4 (limits map with express cross-coverage caps) implements T2-1e, T2-3 and T2-6. See report 10, section 7, for the full mapping.
+
 ### Tier 1. Before sending: accuracy, legal disclosures and strategy
 
 | ID | Fix | Where | Tag / report |
@@ -410,5 +412,10 @@ Open these at source (they were blocked here):
 | `07_wording_counsel_review.md` | Coverage-counsel review: loss scenarios run through the wording, findings by severity with replacement text |
 | `08_strategy_corgi_fit.md` | Corgi fact base, the SMB cyber opportunity, business case, how a hiring manager will read the package, recommendations and interview prep |
 | `09_2026_policy_search.md` | Search for 2026 wordings: no full 2026 US small-business wording is public. It covers the LMA's 2026 draft standard SME wording (UK, US version planned), Coalition's 2026 UK specimen, Beazley's Sept 2026 AI endorsements, Brit's per-event limits, US public bodies' 2026–27 policies, and Munich Re's acquisition of At-Bay |
+| `10_international_inspiration.md` | **Start here for international ideas.** Merges 10a–10d into one list: what Harborline already does as well as the best forms; 10 ideas to adopt now, with merged draft clauses (no ransom duty, security terms count only when they mattered, one payment-fraud trigger, limits map, related incidents, one retention a year, early warning, foreign regulators, court attendance, cloud tie-breaker); 16 to adapt; 8 optional priced add-ons (Fast Downtime Payment, one reinstatement); what to skip; how it changes the fix list |
+| `10a_uk_lloyds.md` | UK and Lloyd's market: CFC, Hiscox, Coalition UK, Brit, Aviva, Markel, AIG, the LMA draft, NCSC/ABI ransom guidance, Insurance Act 2015 |
+| `10b_europe.md` | Continental Europe: German GDV model conditions and VVG, Hiscox Germany, Stoïk and Dattak, France's LOPMI, Swiss and Dutch schemes, EU IPID and NIS2 |
+| `10c_apac_canada.md` | Asia-Pacific and Canada: Emergence, Chubb, Delta, Tokio Marine, MS&AD, Sompo, Singapore Cyber Essentials, Coalition Canada, Québec Law 25 |
+| `10d_us_novel.md` | US forms and new structures: HSB Cyber Suite, ISO, *CiCi v. HSB* (Feb 2026), AIG/Parametrix parametric cloud outage, per-event limits, Colorado SB25-058 services, deepfake and AI endorsements |
 
 Draft sentences in these reports are labeled "draft — rewrite in your own words". They're there to show the reasoning, not to be pasted in.
