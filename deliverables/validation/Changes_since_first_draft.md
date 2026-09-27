@@ -24,7 +24,7 @@ A separate third-party review of the first draft PDFs, with a link test, was als
 | **Extra expense** covers catch-up costs for 30 days after restoration | The main cost of an outage for a professional firm | QA M-7 |
 | Punitive-damages rule uses the law in Item 11; Item 11 states the Colorado rule; regulatory penalties use Item 11 law or the forum's, whichever allows | Keeps the general form general; one insurability test | QA M-8; legal #21 |
 | **Incident** includes key customer events and impersonation events when purchased | Coverage S could never trigger | QA M-10 |
-| Cancellation limited to Colorado's grounds (non-payment 10 days with reasons; knowingly false application 45 days; substantially different risk 60 days), by first-class mail; renewal-change notice states terms, premium, changes and reasons | C.R.S. 10-4-109.7 and 10-4-110.5 | Legal #12–16; QA M-1 |
+| Cancellation limited to two of Colorado's grounds (non-payment, 10 days with reasons; knowingly false application, 45 days), by first-class mail. An honest mistake never cancels the policy; the insurer may only decline to renew. Renewal-change notice states terms, premium, changes and reasons | C.R.S. 10-4-109.7 and 10-4-110.5 | Legal #12–16; QA M-1; third-party review |
 | Full TRIA disclosure; fraud-warning comma | Required notice text | Legal §3, #17 |
 | War definition adds "revolution" and "whether or not war is declared" | Closer to LMA 5567 | Legal #47 |
 | Declarations restructured under one heading; proof-of-loss help shown in Item 4; option R shows $1M also available; T and system-failure option shown without placeholders; waiting periods referenced to Item 6 | Formatting and consistency | QA L-1, L-3, L-7, L-12; third-party review |
