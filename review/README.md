@@ -417,5 +417,9 @@ Open these at source (they were blocked here):
 | `10b_europe.md` | Continental Europe: German GDV model conditions and VVG, Hiscox Germany, Stoïk and Dattak, France's LOPMI, Swiss and Dutch schemes, EU IPID and NIS2 |
 | `10c_apac_canada.md` | Asia-Pacific and Canada: Emergence, Chubb, Delta, Tokio Marine, MS&AD, Sompo, Singapore Cyber Essentials, Coalition Canada, Québec Law 25 |
 | `10d_us_novel.md` | US forms and new structures: HSB Cyber Suite, ISO, *CiCi v. HSB* (Feb 2026), AIG/Parametrix parametric cloud outage, per-event limits, Colorado SB25-058 services, deepfake and AI endorsements |
+| `11_us_fit_utility.md` | **Does each borrowed idea work in the US, and does it really protect?** Merges three checks (law, loss data, US market) into one scorecard. All 34 ideas are worth about $480 a year to Cedar Ridge (about 9% of premium); only A3 (payment fraud) is high-value, and A2 and A10 are the other clear keeps. It fixes five risky drafts from report 10, drops 15 ideas, and lists the structural gaps that matter more (limit options, a fraud limit for payroll firms, breach-response capacity, a system-failure buy-up, client tax-identity help, coordination with professional liability) |
+| `11a_us_law_fit.md` | US and Colorado legal fit and filing for each idea, with default-law and case-law checks |
+| `11b_loss_utility.md` | Loss-data utility: how often each scenario hits a firm like Cedar Ridge, the dollars at stake, and the expected value per year |
+| `11c_us_market.md` | US market check: who offers each idea, broker and buyer value, US claim disputes each would prevent, and gaps missing from the list |
 
 Draft sentences in these reports are labeled "draft — rewrite in your own words". They're there to show the reasoning, not to be pasted in.
