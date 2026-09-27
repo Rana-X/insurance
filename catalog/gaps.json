@@ -1,0 +1,2218 @@
+[
+  {
+    "carrier": "(general)",
+    "product": null,
+    "note": "The shared session WebSearch budget (200 calls across all parallel agents) ran out after this agent's 16th search. Most planned generic and host-type queries were never run.",
+    "segment": "generic_sweep",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "AAIS",
+    "product": "AAIS cyber / data breach forms",
+    "note": "Not searched because the session web-search budget was exhausted. The only AAIS hit was a general BOP endorsements reference page (rnc-pro.com), with no cyber form.",
+    "segment": "us_standard_forms",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Achmea/Interpolis, Nationale-Nederlanden, a.s.r. (NL)",
+    "product": "Cyberverzekering polisvoorwaarden",
+    "note": "Not searched (budget exhausted).",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "ACORD",
+    "product": "ACORD 834 cyber and privacy section (and related ACORD cyber application forms)",
+    "note": "Not searched because the session web-search budget was exhausted. ACORD forms are usually distributed only to members or licensees.",
+    "segment": "us_standard_forms",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Acuity",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Africa (Santam, Hollard, iTOO, Old Mutual Insure, Chubb SA, Bryte, Guardrisk, Sanlam, Discovery Business; Kenya, Nigeria, Egypt, Morocco carriers)",
+    "product": "SME cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "asia_mea_latam",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "AIG",
+    "product": "CyberEdge (current US wording, 2023-2026) / CyberEdge for small business",
+    "note": "The only public US CyberEdge specimens found are 2013-2014 (101013 (12/13) and the CyberEdge PC 2014 draft). No current CyberEdge 3.0/4.0 US specimen or dedicated small-business wording surfaced. No AIG war/infrastructure or ransomware endorsement specimens were found. Searching stopped early because the search budget ran out.",
+    "segment": "us_majors_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "AIG Australia / AIG NZ",
+    "product": "CyberEdge",
+    "note": "Not searched (budget exhausted).",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "ALL (search coverage)",
+    "product": "Segment-wide",
+    "note": "The session-wide WebSearch budget (200 calls shared across the parallel agents) ran out after 14 searches by this agent, and WebFetch is egress-blocked. Only India was partly covered. Every non-India market listed below is unsearched, not confirmed absent, and needs a follow-up pass.",
+    "segment": "asia_mea_latam",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "ALL (segment-wide)",
+    "product": "n/a",
+    "note": "The shared WebSearch budget (200 calls across all parallel agents) ran out after about 17 searches by this agent. WebFetch is blocked by the egress proxy. Many programs below could not be searched at all. They are NOT confirmed to lack public wordings and should be re-searched when the budget allows.",
+    "segment": "us_industry_programs",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "ALL CARRIERS BELOW",
+    "product": "various",
+    "note": "Not searched: the shared session WebSearch budget (200 calls) ran out after 14 searches by this agent, and WebFetch is egress-blocked. This is a research gap, not evidence that no public wording exists. Rerun with a higher CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION.",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Allianz (FR, IT); Allianz Direct; Allianz Ireland",
+    "product": "Cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Allianz Australia",
+    "product": "Business cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Allianz Global Corporate & Specialty / Allianz Commercial",
+    "product": "Allianz Cyber",
+    "note": "NOT SEARCHED: the WebSearch budget shared by all agents ran out. Needs reassignment.",
+    "segment": "us_specialty_a",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Allianz UK",
+    "product": "Allianz Cyber Protect",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Allied World",
+    "product": "Allied World cyber, Allied World small business cyber",
+    "note": "NOT SEARCHED: the WebSearch budget shared by all agents ran out. Needs reassignment.",
+    "segment": "us_specialty_a",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Allstate (business)",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "American Family Insurance",
+    "product": "Business cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Amerisure",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Amwins / Amwins Access",
+    "product": "Cyber programs",
+    "note": "Not searched directly: search budget ran out. Amwins came up only as the Cysurance program partner.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Arceo",
+    "product": "SMB cyber",
+    "note": "Not searched: the session web-search budget (shared by all agents) ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Arch",
+    "product": "Arch CyberPlus, Arch NetGuard",
+    "note": "NOT SEARCHED: the WebSearch budget shared by all agents ran out. Needs reassignment.",
+    "segment": "us_specialty_a",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Arch UK",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Argo Group",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Ascent",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Ascot",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Aspen",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Aspen UK",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "At-Bay",
+    "product": "At-Bay Cyber (surplus/admitted), At-Bay Tech E&O",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "At-Bay UK",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Ategrity",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Auto-Owners Insurance",
+    "product": "Commercial cyber / data compromise",
+    "note": "One general search found only the personal 'Home Cyber Protection' coverage page. A domain-targeted search was blocked by the exhausted search budget.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Aviva",
+    "product": "Aviva Cyber / small business cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "AXA (FR, BE, IT, ES, IE)",
+    "product": "Cyber SME",
+    "note": "Not searched (budget exhausted).",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "AXA UK / AXA Insurance",
+    "product": "Cyber Protect",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out. This is not evidence that no public wording exists.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "AXA XL",
+    "product": "CyberRiskConnect, XL Catlin cyber",
+    "note": "NOT SEARCHED: the WebSearch budget shared by all agents ran out. Needs reassignment.",
+    "segment": "us_specialty_a",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "AXA XL UK",
+    "product": "CyberRiskConnect / cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "AXIS",
+    "product": "AXIS cyber, PRIVASURE",
+    "note": "NOT SEARCHED: the WebSearch budget shared by all agents ran out. Needs reassignment.",
+    "segment": "us_specialty_a",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Axon Underwriting",
+    "product": "Cyber",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Beazley",
+    "product": "Beazley Full Spectrum Cyber (UK, myBeazley)",
+    "note": "Only the product page and IPIDs were found. The search budget ran out before a follow-up search.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Beazley Canada",
+    "product": "Beazley Breach Response / MicroBusiness Canada",
+    "note": "NOT SEARCHED: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Berkley Australia",
+    "product": "Cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Berkley Canada / AIG Canada / Markel Canada / Arch Canada / Liberty Mutual Canada / Hiscox Canada / Lloyd's in Canada",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "BizCover",
+    "product": "Other BizCover cyber wordings",
+    "note": "Only the Chubb Cyber ERM 2.2 BizCover wording (2022) was found. Other BizCover cyber panels were not searched.",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Boost Insurance",
+    "product": "Boost cyber (embedded/API)",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Bowhead Specialty",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Brit",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Brit / Ki",
+    "product": "Brit cyber / Ki cyber",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Brotherhood Mutual",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Burns & Wilcox",
+    "product": "Cyber",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Canopius",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "CATIC, title underwriters, Pearl Insurance, REALTOR programs",
+    "product": "Title/real estate cyber",
+    "note": "Not searched because the search budget ran out. Only the Chubb title-agent cyber application surfaced, from an unrelated query.",
+    "segment": "us_industry_programs",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Central Insurance",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "CFC Canada",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "CFC Underwriting",
+    "product": "CFC Cyber full UK wording (Private Enterprise v3.1 / Proactive Response v4.0)",
+    "note": "Only key facts and application forms came up in results. CFC appears to publish the full wording as an interactive web tool rather than a static PDF. The search budget ran out before a targeted wording search could be run.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "CFC Underwriting",
+    "product": "Cyber Proactive Response AU (carrier-hosted)",
+    "note": "Current wording found only on a third-party site (APS). A cfc.com-hosted AU wording URL was not confirmed because the search budget ran out.",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "CGU",
+    "product": "Cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Chubb / Westchester E&S",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Chubb UK",
+    "product": "Chubb Cyber Enterprise Risk Management UK / Cyber for SMEs",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Church Mutual",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "CNA",
+    "product": "CNA Connect cyber, EPack cyber, NetProtect",
+    "note": "Not searched: the search budget ran out.",
+    "segment": "embedded_endorsements",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "CNA",
+    "product": "CyberPrivacy, NetProtect 360, CNA small business cyber, CNA Connect cyber",
+    "note": "Not searched because the WebSearch budget ran out. Needs a follow-up pass.",
+    "segment": "us_majors_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Co-operators",
+    "product": "Business cyber",
+    "note": "NOT SEARCHED: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Coalition",
+    "product": "Active Cyber Policy specimen / Cyber Policy admitted forms / Tech E&O",
+    "note": "Coalition publishes specimens only in its broker/policyholder dashboard (per its help center). No blank US specimen PDF surfaced; the only full wordings found are issued policies that insureds posted. Admitted (Coalition Insurance Company) state forms and form numbers were not found. They are probably only on SERFF, which was not searched because the budget ran out.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Coalition Australia / Honan / Agile Underwriting / Sura / Pen Underwriting AU / Solution Underwriting / Procover / Insurance House / Rapid Cover / Blend / Envelop / Nirvana / Sportscover / Protecsure",
+    "product": "Cyber (MGA/broker products)",
+    "note": "Not searched (budget exhausted).",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Coalition Canada",
+    "product": "Active Cyber Policy (Canada)",
+    "note": "NOT SEARCHED: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Coalition UK / Coalition Europe",
+    "product": "Active Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Converge",
+    "product": "Cyber",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Corvus (Travelers)",
+    "product": "Smart Cyber Insurance, Smart Tech E&O, Corvus by Travelers",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Cowbell",
+    "product": "Prime 100, Prime 250, Prime Plus, Prime One, Prime Tech",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign. Cowbell is known to publish specimen forms on cowbell.insure.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Cowbell UK",
+    "product": "Cowbell Prime UK",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "CPA Mutual, AICPA member program (CNA/Aon), CAMICO",
+    "product": "Accountant cyber coverage",
+    "note": "Not searched because the search budget ran out.",
+    "segment": "us_industry_programs",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "CRC Group",
+    "product": "Cyber programs",
+    "note": "Not searched directly. The only CRC-hosted item found was the NAS NetGuard Plus application (2021).",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Crystal & Company",
+    "product": "Cyber",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Definity / Economical (Sonnet business)",
+    "product": "Business cyber",
+    "note": "NOT SEARCHED: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Desjardins",
+    "product": "Assurance cyberrisques entreprises",
+    "note": "NOT SEARCHED: search budget ran out. No French-language searches were done.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Direct Line for Business",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Distinguished Programs",
+    "product": "Cyber",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Donegal Insurance Group",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "DPIC / a-e programs (e.g., Victor, AXA XL design professional)",
+    "product": "Architects & engineers cyber",
+    "note": "Not searched because the search budget ran out.",
+    "segment": "us_industry_programs",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "DUAL Australia / DUAL NZ",
+    "product": "DUAL Cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "DUAL UK",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Ecclesiastical",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Embroker",
+    "product": "Embroker cyber / Tech E&O",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "EMC Insurance",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Envelop",
+    "product": "Cyber",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Everest",
+    "product": "Everest Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Everest UK",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Fairfax units (Zenith, Odyssey Group)",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Farmers Insurance",
+    "product": "Business cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "FBD, Aviva Ireland, AXA Ireland, Zurich Ireland, Allianz Ireland, Arachas, Blackchurch (IE)",
+    "product": "Cyber SME",
+    "note": "Not searched (budget exhausted).",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Franchise, hospitality, retail, veterinary, and RIA/financial advisor programs",
+    "product": "Industry cyber programs",
+    "note": "Not searched because the search budget ran out.",
+    "segment": "us_industry_programs",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Frankenmuth Insurance",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Generali, Munich Re, Baobab, Coalition Europe, CFC Europe, Chubb Europe (Cyber ERM EU), Travelers Europe/Ireland, Sompo EU",
+    "product": "Cyber",
+    "note": "Not searched (budget exhausted). Baobab and Coalition searches were attempted but refused because the budget was used up.",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Gore Mutual",
+    "product": "Business cyber",
+    "note": "NOT SEARCHED: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Grange Insurance",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Great American",
+    "product": "Cyber risk",
+    "note": "NOT SEARCHED: the WebSearch budget shared by all agents ran out. Needs reassignment.",
+    "segment": "us_specialty_a",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Great American / Philadelphia Insurance / Beazley / Markel / Berkley (ProPlus)",
+    "product": "Private company management liability package cyber sections; Philadelphia and Markel tech E&O cyber",
+    "note": "Not searched: the search budget ran out.",
+    "segment": "embedded_endorsements",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Hamilton",
+    "product": "Cyber",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Hamilton UK",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Harleysville (Nationwide)",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Hartford Steam Boiler (HSB) and regional mutuals",
+    "product": "Data compromise, identity recovery, cyber extortion and computer attack endorsements on property and package policies",
+    "note": "Only Heartland Mutual and EMC data compromise documents were found. The HSB-reinsured CyberOne, Data Compromise and Identity Recovery forms used by many small carriers were not searched.",
+    "segment": "embedded_endorsements",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Hastings Mutual",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Helvetia, Baloise, Mobiliar (CH)",
+    "product": "Cyberversicherung KMU",
+    "note": "Not searched (budget exhausted).",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Hiscox",
+    "product": "Hiscox BOP cyber, Tech E&O plus cyber",
+    "note": "Not searched: the search budget ran out.",
+    "segment": "embedded_endorsements",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Hiscox",
+    "product": "Hiscox CyberClear US (surplus lines), Hiscox Cyber Protect, cyber endorsements and declarations",
+    "note": "Only partly searched before the shared search budget ran out. Not found or not searched: a CyberClear edition newer than 10/19, a surplus lines version, declarations, and endorsements.",
+    "segment": "us_specialty_a",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Hiscox (US online small business)",
+    "product": "Hiscox CyberClear / small business cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Hiscox Europe (FR, ES, NL, BE, PT, IE)",
+    "product": "Hiscox CyberClear / Cyber (local)",
+    "note": "Not searched (budget exhausted).",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Hiscox London Market / Canopius / Chaucer / Aspen Lloyd's",
+    "product": "Lloyd's US cyber forms",
+    "note": "Not searched: search budget ran out. The only Hiscox document found is the 2018 Hiscox Inc. US data breach form.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Hiscox, Travelers, Chubb, Markel, Philadelphia (tech E&O plus cyber)",
+    "product": "Technology/IT consultant E&O-cyber combo forms",
+    "note": "Not searched because the search budget ran out. Only the Philadelphia Cyber Security Liability form, declarations and applications were found.",
+    "segment": "us_industry_programs",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Hollard / Longitude / Ansvar / Tokio Marine AU / Liberty Specialty Markets AU / AXA XL AU / Beazley AU / Axis AU",
+    "product": "Cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Houston International Insurance Group",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted. One unrelated Houston Casualty (TLIE lawyers master policy) result was not recorded.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Huckleberry",
+    "product": "Huckleberry cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Hudson Insurance Group",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "If P&C, Tryg, Gjensidige, LaehiTapiola, Codan, Laensfoersaekringar (Nordics)",
+    "product": "Cyberforsikring / cyberfoersaekring vilkaar",
+    "note": "Not searched (budget exhausted).",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "IMT Insurance",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Insureon / CoverWallet / Simply Business US",
+    "product": "Digital SMB cyber distribution",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign. These are mostly distributors, and the wordings belong to their underlying carriers.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Intact Insurance Specialty Solutions / OneBeacon Technology",
+    "product": "Technology / cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "ISO (Verisk)",
+    "product": "Businessowners cyber endorsements (BP 15 07 Information Security Protection Endorsement; BP 15 60 cyber incident exclusion 02 21; 2024 BOP data privacy and electronic data revisions)",
+    "note": "Forms were identified from secondary sources only (FC&S articles, Verisk announcement). No document URL was found before the search budget ran out.",
+    "segment": "us_standard_forms",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "ISO (Verisk)",
+    "product": "CY 00 02 / CY 00 01 Commercial Cyber Insurance Policy, CY 00 03/CY 00 10 ISP cyber policy, CY endorsements",
+    "note": "The ISO forms are copyrighted and only licensees receive them. Searches found only third-party reference pages (InsuranceXDate, LexisNexis), with no carrier-hosted or SERFF PDF. Searching ended early because the shared session web-search budget (200 calls) ran out.",
+    "segment": "us_standard_forms",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "ISO (Verisk)",
+    "product": "ISO CR crime forms (CR 00 21/00 22, fraudulent instruction/social engineering endorsements); ISO BP data compromise (BP 15 xx), ISO cyber (CY) and electronic data endorsements",
+    "note": "Not searched: the search budget ran out. The WK FRG index and ISO BP 00 03 found above are only starting points.",
+    "segment": "embedded_endorsements",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "James River",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Japan/Korea (Tokio Marine Nichido, Sompo Japan, Mitsui Sumitomo, Aioi Nissay Dowa, Samsung F&M, DB, Hyundai M&F)",
+    "product": "サイバーリスク保険 普通保険約款 / SME cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "asia_mea_latam",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Jewelers Mutual",
+    "product": "Business cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "K2 Cyber",
+    "product": "Cyber",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Kemper",
+    "product": "Business cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Ki",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Kinsale",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Kotak Mahindra General",
+    "product": "Cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "asia_mea_latam",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Kovrr",
+    "product": "N/A",
+    "note": "Not searched: search budget ran out. Kovrr is a cyber risk quantification vendor, not a policy issuer.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Latin America (Chubb, AIG, Zurich, Mapfre, Sura, Tokio Marine, Porto Seguro, Allianz, AXA, HDI, Liberty/HDI, BBVA Seguros, Bradesco, Sompo)",
+    "product": "Seguro cyber condições gerais / condiciones generales seguro cibernético",
+    "note": "Not searched (budget exhausted).",
+    "segment": "asia_mea_latam",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "LAWPRO / CPA Canada programs",
+    "product": "Professional program cyber",
+    "note": "NOT SEARCHED: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Lawyers Mutual (NC/KY), bar-association programs, Attorney Protective, CNA Lawyers Professional Liability cyber",
+    "product": "Lawyer cyber endorsements/policies",
+    "note": "Not searched because the search budget ran out.",
+    "segment": "us_industry_programs",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Liberty Mutual",
+    "product": "BOP cyber / data breach endorsement",
+    "note": "Not searched: the search budget ran out.",
+    "segment": "embedded_endorsements",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Liberty Mutual (specialty / Ironshore)",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Liberty Mutual / Ironshore",
+    "product": "Ironshore Cyber, Liberty Mutual small business cyber",
+    "note": "Not searched because the WebSearch budget ran out. Needs a follow-up pass.",
+    "segment": "us_majors_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Lloyd's Market Association",
+    "product": "LMA5400-LMA5403 cyber war and cyber operation exclusions; LMA5567 series; LMA5390s; LMA cyber model wordings",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Lumley NZ / Ando NZ / Tower NZ / AA Insurance NZ",
+    "product": "NZ business cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Main Street America",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Malaysia/Philippines/Thailand/Indonesia/Vietnam carriers",
+    "product": "SME cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "asia_mea_latam",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Mapfre, Mutua Madrilena, Caser, Sanitas (ES)",
+    "product": "Seguro ciberriesgos",
+    "note": "Not searched (budget exhausted).",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Markel",
+    "product": "Markel Cyber 360, Markel Specialty cyber, Markel small business cyber",
+    "note": "NOT SEARCHED: the WebSearch budget shared by all agents ran out. Needs reassignment.",
+    "segment": "us_specialty_a",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Markel E&S",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Markel UK",
+    "product": "Markel cyber / small business cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Measured Insurance",
+    "product": "Measured cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Merchants Insurance Group",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Mercury Insurance",
+    "product": "Business cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Middle East (GIG Gulf, Sukoon, Orient, AXA Gulf, Tawuniya, QIC)",
+    "product": "SME cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "asia_mea_latam",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Midwest Family",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Mosaic",
+    "product": "Cyber",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Motorists Insurance Group",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Munich Re Specialty (Munich Re Specialty Insurance / HSB)",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Munich Re UK",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "NAIC",
+    "product": "Model cyber wording / Insurance Data Security Model Law (#668), cyber supplement",
+    "note": "Not searched because the session web-search budget was exhausted. The NAIC has no model cyber policy wording. Its cyber materials are regulatory (Model #668) and consumer guides.",
+    "segment": "us_standard_forms",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Nationwide",
+    "product": "BOP / Premier Businessowners cyber and data compromise endorsements",
+    "note": "Not searched: the search budget ran out.",
+    "segment": "embedded_endorsements",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Nationwide",
+    "product": "Nationwide cyber, Nationwide data breach",
+    "note": "Not searched because the WebSearch budget ran out. Needs a follow-up pass.",
+    "segment": "us_majors_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Nationwide E&S / Scottsdale",
+    "product": "Scottsdale Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Next Insurance",
+    "product": "Next BOP cyber",
+    "note": "Not searched: the search budget ran out.",
+    "segment": "embedded_endorsements",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Next Insurance",
+    "product": "Next cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "NFU Mutual",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "NIG",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "NZI",
+    "product": "NZI cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Obsidian",
+    "product": "Cyber programs",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Old Republic",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Other public-entity and school pools (CIS Oregon, NJ MEL Cyber JIF, PRISM, VRSA, MIIA, TASB RMF, county pools)",
+    "product": "Cyber memoranda of coverage",
+    "note": "Searches were attempted but refused because the budget ran out. Not researched.",
+    "segment": "us_industry_programs",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Other US insurtechs (e.g. Coverdash, Kin, Founder Shield, Cyberpolicy.com)",
+    "product": "SMB cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Coverdash also sells SMB cyber (seen in passing on spot.insure).",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Palomar",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Pekin Insurance",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Pen Underwriting",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Penn National Insurance",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Philadelphia Insurance (PHLY)",
+    "product": "Cyber Security Liability",
+    "note": "NOT SEARCHED: the WebSearch budget shared by all agents ran out. Needs reassignment.",
+    "segment": "us_specialty_a",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "PICA, ISMIE, MLMIC, Curi, NORCAL (standalone)",
+    "product": "Cyber endorsements for physicians/podiatrists",
+    "note": "Not searched because the search budget ran out.",
+    "segment": "us_industry_programs",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Pie Insurance",
+    "product": "Pie cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "QBE North America",
+    "product": "QBE Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "QBE UK",
+    "product": "QBE Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Relm",
+    "product": "Cyber / NOVA",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Resilience",
+    "product": "Resilience cyber policy",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Resilience UK",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Risk Placement Services (RPS Cyber)",
+    "product": "RPS cyber programs",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "RLI",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "RSA",
+    "product": "RSA Cyber Safe / Cyber wordings",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "RSA Canada (now Intact)",
+    "product": "Cyber",
+    "note": "NOT SEARCHED separately: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Ryan Specialty / RT Specialty",
+    "product": "Cyber programs",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Sayata",
+    "product": "Sayata SMB cyber marketplace",
+    "note": "Found one carrier sample form served at home.sayatalabs.com/cnc-wb/get_resource/carriers/SAMPLE_POLICY_FORM/NAS. Other carriers' sample forms probably sit at the same path, but the session's search budget ran out before they could be found. URLs are not guessed.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Secura Insurance",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "SEGMENT-WIDE NOTE",
+    "product": "All non-German-language markets",
+    "note": "The shared WebSearch budget (200 calls across all parallel agents) ran out after 17 searches in this segment. France, Spain, Italy, Netherlands, Belgium, Portugal, Nordics, Ireland, Poland and most Austria/Switzerland carriers were therefore NOT searched. These are gaps in coverage, not confirmed absence of public wordings. WebFetch is egress-blocked, so no URL was opened to check it.",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Selective Insurance",
+    "product": "Cyber / data compromise",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "SGI Canada / Portage Mutual / Family Insurance Solutions",
+    "product": "Business cyber",
+    "note": "NOT SEARCHED: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Simply Business",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Singapore/Hong Kong carriers (AIG, Chubb, MSIG, Tokio Marine, Allianz, AXA/Generali HK, QBE, Zurich, HL Assurance, Liberty, Sompo, FWD, Income Insurance, Bolttech)",
+    "product": "SME cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "asia_mea_latam",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Skyward Specialty",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Society Insurance",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Sompo UK",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Sovereign",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Starr",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "State DOIs / SERFF Filing Access",
+    "product": "Public filings with ISO/HSB cyber forms",
+    "note": "Not searched because the session web-search budget was exhausted. SERFF Filing Access is an interactive search tool, so search engines rarely index direct PDF links to its filings.",
+    "segment": "us_standard_forms",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "State Farm",
+    "product": "Business cyber / data breach",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "State Farm Bureau companies",
+    "product": "Business cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Stoik and other French carriers; FFA guidance",
+    "product": "Assurance cyber - conditions generales",
+    "note": "Not searched (budget exhausted). The Stoik search was attempted but refused.",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Superscript",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Swiss Re Corporate Solutions",
+    "product": "Cyber",
+    "note": "Not searched. The shared WebSearch budget (200 calls across all parallel agents) ran out after 14 searches in this segment.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "The Hanover",
+    "product": "CyberAdvantage / Hanover cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "The Hartford",
+    "product": "CyberChoice First Response, Hartford cyber for small business, Spectrum BOP cyber coverage",
+    "note": "Not searched because the WebSearch budget ran out. Needs a follow-up pass.",
+    "segment": "us_majors_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "The Hartford",
+    "product": "Spectrum BOP cyber (Data Breach, Cyber Virus and Malware, CyberChoice First Response) and Private Choice Encore cyber",
+    "note": "Only product pages and news were found. No SS-series form PDF surfaced before the search budget ran out.",
+    "segment": "embedded_endorsements",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Thimble",
+    "product": "Thimble cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Tokio Marine Kiln",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Towergate",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Travelers",
+    "product": "CyberFirst, CyberRisk Tech, Wrap+ cyber, Travelers small business cyber (BOP cyber endorsement)",
+    "note": "Not searched: the session-wide WebSearch budget (200 calls) ran out after partial Travelers coverage. The CyberRisk apps-forms page and CYB-14xxx/CYB-16001 PDFs were found; the CyberFirst and CyberRisk Tech forms were not reached.",
+    "segment": "us_majors_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Travelers Europe",
+    "product": "CyberRisk UK",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Trisura",
+    "product": "Cyber",
+    "note": "NOT SEARCHED: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Unipol, Reale Mutua, Cattolica, Vittoria, Generali Italia (IT)",
+    "product": "Polizza cyber / set informativo",
+    "note": "Not searched (budget exhausted).",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Uniqa, Wiener Staedtische / Vienna Insurance Group (AT); PZU, Warta, Ergo Hestia (PL)",
+    "product": "Cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Upland",
+    "product": "Cyber",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Utica National",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Vantage Risk",
+    "product": "Cyber",
+    "note": "Not searched. Shared WebSearch budget exhausted.",
+    "segment": "us_specialty_b",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Vero (AU & NZ)",
+    "product": "Vero cyber / SME cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Victor Canada / Totten / Premier Canada / APOLLO / Zensurance / PROLINK / Western Financial",
+    "product": "MGA/broker cyber programs",
+    "note": "NOT SEARCHED: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Victor Insurance",
+    "product": "Cyber programs",
+    "note": "Not searched: search budget ran out.",
+    "segment": "us_mga_wholesale",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Vouch",
+    "product": "Vouch cyber for startups",
+    "note": "NOT SEARCHED: the shared WebSearch budget was exhausted. Reassign.",
+    "segment": "insurtech_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "W. R. Berkley",
+    "product": "Berkley Cyber Risk Solutions, Berkley Technology Underwriters, other Berkley units",
+    "note": "NOT SEARCHED: the WebSearch budget shared by all agents ran out. Needs reassignment.",
+    "segment": "us_specialty_a",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Wawanesa",
+    "product": "Business cyber",
+    "note": "NOT SEARCHED: search budget ran out.",
+    "segment": "canada",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "West Bend (West Bend Mutual)",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Western National",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Westfield Insurance",
+    "product": "Cyber",
+    "note": "Not searched: shared WebSearch budget ran out.",
+    "segment": "us_regional_mutuals",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Zurich (DE, IE, ES, IT)",
+    "product": "Zurich Cyber",
+    "note": "Not searched, except Zurich Switzerland, which surfaced incidentally.",
+    "segment": "europe",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Zurich Australia / Zurich NZ",
+    "product": "Zurich cyber",
+    "note": "Not searched (budget exhausted).",
+    "segment": "australia_nz",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Zurich North America",
+    "product": "Security & Privacy Protection / Zurich Cyber",
+    "note": "Not searched because the WebSearch budget ran out. Needs a follow-up pass.",
+    "segment": "us_majors_1",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Zurich UK",
+    "product": "Zurich Cyber",
+    "note": "NOT SEARCHED: the shared WebSearch budget ran out.",
+    "segment": "uk_lloyds",
+    "status": "not_searched",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "ALPS",
+    "product": "Cyber Response",
+    "note": "Product page only. The forms page could not be fetched (egress blocked).",
+    "segment": "us_industry_programs",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Aviva Canada",
+    "product": "Aviva Cyber Insurance for Business / Cyber Suite / CyberSecure",
+    "note": "The product pages say terms are in the 'final policy wording', which is only available through brokers. The Aviva wordings that came up (static.aviva.io, avivab2b.co.uk) are UK. No 'CyberSecure' document was found.",
+    "segment": "canada",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "AXA Versicherung AG (Germany)",
+    "product": "ByteProtect / Cyber-Versicherung",
+    "note": "Searched axa.de. Found only product and underwriting-requirement pages. The AVB appear to be only on the broker portal (entry.axa.de).",
+    "segment": "europe",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Beazley",
+    "product": "Beazley Breach Response 5.0 (US admitted and surplus)",
+    "note": "No Beazley-hosted US BBR 5.0 specimen was found; the only copy found is on an association portal (bigimd.com). No current US BBR declarations or endorsement specimens (ransomware, social engineering, war) were found. The war/cyber war exclusion is documented only in FAQs and explainers.",
+    "segment": "us_specialty_a",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Beazley",
+    "product": "MyBreachResponse",
+    "note": "Searches found no product or wording under this name. The US small business cyber channel appears to be 'Full Spectrum Cyber for small businesses' (BBR via myBeazley, revenue under $35M).",
+    "segment": "us_specialty_a",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Beazley (Lloyd's / US)",
+    "product": "BBR 5.0 / Full Spectrum Cyber US policy form; Beazley MicroBusiness cyber",
+    "note": "No direct US specimen policy PDF appeared. The beazley.com policy PDF found is the Beazley Insurance DAC (EU) form. US materials found are summaries, an application and product pages.",
+    "segment": "us_mga_wholesale",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "CFC Underwriting",
+    "product": "Current (2024-2026) US Cyber wording PDF",
+    "note": "Only 2020-era US Private Enterprise PDFs (ProWriters-hosted) and the 2025 interactive HTML wording were found. No current direct PDF on cfc.com appeared.",
+    "segment": "us_mga_wholesale",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Cholamandalam MS General",
+    "product": "Cyber",
+    "note": "No Chola MS cyber wording surfaced. The downloads page is at https://www.cholainsurance.com/downloads but WebFetch is blocked.",
+    "segment": "asia_mea_latam",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Chubb",
+    "product": "Cyber ERM (current US edition), Cyber Incident Response endorsement, US Widespread Event / war endorsements",
+    "note": "The latest public US Cyber ERM specimen found is PF-48169 (02/19). No 2023-2026 US edition, no US Widespread Event or war exclusion endorsement specimen (only the Australian E13), and no Chubb BOP cyber/data breach endorsement form were found. A DigiTech ERM US specimen policy was not found; only brochures and applications. Issued client policies containing PF-48169 wording exist on third-party sites but were excluded as non-specimens.",
+    "segment": "us_majors_1",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Chubb",
+    "product": "US ForeFront Portfolio 3.0 Cyber coverage section wording; DigiTech tech E&O plus cyber; Chubb BOP cyber endorsements; Chubb crime social engineering",
+    "note": "Only brochures, product pages, sample BOP declarations and the AU ForeFront wording were found. The US cyber section form was not found.",
+    "segment": "embedded_endorsements",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Chubb Australia",
+    "product": "Cyber ERM TMD / newer SME cyber",
+    "note": "No Chubb AU cyber TMD surfaced. v2.2 (2022) appears to be the latest public AU wording. A newer edition could not be checked.",
+    "segment": "australia_nz",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Chubb Canada",
+    "product": "Cyber ERM Canadian wording",
+    "note": "Canadian brochures and applications are public, but no Canadian policy wording turned up. Only the international Cyber ERM v2.2 wording (Chubb cz-cz / Lloyd's LMA), which is not Canadian.",
+    "segment": "canada",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "CIRSA",
+    "product": "Property/Liability Coverage Document (cyber sections)",
+    "note": "Only a member certificate of participation found. The full coverage document was not located.",
+    "segment": "us_industry_programs",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Coverys",
+    "product": "Cyber Liability and Protection Plus",
+    "note": "Product page only.",
+    "segment": "us_industry_programs",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Crum & Forster",
+    "product": "C&F cyber endorsements / declarations / application",
+    "note": "Simple Cyber specimens were found, but no separate specimen declarations, endorsements or application.",
+    "segment": "us_specialty_b",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Cysurance",
+    "product": "Cysurance cyber insurance (Amwins program) / Protect360",
+    "note": "Searched on cysurance.com and in general web search. Only warranty terms and program overviews (enroll.cysurance.com) and product pages appeared. No insurance policy wording found.",
+    "segment": "us_mga_wholesale",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Emergence Insurance",
+    "product": "Cyber Event Protection TMD",
+    "note": "No TMD PDF surfaced. Wordings and a coverage summary were found.",
+    "segment": "australia_nz",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "ERGO Versicherung AG (Austria)",
+    "product": "ERGO Cyber (AT)",
+    "note": "An ERGO Austria snippet says the general conditions are available on request by email. No public PDF found.",
+    "segment": "europe",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Erie Insurance",
+    "product": "Cyber Suite (ErieSecure Business endorsement)",
+    "note": "Only the product page was found; no form number or wording. HSB-reinsured, so it is likely an HSB Cyber Suite form. Look for SERFF/filing mirrors next.",
+    "segment": "us_regional_mutuals",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Evolve MGA",
+    "product": "Evolve Cyber Liability / Tech E&O",
+    "note": "Searched on evolvemga.com and in general web search. Only applications (IIAV-hosted) and product pages appeared. No specimen policy or wording is published; Evolve directs brokers to underwriting@evolvemga.com.",
+    "segment": "us_mga_wholesale",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Hiscox UK",
+    "product": "Hiscox CyberClear IPID",
+    "note": "The Hiscox IPID index (https://www.hiscox.co.uk/IPIDs) appeared in results, but no CyberClear-specific IPID URL came up. The policy summary PS-PIP-UK-CCLEAR(6) was recorded instead.",
+    "segment": "uk_lloyds",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "HSB (Munich Re)",
+    "product": "HSB Cyber Suite 2.0 coverage form; official HSB Data Compromise and CyberOne form PDFs",
+    "note": "HSB publishes only brochures and summaries. Full wordings appear only as carrier-hosted copies (Heartland CSC 02-2025, Wilmington 05-17, FMH 09-18). No public 2.0 form was found, only the Cal Mutual brochure.",
+    "segment": "us_standard_forms",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "HSB (Munich Re)",
+    "product": "HSB Total Cyber (current US edition, post-2021)",
+    "note": "The latest public US specimen found is the 2021 sample policy on the Mastercard portal. HSB's product page publishes no current form.",
+    "segment": "us_standard_forms",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "ICICI Lombard General",
+    "product": "SME Cyber Liability Insurance wording",
+    "note": "The SME product page exists, but no SME-specific wording PDF was confirmed. The UIN IRDAN115RP0001V01201415 came only from a search summary.",
+    "segment": "asia_mea_latam",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Intact Insurance",
+    "product": "Intact cyber / small business cyber (data breach endorsement)",
+    "note": "No public wording or endorsement PDF surfaced on intact.ca. Only product pages. The static.rsagroup.com 'intact-insurance' wordings that came up are Intact UK (formerly RSA UK), not Canada.",
+    "segment": "canada",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "MagMutual",
+    "product": "Cyber Plus",
+    "note": "Product page only.",
+    "segment": "us_industry_programs",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "MedPro Group / Medical Protective",
+    "product": "Cyber Liability and Data Breach Coverage form",
+    "note": "Only coverage sheets and older CyberShield brochures found. The form wording is not public.",
+    "segment": "us_industry_programs",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Nonprofits Insurance Alliance (NIA)",
+    "product": "Cyber liability",
+    "note": "The NIA site lists no public cyber wording. Forms and templates are member-only, and cyber may not be offered directly.",
+    "segment": "us_industry_programs",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Northbridge Insurance",
+    "product": "Cyber Risk Insurance",
+    "note": "Only the application (3818-005) and product page are public. No wording PDF was found.",
+    "segment": "canada",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "ProAssurance / NORCAL",
+    "product": "CyberAssurance Plus / ProSecure",
+    "note": "Product page only. No endorsement wording found. The ProAssurance lawyers cyber endorsement was seen only in a third-party blog (excluded).",
+    "segment": "us_industry_programs",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "QBE Australia",
+    "product": "QCyberProtect AU PDS/TMD",
+    "note": "The product page says the PDS/TMD come from brokers. No public AU PDF was found in the searches done. A TMD appeared at qmdocumentlibrary.qbe.com/getfile?revision=19CCC574-9AE2-4E6B-B417-8221AB0ACC70 but its product is unconfirmed, so it was not recorded.",
+    "segment": "australia_nz",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Reliance General (now IndusInd General)",
+    "product": "Commercial cyber",
+    "note": "The search returned no Reliance cyber wording; only other Reliance products appeared.",
+    "segment": "asia_mea_latam",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Royal Sundaram General",
+    "product": "Business cyber",
+    "note": "Only Royal Personal Cyber Insurance - Group (UIN IRDAN102RPLB0006V01202425, personal) surfaced. No business cyber wording was found.",
+    "segment": "asia_mea_latam",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "SIGNAL IDUNA",
+    "product": "SI Cyberschutz",
+    "note": "Searched. No cyber AVB PDF surfaced, only product pages and unrelated AVB.",
+    "segment": "europe",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Sompo International",
+    "product": "Sompo Premier Professional / Sompo Pro cyber",
+    "note": "No public US specimen wording or application was found. Only product pages. Results for Universal Sompo (India) and Sompo Singapore SME Data & Cyber are non-US and were not recorded.",
+    "segment": "us_specialty_b",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Stand Insurance",
+    "product": "SMB cyber",
+    "note": "One general search returned no Stand-specific documents.",
+    "segment": "us_mga_wholesale",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "TDIC",
+    "product": "Cyber Suite Liability",
+    "note": "Application only. No policy form found.",
+    "segment": "us_industry_programs",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Texas Municipal League IRP",
+    "product": "Cyber Liability and Data Breach coverage document",
+    "note": "The coverage document is in the member portal (members.tmlirp.org). Only member interlocal resolutions are public.",
+    "segment": "us_industry_programs",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "The Cincinnati Insurance Company",
+    "product": "Cincinnati Cyber Defense",
+    "note": "The form is mentioned in the 2019 California filing, but no form number or standalone PDF appeared in results.",
+    "segment": "us_regional_mutuals",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "The Cincinnati Insurance Company",
+    "product": "CyberFlex",
+    "note": "Searches found no Cincinnati product called 'CyberFlex'. The current Cincinnati commercial cyber lineup is Data Defender (HC 102), Network Defender (HC 103) and Cyber Defense (form number not found). No standalone current-edition PDF of HC 102 or HC 103 was found; only the 2019 CA filing and issued policies that may contain them.",
+    "segment": "us_regional_mutuals",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "The Doctors Company",
+    "product": "Core cyber liability / CyberGuard Plus",
+    "note": "Policy documents require member or broker login. Only handouts are public.",
+    "segment": "us_industry_programs",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "The New India Assurance",
+    "product": "SME/commercial cyber",
+    "note": "Only the retail MyCyber Insurance (UIN IRDAN190RP0111V01202223, individual) prospectus and proposal form surfaced. No SME/commercial cyber wording was found.",
+    "segment": "asia_mea_latam",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Tokio Marine HCC",
+    "product": "CyberCare",
+    "note": "No TMHCC document or page named CyberCare turned up. Searches returned only NetGuard Plus, TechGuard, e-MD and NetGuard SELECT. No NetGuard Plus policy form newer than NGP 1000 (4.2020) was found, although applications run to 9.2024 and 8.2025. No TechGuard or e-MD policy forms were found. Excluded as personal lines: NetGuard SELECT policy form NGS 1000 (1.2020) at https://www.tmhcc.com/en-us/-/media/TMHCC/Cyber-and-Professional-Lines-Group/Tech-and-Cyber/NetGuard-Select-Policy-Form-NGS1000-12020S.pdf (cyber for individuals and families, not SMB).",
+    "segment": "us_specialty_b",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Tokio Marine HCC / NAS",
+    "product": "NetGuard Plus (2023+ edition)",
+    "note": "The latest specimen found is the 4.2020 edition (NGP 1000 / NGP SOC). No newer edition surfaced.",
+    "segment": "us_mga_wholesale",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Travelers",
+    "product": "Master Pac / BOP cyber endorsement; Wrap+ and Executive Choice+ cyber coverage part; Wrap+ crime social engineering form",
+    "note": "Only the CyberRisk forms (CYB-16001, CYB-2001) and applications were found. No BOP cyber endorsement form or Wrap+ crime form number surfaced.",
+    "segment": "embedded_endorsements",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "Travelers Canada",
+    "product": "Cyber+ / CyberRisk / CyberRisk Tech wordings",
+    "note": "Found a highlight sheet, an application and an unverified CyberRisk.pdf. No confirmed Canadian specimen wording.",
+    "segment": "canada",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  },
+  {
+    "carrier": "VHV",
+    "product": "VHV CYBERPROTECT AVB",
+    "note": "No PDF clearly identified as the CYBERPROTECT AVB with an edition. Candidates are recorded but unconfirmed.",
+    "segment": "europe",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Washington Cities Insurance Authority",
+    "product": "Cyber coverage",
+    "note": "Coverages page only.",
+    "segment": "us_industry_programs",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": false
+  },
+  {
+    "carrier": "Zurich Canada",
+    "product": "Zurich Cyber Insurance Policy",
+    "note": "zurichcanada.com has only a brochure. A possible sample wording plus declarations is on the BFL Canada demo site (recorded above). Zurich targets mid-sized and large accounts.",
+    "segment": "canada",
+    "status": "searched_no_public_wording",
+    "carrier_has_other_documents": true
+  }
+]

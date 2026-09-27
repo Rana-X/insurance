@@ -44,7 +44,16 @@ REGION_ALIASES = {
     "europe": "Europe", "eu": "Europe",
     "asia": "Asia", "middle east": "Middle East", "africa": "Africa",
     "latin america": "Latin America", "latam": "Latin America",
+    "emea": "International", "international": "International",
 }
+CANONICAL_REGIONS = {"US", "UK", "Canada", "Australia/NZ", "Europe", "Asia", "Middle East", "Africa", "Latin America", "International"}
+COUNTRY_REGION = {
+    "US": "US", "GB": "UK", "UK": "UK", "CA": "Canada", "AU": "Australia/NZ", "NZ": "Australia/NZ",
+    "HK": "Asia", "SG": "Asia", "IN": "Asia", "MY": "Asia", "JP": "Asia", "PH": "Asia",
+    "IE": "Europe", "DE": "Europe", "AT": "Europe", "CH": "Europe", "FR": "Europe", "DK": "Europe",
+    "CZ": "Europe", "ES": "Europe", "IT": "Europe", "NL": "Europe", "BE": "Europe",
+}
+NOT_SEARCHED = re.compile(r"not searched|never searched|unsearched|budget|search limit|ran out", re.I)
 TRACKING_PARAMS = re.compile(r"^(utm_|gclid|fbclid|mc_|_hs)", re.I)
 
 
@@ -71,10 +80,11 @@ def infer_file_type(url: str, given: str | None) -> str:
     return (given or "html").lower()
 
 
-def norm_region(region: str | None) -> str:
-    if not region:
-        return "Other"
-    return REGION_ALIASES.get(region.strip().lower(), region.strip())
+def norm_region(region: str | None, country: str | None) -> str:
+    region = REGION_ALIASES.get((region or "").strip().lower(), (region or "").strip())
+    if region in CANONICAL_REGIONS:
+        return region
+    return COUNTRY_REGION.get((country or "").strip().upper(), "Other")
 
 
 def clean(value):
@@ -97,6 +107,8 @@ def load_raw() -> tuple[list[dict], list[dict]]:
             entry["segments"] = [segment]
             entries.append(entry)
         for gap in data.get("gaps", []) or []:
+            if isinstance(gap, str):
+                gap = {"carrier": "(general)", "product": None, "note": gap}
             gap["segment"] = segment
             gaps.append(gap)
     return entries, gaps
@@ -111,7 +123,7 @@ def merge(entries: list[dict]) -> list[dict]:
         entry = {k: clean(raw.get(k)) for k in FIELDS if k not in ("id", "segments")}
         entry["url"] = url
         entry["segments"] = raw["segments"]
-        entry["region"] = norm_region(entry.get("region"))
+        entry["region"] = norm_region(entry.get("region"), entry.get("country"))
         entry["file_type"] = infer_file_type(url, entry.get("file_type"))
         if entry.get("is_direct_document") is None:
             entry["is_direct_document"] = entry["file_type"] in ("pdf", "docx", "doc")
@@ -148,9 +160,10 @@ def merge_gaps(gaps: list[dict], covered: set[str]) -> list[dict]:
             continue
         seen.add(key)
         gap = {k: clean(v) for k, v in gap.items()}
+        gap["status"] = "not_searched" if NOT_SEARCHED.search(gap.get("note") or "") else "searched_no_public_wording"
         gap["carrier_has_other_documents"] = carrier.lower() in covered
         out.append(gap)
-    out.sort(key=lambda g: (g["carrier"].lower(), (g.get("product") or "").lower()))
+    out.sort(key=lambda g: (g["status"], g["carrier"].lower(), (g.get("product") or "").lower()))
     return out
 
 
@@ -197,9 +210,18 @@ def write_markdown(entries: list[dict], gaps: list[dict], stats: dict) -> None:
                     f"| {md_cell(e.get('target_market'))} | [{label}]({e['url'].replace(' ', '%20')}) |"
                 )
             lines.append("")
-    if gaps:
-        lines += ["## Gaps: no public wording found", "", "| Carrier | Product | Note |", "|---|---|---|"]
-        for g in gaps:
+    sections = [
+        ("searched_no_public_wording", "Searched, but no public wording found",
+         "These carriers were searched. Their wordings seem to be available only through brokers or policyholder portals, or only older editions are public."),
+        ("not_searched", "Not yet searched",
+         "The session's shared web-search budget ran out before these were reached. Treat them as open, not as proof that nothing is public."),
+    ]
+    for status, heading, blurb in sections:
+        rows = [g for g in gaps if g["status"] == status]
+        if not rows:
+            continue
+        lines += [f"## Gaps: {heading} ({len(rows)})", "", blurb, "", "| Carrier | Product | Note |", "|---|---|---|"]
+        for g in rows:
             lines.append(f"| {md_cell(g.get('carrier'))} | {md_cell(g.get('product'))} | {md_cell(g.get('note'))} |")
         lines.append("")
     OUT_MD.write_text("\n".join(lines))
