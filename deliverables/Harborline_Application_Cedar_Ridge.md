@@ -45,7 +45,7 @@ Most businesses finish in about 30–45 minutes, plus time to gather the evidenc
 | 2.1 | Proposed effective date | October 15, 2026 |
 | 2.2 | Aggregate limit requested | ☐ $1,000,000 ☒ $2,000,000 ☐ $3,000,000 |
 | 2.3 | Retention | ☒ Standard for our revenue band ($10,000 before credits) ☐ Higher retention for a lower premium |
-| 2.4 | Optional coverages requested | ☒ P. Dependent system failure ☐ Q. Website tracking liability ☒ R. Increased fraud limit ($500,000) ☐ S. Key customer interruption ☐ T. Impersonation response ☐ System failure full-limit option |
+| 2.4 | Optional coverages requested | ☒ P. Dependent system failure ☐ Q. Website tracking liability ☒ R. Increased fraud limit (☒ $500,000 ☐ $1,000,000) ☐ S. Key customer interruption ☐ T. Impersonation response ☐ System failure full-limit option |
 | 2.5 | Do you have cyber insurance now? | ☒ Yes ☐ No. A $50,000 cyber sublimit inside our business owners policy, expiring October 15, 2026 |
 | 2.6 | Why are you buying standalone coverage? | Our current sublimit would not cover a ransomware attack or a breach of client tax records; two business clients now require at least $1M of cyber coverage |
 | 2.7 | Has any insurer declined, cancelled or refused to renew cyber coverage for you in the last 3 years? | ☐ Yes ☒ No |
@@ -156,7 +156,7 @@ Questions follow the six functions of the NIST Cybersecurity Framework 2.0 and t
 
 | # | Question | Answer |
 | --- | --- | --- |
-| 7.1 | Do you prepare tax returns, run payroll or provide other financial services for individuals? | ☒ Yes ☐ No. Tax preparation and payroll. Our written information security plan follows IRS Publication 4557 and the FTC Safeguards Rule |
+| 7.1 | Do you prepare tax returns, run payroll or provide other financial services? | ☒ Yes ☐ No. Tax preparation for about 2,400 individuals; payroll for 40 business clients. Our written information security plan follows IRS Publication 4557 and the FTC Safeguards Rule |
 | 7.2 | Do you receive patient information from healthcare providers or health plans (HIPAA)? | ☐ Yes ☒ No. The health information in 3.1 comes from individual tax clients about themselves |
 | 7.3 | Are you an SEC reporting company, or regulated by the New York Department of Financial Services? | ☐ Yes ☒ No |
 | 7.4 | Which PCI DSS self-assessment questionnaire does your card processor require? | SAQ A |
@@ -168,7 +168,7 @@ Questions follow the six functions of the NIST Cybersecurity Framework 2.0 and t
 | # | Question | Answer |
 | --- | --- | --- |
 | 8.1 | In the last 3 years, have you had any of the following: a data breach (unauthorized access to personal information that required, or might have required, notice to anyone); a ransomware attack or extortion demand; a loss of money to a fraudulent payment request; or a cyber-related claim or lawsuit? | ☐ Yes ☒ No |
-| 8.2 | Optional: describe any attacks you stopped. (Optional answers are for our information only and can't be used to deny a claim) | February 2025: an email posing as a vendor asked us to change its bank details. Our callback procedure caught it; no money was sent. March 2026: a phishing email captured one employee's password; MFA blocked the login, and we reset the account the same day |
+| 8.2 | Optional: describe any attacks you stopped. (Optional answers are for our information only and can't be used to deny or reduce a claim) | February 2025: an email posing as a vendor asked us to change its bank details. Our callback procedure caught it; no money was sent. March 2026: a phishing email captured one employee's password; MFA blocked the login, and we reset the account the same day |
 | 8.3 | Has any regulator asked you about privacy or data security? | ☐ Yes ☒ No |
 | 8.4 | Does any partner, officer or your IT and security manager know of any fact or situation that could reasonably lead to a claim under this policy? | ☐ Yes ☒ No |
 
@@ -210,9 +210,9 @@ Every ★ answer, and each answer below, maps to a specific term on the Declarat
 | MFA on all listed systems and EDR on all devices (4.7, 4.15) | 25% retention credit: retention $7,500 |
 | No 24/7 managed detection and response (4.17) | Retention not cut 50%; waiting period for Coverages D and E stays at 8 hours |
 | MFA on all remote access, no end-of-life VPN (4.9) | 10% premium credit: −$853 |
-| Restore tested June 2026, immutable and offline copies (4.21, 4.23) | No ransomware coinsurance. To keep the credit, retest by June 12, 2027 |
+| Restore tested June 2026, immutable and offline copies (4.21, 4.23) | No ransomware coinsurance while backups stay verified. Retest by June 12, 2027 to stay free of it |
 | Written verification procedure, with training (5.2, 5.3) | Coverage H at its full limit |
-| Client payroll of $2.4M a month, largest batch $210,000 (5.4, 5.5) | Coverage R recommended and purchased: fraud limit $500,000. The core $250,000 would pay one diverted batch, but it is the limit for the whole year: a second diversion, or one compromise that redirects several clients' batches, would exhaust it |
+| Client payroll of $2.4M a month, largest batch $210,000 (5.4, 5.5) | Coverage R recommended and purchased: fraud limit $500,000. The core $250,000 would pay one diverted batch, but it is the limit for the whole year: a second diversion, or one compromise that redirects several clients' batches, would exhaust it. $1,000,000 was offered for $520; $500,000 covers two diversions of the largest batch |
 | About 31,000 records, mostly with Social Security numbers, and a tax-season peak (3.2, 4.24) | $2,000,000 limit, under our limit rule: $1M base; $2M for more than about 25,000 sensitive records, client money or a seasonal peak; $3M where a contract requires it |
 | Tax and payroll platforms would stop the business; 1-day tolerance in tax season (6.1, 4.24) | Attacks on these platforms are covered by core Coverage E ($500,000). Coverage P recommended and purchased for non-malicious outages (a platform's own bad update or failure): $250,000, 24-hour waiting period |
 | No customer above 10% of revenue (1.10) | Coverage S not needed |

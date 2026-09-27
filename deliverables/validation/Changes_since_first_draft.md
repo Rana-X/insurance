@@ -55,6 +55,23 @@ A separate third-party review of the first draft PDFs, with a link test, was als
 | Overclaims removed (legal review wording, "broader than" list, "every coverage maps to a row") | QA M-12 |
 | Sources: issued policies labelled as publicly posted; AIG link replaced with Insurance Journal; CCH extension, Atlassian and CFC sources added; bare links made clickable | Third-party review; market check |
 
+## Final pass: fresh review of version 3
+
+A second independent coverage-counsel review of version 3 (`Coverage_Counsel_QA_Review_v3.md`) found no critical issues and graded the package 8/10 on clarity, judgment, practicality and resourcefulness. Its findings were then applied:
+
+| Change | Finding |
+| --- | --- |
+| Theft by the firm's own people excluded from **payment fraud** and **computer fraud**, and said so in "Rogue insiders". Staff theft belongs to crime or fidelity insurance | N-1 |
+| Coverages D, E and P now pay catch-up costs for 30 days after restoration, and E and P reach the vendor's own hosting provider | N-2, N-6 |
+| "Applies across coverages" defined the same way in Item 6 and III.1.1. Breach-cost window for suspected incidents. One insurability test. An early warning is a *reasonably* suspected incident | N-3, N-4, N-5, N-12 |
+| Coverage R shows a single purchased limit; the application shows the $1M choice and why $500K was chosen | N-7 |
+| Diverted wages count as the insured's loss for computer fraud too | N-11 |
+| An honest mistake can no longer cancel the policy (the insurer may only decline to renew). Cancellation for a false application statement requires an executive's knowing, material misstatement | Third-party review; L-5 |
+| Draft-history wording and overclaims removed from the rationale; Corgi described as its page reads in search results ($1M per claim, $2M aggregate) | N-8, N-9, N-10 |
+| Smaller fixes: Item 7 fraud row, patching sentence, exclusion 3, extortion-expense consent, Coverage A cap on the back page, the numbers table (70% row, H fast-report retention, N waiting period), the retention table, the advance cap, the application's 7.1, 8.2 and backup row, and the options table without a "Purchased?" column | L-1 to L-17 |
+| A send-only zip that excludes the private working files | L-18 |
+| Atlassian source link corrected | Link check |
+
 ## Not changed (deliberate)
 
 - No widespread-event cap on Coverage E. The $500K sublimit is the accumulation control (rationale part 3).

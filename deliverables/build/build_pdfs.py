@@ -168,6 +168,9 @@ def package(built):
     (PKG / "READ_ME_FIRST.txt").write_text((ROOT / "build" / "READ_ME_FIRST.txt").read_text(encoding="utf-8"), encoding="utf-8")
     zip_base = ROOT / "Harborline_Corgi_Package"
     shutil.make_archive(str(zip_base), "zip", root_dir=PKG.parent, base_dir=PKG.name)
+    # A send-only zip: nothing from the private folder may leave the machine by accident.
+    send_base = ROOT / "Harborline_Send_to_Corgi"
+    shutil.make_archive(str(send_base), "zip", root_dir=PKG, base_dir="1_Send_to_Corgi")
     return zip_base.with_suffix(".zip")
 
 
