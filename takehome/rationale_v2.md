@@ -28,22 +28,7 @@ Someone reading a cyber policy during an incident wants to know three things: am
 - **Two triggers.** Coverage for the firm's own losses (A–H, M–P) applies to incidents first discovered during the policy period. Liability (I–L, Q) is claims-made and reported. Own losses are known when they are discovered; lawsuits can arrive years later, so liability needs a firm claim date to tie it to one policy year. Section VII, part 1.4 links the two: reporting an incident during the policy period locks later related lawsuits into this policy.
 - **A broad core with two options.** Corgi's startup product sells cover for the firm's own losses as add-ons to liability. [7] I put those losses in the core so a small buyer cannot be underinsured by omission. The trade-off is more exposure for the insurer. Only two risks are optional: accidental provider outages (P), which are highly correlated across insureds, and website-tracking liability (Q), which is concentrated in businesses that run advertising pixels.
 
-## 3. How I wrote the definitions
-
-Section V has 60 numbered definitions in alphabetical order, and bold terms in the text link to them. I followed four rules: one concept per definition; plain words; state an exception inside the definition rather than in a distant exclusion; and give an example where the boundary is likely to be argued. These definitions carry the most weight:
-
-| Definition | What I decided | Why |
-|---|---|---|
-| **Incident** (28) | One umbrella term for security failure, system failure, privacy event, cyber extortion, payment fraud, computer fraud and adverse publication. Related events are one incident. | One trigger, one retention rule and one related-events rule work across every own-loss coverage. A ransomware attack that triggers B, C, D and F costs the firm one $10,000 retention, not four. |
-| **Discover** (20) and **Executive** (23) | The clock starts when an executive or the security contact named in the application becomes aware. Executive includes the designated IT or security employee, not an outside IT provider. | A junior employee's vague suspicion should not start reporting deadlines or the known-problems exclusion. |
-| **Security failure** (53) | Includes stolen or phished credentials, rogue employees, lost devices, and an outsider manipulating an AI agent. | Most small-firm intrusions start with a valid but stolen password. Naming it removes the argument that the login was "authorized." |
-| **Cloud accounts** (9), **Computer systems** (12), **Dependent systems** (18) | The firm's cloud accounts, settings and data are its own systems. The provider's servers, code and network are not. | The boundary follows what failed, not where software is hosted. A hacked Microsoft 365 tenant is Cedar Ridge's own security failure (D, up to the full aggregate). A Microsoft outage is a provider event (E or P). At-Bay and Travelers draw a similar line. [1, p. 3; 2, pp. 2, 4, 7, 11] |
-| **Payment fraud** (37) and **Computer fraud** (10) | Outside deception or unauthorized system use, including deepfake audio and video. Excludes current owners, employees and contractors, and anyone colluding with them. | Keeps Coverage H as cyber-fraud cover rather than crime or employee-dishonesty insurance, which is a separate line. |
-| **System failure** (56) | An unplanned, accidental outage, including human error, a faulty vendor update or a malfunctioning AI agent. Excludes utilities and public internet infrastructure. | Accidents are frequent and correlated, so they get their own cap instead of being folded into security failure. |
-| **AI agent** (2) | Software that acts without a person approving each step, with a test for when it "exceeds its authority." | AI tools already sit in email and payment workflows. The policy says how they are treated, and Section I confirms that the use of AI alone never excludes a loss. |
-| **Business income loss** (5) | Actual loss against expected results, net of delayed work that is completed later. | A delayed tax return is not necessarily a lost fee. Paying actual loss rather than a daily allowance keeps payments fair in both directions (see Appendix). |
-
-## 4. Limits, retention and waiting periods
+## 3. Limits, retention and waiting periods
 
 | Term | My choice | Why | What the business keeps |
 |---|---|---|---|
@@ -61,7 +46,7 @@ Section V has 60 numbered definitions in alphabetical order, and bold terms in t
 | **Extended reporting** | 60 days automatic; 12 months for 75% or 24 months for 125% of premium | A free short bridge, and a longer tail for a firm closing or switching insurers. At the $8,000 sample premium, that is $6,000 or $10,000. | The factors need testing against claims data. |
 | **Premium** | $8,000 illustrative: $7,500 core + $500 for P | Round figures to complete the sample Declarations. | — |
 
-## 5. What I included and what I left out
+## 4. What I included and what I left out
 
 **Included as core cover**
 - **Breach response costs (B)**, including help for people facing tax-related identity theft. Cedar Ridge holds Social Security numbers and tax records for about 31,000 people, so this is the breach cost its clients are most likely to need.
@@ -80,6 +65,19 @@ Section V has 60 numbered definitions in alphabetical order, and bold terms in t
 - **Tracking and biometric-privacy suits** (exclusion 10), except under Q. Statutory damages are out of proportion to a small-business premium. A hack that exposes biometric data is still covered.
 - **Utility, internet backbone and natural-disaster outages** (exclusions 12 and 13). These cannot be priced into a small-business premium. Security failures in the firm's systems, and failures inside a provider's systems under E and P, stay covered.
 - **War and major state-backed cyber operations** (exclusion 15). Ordinary ransomware and fraud by state-linked groups stay covered. Under the state-operation branch, systems outside the country that suffered the major impact stay covered. We carry the burden of proof, and response and defense continue until we prove the exclusion applies.
+
+## 5. Key definitions
+
+Section V has 60 numbered definitions in alphabetical order, and bold terms in the text link to them. Each definition covers one idea and states its own exceptions, so a reader doesn't have to hunt for a distant exclusion. These six carry the most weight:
+
+| Definition | What I decided | Why |
+|---|---|---|
+| **Incident** (28) | One umbrella term for security failure, system failure, privacy event, cyber extortion, payment fraud, computer fraud and adverse publication. Related events are one incident. | One trigger, one retention rule and one related-events rule work across every own-loss coverage. A ransomware attack that triggers B, C, D and F costs the firm one $10,000 retention, not four. |
+| **Security failure** (53) | Includes stolen or phished credentials, rogue employees, lost devices, and an outsider manipulating an AI agent. | Most small-firm intrusions start with a valid but stolen password. Naming it removes the argument that the login was "authorized." |
+| **Cloud accounts** (9), **Computer systems** (12), **Dependent systems** (18) | The firm's cloud accounts, settings and data are its own systems. The provider's servers, code and network are not. | The boundary follows what failed, not where software is hosted. A hacked Microsoft 365 tenant is Cedar Ridge's own security failure (D, up to the full aggregate). A Microsoft outage is a provider event (E or P). At-Bay and Travelers draw a similar line. [1, p. 3; 2, pp. 2, 4, 7, 11] |
+| **Payment fraud** (37) and **Computer fraud** (10) | Outside deception or unauthorized system use, including deepfake audio and video. Excludes current owners, employees and contractors, and anyone colluding with them. | Keeps Coverage H as cyber-fraud cover rather than crime or employee-dishonesty insurance, which is a separate line. |
+| **System failure** (56) | An unplanned, accidental outage, including human error, a faulty vendor update or a malfunctioning AI agent. Excludes utilities and public internet infrastructure. | Accidents are frequent and correlated, so they get their own cap instead of being folded into security failure. |
+| **AI agent** (2) | Software that acts without a person approving each step, with a test for when it "exceeds its authority." | AI tools already sit in email and payment workflows. The policy says how they are treated, and Section I confirms that the use of AI alone never excludes a loss. |
 
 ## 6. Choices that make the policy usable in a claim
 
