@@ -58,6 +58,8 @@ tr.group td { background: #f5f7f9; font-weight: bold; color: #0b3954; text-trans
 .cover-report { margin: 0 0.25in 18pt; }
 table.cover-contents { width: 55%; margin: 0 auto 26pt; font-size: 10.5pt; }
 table.cover-contents td { border: none; border-bottom: 0.5pt dotted #9aa5b1; text-align: left; padding: 3pt 2pt; }
+table.cover-contents td:last-child { text-align: right; width: 12%; }
+.cov { break-inside: avoid; }
 .cover-witness { font-size: 9pt; text-align: left; margin: 0 0.25in 4pt; }
 table.cover-sign { width: 90%; margin: 0 auto; }
 table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-size: 9.5pt; }
@@ -65,7 +67,8 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 
 # Policy only: carrier-style headings and a light diagonal watermark on every page.
 SPECIMEN_CSS = """
-h3 { text-transform: uppercase; letter-spacing: 0.6pt; font-size: 10pt; margin-top: 14pt; }
+h3 { text-transform: uppercase; letter-spacing: 0.6pt; font-size: 10pt; margin: 11pt 0 4pt; }
+table { margin-bottom: 7pt; }
 h4 { border-left: 3pt solid #0b3954; padding-left: 6pt; margin: 12pt 0 5pt; }
 h4 + p, h4 + p + p, h4 + p + p + p, h4 + p + p + p + p { margin-bottom: 3.5pt; }
 .cover h1 { text-transform: none; }
@@ -75,8 +78,7 @@ body::before { content: "SPECIMEN"; position: fixed; top: 40%; left: 0; right: 0
 """
 
 MAJOR = re.compile(
-    r"^## (Important Notices|Declarations|Section I\.|Section II\.|Section III\.|Section IV\.|Section V\.|"
-    r"Part 1:|For underwriter use|Sources)"
+    r"^## (Important Notices|Declarations|Section I\.|Part 1:|For underwriter use|Sources)"
 )
 LIST_ITEM = re.compile(r"^(- |\d+\. )")
 URL = re.compile(r"(?<![<(\"])(https?://[^\s<>|)]+)")
@@ -112,6 +114,36 @@ def postprocess(body: str) -> str:
                   lambda m: f'<tr class="group"><td colspan="{1 + 1 + m.group(2).count("<td>")}">{m.group(1)}</td></tr>', body)
 
 
+POLICY = "Cyber_Protection_Policy.md"
+# Cover contents: placeholder -> heading whose page number fills it.
+CONTENTS = {"PG_NOTICES": "Important Notices and Disclaimers", "PG_DECS": "Declarations",
+            "PG_S1": "Section I. Insuring Agreements", "PG_S2": "Section II. Definitions",
+            "PG_S3": "Section III. Coverage Sections", "PG_S4": "Section IV. Exclusions", "PG_S5": "Section V. Conditions"}
+
+
+def keep_coverages(body: str) -> str:
+    # Keep each coverage block in Section I on one page where it fits.
+    s, e = body.find("<h2>Section I. Insuring Agreements</h2>"), body.find("<h2>Section II. Definitions</h2>")
+    if s < 0 or e < 0:
+        return body
+    seg = re.sub(r"(<h4>.*?)(?=<h[234]>|$)", lambda m: f'<div class="cov">{m.group(1)}</div>', body[s:e], flags=re.S)
+    return body[:s] + seg + body[e:]
+
+
+def outline_pages(pdf: Path) -> dict:
+    reader = PdfReader(str(pdf))
+    pages = {}
+
+    def walk(items):
+        for item in items:
+            if isinstance(item, list):
+                walk(item)
+            else:
+                pages.setdefault(item.title.strip(), reader.get_destination_page_number(item) + 1)
+    walk(reader.outline)
+    return pages
+
+
 GUIDE_CSS = "html { font-size: 9pt; } table { font-size: 8pt; margin: 2pt 0 6pt; } th, td { padding: 2.5pt 5pt; } h1 { font-size: 17pt; } h3 { margin: 7pt 0 3pt; } li, p { margin-bottom: 2pt; }"
 
 
@@ -121,6 +153,8 @@ def build(md_name: str, title: str, footer: str, fill: dict | None = None) -> Pa
     for k, v in (fill or {}).items():
         text = text.replace("{" + k + "}", str(v))
     body = postprocess(markdown.markdown(preprocess(text), extensions=["tables", "sane_lists"]))
+    if md_name == POLICY:
+        body = keep_coverages(body)
     extra_css = GUIDE_CSS if md_name.startswith("Submission_Guide") else ""
     if md_name == "Cyber_Protection_Policy.md":
         extra_css = SPECIMEN_CSS
@@ -206,7 +240,13 @@ def package(built):
 if __name__ == "__main__":
     built = {}
     for name, title, footer, _pkg in DOCS[1:]:
-        built[name] = build(name, title, footer)
+        if name == POLICY:
+            # Two passes: the first finds each section's page for the cover's contents list.
+            first = build(name, title, footer, {k: "00" for k in CONTENTS})
+            found = outline_pages(first)
+            built[name] = build(name, title, footer, {k: found[v] for k, v in CONTENTS.items()})
+        else:
+            built[name] = build(name, title, footer)
     counts = {k: len(PdfReader(str(v)).pages) for k, v in built.items()}
     fill = {"POLICY_PAGES": counts["Cyber_Protection_Policy.md"], "APP_PAGES": counts["Sample_Application_Cedar_Ridge.md"],
             "RAT_PAGES": counts["Decision_Rationale.md"]}

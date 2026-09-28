@@ -105,6 +105,18 @@ Borrowed from a second, independently drafted version of the policy, and kept to
 
 Not adopted from that version: its branded cover, the insured-specific schedules inside the policy, the looser payment-fraud trigger, and the four-step retention-ordering rule.
 
+## Consistency pass (September 28, 2026)
+
+From a review of the layout-pass PDF:
+
+| Change | Why |
+| --- | --- |
+| Forms list shows only forms in the package; the Colorado requirements are stated as built into this edition; the TRIA listing points to Important Notices, item 7 | A listed endorsement was missing |
+| Reputational harm is lost net profit only, everywhere (Section III, part 8.2 now matches the definition) | The two rules could produce different payments |
+| The retention is applied first to the part of a loss that carries coinsurance (Section III, part 1.3.5) | The payout depended on an unstated order |
+| Coverage G: "the same retention as the incident; no separate retention" | The earlier wording read as if the upgrade sat inside the retention |
+| Coverage blocks kept on one page; Sections II–V flow without forced page breaks; cover contents show page numbers | Near-empty pages and split blocks |
+
 ## Not changed (deliberate)
 
 - No widespread-event cap on Coverage E. The $500K sublimit is the accumulation control (rationale part 3).

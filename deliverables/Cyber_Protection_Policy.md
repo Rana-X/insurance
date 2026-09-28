@@ -11,13 +11,13 @@
 </div>
 <p class="cover-report"><strong>To report an incident or claim, 24 hours a day:</strong> use any channel in Item 10 of the Declarations.</p>
 <table class="cover-contents">
-<tr><td>Important Notices and Disclaimers</td></tr>
-<tr><td>Declarations</td></tr>
-<tr><td>Section I. Insuring Agreements</td></tr>
-<tr><td>Section II. Definitions</td></tr>
-<tr><td>Section III. Coverage Sections</td></tr>
-<tr><td>Section IV. Exclusions</td></tr>
-<tr><td>Section V. Conditions</td></tr>
+<tr><td>Important Notices and Disclaimers</td><td>{PG_NOTICES}</td></tr>
+<tr><td>Declarations</td><td>{PG_DECS}</td></tr>
+<tr><td>Section I. Insuring Agreements</td><td>{PG_S1}</td></tr>
+<tr><td>Section II. Definitions</td><td>{PG_S2}</td></tr>
+<tr><td>Section III. Coverage Sections</td><td>{PG_S3}</td></tr>
+<tr><td>Section IV. Exclusions</td><td>{PG_S4}</td></tr>
+<tr><td>Section V. Conditions</td><td>{PG_S5}</td></tr>
 </table>
 <p class="cover-witness">In witness whereof, Corgi Insurance Company, Inc. has caused this policy to be signed by its President and its Secretary. This policy is not valid unless completed by Declarations issued by us.</p>
 <table class="cover-sign">
@@ -31,7 +31,7 @@
 1. **Specimen.** This is a specimen policy form. It has not been filed with or approved by any insurance regulator, is not an offer of insurance and provides no coverage. Items in [brackets] are completed when a policy is issued.
 2. **Claims-made liability coverage.** Coverages I, J, K, L and Q apply only to **claims** first made against you during the **policy period** (or an extended reporting period) and reported to us as the policy requires.
 3. **Defense costs reduce your limits.** Amounts we pay for lawyers and other **claim expenses** reduce, and can use up, your limits, and count toward your **retention**.
-4. **State edition.** This is the Colorado edition of the policy. A policy issued in another state includes that state's amendatory endorsement, which changes this policy where that state's law requires.
+4. **State edition.** This is the Colorado edition of the policy. Colorado's requirements, including its cancellation and renewal rules, fraud warning and treatment of punitive damages, are built into this form. A policy issued in another state would include that state's amendatory endorsement.
 5. **Your privacy.** We collect information from your application, our security scans and claims to underwrite and service your policy. We share it only with our reinsurers, service providers and incident response panel, or as the law requires. We never sell it.
 6. **Sanctions.** We cannot provide coverage or make any payment, including a ransom payment, that U.S. trade or economic sanctions prohibit.
 7. **Terrorism (disclosure under the Terrorism Risk Insurance Act).** Coverage for acts of terrorism certified under the federal Terrorism Risk Insurance Act, as amended, is included in this policy on the same terms, conditions and exclusions as other covered losses. Losses from certified acts of terrorism may be partly reimbursed by the United States Government under a formula set by federal law. Under that formula, the United States Government generally reimburses 80% of covered terrorism losses above the deductible that the law sets for the insurance company providing the coverage. The Act contains a $100 billion cap that limits U.S. Government reimbursement, and insurers' liability, for losses from certified acts of terrorism when those losses exceed $100 billion in any one calendar year. If the combined insured losses of all insurers exceed $100 billion, your coverage may be reduced. The portion of your annual premium attributable to this coverage is shown in Item 3 of the Declarations.
@@ -45,7 +45,6 @@
 4. **Money sent to a fraudster? Call your bank at once**, then us. The first 24 hours matter most for getting it back.
 5. **Make legally required notices on time.** You never need our permission to meet a legal deadline.
 
-This summary does not change the policy. The policy wording controls.
 
 ## Declarations
 
@@ -109,7 +108,7 @@ Each limit is the most we will pay under that coverage for all **incidents** and
 | E | Dependent Business Interruption | $500,000 | 8-hour waiting period |
 |  | **Data and systems** |  |  |
 | F | Data and System Restoration | Policy aggregate † (**system failure:** see D) | Item 5 |
-| G | Security Improvement Costs | $25,000 | Included in the **incident's** retention |
+| G | Security Improvement Costs | $25,000 | Same retention as the **incident**; no separate retention |
 |  | **Payment fraud** |  |  |
 | H | Payment Fraud and Invoice Fraud | $250,000 for both parts combined; $100,000 where Section III, part 6.2 applies † | Item 5; $2,500 if reported within 72 hours |
 |  | **Claims and investigations against you** |  |  |
@@ -185,9 +184,8 @@ Colorado. Colorado law does not allow punitive or exemplary damages to be insure
 | --- | --- |
 | CORG-CY-0201 (10/26) | Declarations |
 | CORG-CY-0200 (10/26) | Cyber Protection Policy |
-| CORG-CY-0202 (10/26) | Application |
-| CORG-CY-0205-CO (10/26) | Colorado Amendatory Endorsement |
-| CORG-IL-0001 (10/26) | Terrorism Risk Insurance Act Disclosure |
+| CORG-CY-0202 (10/26) | Application (on file with us) |
+| CORG-IL-0001 (10/26) | Terrorism Risk Insurance Act Disclosure (Important Notices, item 7) |
 
 These Declarations, together with the **application**, the policy form and any endorsements, complete this policy.
 
@@ -287,7 +285,7 @@ Every coverage requires all of the following:
 
 **What we pay.** **Security improvement costs** for that upgrade, including the first year of any subscription.
 
-**Limit and your share.** $25,000 (Item 6), within the **incident's** **retention**.
+**Limit and your share.** $25,000 (Item 6). The same **retention** as the **incident** applies; there is no separate **retention**.
 
 **Special conditions.** The upgrade must be made within 90 days after you **discover** the **security failure**. Section III, part 5.
 
@@ -647,6 +645,7 @@ Part 1 applies to every coverage. Parts 2 to 8 set out how each coverage works o
     2. Business interruption has the **waiting period** instead of a dollar **retention**, and reputational harm has the reputational harm waiting period in Item 6.
     3. **Claim expenses** count toward the **retention**, and so do payments by other insurance or by others on your behalf.
     4. If you earn the reduced Coverage H **retention**, it is the only dollar **retention** for the Coverage H loss, and what you pay toward it counts toward any other **retention** for the same **incident**.
+    5. If only part of the loss from an **incident** is subject to coinsurance (parts 1.6 and 1.7), the **retention** is applied to that part first. Coinsurance then applies only to what remains of it.
 4. **Settling within your retention.** You may settle a **claim** yourself if the total cost, including **claim expenses**, stays within your **retention** and you obtain a full release from every claimant.
 5. **Security credits.** The credits in Item 7 apply to every **incident** you **discover** while the verified control is in place for substantially all the users, devices and accounts it covers. Exceptions you disclosed in your **application** never count against you. If you stop using a verified control, tell us within 30 days. The credit stops for **incidents** you **discover** after you stopped, and resumes when you restore the control. A control disabled by the attacker during the **incident** itself does not lose the credit.
 6. **Ransomware coinsurance.** If your backups were not verified when the **incident** happened, you pay 20% of the **restoration costs**, **business income loss** and **extra expense** under Coverages D and F that result from **ransomware** encrypting or locking your **computer systems**, after the **retention**. We pay the other 80%, up to the applicable limit. This coinsurance applies across Coverages D and F. It does not apply to **extortion expenses**, **breach response costs** or liability coverages. Backups are verified if you successfully tested restoring from them within the 12 months before the **incident** and kept a copy that is offline or immutable. If you restore the affected **digital assets** from your own backups anyway, this coinsurance does not apply to that **incident**.
@@ -712,7 +711,7 @@ Before any extortion payment:
 ### 8. Bricking, reputational harm and cryptojacking (Coverages M, N and O)
 
 1. **Computer replacement (M).** We pay to replace hardware with equivalent hardware when replacement costs no more than repair.
-2. **Reputational harm (N).** After the reputational harm waiting period in Item 6, we calculate **reputational harm loss** the same way as **business income loss**, excluding any loss already paid under Coverages D, E or P.
+2. **Reputational harm (N).** After the reputational harm waiting period in Item 6, we measure **reputational harm loss** as lost net profit only. We use the same records and adjustments for trends and seasonality as for **business income loss** (part 4.1), but we do not add continuing operating expenses or payroll, and we do not pay loss already paid under Coverages D, E or P.
 3. **Cryptojacking and telecom fraud (O).** This includes extra cloud, artificial intelligence service, utility and telephone charges. You must first ask your provider to waive or reverse the unauthorized charges; we pay what the provider will not.
 
 ## Section IV. Exclusions
