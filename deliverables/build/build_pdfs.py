@@ -22,8 +22,8 @@ CHROME = os.environ.get("CHROME", "/opt/pw-browsers/chromium-1194/chrome-linux/c
 DOCS = [
     # source, title, footer, package name
     ("Submission_Guide.md", "Submission Guide", "Cyber Protection Policy · Submission Guide", "00_Submission_Guide.pdf"),
-    ("Cyber_Protection_Policy.md", "Cyber Protection Policy (Specimen)", "Corgi Insurance Company, Inc. · CIC-CY-100 (10/26) · Specimen", "01_Cyber_Protection_Policy_Specimen.pdf"),
-    ("Sample_Application_Cedar_Ridge.md", "Cyber Protection Policy Application (Sample)", "CIC-CY-APP (10/26) · Sample", "02_Sample_Application_Cedar_Ridge.pdf"),
+    ("Cyber_Protection_Policy.md", "Cyber Protection Policy (Specimen)", "Corgi Insurance Company, Inc. · CORG-CY-0200 (10/26) · Specimen", "01_Cyber_Protection_Policy_Specimen.pdf"),
+    ("Sample_Application_Cedar_Ridge.md", "Cyber Protection Policy Application (Sample)", "CORG-CY-0202 (10/26) · Sample", "02_Sample_Application_Cedar_Ridge.pdf"),
     ("Decision_Rationale.md", "Decision Rationale", "Cyber Protection Policy · Decision Rationale", "03_Decision_Rationale.pdf"),
 ]
 

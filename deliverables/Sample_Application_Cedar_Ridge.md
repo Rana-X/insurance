@@ -2,7 +2,7 @@
 
 ## Application form
 
-**Corgi Insurance Company, Inc.** · Cyber Protection Policy Application · Form CIC-CY-APP (10/26)
+**Corgi Insurance Company, Inc.** · Cyber Protection Policy Application · Form CORG-CY-0202 (10/26)
 
 *SPECIMEN: completed sample for illustration only. Cedar Ridge Accounting Group and all people named below are fictional.*
 
@@ -144,7 +144,7 @@ Questions follow the six functions of the NIST Cybersecurity Framework 2.0 and t
 
 | # | Question | Answer |
 | --- | --- | --- |
-| 6.1 | Which outside providers would stop your business if they went down? | Microsoft 365 (email and files); our cloud tax-preparation platform; our payroll platform; our managed IT provider; our client portal |
+| 6.1 | Which technology or outsourced-processing providers would stop your business if they went down? | Microsoft 365 (email and files); our cloud tax-preparation platform; our payroll platform; our managed IT provider; our client portal |
 | 6.2 | How did you agree to their terms? | Written contracts with our IT provider and payroll platform; standard online terms for the others |
 | 6.3 | Do you review key vendors' security? | ☒ Yes ☐ No. We obtain SOC 2 reports from our IT provider and payroll platform each year |
 | 6.4 | Do you use artificial intelligence tools? | ☒ Yes ☐ No. Microsoft 365 Copilot for drafting and summarizing |

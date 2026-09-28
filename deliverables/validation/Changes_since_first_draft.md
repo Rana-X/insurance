@@ -72,6 +72,25 @@ A second independent coverage-counsel review of version 3 (`Coverage_Counsel_QA_
 | A send-only zip that excludes the private working files | L-18 |
 | Atlassian source link corrected | Link check |
 
+## Corgi specimen pass (September 28, 2026)
+
+The policy was turned into a generic specimen drafted for Corgi, then revised after a comparison with public cyber wordings (Chubb, Coalition, At-Bay, Beazley, AIG and others, plus an outside review of DUAL, QBE, Emergence and Etiqa wordings).
+
+| Change | Why |
+| --- | --- |
+| Insurer is Corgi Insurance Company, Inc.; form numbers follow Corgi's style (CORG-CY-0200 and related forms); insurer contact details are placeholders | The draft is written for Corgi. Real contact details are not invented for a real company |
+| Declarations are a blank specimen showing the standard limits, options and credits; Cedar Ridge's entries moved to the application's underwriter page | One form for every business |
+| Cover page is a policy jacket: claims-made notice, contents, officer signature lines; "SPECIMEN" watermark; Declarations end with the entire-contract statement and an authorized-representative signature | Matches real US policy packages |
+| Removed reader commentary: "One form for every business", tagline, "What's inside", "How to read", the drafting note, the "plain English" column, the "What this policy does not exclude" section and one commentary sentence in **computer fraud** | Real policies keep explanations outside the contract; each removed point was already stated as policy wording elsewhere |
+| Incident steps moved from the back page to the notices page | Practical guidance belongs up front |
+| Core coverages grouped under plain headings (A–C, D–E, F–G, H, I–L, M–O) in Section I and the schedule, each with a pointer to its limits and rules. Letters unchanged | Easier to find the answer to one incident without breaking cross-references |
+| "Your share beyond the retention" shown under the schedule: ransomware coinsurance, known-exploited-vulnerability coinsurance, $100K fraud limit | Restrictions visible beside the limits |
+| A hotline call is notice; written confirmation within one business day; claim documents to follow | Some carriers (for example Chubb) say a hotline report is not notice of a claim |
+| Partial outages that stop a significant part of the business count as an interruption | Payroll can be down while email works |
+| **Dependent provider** limited to technology and outsourced-processing providers | Usual market scope; controls accumulation |
+| Retention rule split into four short clauses | Readability |
+| Rationale: first-party core vs Corgi's add-on model; a tax-season test of the $250K system-failure cap; an "alternative I rejected" column for every number; per-event and incident-limit alternatives with their cost; two new worked claims (a class action, and a limited and a declined claim) | Show the alternatives and the trade-offs, not just the choice |
+
 ## Not changed (deliberate)
 
 - No widespread-event cap on Coverage E. The $500K sublimit is the accumulation control (rationale part 3).

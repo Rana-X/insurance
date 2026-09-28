@@ -8,7 +8,7 @@
 | --- | --- |
 | 01_Cyber_Protection_Policy_Specimen.pdf ({POLICY_PAGES} pages) | The policy: cover, notices and disclaimers, Declarations, and Sections I–V (insuring agreements, definitions, coverage sections, exclusions, conditions). One form for every business, so the Declarations are a blank specimen with the standard limits and options filled in |
 | 02_Sample_Application_Cedar_Ridge.pdf ({APP_PAGES} pages) | A completed application for a fictional 62-person Denver accounting firm. The last page shows how each answer sets its terms, and the Declarations entries it would receive |
-| 03_Decision_Rationale.pdf ({RAT_PAGES} pages) | Why each decision was made: who the policy is for, how these businesses lose money, how the limits and retention were set, what is covered and excluded and why, three claims start to finish, the trade-offs, and linked sources |
+| 03_Decision_Rationale.pdf ({RAT_PAGES} pages) | Why each decision was made: who the policy is for, how these businesses lose money, how the limits and retention were set, what is covered and excluded and why, five claims start to finish, the trade-offs, and linked sources |
 | Complete_Submission.pdf | This guide and all three documents in one file, with bookmarks |
 
 ### Suggested reading order
@@ -16,7 +16,7 @@
 1. **Rationale summary** (Decision Rationale, page 1): the five decisions that matter most, in about three minutes.
 2. **Declarations** (policy, Items 1–12): the standard limits, retention, options and credits.
 3. **Underwriter page** (application, last page): how one applicant's answers turn into its price and terms.
-4. **Three claims, start to finish** (Decision Rationale, part 8): how the policy works in practice.
+4. **Five claims, start to finish** (Decision Rationale, part 8): how the policy works in practice, including a lawsuit, a limited claim and a declined one.
 5. The rest of the policy as needed. Bold words are defined in Section II.
 
 ### The sample applicant in numbers

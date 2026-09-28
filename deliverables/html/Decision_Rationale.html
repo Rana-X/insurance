@@ -80,6 +80,7 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 </tbody>
 </table>
 <p><strong>Fit with Corgi.</strong> Corgi Insurance Company, Inc., Corgi's admitted carrier announced on August 26, 2026, targets main-street businesses including professional and administrative offices. I wrote the policy as a cyber form that carrier could file for that segment, and for startups graduating into it. Corgi's cyber page describes its startup policy as offering up to $1M per claim and $2M in the aggregate. I considered that two-number structure but chose a single $2M aggregate for Cedar Ridge, because its danger is one severe event, not two average ones (part 3).</p>
+<p><strong>Why the first-party covers are core, not add-ons.</strong> Corgi's startup form (CORG-CY-0100, according to its cyber page) covers liability to others. Breach response, ransomware, business interruption and funds transfer fraud are sold as endorsements. That fits a software startup, whose biggest cyber exposure is often a client's claim. For a main-street business the costly events are its own losses: payment fraud, ransomware and downtime (part 2). A buyer without a broker who skips the add-ons would be uninsured for the losses most likely to happen. So this form builds them in and keeps options only for rare or systemic risks. The cost is a higher base premium and less choice item by item. I numbered it CORG-CY-0200 to sit beside the startup form.</p>
 <h2>2. How these businesses lose money</h2>
 <p>Every loss path has a coverage. Media liability (L), the smaller core coverages (G, M, N and O) and the options are explained in part 4.</p>
 <table>
@@ -292,6 +293,12 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 </tr>
 </tbody>
 </table>
+<p><strong>Is $250K enough for an accidental outage in tax season?</strong> Take the worst realistic case for Cedar Ridge: a faulty update, like CrowdStrike's in 2024, disables all 62 computers in March, and its IT provider has to fix each one by hand. My estimate:</p>
+<ul>
+<li>Two to four business days down costs $75K–$190K: outside technicians and restoration ($15K–$40K), overtime and temporary staff to catch up over the next 30 days ($40K–$90K), and fees lost or refunded ($20K–$60K).</li>
+<li>A full week at the peak of the season could reach $250K–$300K.</li>
+</ul>
+<p>So the cap pays the likely case and leaves the business carrying the tail. That is the trade-off: the cap bounds the insurer's exposure to one bad update hitting every policyholder at once, and the business keeps the risk of a very long accidental outage. The full-limit option ($400 a year for Cedar Ridge) removes the cap. Cedar Ridge did not buy it, because it has verified backups and a managed IT provider. A firm without tested backups should.</p>
 <h3>Other numbers, and why</h3>
 <p>These are judgment calls, set to be reasonable for this segment and easy to explain. An actuary would test each one.</p>
 <table>
@@ -300,6 +307,7 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <th>Number</th>
 <th>Where</th>
 <th>Why</th>
+<th>Alternative I rejected</th>
 </tr>
 </thead>
 <tbody>
@@ -307,66 +315,78 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <td>8-hour waiting period (4 with 24/7 managed detection and response)</td>
 <td>D, E</td>
 <td>Filters out short outages a business can absorb, in line with the market. Managed detection shortens outages, so it earns a shorter wait</td>
+<td>12 hours: would miss most of a working day, which is exactly the outage a small firm feels</td>
 </tr>
 <tr>
 <td>24-hour waiting period</td>
 <td>P</td>
 <td>Vendor outages hit many insureds at once, so only multi-day failures are covered</td>
+<td>8 hours: would pay for short platform blips that hit every policyholder at once</td>
 </tr>
 <tr>
 <td>180-day period of restoration, plus 30 days of catch-up costs</td>
 <td>D, E, P</td>
 <td>Covers a rebuild plus a full tax season. Catch-up time matters because much professional work is delayed rather than lost</td>
+<td>90 days: too short for a rebuild that runs into tax season. 12 months: prices a longer tail than these firms face</td>
 </tr>
 <tr>
 <td>20% coinsurance</td>
 <td>III.1.6, 1.7</td>
 <td>Large enough to reward the control, small enough that the business still gets 80% of a serious loss</td>
+<td>An exclusion for missing backups: denies the very loss the policy exists for. 50%: more than a small business can absorb</td>
 </tr>
 <tr>
 <td>45 days to fix a vulnerability we notify</td>
 <td>III.1.7</td>
 <td>About three times the two-week deadline U.S. federal agencies get for the same catalog, so a firm relying on an outside IT provider has time</td>
+<td>14 days: fine for a government IT team, too short for a firm that waits on its IT provider's schedule</td>
 </tr>
 <tr>
 <td>$100K fraud limit without verification; $5,000 verification threshold</td>
 <td>III.6</td>
 <td>The lower limit still pays a typical small diversion. The threshold catches almost every fraudulent wire without forcing calls on routine payments</td>
+<td>No cover without a procedure: too harsh on a firm that simply never wrote one down. A $10,000 threshold: misses mid-sized diversions</td>
 </tr>
 <tr>
 <td>K $250K; G $25K</td>
 <td>Item 6</td>
 <td>Card assessments for a small merchant using a hosted payment page rarely reach six figures. $25K buys a year of MFA, EDR and backup upgrades for a firm of 60 people</td>
+<td>K at the full limit: adds price for a risk most hosted-payment merchants don't have</td>
 </tr>
 <tr>
 <td>70% after a refused settlement</td>
 <td>III.7.2</td>
 <td>Shares the cost of a refused settlement 70/30: firmer than At-Bay's 80/20 (AB-CYB-001.2), softer than a full cap</td>
+<td>A full cap at the refused amount: punishes an insured for a defensible refusal</td>
 </tr>
 <tr>
 <td>$2,500 H retention if reported within 72 hours</td>
 <td>Item 6; III.6.3</td>
 <td>The first 24–72 hours decide whether a bank recall works, so fast reporting earns a lower retention</td>
+<td>No incentive: loses the one lever that improves recovery odds</td>
 </tr>
 <tr>
 <td>14-day wait, then up to 90 days</td>
 <td>N</td>
 <td>Filters out a short news cycle; 90 days captures the client losses that follow a public breach</td>
+<td>A 7-day wait: pays for noise. 12 months: can't be separated from ordinary business decline</td>
 </tr>
 <tr>
 <td>Extended reporting: 60 days automatic; 12 or 24 months at 75% or 125%</td>
 <td>Item 9</td>
 <td>At-Bay's pricing, cheaper than the 100%/150%/200% in the Coalition policy I reviewed; fairer for a small business closing or switching insurers</td>
+<td>Coalition-style 100/150/200%: expensive for a firm that is closing</td>
 </tr>
 <tr>
 <td>$50K proof-of-loss help; $2,500 pre-incident help</td>
 <td>III.1.8, V.2.3</td>
 <td>About one forensic-accountant engagement; about five to eight hours of breach-coach advice</td>
+<td>Unlimited pre-incident advice: hard to price and easy to overuse</td>
 </tr>
 </tbody>
 </table>
 <h2>4. What the policy covers, and why</h2>
-<p>The coverages follow Coalition's plain "we will pay" style and At-Bay's split between first-party and liability triggers. They are lettered to match the Declarations.</p>
+<p>The coverages follow Coalition's plain "we will pay" style and At-Bay's split between first-party and liability triggers. They are grouped by what the business needs at that moment: respond to an incident (A–C), replace lost income (D–E), restore data and systems (F–G), recover stolen money (H), defend claims and investigations (I–L), and other losses (M–O). The letters stay in order so every cross-reference still works, and each group points to its limits and its rules.</p>
 <table>
 <thead>
 <tr>
@@ -564,6 +584,11 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <td><strong>Cloud accounts</strong> and <strong>computer systems</strong></td>
 <td>The accounts, tenants and data an insured controls in an online service are its own <strong>computer systems</strong>. The provider's own servers, and the hosting provider it relies on, are <strong>dependent systems</strong></td>
 <td>Without a clear boundary, a Microsoft 365 mailbox could be read as both, and that ambiguity cuts both ways on the most common claims. A tie-breaker treats a vendor-side attack that reaches your account as your own <strong>security failure</strong> under every coverage, and sends a vendor outage to Coverage E or P</td>
+</tr>
+<tr>
+<td><strong>Dependent provider</strong></td>
+<td>Technology providers and outsourced processors only (cloud, software, managed IT, payroll, tax filing, payment processing)</td>
+<td>The usual market scope. Other suppliers and customers are a different risk, and a much larger accumulation. Key customers are an option (Coverage S)</td>
 </tr>
 <tr>
 <td><strong>Payment fraud</strong>, <strong>financial institution</strong>, <strong>client accounts</strong></td>
@@ -773,6 +798,10 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <td>Early response shrinks losses</td>
 </tr>
 <tr>
+<td>A call to the hotline is notice; we confirm it in writing within one business day</td>
+<td>Some carriers say a hotline report is not notice of a claim (Chubb's cyber materials, for example), so a small business that calls but never emails can miss its deadline. The written confirmation gives both sides a record</td>
+</tr>
+<tr>
 <td>We pay vendors directly</td>
 <td>Small businesses can't front forensic and legal fees mid-crisis</td>
 </tr>
@@ -810,11 +839,15 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 </tr>
 </tbody>
 </table>
-<p><strong>Three claims, start to finish (Cedar Ridge):</strong></p>
+<p><strong>Five claims, start to finish (Cedar Ridge):</strong></p>
 <ol>
 <li><strong>A spoofed partner email diverts a $210K client payroll batch.</strong> The firm calls its bank and the hotline the same day. Coverage H pays the $210K it must repay the client, less the $2,500 fast-report retention, within the $500K Coverage R limit. The funds-recovery team works the bank recall. Anything recovered repays the firm's retention first.</li>
 <li><strong>Ransomware in March; the firm restores from its own backups in six days.</strong> Coverage A pays the hotline, breach coach and first-response forensics for the first seven days, up to $25,000, with no retention. Forensics and the breach coach continue under B, restoration under F, and lost income under D after the 8-hour wait. Overtime to catch up for 30 days after restoration counts as extra expense. One $7,500 retention applies, and no coinsurance, because the backups were verified. Within 10 business days of confirming cover, the insurer advances 50% of its estimate of the business interruption loss to date.</li>
 <li><strong>The firm's cloud tax platform pushes a bad update and is down for three days in March.</strong> This is a non-malicious vendor failure, so optional Coverage P pays lost income and extra expense after a 24-hour wait, up to $250K. Had it been an attack on the vendor, like CCH in 2019, core Coverage E would pay after 8 hours, up to $500K.</li>
+<li><strong>A client class action, eight months after a breach.</strong> An attacker copies 31,000 client records in May. Cedar Ridge reports it at once, and Coverage B pays for notices and credit monitoring. In January, after the policy has expired, clients sue. Because the breach was reported during the policy period, the lawsuit is treated as made on that report date and is covered by this policy (Section V, part 1.4). Coverage I pays panel defense counsel and, with Cedar Ridge's consent, a $450K settlement, within the $2M aggregate. The $7,500 retention paid for the breach already covers the lawsuit, because it is the same incident. Had Cedar Ridge refused a settlement the clients would accept, the policy would pay 70% of any further costs. Its accountants' professional liability policy is not a reason to delay the defense (Section V, part 9.2).</li>
+<li><strong>A claim that is limited, and one that is declined.</strong>
+   - <em>Limited:</em> suppose Cedar Ridge had no written callback procedure, and a spoofed email moved a $210K batch. The lower $100K fraud limit would apply, because a callback to a known number would have stopped it (Section III, parts 6.2 and 1.9). Had the bank been deceived instead of the firm, the full limit would still apply.
+   - <em>Declined:</em> a payroll clerk quietly redirects client wages to their own account. That is theft by the firm's own employee, not <strong>payment fraud</strong>, so Coverage H does not pay; crime insurance does. If the scheme also exposed client data, the breach costs are still covered under Coverage B.</li>
 </ol>
 <h2>9. Trade-offs, and what I'd test next</h2>
 <table class="keep">
@@ -827,9 +860,9 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 </thead>
 <tbody>
 <tr>
-<td>Per-event limits (Brit C360, March 2026) or unlimited reinstatements (CFC)</td>
+<td>Per-event limits (Brit C360, March 2026), unlimited reinstatements (CFC), or incident limits in place of a yearly aggregate (Emergence also revised its incident limits in its 2026 Australian small-business wording)</td>
 <td>Declined</td>
-<td>Uncapped frequency is hard to rate and reinsure on admitted paper. For a small business, one severe event is the bigger risk, so a higher single limit protects more per dollar</td>
+<td>Uncapped frequency is hard to rate and reinsure on admitted paper. For a small business, one severe event is the bigger risk, so a higher single limit protects more per dollar. The cost: a firm hit twice in one year shares one $2M limit. At an annual claim rate of 1–2%, two severe events in one year are rare</td>
 </tr>
 <tr>
 <td>Parametric "fast downtime payment" (AIG with Parametrix, August 2026; a UK Lloyd's Market Association draft)</td>
@@ -945,6 +978,9 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <li>HSB Cyber Suite Coverage Form CSC 02-2025: <a href="https://heartlandmutualinsurance.com/wp-content/uploads/2024/12/Cyber-Suite-Coverage-Form-CSC-02-2025.pdf">https://heartlandmutualinsurance.com/wp-content/uploads/2024/12/Cyber-Suite-Coverage-Form-CSC-02-2025.pdf</a></li>
 <li>Cowbell Prime 100 overview: <a href="https://cowbell.insure/wp-content/uploads/pdfs/CB-Prime100-Overview.pdf">https://cowbell.insure/wp-content/uploads/pdfs/CB-Prime100-Overview.pdf</a></li>
 <li>Corgi, Cyber Liability: <a href="https://www.corgi.insure/cyber-liability">https://www.corgi.insure/cyber-liability</a></li>
+<li>Chubb, Cyber ERM small-business sample policy (PF-48169): <a href="https://studio.chubb.com/connect/files/NA_CyberSmallBusiness_Sample.pdf">https://studio.chubb.com/connect/files/NA_CyberSmallBusiness_Sample.pdf</a></li>
+<li>Chubb, Cyber Alert services sheet: <a href="https://www.chubb.com/content/dam/chubb-sites/chubb-com/us-en/business-insurance/cyber-alert/documents/pdf/17-01-0219-cyber-services-sheet_cyberalert.pdf">https://www.chubb.com/content/dam/chubb-sites/chubb-com/us-en/business-insurance/cyber-alert/documents/pdf/17-01-0219-cyber-services-sheet_cyberalert.pdf</a></li>
+<li>Insurance Business, "Emergence updates cyber policy wording for Australian SMEs" (2026): <a href="https://www.insurancebusinessmag.com/au/news/cyber/emergence-updates-cyber-policy-wording-for-australian-smes-565467.aspx">https://www.insurancebusinessmag.com/au/news/cyber/emergence-updates-cyber-policy-wording-for-australian-smes-565467.aspx</a></li>
 <li>Corgi Insurance Company launch (August 26, 2026): <a href="https://www.prnewswire.com/news-releases/corgi-insurance-launches-admitted-insurance-carrier-302860246.html">https://www.prnewswire.com/news-releases/corgi-insurance-launches-admitted-insurance-carrier-302860246.html</a></li>
 <li>AIG and Parametrix cloud-outage product (August 2026), Insurance Journal: <a href="https://insurancejournal.com/news/national/2026/08/14/881539.htm">https://insurancejournal.com/news/national/2026/08/14/881539.htm</a></li>
 <li>Brit C360 (March 2026): <a href="https://www.britinsurance.com/news/brit-launches-new-cyber-product-for-smes">https://www.britinsurance.com/news/brit-launches-new-cyber-product-for-smes</a></li>

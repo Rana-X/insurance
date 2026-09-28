@@ -31,6 +31,8 @@ This document explains the reasoning behind the Cyber Protection Policy I drafte
 
 **Fit with Corgi.** Corgi Insurance Company, Inc., Corgi's admitted carrier announced on August 26, 2026, targets main-street businesses including professional and administrative offices. I wrote the policy as a cyber form that carrier could file for that segment, and for startups graduating into it. Corgi's cyber page describes its startup policy as offering up to $1M per claim and $2M in the aggregate. I considered that two-number structure but chose a single $2M aggregate for Cedar Ridge, because its danger is one severe event, not two average ones (part 3).
 
+**Why the first-party covers are core, not add-ons.** Corgi's startup form (CORG-CY-0100, according to its cyber page) covers liability to others. Breach response, ransomware, business interruption and funds transfer fraud are sold as endorsements. That fits a software startup, whose biggest cyber exposure is often a client's claim. For a main-street business the costly events are its own losses: payment fraud, ransomware and downtime (part 2). A buyer without a broker who skips the add-ons would be uninsured for the losses most likely to happen. So this form builds them in and keeps options only for rare or systemic risks. The cost is a higher base premium and less choice item by item. I numbered it CORG-CY-0200 to sit beside the startup form.
+
 ## 2. How these businesses lose money
 
 Every loss path has a coverage. Media liability (L), the smaller core coverages (G, M, N and O) and the options are explained in part 4.
@@ -105,28 +107,34 @@ I capped this form at $3M. Above that, businesses in this band usually need a ta
 | Coverage A | $25K per incident, $75K per year, outside the aggregate | Encourages early calls, which make losses smaller; capped so it can be priced |
 | Bricking, reputational harm, cryptojacking | $100K, $100K, $50K | Real but smaller exposures, included in the core as leading forms now do |
 
+**Is $250K enough for an accidental outage in tax season?** Take the worst realistic case for Cedar Ridge: a faulty update, like CrowdStrike's in 2024, disables all 62 computers in March, and its IT provider has to fix each one by hand. My estimate:
+- Two to four business days down costs $75K–$190K: outside technicians and restoration ($15K–$40K), overtime and temporary staff to catch up over the next 30 days ($40K–$90K), and fees lost or refunded ($20K–$60K).
+- A full week at the peak of the season could reach $250K–$300K.
+
+So the cap pays the likely case and leaves the business carrying the tail. That is the trade-off: the cap bounds the insurer's exposure to one bad update hitting every policyholder at once, and the business keeps the risk of a very long accidental outage. The full-limit option ($400 a year for Cedar Ridge) removes the cap. Cedar Ridge did not buy it, because it has verified backups and a managed IT provider. A firm without tested backups should.
+
 ### Other numbers, and why
 
 These are judgment calls, set to be reasonable for this segment and easy to explain. An actuary would test each one.
 
-| Number | Where | Why |
-| --- | --- | --- |
-| 8-hour waiting period (4 with 24/7 managed detection and response) | D, E | Filters out short outages a business can absorb, in line with the market. Managed detection shortens outages, so it earns a shorter wait |
-| 24-hour waiting period | P | Vendor outages hit many insureds at once, so only multi-day failures are covered |
-| 180-day period of restoration, plus 30 days of catch-up costs | D, E, P | Covers a rebuild plus a full tax season. Catch-up time matters because much professional work is delayed rather than lost |
-| 20% coinsurance | III.1.6, 1.7 | Large enough to reward the control, small enough that the business still gets 80% of a serious loss |
-| 45 days to fix a vulnerability we notify | III.1.7 | About three times the two-week deadline U.S. federal agencies get for the same catalog, so a firm relying on an outside IT provider has time |
-| $100K fraud limit without verification; $5,000 verification threshold | III.6 | The lower limit still pays a typical small diversion. The threshold catches almost every fraudulent wire without forcing calls on routine payments |
-| K $250K; G $25K | Item 6 | Card assessments for a small merchant using a hosted payment page rarely reach six figures. $25K buys a year of MFA, EDR and backup upgrades for a firm of 60 people |
-| 70% after a refused settlement | III.7.2 | Shares the cost of a refused settlement 70/30: firmer than At-Bay's 80/20 (AB-CYB-001.2), softer than a full cap |
-| $2,500 H retention if reported within 72 hours | Item 6; III.6.3 | The first 24–72 hours decide whether a bank recall works, so fast reporting earns a lower retention |
-| 14-day wait, then up to 90 days | N | Filters out a short news cycle; 90 days captures the client losses that follow a public breach |
-| Extended reporting: 60 days automatic; 12 or 24 months at 75% or 125% | Item 9 | At-Bay's pricing, cheaper than the 100%/150%/200% in the Coalition policy I reviewed; fairer for a small business closing or switching insurers |
-| $50K proof-of-loss help; $2,500 pre-incident help | III.1.8, V.2.3 | About one forensic-accountant engagement; about five to eight hours of breach-coach advice |
+| Number | Where | Why | Alternative I rejected |
+| --- | --- | --- | --- |
+| 8-hour waiting period (4 with 24/7 managed detection and response) | D, E | Filters out short outages a business can absorb, in line with the market. Managed detection shortens outages, so it earns a shorter wait | 12 hours: would miss most of a working day, which is exactly the outage a small firm feels |
+| 24-hour waiting period | P | Vendor outages hit many insureds at once, so only multi-day failures are covered | 8 hours: would pay for short platform blips that hit every policyholder at once |
+| 180-day period of restoration, plus 30 days of catch-up costs | D, E, P | Covers a rebuild plus a full tax season. Catch-up time matters because much professional work is delayed rather than lost | 90 days: too short for a rebuild that runs into tax season. 12 months: prices a longer tail than these firms face |
+| 20% coinsurance | III.1.6, 1.7 | Large enough to reward the control, small enough that the business still gets 80% of a serious loss | An exclusion for missing backups: denies the very loss the policy exists for. 50%: more than a small business can absorb |
+| 45 days to fix a vulnerability we notify | III.1.7 | About three times the two-week deadline U.S. federal agencies get for the same catalog, so a firm relying on an outside IT provider has time | 14 days: fine for a government IT team, too short for a firm that waits on its IT provider's schedule |
+| $100K fraud limit without verification; $5,000 verification threshold | III.6 | The lower limit still pays a typical small diversion. The threshold catches almost every fraudulent wire without forcing calls on routine payments | No cover without a procedure: too harsh on a firm that simply never wrote one down. A $10,000 threshold: misses mid-sized diversions |
+| K $250K; G $25K | Item 6 | Card assessments for a small merchant using a hosted payment page rarely reach six figures. $25K buys a year of MFA, EDR and backup upgrades for a firm of 60 people | K at the full limit: adds price for a risk most hosted-payment merchants don't have |
+| 70% after a refused settlement | III.7.2 | Shares the cost of a refused settlement 70/30: firmer than At-Bay's 80/20 (AB-CYB-001.2), softer than a full cap | A full cap at the refused amount: punishes an insured for a defensible refusal |
+| $2,500 H retention if reported within 72 hours | Item 6; III.6.3 | The first 24–72 hours decide whether a bank recall works, so fast reporting earns a lower retention | No incentive: loses the one lever that improves recovery odds |
+| 14-day wait, then up to 90 days | N | Filters out a short news cycle; 90 days captures the client losses that follow a public breach | A 7-day wait: pays for noise. 12 months: can't be separated from ordinary business decline |
+| Extended reporting: 60 days automatic; 12 or 24 months at 75% or 125% | Item 9 | At-Bay's pricing, cheaper than the 100%/150%/200% in the Coalition policy I reviewed; fairer for a small business closing or switching insurers | Coalition-style 100/150/200%: expensive for a firm that is closing |
+| $50K proof-of-loss help; $2,500 pre-incident help | III.1.8, V.2.3 | About one forensic-accountant engagement; about five to eight hours of breach-coach advice | Unlimited pre-incident advice: hard to price and easy to overuse |
 
 ## 4. What the policy covers, and why
 
-The coverages follow Coalition's plain "we will pay" style and At-Bay's split between first-party and liability triggers. They are lettered to match the Declarations.
+The coverages follow Coalition's plain "we will pay" style and At-Bay's split between first-party and liability triggers. They are grouped by what the business needs at that moment: respond to an incident (A–C), replace lost income (D–E), restore data and systems (F–G), recover stolen money (H), defend claims and investigations (I–L), and other losses (M–O). The letters stay in order so every cross-reference still works, and each group points to its limits and its rules.
 
 | Coverage | Loss path | Borrowed from, and what I changed | Why |
 | --- | --- | --- | --- |
@@ -195,6 +203,7 @@ I did not copy the German approach of cutting payment in proportion to how carel
 | Definition | Choice | Why |
 | --- | --- | --- |
 | **Cloud accounts** and **computer systems** | The accounts, tenants and data an insured controls in an online service are its own **computer systems**. The provider's own servers, and the hosting provider it relies on, are **dependent systems** | Without a clear boundary, a Microsoft 365 mailbox could be read as both, and that ambiguity cuts both ways on the most common claims. A tie-breaker treats a vendor-side attack that reaches your account as your own **security failure** under every coverage, and sends a vendor outage to Coverage E or P |
+| **Dependent provider** | Technology providers and outsourced processors only (cloud, software, managed IT, payroll, tax filing, payment processing) | The usual market scope. Other suppliers and customers are a different risk, and a much larger accumulation. Key customers are an option (Coverage S) |
 | **Payment fraud**, **financial institution**, **client accounts** | One trigger for every way an impostor tricks a firm or its bank into moving money | Part 4 above |
 | **Discover** | When an executive or the named security contact becomes aware of facts suggesting an incident | Triggers, notice and exclusions all turn on this word. Leaving it undefined invites a fight over which policy year responds |
 | **Early warning** | A notice from the FBI, a bank, the IT provider or us is always a suspected incident, but not by itself "discovery" | Small firms usually learn of an attack from outsiders. They shouldn't have to argue about whether an FBI call was "reasonable suspicion", and an alert that finds nothing shouldn't count against them |
@@ -263,6 +272,7 @@ At $1M with no options, the same business would pay $5,508. The rationale for sp
 | Promise | Why |
 | --- | --- |
 | 24/7 hotline; we aim to call back within one hour | Early response shrinks losses |
+| A call to the hotline is notice; we confirm it in writing within one business day | Some carriers say a hotline report is not notice of a claim (Chubb's cyber materials, for example), so a small business that calls but never emails can miss its deadline. The written confirmation gives both sides a record |
 | We pay vendors directly | Small businesses can't front forensic and legal fees mid-crisis |
 | A 50% business interruption advance within 10 business days, up to 25% of the aggregate or the coverage's own limit, whichever is lower | Coalition's 2026 cash-advance feature is discretionary. Payroll doesn't wait for forensic accountants, so ours is firm |
 | One forensic accountant, if the insured chooses | Two competing accountants can take months to agree |
@@ -273,17 +283,21 @@ At $1M with no options, the same business would pay $5,508. The rationale for sp
 | Cancellation only for non-payment (10 days, with reasons) or a knowingly false application answer (45 days). An honest mistake never cancels the policy; at most we decline to renew | Colorado (C.R.S. 10-4-109.7) allows cancellation of a commercial policy only for non-payment, a knowingly false application statement or a substantial change in the risk, and requires 45 days' notice for all but non-payment. The policy uses only the first two |
 | Coverage I responds even where the firm's professional liability policy might also apply | Stops a client lawsuit after a breach falling between two policies |
 
-**Three claims, start to finish (Cedar Ridge):**
+**Five claims, start to finish (Cedar Ridge):**
 
 1. **A spoofed partner email diverts a $210K client payroll batch.** The firm calls its bank and the hotline the same day. Coverage H pays the $210K it must repay the client, less the $2,500 fast-report retention, within the $500K Coverage R limit. The funds-recovery team works the bank recall. Anything recovered repays the firm's retention first.
 2. **Ransomware in March; the firm restores from its own backups in six days.** Coverage A pays the hotline, breach coach and first-response forensics for the first seven days, up to $25,000, with no retention. Forensics and the breach coach continue under B, restoration under F, and lost income under D after the 8-hour wait. Overtime to catch up for 30 days after restoration counts as extra expense. One $7,500 retention applies, and no coinsurance, because the backups were verified. Within 10 business days of confirming cover, the insurer advances 50% of its estimate of the business interruption loss to date.
 3. **The firm's cloud tax platform pushes a bad update and is down for three days in March.** This is a non-malicious vendor failure, so optional Coverage P pays lost income and extra expense after a 24-hour wait, up to $250K. Had it been an attack on the vendor, like CCH in 2019, core Coverage E would pay after 8 hours, up to $500K.
+4. **A client class action, eight months after a breach.** An attacker copies 31,000 client records in May. Cedar Ridge reports it at once, and Coverage B pays for notices and credit monitoring. In January, after the policy has expired, clients sue. Because the breach was reported during the policy period, the lawsuit is treated as made on that report date and is covered by this policy (Section V, part 1.4). Coverage I pays panel defense counsel and, with Cedar Ridge's consent, a $450K settlement, within the $2M aggregate. The $7,500 retention paid for the breach already covers the lawsuit, because it is the same incident. Had Cedar Ridge refused a settlement the clients would accept, the policy would pay 70% of any further costs. Its accountants' professional liability policy is not a reason to delay the defense (Section V, part 9.2).
+5. **A claim that is limited, and one that is declined.**
+   - *Limited:* suppose Cedar Ridge had no written callback procedure, and a spoofed email moved a $210K batch. The lower $100K fraud limit would apply, because a callback to a known number would have stopped it (Section III, parts 6.2 and 1.9). Had the bank been deceived instead of the firm, the full limit would still apply.
+   - *Declined:* a payroll clerk quietly redirects client wages to their own account. That is theft by the firm's own employee, not **payment fraud**, so Coverage H does not pay; crime insurance does. If the scheme also exposed client data, the breach costs are still covered under Coverage B.
 
 ## 9. Trade-offs, and what I'd test next
 
 | Considered | Decision | Why |
 | --- | --- | --- |
-| Per-event limits (Brit C360, March 2026) or unlimited reinstatements (CFC) | Declined | Uncapped frequency is hard to rate and reinsure on admitted paper. For a small business, one severe event is the bigger risk, so a higher single limit protects more per dollar |
+| Per-event limits (Brit C360, March 2026), unlimited reinstatements (CFC), or incident limits in place of a yearly aggregate (Emergence also revised its incident limits in its 2026 Australian small-business wording) | Declined | Uncapped frequency is hard to rate and reinsure on admitted paper. For a small business, one severe event is the bigger risk, so a higher single limit protects more per dollar. The cost: a firm hit twice in one year shares one $2M limit. At an annual claim rate of 1–2%, two severe events in one year are rare |
 | Parametric "fast downtime payment" (AIG with Parametrix, August 2026; a UK Lloyd's Market Association draft) | Declined for now; test next | For a CPA firm it would pay for downtime that is mostly deferrable, at 25–50% of the premium. Every firm on the same platform would claim at once. The firm 50% advance delivers cash speed for covered outages |
 | Full-limit system failure in the core (Coalition's surplus-lines form) | Priced option | Accumulation. The policy is narrower than Coalition here, and says so |
 | Deepfake and impersonation response (Coalition, December 2025) | Optional Coverage T | Real, but a small-dollar exposure. Deepfake-driven payment fraud is already covered in H |
@@ -342,6 +356,9 @@ Regulatory status as of September 27, 2026:
 - HSB Cyber Suite Coverage Form CSC 02-2025: https://heartlandmutualinsurance.com/wp-content/uploads/2024/12/Cyber-Suite-Coverage-Form-CSC-02-2025.pdf
 - Cowbell Prime 100 overview: https://cowbell.insure/wp-content/uploads/pdfs/CB-Prime100-Overview.pdf
 - Corgi, Cyber Liability: https://www.corgi.insure/cyber-liability
+- Chubb, Cyber ERM small-business sample policy (PF-48169): https://studio.chubb.com/connect/files/NA_CyberSmallBusiness_Sample.pdf
+- Chubb, Cyber Alert services sheet: https://www.chubb.com/content/dam/chubb-sites/chubb-com/us-en/business-insurance/cyber-alert/documents/pdf/17-01-0219-cyber-services-sheet_cyberalert.pdf
+- Insurance Business, "Emergence updates cyber policy wording for Australian SMEs" (2026): https://www.insurancebusinessmag.com/au/news/cyber/emergence-updates-cyber-policy-wording-for-australian-smes-565467.aspx
 - Corgi Insurance Company launch (August 26, 2026): https://www.prnewswire.com/news-releases/corgi-insurance-launches-admitted-insurance-carrier-302860246.html
 - AIG and Parametrix cloud-outage product (August 2026), Insurance Journal: https://insurancejournal.com/news/national/2026/08/14/881539.htm
 - Brit C360 (March 2026): https://www.britinsurance.com/news/brit-launches-new-cyber-product-for-smes
