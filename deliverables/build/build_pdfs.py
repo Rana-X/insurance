@@ -253,8 +253,12 @@ def package(built):
     zip_base = ROOT / "Corgi_Cyber_Policy_Package"
     shutil.make_archive(str(zip_base), "zip", root_dir=PKG.parent, base_dir=PKG.name)
     # A send-only zip: nothing from the private folder may leave the machine by accident.
-    send_base = ROOT / "Rana_Corgi_Submission_Final"
-    shutil.make_archive(str(send_base), "zip", root_dir=PKG, base_dir="1_Send_to_Corgi")
+    # The final folder to send: unzips to one folder, Rana_Corgi_Final, holding only the send files.
+    final_root = ROOT / "final"
+    if final_root.exists():
+        shutil.rmtree(final_root)
+    shutil.copytree(send, final_root / "Rana_Corgi_Final")
+    shutil.make_archive(str(ROOT / "Rana_Corgi_Final"), "zip", root_dir=final_root, base_dir="Rana_Corgi_Final")
     return zip_base.with_suffix(".zip")
 
 

@@ -1,6 +1,6 @@
 CYBER PROTECTION POLICY (SPECIMEN, DRAFTED FOR CORGI): SUBMISSION PACKAGE
 
-1_Send_to_Corgi/                     Send these (also zipped alone as Rana_Corgi_Submission_Final.zip).
+1_Send_to_Corgi/                     Send these (also zipped alone as Rana_Corgi_Final.zip).
   00_Submission_Guide.pdf             One-page cover note: contents, reading order, key numbers, assumptions.
   01_Cyber_Protection_Policy_Specimen.pdf
   02_Sample_Application_Cedar_Ridge.pdf
