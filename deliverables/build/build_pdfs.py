@@ -67,16 +67,14 @@ table.cover-sign { width: 90%; margin: 0 auto; }
 table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-size: 9.5pt; }
 """
 
-# Policy only: carrier-style headings and a light diagonal watermark on every page.
+# Policy only: carrier-style headings.
 SPECIMEN_CSS = """
 h3 { text-transform: uppercase; letter-spacing: 0.6pt; font-size: 10pt; margin: 11pt 0 4pt; }
 table { margin-bottom: 7pt; }
 h4 { border-left: 3pt solid #0b3954; padding-left: 6pt; margin: 12pt 0 5pt; }
 h4 + p, h4 + p + p, h4 + p + p + p, h4 + p + p + p + p { margin-bottom: 3.5pt; }
 .cover h1 { text-transform: none; }
-body::before { content: "SPECIMEN"; position: fixed; top: 40%; left: 0; right: 0; text-align: center;
-  font: bold 84pt "Helvetica Neue", Arial, sans-serif; color: rgba(11, 57, 84, 0.028);
-  transform: rotate(-35deg); z-index: -1; }
+
 """
 
 MAJOR = re.compile(

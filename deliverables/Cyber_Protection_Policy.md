@@ -2,7 +2,7 @@
 <p class="cover-insurer">CORGI INSURANCE COMPANY, INC.</p>
 <h1>Cyber Protection Policy</h1>
 <p class="cover-sub">For small and mid-sized businesses</p>
-<p class="cover-form">Policy form CORG-CY-0200 (10/26) · Colorado edition · Specimen</p>
+<p class="cover-form">Policy form CORG-CY-0200 (10/26)</p>
 <div class="cover-notice">
 <p><strong>Please read this entire policy carefully.</strong></p>
 <p>Coverages I, J, K, L and Q are claims-made and reported coverages. They apply only to <strong>claims</strong> first made against you during the <strong>policy period</strong> or an extended reporting period and reported to us as this policy requires. All other coverages apply to <strong>incidents</strong> you first <strong>discover</strong> during the <strong>policy period</strong>.</p>
@@ -31,7 +31,7 @@
 1. **Specimen.** This is a specimen policy form, independently drafted for Corgi Insurance Company, Inc. It is not an issued or approved Corgi product, has not been filed with or approved by any insurance regulator, is not an offer of insurance and provides no coverage. Items in [brackets] are completed when a policy is issued.
 2. **Claims-made liability coverage.** Coverages I, J, K, L and Q apply only to **claims** first made against you during the **policy period** (or an extended reporting period) and reported to us as the policy requires.
 3. **Defense costs reduce your limits.** Amounts we pay for lawyers and other **claim expenses** reduce, and can use up, your limits, and count toward your **retention**.
-4. **State edition.** This is the Colorado edition of the policy. Colorado's requirements, including its cancellation and renewal rules, fraud warning and treatment of punitive damages, are built into this form. A policy issued in another state would include that state's amendatory endorsement.
+4. **State law.** This policy follows Colorado law, including its cancellation and renewal rules, fraud warning and treatment of punitive damages. A policy issued in another state includes that state's amendatory endorsement.
 5. **Your privacy.** We collect information from your application, our security scans and claims to underwrite and service your policy. We share it only with our reinsurers, service providers and incident response panel, or as the law requires. We never sell it.
 6. **Sanctions.** We cannot provide coverage or make any payment, including a ransom payment, that U.S. trade or economic sanctions prohibit.
 7. **Terrorism (disclosure under the Terrorism Risk Insurance Act).** Coverage for acts of terrorism certified under the federal Terrorism Risk Insurance Act, as amended, is included in this policy on the same terms, conditions and exclusions as other covered losses. Losses from certified acts of terrorism may be partly reimbursed by the United States Government under a formula set by federal law. Under that formula, the United States Government generally reimburses 80% of covered terrorism losses above the deductible that the law sets for the insurance company providing the coverage. The Act contains a $100 billion cap that limits U.S. Government reimbursement, and insurers' liability, for losses from certified acts of terrorism when those losses exceed $100 billion in any one calendar year. If the combined insured losses of all insurers exceed $100 billion, your coverage may be reduced. The portion of your annual premium attributable to this coverage is shown in Item 3 of the Declarations.
