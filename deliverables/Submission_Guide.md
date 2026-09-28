@@ -9,7 +9,7 @@
 | 01_Cyber_Protection_Policy_Specimen.pdf ({POLICY_PAGES} pages) | The policy: cover, notices and disclaimers, Declarations, and Sections I–V (insuring agreements, definitions, coverage sections, exclusions, conditions). One form for every business, so the Declarations are a blank specimen with the standard limits and options filled in |
 | 02_Sample_Application_Cedar_Ridge.pdf ({APP_PAGES} pages) | A completed application for a fictional 62-person Denver accounting firm. The last page shows how each answer sets its terms, and the Declarations entries it would receive |
 | 03_Decision_Rationale.pdf ({RAT_PAGES} pages) | Why each decision was made: who the policy is for, how these businesses lose money, how the limits and retention were set, what is covered and excluded and why, five claims start to finish, the trade-offs, and linked sources |
-| Complete_Submission.pdf | This guide and all three documents in one file, with bookmarks |
+| Rana_Corgi_Cyber_Policy_Submission.pdf | This guide and all three documents in one file, with bookmarks |
 
 ### Suggested reading order
 

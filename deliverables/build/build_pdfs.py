@@ -243,7 +243,7 @@ def package(built):
             top = top[1]
         copy_outline(top, parent, 0)
     writer.add_metadata({"/Title": "Cyber Protection Policy: Complete Submission"})
-    with open(send / "Complete_Submission.pdf", "wb") as f:
+    with open(send / "Rana_Corgi_Cyber_Policy_Submission.pdf", "wb") as f:
         writer.write(f)
     for name in ["Cyber_Protection_Policy.md", "Sample_Application_Cedar_Ridge.md", "Decision_Rationale.md"]:
         shutil.copy(ROOT / name, private / ("source_" + name))
@@ -253,7 +253,7 @@ def package(built):
     zip_base = ROOT / "Corgi_Cyber_Policy_Package"
     shutil.make_archive(str(zip_base), "zip", root_dir=PKG.parent, base_dir=PKG.name)
     # A send-only zip: nothing from the private folder may leave the machine by accident.
-    send_base = ROOT / "Send_to_Corgi"
+    send_base = ROOT / "Rana_Corgi_Submission_Final"
     shutil.make_archive(str(send_base), "zip", root_dir=PKG, base_dir="1_Send_to_Corgi")
     return zip_base.with_suffix(".zip")
 
