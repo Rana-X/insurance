@@ -68,7 +68,7 @@ The policy has 60 numbered definitions. Each covers one idea and carries its own
 - **No permission needed to act fast.** The firm can use approved vendors, make legally required notices, contain an attack in the first 72 hours, or settle within its deductible without asking first. We pay vendors directly where we can.
 - **Shutting down to contain an attack is covered**, even when a government agency orders the shutdown. An owner who pulls the plug on good advice should not lose cover for it.
 - **Security answers are not warranties.** A missed callback or a failed backup does not, by itself, reduce a covered payment. I removed security credits and penalties; Coalition's managed-detection credit is a possible later model. [9] The trade-off is more risk for the insurer, so the application checks controls before issue, using questions shaped by NIST's small-business guide. [6]
-- **Honest application mistakes** do not void the policy. Only the premium and deductible can change, from the date we give notice. Voiding the policy is reserved for an executive's knowing, material misstatement.
+- **Honest application mistakes** do not void the policy. Only the premium and deductible can change, from the date we give notice. Voiding the policy is reserved for an executive's knowing, material misstatement. A knowingly false claim is the opposite case: the policy pays none of it (Section VII, part 2.4).
 - **No cut-off date for earlier events.** Cedar Ridge has operated since 2009 and is replacing existing cover, so a cut-off would open a gap. Problems it knew about but did not disclose stay excluded.
 - **Service targets.** We aim to call back within one hour and decide coverage within 30 days of receiving the documents we ask for. Agreed amounts are paid within 15 days, with 8% annual interest when late. Once lost-income cover is confirmed, we advance 50% of the estimated loss within 10 business days.
 
@@ -81,6 +81,13 @@ The application shows a well-run firm with four gaps. I would offer the policy w
 - **Advice to the client: insider theft.** Cedar Ridge has no crime policy, and this policy does not cover theft by its own staff. I would recommend a separate crime policy.
 - **Disclosed problems.** Anything disclosed in the application is not a "known problem" under exclusion 2, so it stays covered unless an endorsement excludes it. That puts the burden on the underwriter to read every disclosure before binding. Here, none describes a live compromise.
 - **Evidence the controls work.** In February 2025 a callback stopped a payment to false bank details, and in March 2026 MFA blocked a phished password. Both support the $250,000 fraud limit and the standard deductible.
+
+**How I would price it.** The $8,000 premium is a placeholder, and I have not built a loss model. A real rate would take four steps:
+
+1. **Start from a base rate** for the revenue band and industry, taken from filed rates and the insurer's own claims data.
+2. **Load for the features that cost more than a typical form:** full limits for the firm's own losses, no payment cuts for failed controls, forgiveness of honest application mistakes, full prior acts, the 8-hour wait and the 50% income advance.
+3. **Adjust for this firm.** Credit MFA, protected backups and payment callbacks, which have already stopped two attacks. Debit business-hours-only monitoring and the unsupported server until it is replaced.
+4. **Check the result** against expected loss by coverage (how often each type of claim happens, times its average cost) and against competing quotes. If a feature cannot be priced, I would cap it or drop it rather than give it away.
 
 ## 7. Three claim tests
 

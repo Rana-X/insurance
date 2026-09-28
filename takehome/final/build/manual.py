@@ -113,6 +113,11 @@ for n,i in enumerate(items):
         i['x0'],i['x1']=72,90
         for j in items[n+1:n+4]:
             if j['k']=='p' and not re.match(r'^\d',ctext(j['runs'])): j['x0']=j['x1']=90
+# fraudulent-claim condition after VII 3.4
+for n,i in enumerate(items):
+    if i['k']=='p' and ctext(i['runs']).startswith('2.3. Pre-incident assistance.'):
+        new=dict(i); new['runs']=markup('2.4. Fraudulent claims. If you, or anyone acting for you, knowingly makes a false or fraudulent claim, or supports a claim with documents you know are false, we will not pay any part of that claim. An honest mistake in a claim is not fraud.')
+        items.insert(n+1,new); log.append(('fraud',1)); break
 # A-20 run-in headings bold
 sec=None
 STOP=('We ','You ','If ','The ','Our ','Any ','This ','Every ','Tell ','Send ','Take ','A ','An ','After ','Use ','Coverage ','Do ','First ')

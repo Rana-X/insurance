@@ -34,6 +34,7 @@ a.cite{color:#b84200;text-decoration:none}
 .cover-art{string-set:formno "Decision rationale | Cedar Ridge Accounting Group | September 2026"}
 h2{font-weight:600;font-size:15pt;margin:18pt 0 8pt;break-after:avoid}
 h2:first-of-type{margin-top:0}
+h2 + p{break-after:avoid}
 ul,ol{margin:0 0 8pt;padding-left:16pt}
 li{margin:0 0 4pt}
 table{font-size:8.9pt;margin:4pt 0 12pt;break-inside:auto}
