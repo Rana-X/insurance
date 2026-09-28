@@ -1,0 +1,781 @@
+# Research links used to shape the policy
+
+Section 1 lists the sources cited in the Decision Rationale: the ones that directly shaped the policy. Section 2 lists every link found in the background research reports (`review/`), grouped by report. Most were read through search results, as the ledgers note.
+
+## 1. Cited in the Decision Rationale
+
+
+**Policy forms and products**
+- At-Bay, Cyber Insurance Policy form AB-CYB-001.2 (08/2023): https://www.at-bay.com/wp-content/uploads/2023/06/Cyber-Insurance-Policy-Form.pdf
+- At-Bay issued cyber policy, 2025–26, publicly posted by the insured (ASTRO America): https://astroa.org/wp-content/uploads/2025/04/Corrected_Stamped_Policy___checked_4_9_25_ki__.pdf
+- Coalition Cyber Policy, issued 2025–26, publicly posted by the insured: https://mwvhomelessalliance.org/wp-content/uploads/2026/02/8._Cyber-Policy.pdf
+- Coalition, Active Cyber Policy FAQ (surplus lines from April 15, 2025): https://help.coalitioninc.com/hc/en-us/articles/33998071846811-Active-Cyber-Policy-FAQ
+- Coalition, Enhanced Business Recovery (2026): https://www.coalitioninc.com/blog/cyber-insurance/introducing-enhanced-business-recovery
+- Coalition, Deepfake Response Endorsement (December 2025): https://www.coalitioninc.com/announcements/coalition-adds-deepfake-response-endorsement
+- Beazley, War and Cyber War Exclusion (E15626): https://lmalloyds.com/wp-content/uploads/2025/09/Beazley-War-and-Cyber-War-Exclusion-1.pdf
+- Beazley, BBR 5.0 Enhancements and Clarifications: https://www.beazley.com/globalassets/full-spectrum-cyber/bbr-5.0-enhancements-and-clarifications.pdf
+- HSB Cyber Suite Coverage Form CSC 02-2025: https://heartlandmutualinsurance.com/wp-content/uploads/2024/12/Cyber-Suite-Coverage-Form-CSC-02-2025.pdf
+- Cowbell Prime 100 overview: https://cowbell.insure/wp-content/uploads/pdfs/CB-Prime100-Overview.pdf
+- Corgi, Cyber Liability: https://www.corgi.insure/cyber-liability
+- Sidley Austin, "California's SB 690 Clears the Legislature" (September 2026): https://www.sidley.com/en/insights/newsupdates/2026/09/californias-sb-690-clears-the-legislature-what-it-means-for-cipa-website-tracking-claims
+- Chubb, Cyber ERM small-business sample policy (PF-48169): https://studio.chubb.com/connect/files/NA_CyberSmallBusiness_Sample.pdf
+- Chubb, Cyber Alert services sheet: https://www.chubb.com/content/dam/chubb-sites/chubb-com/us-en/business-insurance/cyber-alert/documents/pdf/17-01-0219-cyber-services-sheet_cyberalert.pdf
+- Insurance Business, "Emergence updates cyber policy wording for Australian SMEs" (2026): https://www.insurancebusinessmag.com/au/news/cyber/emergence-updates-cyber-policy-wording-for-australian-smes-565467.aspx
+- Corgi Insurance Company launch (August 26, 2026): https://www.prnewswire.com/news-releases/corgi-insurance-launches-admitted-insurance-carrier-302860246.html
+- AIG and Parametrix cloud-outage product (August 2026), Insurance Journal: https://insurancejournal.com/news/national/2026/08/14/881539.htm
+- Brit C360 (March 2026): https://www.britinsurance.com/news/brit-launches-new-cyber-product-for-smes
+
+**Claims and market data**
+- At-Bay, The 2026 InsurSec Report (April 2026), full PDF: source of the $145K, $180K, $208K, $221K, $285K, $422K, $508K and 14% figures
+- Coalition, 2026 Cyber Claims Report: https://www.coalitioninc.com/claims-report/2026
+- Coalition, Understanding Why Privacy Claims Doubled in H1 2026 (July 2026): https://www.coalitioninc.com/blog/cyber-insurance/understanding-why-privacy-claims-doubled-in-h1-2026
+- Duane Morris, Data Breach Class Action Review 2026: https://blogs.duanemorris.com/classactiondefense/2026/02/03/hot-off-the-presses-the-duane-morris-data-breach-class-action-review-2026-and-the-duane-morris-privacy-class-action-review-2026/
+- Marsh, U.S. Insurance Market Rates Q2 2026: https://www.marsh.com/en/services/international-placement-services/insights/us-insurance-rates.html
+- Aon, CrowdStrike event briefing (July 2024): https://www.aon.com/en/insights/alerts/crowdstrike-and-windows-event-briefing-implications-and-initial-findings-for-cyber-reinsurers
+- Accounting Today, The Wolters Kluwer CCH outage (2019): https://www.accountingtoday.com/news/the-wolters-kluwer-cch-outage-what-happened
+- Accounting Today, IRS approves extensions for returns hit by CCH outage (2019): https://www.accountingtoday.com/news/irs-approves-extensions-for-returns-hit-by-cch-outage
+- Atlassian, Post-incident review of the April 2022 outage: https://www.atlassian.com/blog/atlassian-engineering/post-incident-review-april-2022-outage
+- CFC, Cyber product enhancements: cybercrime (March 2025): https://www.cfc.com/en-us/knowledge/resources/articles/2025/03/cyber-product-enhancements-cybercrime/
+- CFC, Unlimited reinstatements (July 2024): https://www.cfc.com/en-us/knowledge/resources/articles/2024/07/cyber-coverage-highlights-unlimited-reinstatements/
+- HR Dive, Kronos outage (December 2021): https://www.hrdive.com/news/all-hands-on-deck-for-hr-teams-as-kronos-outage-drags-on/611811/
+
+**Law and regulation**
+- NIST Cybersecurity Framework 2.0 (2024): https://www.nist.gov/cyberframework
+- CIS Critical Security Controls v8.1 (2024): https://www.cisecurity.org/controls/v8-1
+- U.S. Treasury OFAC, ransomware advisory (September 21, 2021): https://ofac.treasury.gov/media/912981/download
+- FTC Safeguards Rule, 16 CFR Part 314: https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-314
+- UK National Cyber Security Centre, Guidance for organisations considering payment in ransomware incidents (May 2024): https://www.ncsc.gov.uk/guidance/organisations-considering-payment-in-ransomware-incidents
+- UK Insurance Act 2015, section 11: https://www.legislation.gov.uk/ukpga/2015/4/section/11
+- Lloyd's Market Bulletin Y5381, state-backed cyber-attack exclusions (August 16, 2022)
+- U.S. Treasury, guidance on stand-alone cyber policies under the Terrorism Risk Insurance Program (December 27, 2016)
+- Colorado SB25-058, insurance rebate reform: https://leg.colorado.gov/bills/sb25-058
+- Colorado statutes: C.R.S. 10-4-109.7 (cancellation notice), 10-1-128 (fraud warning), 5-12-102 (interest), 10-3-1115/1116 (unreasonable delay or denial)
+
+**Cases**
+- *Merck & Co. v. ACE American Insurance Co.*, 475 N.J. Super. 420 (App. Div. 2023)
+- *Travelers Property Casualty Co. v. International Control Services*, No. 22-cv-2145 (C.D. Ill. 2022)
+- *CiCi Enterprises v. HSB Specialty Insurance Co.* (N.D. Tex. February 23, 2026), summary: https://www.mondaq.com/unitedstates/insurance-laws-and-products/1770926/court-rejects-insurers-attempt-to-cap-cyber-extortion-coverage-based-on-ransomware-sub-limit
+- *Taylor & Lieberman v. Federal Insurance Co.* (9th Cir. 2017)
+- *RealPage, Inc. v. National Union Fire Insurance Co.* (5th Cir. 2021)
+- *Mississippi Silicon Holdings v. AXIS Insurance Co.* (5th Cir. 2021)
+- *Apache Corp. v. Great American Insurance Co.*, 662 F. App'x 252 (5th Cir. 2016)
+- *Craft v. Philadelphia Indemnity Insurance Co.*, 2015 CO 11
+- *Lira v. Shelter Insurance Co.*, 913 P.2d 514 (Colo. 1996) (punitive damages not insurable): https://law.justia.com/cases/colorado/supreme-court/1996/95sc153-0.html
+
+## 2. Background research, by report
+
+### 01 · SMB cyber threat and claims landscape 2025–2026, with AI depth, and what it means for Harborline
+
+- http://coveware.com/2025/10/insider-threats-loom-while-ransom-payment-rates-plummet/
+- https://abnormal.ai/blog/ai-cybercrime-ic3-report-2025
+- https://abnormal.ai/blog/blog-verizon-2026-dbir-key-takeaways
+- https://ar.casact.org/amazon-aws-and-microsoft-afd-outages-pcs-latest-cyber-kitty-cat-events/
+- https://arxiv.org/pdf/2412.00586
+- https://beinsure.com/news/deepfake-hiring-insurance-fraud/
+- https://blog.knowbe4.com/2026-phishing-industry-benchmarking-report
+- https://checkmarx.com/zero-post/echoleak-cve-2025-32711-show-us-that-ai-security-is-challenging/
+- https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools
+- https://consentpixel.com/blogs/cipa-lawsuit-tracker/
+- https://cookie-script.com/news/consumer-privacy-lawsuit-roundup-2026-from-cipa-to-coppa
+- https://cookie-script.com/privacy-laws/cipa-lawsuit-tracker
+- https://coveware.com/2026/07/adverse-cyber-extortions-are-more-common-than-commonly-advised/
+- https://cyberinsurancenews.org/cyber-insurance-claims-2025-netdiligence/
+- https://cybermonitoringcentre.com/2025/10/22/cyber-monitoring-centre-statement-on-the-jaguar-land-rovercyber-incident-october-2025/
+- https://cyberscoop.com/url-coalition-cybersecurity-insurance-coverage-deepfakes-reputational-harm/
+- https://datamatters.sidley.com/2026/04/08/seventh-circuit-limits-potential-damages-under-bipa-holds-2024-amendment-applies-retroactively/
+- https://engineering.nyu.edu/news/ai-powered-ransomware-emerging-threat-could-bring-down-your-organization
+- https://fintech.global/2025/12/18/coalition-adds-deepfake-cover-to-cyber-insurance/
+- https://fortune.com/2025/07/23/ai-coding-tool-replit-wiped-database-called-it-a-catastrophic-failure/
+- https://greymatter.com/wp-content/uploads/2025/06/sophos-state-of-ransomware-2025.pdf
+- https://hoxhunt.com/blog/ai-powered-phishing-vs-humans
+- https://incidentdatabase.ai/cite/1152/
+- https://insurance-edge.net/2025/10/30/parametrix-estimates-aws-outage-costs/
+- https://insurance-edge.net/2026/04/27/at-bay-report-looks-at-vpn-ransomware-risks/
+- https://insuranceindustry.ai/the-deepfake-coverage-gap/
+- https://intelisys.com/insights-verizon-data-breach-investigations-report/
+- https://irs.gov/newsroom/tax-security-101-security-summit-reminds-tax-professionals-to-beware-of-spear-phishing-emails
+- https://isectech.org/ceo-deepfake-fraud-executive-playbook-2026/
+- https://netdiligence.com/press-releases/netdiligence-releases-2026-cyber-claims-study/
+- https://noma.security/blog/forcedleak-agent-risks-exposed-in-salesforce-agentforce
+- https://purplesec.us/breach-report/arup-deepfake/
+- https://rexxfield.com/bec-by-the-numbers-2025-ic3-report/
+- https://riskandinsurance.com/cyber-claims-frequency-rises-but-severity-falls-as-businesses-improve-defensive-posture/
+- https://rsmus.com/content/dam/rsm/insights/services/risk-fraud-cybersecurity/1pdf/net-diligence-cyber-claims-study-2025-report.inline.pdf
+- https://siliconangle.com/2025/04/03/ai-phishing-hits-skynet-moment-agents-outperform-human-red-teams/
+- https://spycloud.com/blog/fbi-internet-crime-report-2025/
+- https://stateofsurveillance.org/news/seventh-circuit-bipa-retroactive-damages-biometric-privacy-gutted-2026/
+- https://thehackernews.com/2025/06/zero-click-ai-vulnerability-exposes.html
+- https://thehackernews.com/2025/11/google-uncovers-promptflux-malware-that.html
+- https://therecord.media/british-retailer-marks-spencer-insurance
+- https://www.anomali.com/blog/salesloft-drift-breach-recap
+- https://www.anthropic.com/news/detecting-countering-misuse-aug-2025
+- https://www.at-bay.com/articles/insursec-report-2026-key-findings-cyber-risk/
+- https://www.autonews.com/dealers/cdk-cyberattacks-fade-dealerships-confront-claims-process/
+- https://www.beazley.com/en-us/news-and-events/spotlight-on-cyber-threats-and-tech-advances-2026
+- https://www.blastwave.com/blog/jaguar-land-rover-the-most-expensive-cyberattack-in-british-history-and-the-story-everyone-told-about-it-came-from-nowhere
+- https://www.businessinsurance.com/insurers-brokers-adjust-as-ai-exclusions-emerge/
+- https://www.businessinsurance.com/marks-spencer-gets-130-million-in-insurance-from-cyberattack/
+- https://www.businesswire.com/news/home/20260430743735/en/KnowBe4-Research-Finds-86-of-Phishing-Attacks-are-AI-Driven
+- https://www.carriermanagement.com/news/2025/09/25/279803.htm
+- https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a
+- https://www.claimsjournal.com/news/national/2024/07/26/325332.htm
+- https://www.cnbc.com/2024/03/27/unitedhealth-group-paid-over-3-billion-to-providers-since-cyberattack.html
+- https://www.coalitioninc.com/announcements/2026-cyber-claims-report
+- https://www.coalitioninc.com/announcements/coalition-adds-deepfake-response-endorsement
+- https://www.coalitioninc.com/blog/cyber-insurance/2026-cyber-claims-report
+- https://www.coalitioninc.com/blog/cyber-insurance/understanding-why-privacy-claims-doubled-in-h1-2026
+- https://www.coalitioninc.com/claims-report/2026
+- https://www.corvusinsurance.com/threat-intel
+- https://www.cybersecuritydive.com/news/crowdstrike-cost-fortune-500-losses-cyber-insurance/722396/
+- https://www.cybersecuritydive.com/news/oracle-e-business-suite-exploitation-july/802592/
+- https://www.enzoic.com/blog/2026-verizon-dbir/
+- https://www.fbi.gov/news/press-releases/cryptocurrency-and-ai-scams-bilk-americans-of-billions
+- https://www.fincen.gov/system/files/shared/FinCEN-Alert-DeepFakes-Alert508FINAL.pdf
+- https://www.finra.org/rules-guidance/guidance/salesloft-drift-AI-supply-chain-attack
+- https://www.gblock.app/articles/forbes-cipa-pen-register-10m-pixel-settlement
+- https://www.globenewswire.com/news-release/2026/03/05/3250546/0/en/coalition-s-2026-cyber-claims-report-finds-initial-ransom-demands-surged-47-but-most-businesses-refuse-to-pay.html
+- https://www.helpnetsecurity.com/2026/04/07/online-crime-financial-losses-fbi-report/
+- https://www.helpnetsecurity.com/2026/04/23/cyber-insurance-claims-report/
+- https://www.helpnetsecurity.com/2026/06/11/owasp-prompt-injection-ai-security-failures/
+- https://www.hiscoxgroup.com/news/press-releases/2025/29-09-25
+- https://www.hl.co.uk/news/marks-spencer-says-cyber-attack-disruption-set-to-cost-300m-and-last-to-july
+- https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+- https://www.ic3.gov/PSA/2024/PSA241203
+- https://www.ic3.gov/PSA/2025/PSA250515
+- https://www.ic3.gov/PSA/2025/PSA251219
+- https://www.infosecurity-magazine.com/blogs/scattered-spider-retailers/
+- https://www.infosecurity-magazine.com/news/jlr-hack-uk-costliest-ever-19bn/
+- https://www.insurancebusinessmag.com/us/news/cyber/boxx-insurance-adds-affirmative-ai-and-deepfake-coverage-to-cyberboxx-business-policy-583408.aspx
+- https://www.insurancebusinessmag.com/us/news/cyber/one-ransomware-crew-now-drives-half-of-all-cyber-claims-atbay-573139.aspx
+- https://www.insurancejournal.com/news/national/2024/08/02/786766.htm
+- https://www.insurancejournal.com/news/national/2025/10/27/845197.htm
+- https://www.irs.gov/newsroom/irs-security-summit-remind-tax-pros-they-need-a-written-information-security-plan-to-protect-client-data
+- https://www.irs.gov/newsroom/security-summit-closes-summer-series-with-data-security-reminder-for-tax-pros
+- https://www.irs.gov/newsroom/tax-pros-should-watch-out-for-phishing-emails-and-other-attacks-security-summit-warns
+- https://www.itvoice.in/average-ransom-payment-surged-176-to-1-88-million-last-quarter-coveware-by-veeam-finds
+- https://www.linkedin.com/posts/michael-smith-jr-cpcu-9823676_travelers-ransomware-attacks-hit-near-record-activity-7473070847369519104-F3gr
+- https://www.nbcnews.com/tech/security/hacker-used-ai-automate-unprecedented-cybercrime-spree-anthropic-says-rcna227309
+- https://www.nbcnews.com/tech/security/jaguar-land-rover-hack-hurt-uk-gdp-bank-england-says-rcna243083
+- https://www.paubox.com/blog/cl0p-ransomware-gang-names-29-oracle-ebs-breach-victims
+- https://www.reedsmith.com/articles/insurance-may-dealership-financial-losses-due-cdk-global-cyberattack/
+- https://www.reinsurancene.ws/cybercube-estimates-preliminary-aws-outage-loss-range-of-38-581m/
+- https://www.secureworld.io/industry-news/ai-enabled-fraud-topped-893m-fbi
+- https://www.securityweek.com/ransomware-payments-dropped-in-q3-2025-analysis/
+- https://www.sophos.com/en-us/press/press-releases/2025/06/nearly-half-companies-opt-pay-ransom-sophos-report-finds
+- https://www.sophos.com/en-us/press/press-releases/2025/11/more-than-half-retailers-hit-by-ransomware-pay-the-ransom
+- https://www.swept.ai/post/at-bay-2026-insursec-report-cyber-fraud-numbers
+- https://www.theregister.com/2025/09/26/salesforce_agentforce_forceleak_attack/
+- https://www.trendmicro.com/en_us/research/24/b/deepfake-video-calls.html
+- https://www.veeam.com/blog/cyber-extortion-payment-trends-q2-2026.html
+- https://www.verizon.com/business/resources/executivebriefs/2026-dbir-executive-summary.pdf
+- https://www.verizon.com/business/resources/reports/dbir/
+- https://www.welivesecurity.com/en/ransomware/first-known-ai-powered-ransomware-uncovered-eset-research/
+- https://www.wtwco.com/en-us/insights/2026/02/cyber-risk-a-look-ahead-to-2026
+
+### 02: Insurtech and startup cyber products, a competitive profile and Harborline benchmark
+
+- https://agentinsured.eu/articles/munich-re-aisure-ai-performance-insurance-europe
+- https://agentinsured.eu/tools/carrier-comparison/
+- https://agentmarketcap.ai/blog/2026/04/15/ai-agent-error-insurance-lloyds-aig-beazley-hallucination-liability
+- https://aicoverageguide.com/comparison.html
+- https://corvusinsurance.com/news-and-insights/cyber-coverage-explained-contingent-business-interruption-cyber
+- https://cowbell.insure/news-events/pr/cowbell-adds-social-engineering-coverage-to-its-cyber-insurance-program/
+- https://cowbell.insure/news-events/pr/prime-one-us-emerging-ai-quantum-risks/
+- https://cowbell.insure/prime-100-standalone-admitted-cyber-insurance/
+- https://cowbell.insure/prime-250/
+- https://elphasecure.com/docasset/documents/Sample-Policy.pdf
+- https://ffnews.com/newsarticle/at-bay-launches-post-cyber-event-hardening-service-targeting-unresolved-vulnerabilities-that-drive-repeat-claims/
+- https://fintech.global/2025/12/18/coalition-adds-deepfake-cover-to-cyber-insurance/
+- https://fintech.global/2026/05/06/corgi-launches-ai-insurance-product-to-cover-emerging-risks/
+- https://help.coalitioninc.com/hc/en-us/articles/33998071846811-Active-Cyber-Policy-FAQ
+- https://help.coalitioninc.com/hc/en-us/articles/7665647884443
+- https://help.coalitioninc.com/hc/en-us/articles/7687332367259-Coalition-Control-Overview
+- https://home.sayatalabs.com/cnc-wb/get_resource/carriers/SAMPLE_POLICY_FORM/COWBELL
+- https://insurance-canada.ca/2026/03/11/coalition-launch-active-cyber-policy/
+- https://insurance-canada.ca/2026/04/16/coalition-enhanced-business-recovery-endorsements/
+- https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Announces-Enhanced-Services-for-Cyber-Liability-Customers/default.aspx
+- https://job-boards.greenhouse.io/atbayjobs/jobs/7710066003
+- https://medium.com/@purdyhouse/the-first-ai-liability-insurance-product-has-25-million-in-coverage-five-exist-worldwide-575a2903b17b
+- https://portal.bigimd.com/files/Membership%20Benefits/Cyber%20Liability%20Insurance/Beazley_SpecimenPolicyForm.pdf
+- https://ryskly.com/product/cowbell-cyber-inc-cowbell-prime-plus-usa
+- https://siliconangle.com/2025/12/09/coalition-expands-cyber-insurance-cover-deepfake-driven-reputation-attacks/
+- https://techcrunch.com/2026/07/23/insurance-startup-corgi-reportedly-raised-more-money-at-4b-its-third-round-in-eight-weeks/
+- https://www.artificiallawyer.com/2026/05/05/corgi-launches-ai-liability-insurance/
+- https://www.at-bay.com/articles/insursec-report-2026-key-findings-cyber-risk/
+- https://www.at-bay.com/mdr/
+- https://www.at-bay.com/packages/
+- https://www.at-bay.com/wp-content/uploads/2023/06/Cyber-Insurance-Policy-Form.pdf
+- https://www.beazley.com/globalassets/full-spectrum-cyber/bbr-5.0-enhancements-and-clarifications.pdf
+- https://www.businesswire.com/news/home/20250409047735/en/Coalition-Launches-New-Active-Cyber-Policy
+- https://www.businesswire.com/news/home/20251002591457/en/
+- https://www.coalitioninc.com/ai-coverage
+- https://www.coalitioninc.com/announcements/2026-cyber-claims-report
+- https://www.coalitioninc.com/announcements/coalition-adds-deepfake-response-endorsement
+- https://www.coalitioninc.com/announcements/coalition-adds-new-affirmative-ai-endorsement-to-cyber-policies
+- https://www.coalitioninc.com/announcements/coalition-eliminates-out-of-pocket-security-and-forensics-costs-for-policyholders-facing-a-cyber-claim
+- https://www.coalitioninc.com/announcements/coalition-launches-new-active-cyber-policy
+- https://www.coalitioninc.com/announcements/coalition-unveils-enhanced-business-recovery-endorsements
+- https://www.coalitioninc.com/blog/cyber-insurance/how-vanishing-retention-rewards-security-conscious-policyholders
+- https://www.coalitioninc.com/blog/cyber-insurance/introducing-enhanced-business-recovery
+- https://www.coalitioninc.com/claims-report/2026
+- https://www.coalitioninc.com/incident-response
+- https://www.corgi.insure/cyber-liability
+- https://www.corvusinsurance.com/hubfs/Corvus%20Smart%20Cyber%20Policy%20Form.pdf
+- https://www.corvusinsurance.com/news-and-insights/cyber-coverage-explained-business-interruption/
+- https://www.corvusinsurance.com/pressroom/travelers-cyber-risk-services
+- https://www.corvusinsurance.com/smart-cyber-and-cyber-excess
+- https://www.cysurance.com/services/
+- https://www.embroker.com/blog/cyber-insurance-requirements-for-smbs-usa-2025
+- https://www.helpnetsecurity.com/2026/04/23/cyber-insurance-claims-report/
+- https://www.iamagazine.com/2026/08/17/coalition-releases-enhanced-business-recovery-endorsements/
+- https://www.insurancebusinessmag.com/us/news/breaking-news/corgi-built-its-name-insuring-ai-startups--its-new-carrier-targets-dry-cleaners-salons-and-more-587646.aspx
+- https://www.insurancebusinessmag.com/us/news/cyber/coalition-eliminates-outofpocket-costs-for-security-forensics-services-241017.aspx
+- https://www.insurancebusinessmag.com/us/news/cyber/one-ransomware-crew-now-drives-half-of-all-cyber-claims-atbay-573139.aspx
+- https://www.insurerbrain.com/wiki/Elpha_Secure
+- https://www.insurtechinsights.com/corvus-expands-its-small-business-cyber-offering-whilst-doubling-underwriting-offer/
+- https://www.prnewswire.com/news-releases/corgi-insurance-launches-admitted-insurance-carrier-302860246.html
+- https://www.prnewswire.com/news-releases/corgi-launches-ai-insurance-coverage-to-protect-businesses-when-ai-goes-wrong-302762029.html
+- https://www.prnewswire.com/news-releases/cowbell-launches-prime-one-in-the-us-introducing-cyber-coverage-for-emerging-ai-and-quantum-risks-302748534.html
+- https://www.protect360.cysurance.com/
+- https://www.quotesweep.com/blog/best-cyber-insurance-small-business
+- https://www.quotesweep.com/insurtech/corgi
+- https://www.reinsurancene.ws/ai-financial-infrastructure-firm-corgi-launches-admitted-insurance-carrier/
+- https://www.reinsurancene.ws/at-bay-reveals-new-cyber-insurance-solutions-for-ransomware-and-financial-fraud/
+- https://www.reinsurancene.ws/coalition-introduces-enhanced-business-recovery-endorsements-for-cyber-incidents/
+- https://www.theinsurer.com/cyber-risk/news/cowbell-cyber-launches-15mn-limits-program-with-obsidian-and-benchmark/
+- https://www.theinsurer.com/ti/news/corgi-launches-admitted-commercial-lines-carrier-2026-08-26/
+- https://www.vouch.us/blog/cyber-insurance
+- https://www.vouch.us/insurance101/cyber-insurance
+
+### 04: Market economics, exclusion trends and AI: stress test of the Harborline SMB cyber policy
+
+- https://actuary.info/insights/ai-regulation-insurance-naic-2026
+- https://aiuc.com/updates/introducing-aiuc-1
+- https://app.stationx.net/articles/small-business-cybersecurity-statistics
+- https://arxiv.org/html/2606.05449v1
+- https://arxiv.org/pdf/2605.18784
+- https://assets.lloyds.com/media/35926dc8-c885-497b-aed8-6d2f87c1415d/Y5381%20Market%20Bulletin%20-%20Cyber-attack%20exclusions.pdf
+- https://assets.lloyds.com/media/6715b794-2ffd-40f7-b1c5-bcc02ca2e29b/Y5433%20-%20State%20backed%20cyber%20attack%20wordings.pdf
+- https://content.naic.org/sites/default/files/cmte-h-big-data-artificial-intelligence-wg-map-ai-model-bulletin.pdf
+- https://content.naic.org/sites/default/files/inline-files/2025_Cybersecurity_Insurance%20Report.pdf
+- https://cybermonitoringcentre.com/2025/10/22/cyber-monitoring-centre-statement-on-the-jaguar-land-rovercyber-incident-october-2025/
+- https://insights.lockton.com/lockton-market-update/december-2025/recent-outages-shine-spotlight-on-systemic-cyber-risks
+- https://insights.lockton.com/lockton-market-update/july-2026/cyber
+- https://lmalloyds.com/specialist-areas/underwriting/wordings/cyber-war-clauses/
+- https://lmalloyds.com/wp-content/uploads/2025/09/Cyber-War-Clauses.pdf
+- https://lmalloyds.com/wp-content/uploads/2025/09/PF-54815-06-21-Widespread-Event-Endorsement-US.pdf
+- https://lmalloyds.com/wp-content/uploads/2025/10/Cyber-War-Clauses-October-2025.pdf
+- https://natlawreview.com/article/continued-proliferation-ai-exclusions
+- https://news.ambest.com/newscontent.aspx?refnum=275075&altsrc=175
+- https://www.ajg.com/news-and-insights/iso-introduces-generative-ai-exclusion-in-commercial-general-liability-policies/
+- https://www.amwins.com/resources-and-insights/market-insights/article/aws-outage--market-impacts-and-coverage-implications
+- https://www.amwins.com/resources-and-insights/market-insights/article/state-of-the-market-2026-outlook
+- https://www.artemis.bm/news/cyber-ils-primed-for-future-growth-if-traditional-capacity-constraints-emerge-sp/
+- https://www.artemis.bm/news/topic/cyber-cat-bond/
+- https://www.artemis.bm/wp-content/uploads/2026/07/catastrophe-bond-ils-market-report-q2-2026.pdf
+- https://www.businesswire.com/news/home/20250623167339/en/Bests-Market-Segment-Report-2024-Pricing-Cuts-in-U.S.-Cyber-Generated-First-Ever-Reduction-in-Direct-Premiums-Written
+- https://www.chubb.com/content/dam/chubb-sites/chubb-com/us-en/business-insurance/products/cyber/documents/chubb_insuring_systemic_cyber_events_final.pdf
+- https://www.chubb.com/content/dam/chubb-sites/chubb/apac/document/products/Cyber%20ERM%20Factsheet%20Version2-2.pdf
+- https://www.chubb.com/hk-en/articles/business/a-better-way-to-define-and-insure-systemic-cyber-events.html
+- https://www.ciab.com/resources/q2-2026-pc-market-survey
+- https://www.claimsjournal.com/news/national/2026/06/30/338540.htm
+- https://www.claimsjournal.com/news/national/2026/09/23/340321.htm
+- https://www.coalitioninc.com/ai-coverage
+- https://www.coalitioninc.com/announcements/coalition-adds-new-affirmative-ai-endorsement-to-cyber-policies
+- https://www.cybcube.com/news/insurance-loss-estimate-for-aws-amazonk-outage
+- https://www.cyberinsuranceacademy.com/blog/guides/lma5567a-b-lloyds-cyber-war-exclusions-2026/
+- https://www.cybersecuritydive.com/news/crowdstrike-cost-fortune-500-losses-cyber-insurance/722396/
+- https://www.dacbeachcroft.com/en/What-we-think/LMA-publishes-model-state-backed-cyber-war-exclusion-clauses-for-cyber-treaty-reinsurance
+- https://www.dacbeachcroft.com/en/What-we-think/War-exclusions-in-cyber-policies-an-overview
+- https://www.genre.com/us/knowledge/publications/2025/february/the-crowdstrike-incident-a-wake-up-call-for-insurers-en
+- https://www.guycarp.com/insights/2026/07/July-1-renewals-cyber.html
+- https://www.hunton.com/hunton-insurance-recovery-blog/the-continued-proliferation-of-ai-exclusions
+- https://www.independentagent.com/vu_resource/verisk-to-roll-out-new-general-liability-exclusions-for-generative-ai-exposures/
+- https://www.insurancebusinessmag.com/us/news/cyber/the-hartford-expands-cyber-coverage-for-small-businesses-550562.aspx
+- https://www.insurancejournal.com/news/national/2024/07/25/785484.htm
+- https://www.insurancejournal.com/news/national/2024/08/02/786766.htm
+- https://www.insurancejournal.com/news/national/2025/10/27/845197.htm
+- https://www.insurancejournal.com/news/national/2026/07/23/878716.htm
+- https://www.insurancejournal.com/news/national/2026/08/20/882240.htm
+- https://www.insurancejournal.com/news/national/2026/09/17/885463.htm
+- https://www.insurancejournal.com/news/national/2026/09/25/886788.htm
+- https://www.insurancethoughtleadership.com/cyber/cyber-insurance-exclusions-expect-2026
+- https://www.insurancetimes.co.uk/news/fca-warns-of-massive-underinsurance-after-jaguar-land-rover-cyber-shock/1456713.article
+- https://www.marsh.com/en/corp/about/news/global-commercial-insurance-falls-6-percent-q2-2026.html
+- https://www.munichre.com/en/insights/cyber/cyber-insurance-risks-and-trends-2026.html
+- https://www.munichre.com/en/insights/cyber/global-cyber-risk-and-insurance-survey-2026.html
+- https://www.prnewswire.com/news-releases/armilla-launches-affirmative-ai-liability-insurance-with-lloyds-underwriter-chaucer-302442586.html
+- https://www.reedsmith.com/articles/cyber-insurance-claims/navigating-common-exclusions-in-cyber-policies/
+- https://www.spglobal.com/ratings/en/regulatory/article/cyber-insurance-market-outlook-2026-resilient-earnings-tougher-competition-pockets-of-growth-s101658506
+- https://www.theinsurer.com/cyber-risk/news/beazley-confirms-ai-related-cover-in-cyber-tech-eo-policies-2026-09-18/
+- https://www.theinsurer.com/cyber-risk/news/beazley-launches-cyber-cover-for-ai-shutdowns-and-regulatory-risks-2026-09-24/
+- https://www.theinsurer.com/cyber-risk/news/cyber-reinsurance-rates-fall-by-as-much-as-20-at-july-renewals-aggregate-2026-06-17/
+- https://www.theinsurer.com/cyber-risk/news/fitch-us-cyber-insurance-market-swung-to-7-written-premium-growth-in-2025-2026-06-03/
+- https://www.theinsurer.com/ti/reinsurancemonth/cat-bond-issuance-for-h1-2026-hits-record-173-billion-am-best-2026-08-27/
+- https://www.westchester.com/content/dam/chubb-sites/westchester/us-en/documents/Westchester_CyberSystemicRiskProductUpdate.pdf
+- https://www.wtwco.com/en-us/insights/2025/10/insurance-marketplace-realities-2026-cyber-risk
+- https://www.wtwco.com/en-us/insights/2026/05/insurance-marketplace-realities-2026-spring-update
+
+### 05. Law, regulation and case-law check of Harborline wording
+
+- https://blogs.duanemorris.com/insurancelaw/2016/04/28/colorado-supreme-court-holds-that-insurer-need-not-prove-prejudice-to-enforce-no-voluntary-payments-clause/
+- https://blogs.duanemorris.com/insurancelaw/tag/clementi/
+- https://businesslawtoday.org/2026/05/7th-circuit-holds-bipa-damages-remedy-applies-retroactively/
+- https://colorado-banker.thenewslinkgroup.org/colorado-banks-and-financial-institutions-state-privacy-law-compliance-obligations/
+- https://colorado.public.law/statutes/crs_10-3-1115
+- https://colorado.public.law/statutes/crs_5-12-102
+- https://content.naic.org/sites/default/files/model-law-state-page-668.pdf
+- https://datamatters.sidley.com/2026/04/08/seventh-circuit-limits-potential-damages-under-bipa-holds-2024-amendment-applies-retroactively/
+- https://federalnewsnetwork.com/commentary/2026/09/beyond-the-town-halls-getting-ready-for-circia-before-the-clock-starts-ticking/
+- https://federalnewsnetwork.com/cybersecurity/2026/07/circia-other-big-cyber-rules-expected-to-get-finalized-this-fall/
+- https://hodder.law/state-data-breach-notification-laws-2026/
+- https://home.treasury.gov/news/press-releases/sb0559
+- https://impactclaimservices.com/wp-content/uploads/2014/12/Colorado-DORA-Bulletin-B-5.3-Intent-to-cancel-commercial-policy.pdf
+- https://insidecybersecurity.com/daily-news/insurers-appeal-ruling-case-over-war-exclusion-applicability-cyber-events
+- https://law.justia.com/cases/colorado/supreme-court/1977/c-793.html
+- https://law.justia.com/cases/colorado/supreme-court/1996/95sc153-0.html
+- https://law.justia.com/cases/colorado/supreme-court/2005/03sc681-0.html
+- https://law.justia.com/codes/colorado/2021/title-10/article-3/part-11/section-10-3-1116/
+- https://law.justia.com/codes/colorado/title-10/property-and-casualty-insurance/article-4/part-1/section-10-4-109-7/
+- https://law.justia.com/codes/colorado/title-10/property-and-casualty-insurance/article-4/part-1/section-10-4-110/
+- https://legiscan.com/CO/bill/SB189/2026
+- https://litchfieldcavo.com/insurance-coverage-for-funds-transfer-scams-six-recent-cases/
+- https://natlawreview.com/article/licensed-your-state-s-insurance-commissioner-comprehensive-data-security
+- https://ofac.treasury.gov/media/912981/download
+- https://ofac.treasury.gov/sanctions-programs-and-country-information/sanctions-related-to-significant-malicious-cyber-enabled-activities
+- https://privacylawmap.com/states/colorado
+- https://privacyrights.org/resources-tools/reports/data-breach-notification-laws-50-state-survey-2026-edition
+- https://www.akingump.com/en/insights/alerts/what-business-need-to-know-about-the-colorado-privacy-act
+- https://www.alston.com/en/insights/publications/2021/07/colorado-privacy-act
+- https://www.americanbar.org/groups/litigation/resources/newsletters/insurance-coverage/pixel-and-other-privacy-related-litigation/
+- https://www.burgsimpson.com/colorado-blog/appeals-mandatory-arbitration/
+- https://www.carltonfields.com/insights/publications/2015/claims-made-policies-and-the-notice-prejudice-rule
+- https://www.carpedatumlaw.com/2026/09/california-sb690-a-bill-that-significantly-narrows-website-tracking-claims-sent-to-governors-desk/
+- https://www.clarkhill.com/news-events/news/hipaa-security-rule-update-delayed-until-2027/
+- https://www.computerweekly.com/news/366628013/UK-government-to-bring-in-ransomware-payment-ban
+- https://www.cooley.com/news/insight/2025/2025-10-15-the-evolving-state-privacy-landscape-major-updates-to-consumer-privacy-laws-in-montana-and-connecticut
+- https://www.courtlistener.com/opinion/1221876/hollinger-v-mutual-benefit-life-insurance/
+- https://www.courtlistener.com/opinion/2823833/craft-v-philadelphia-indemnity-insurance-co/
+- https://www.courtlistener.com/opinion/4476157/meardon-v-freedom-life-insurance/
+- https://www.courts.state.co.us/userfiles/file/Court_Probation/Supreme_Court/Opinions/2013/13SC815.pdf
+- https://www.dataprivacyandsecurityinsider.com/2025/09/navigating-cipa-lawsuits-loopholes-in-cyber-and-cgl-insurance-policies/
+- https://www.duanemorris.com/alerts/california_legislature_passes_sb690_creating_major_curb_pixel_tracking_lawsuits_under_cipa_0926.html
+- https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-314
+- https://www.ecjlaw.com/ecj-blog/a-new-twist-on-coverage-for-losses-from-spoofed-emails
+- https://www.executivegov.com/articles/cisa-circia-final-incident-reporting-rule-september
+- https://www.federalregister.gov/documents/2016/12/27/2016-31244/guidance-concerning-stand-alone-cyber-liability-insurance-policies-under-the-terrorism-risk
+- https://www.federalregister.gov/documents/2021/06/09/2021-12014/terrorism-risk-insurance-program-updated-regulations-in-light-of-the-terrorism-risk-insurance
+- https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information
+- https://www.finnegan.com/en/insights/articles/colorado-replaces-landmark-ai-act-an-overview-of-the-new-sb-26-189-framework.html
+- https://www.hallevans.com/colorado-supreme-court-rejects-extending-notice-prejudice-rule-to-claims-made-policies/
+- https://www.hipaajournal.com/ocr-gives-update-on-proposed-hipaa-security-rule/
+- https://www.hklaw.com/en/insights/publications/2026/05/colorado-governor-signs-sb-189
+- https://www.hunton.com/privacy-and-cybersecurity-law-blog/cisa-plans-to-finalize-cyber-incident-reporting-regulations-in-september-2026
+- https://www.infosecurity-magazine.com/news/uk-ransomware-payment-ban-public/
+- https://www.insurancebusinessmag.com/us/news/cyber/court-blocks-hsbs-ransomware-sublimit-in-firstofitskind-cyber-ruling-567006.aspx
+- https://www.jacksonlewis.com/insights/bipa-cases-7th-circuit-rules-change-illinois-laws-damages-provision-retroactively-limits-defendant-exposure
+- https://www.jonesgrahamkelly.com/blog/colorado-high-court-refuses-to-apply-notice-prejudice-rule-to-date-certain-notice-requirement-in-claims-made-policy/
+- https://www.lexology.com/library/detail.aspx?g=055ab466-5b12-402a-b2a2-7b1d375b6ffa
+- https://www.lexology.com/library/detail.aspx?g=669aff76-ff45-4291-9399-8f93a188eb27
+- https://www.mondaq.com/unitedstates/insurance-laws-and-products/1770926/court-rejects-insurers-attempt-to-cap-cyber-extortion-coverage-based-on-ransomware-sub-limit
+- https://www.orrick.com/en/Insights/2025/07/Where-is-the-GLBA-Entity-Level-Exemption-Two-More-State-Privacy-Laws
+- https://www.pinsentmasons.com/out-law/news/ransomware-payments-ban-uk
+- https://www.plunkettcooney.com/publications-Punitive-Damages-Lost-Policies-Preemption-Coverage-Update
+- https://www.seyfarth.com/news-insights/colorado-enacts-artificial-intelligence-replacement-law.html
+- https://www.sidley.com/en/insights/newsupdates/2026/09/californias-sb-690-clears-the-legislature-what-it-means-for-cipa-website-tracking-claims
+- https://www.zwillgen.com/litigation/sb-690-passes-california-legislature/
+
+### Traceability Audit: does the package explain every choice?
+
+- https://help.coalitioninc.com/hc/en-us/articles/33998071846811-Active-Cyber-Policy-FAQ
+- https://insurancefraud.org/regulations/colorado-fraud-warning-section-10-1-128-6a/
+- https://law.justia.com/codes/colorado/title-10/general-provisions/article-1/part-1/section-10-1-128
+- https://www.chubb.com/us-en/business-insurance/products/cyber-insurance/cyber-insurance-products.html
+- https://www.coalitioninc.com/blog/cyber-insurance/how-vanishing-retention-rewards-security-conscious-policyholders
+
+### Harborline Cyber Protection Policy (HIC-CY-100 10/26): pre-filing wording review
+
+- https://help.coalitioninc.com/hc/en-us/articles/7665607458331-What-does-Reputational-Harm-Loss-cover
+- https://law.justia.com/cases/colorado/supreme-court/1996/95sc153-0.html
+- https://law.justia.com/codes/colorado/2022/title-10/article-4/part-5/
+- https://www.courtlistener.com/opinion/2823833/craft-v-philadelphia-indemnity-insurance-co/
+- https://www.hallevans.com/colorado-supreme-court-rejects-extending-notice-prejudice-rule-to-claims-made-policies/
+
+### Harborline package: strategy, Corgi fit and business case (coaching memo)
+
+- https://content.naic.org/sites/default/files/inline-files/2025_Cybersecurity_Insurance%20Report.pdf
+- https://news.ambest.com/newscontent.aspx?refnum=275075&altsrc=175
+- https://reticulating.substack.com/p/ycombinators-corgi-insurance-a-26
+- https://riskandinsurance.com/cyber-insurance-loss-ratios-rise-as-pricing-cuts-erode-premium-growth/
+- https://techcrunch.com/2026/05/06/insurance-startup-corgi-hits-1-3b-valuation-4-months-after-its-series-a/
+- https://techcrunch.com/2026/07/23/insurance-startup-corgi-reportedly-raised-more-money-at-4b-its-third-round-in-eight-weeks/
+- https://www.aon.com/getmedia/e8087f7c-d1c0-4d15-af60-f4e3fb72bbe0/2024-US-Cyber-Market-Update.pdf
+- https://www.at-bay.com/articles/insursec-report-2026-key-findings-cyber-risk/
+- https://www.axios.com/pro/fintech-deals/2026/01/08/startup-insurer-corgi-108-million-630-million-valuation
+- https://www.christensengroup.com/article/small-business-cyber-insurance-costs
+- https://www.coalitioninc.com/announcements/2026-cyber-claims-report
+- https://www.corgi.insure/cyber-liability
+- https://www.corgi.insure/partnerships/deel
+- https://www.crowdfundinsider.com/2026/05/282792-insurtech-startup-corgi-hits-2-6b-valuation-in-new-106m-funding-round/
+- https://www.forbes.com/sites/jimosman/2026/07/26/corgis-4b-ai-startup-valuation-may-put-public-investors-last/
+- https://www.forbes.com/sites/richardnieva/2026/05/28/corgi-doubles-valuation/
+- https://www.helpnetsecurity.com/2026/04/23/cyber-insurance-claims-report/
+- https://www.inc.com/moses-jeanfrancois/founded-in-2024-worth-4-billion-in-2026-the-wild-rise-of-ai-startup-corgi/91379726
+- https://www.insideselfstorage.com/suppliers-products/ai-financial-infrastructure-firm-corgi-launches-admitted-insurance-carrier-for-self-storage-other-businesses
+- https://www.insurancebusinessmag.com/reinsurance/news/breaking-news/cyber-reinsurance-buyers-secure-favorable-terms-at-early-2026-renewals--howden-re-562333.aspx
+- https://www.insurancebusinessmag.com/us/news/breaking-news/corgi-built-its-name-insuring-ai-startups--its-new-carrier-targets-dry-cleaners-salons-and-more-587646.aspx
+- https://www.insurancebusinessmag.com/us/news/breaking-news/corgi-ceo-defends-employees-unrestricted-social-media-use-after-posts-spark-backlash-590714.aspx
+- https://www.insurancebusinessmag.com/us/news/breaking-news/corgi-insurance-taps-a-trucking-program-veteran-as-it-expands-into-transportation-590385.aspx
+- https://www.insurancebusinessmag.com/us/news/technology/corgi-hires-former-house-committee-counsel-for-federal-ai-policy-push-587953.aspx
+- https://www.insurancejournal.com/magazines/mag-features/2026/07/27/878813.htm
+- https://www.morningstar.com/news/pr-newswire/20260504sf51034/corgi-launches-ai-insurance-coverage-to-protect-businesses-when-ai-goes-wrong
+- https://www.munichre.com/en/insights/cyber/closing-the-cyber-protection-gap-expanding-insurance-for-smes.html
+- https://www.munichre.com/en/insights/cyber/cyber-insurance-risks-and-trends-2026.html
+- https://www.prnewswire.com/news-releases/corgi-insurance-launches-admitted-insurance-carrier-302860246.html
+- https://www.prnewswire.com/news-releases/corgi-insurance-raises-108-million-receives-regulatory-approval-to-launch-the-first-full-stack-insurance-carrier-for-startups-302657727.html
+- https://www.producthunt.com/products/corgi-insurance
+- https://www.quotesweep.com/insurtech/corgi
+- https://www.reinsurancene.ws/ai-financial-infrastructure-firm-corgi-launches-admitted-insurance-carrier/
+- https://www.theinsurer.com/cyber-risk/news/fitch-us-cyber-insurance-market-swung-to-7-written-premium-growth-in-2025-2026-06-03/
+- https://www.theinsurer.com/cyber-risk/news/us-cyber-market-splitting-into-distinct-segments-as-loss-ratios-climb-am-best-2026-06-26/
+- https://www.theinsurer.com/cyber-risk/reinsurancemonth/cyber-quota-share-cessions-continue-to-stabilise-ai-yet-to-impact-reinsurance-2026-09-17/
+- https://www.theinsurer.com/ti/news/corgi-launches-admitted-commercial-lines-carrier-2026-08-26/
+- https://www.theinsurer.com/ti/news/primary-cyber-rate-decline-forecast-to-slow-to-54-in-2026-howden-re-2026-09-04/
+- https://www.ycombinator.com/companies/corgi-insurance
+
+### 09. Search for 2026 cyber policy wordings (September 27, 2026)
+
+- https://citizenportal.ai/articles/9703731/new-york/sullivan-county/thompson/town-approves-693050-cyber-insurance-policy-for-202627
+- https://cityofnovi.org/media/bdonqod2/260622matter6.pdf
+- https://civiciq.com/public-contract/5f373d50-99ce-48a6-a97d-dfb6e0b88053
+- https://ewbpc.org.uk/wp-content/uploads/2026/05/2460114550-Coalition-Cyber-Insurance-Specimen-Policy-2026-East-Wittering-and-Bracklesham-Parish-Council.pdf
+- https://my.lmalloyds.com/WP/WP/Event_display.aspx?EventKey=EUW26010
+- https://www.acwajpia.com/wp-content/uploads/25-26-Cyber-Liability-Coalition-policy.pdf
+- https://www.at-bay.com/wp-content/uploads/2023/06/Cyber-Insurance-Policy-Form.pdf
+- https://www.beazley.com/en-ca/news-and-events/beazley-confirms-affirmative-ai-cyber-cover
+- https://www.britinsurance.com/news/brit-launches-new-cyber-product-for-smes
+- https://www.cfins.com/wp-content/uploads/2021/05/Simple-Cyber-General-v6-2025.09.04.pdf
+- https://www.insurancebusinessmag.com/uk/news/cyber/brit-targets-sme-cyber-gap-with-new-any-one-claim-product-569152.aspx
+- https://www.insurancebusinessmag.com/us/news/cyber/amwins-launches-cyber-to-address-sme-cyber-insurance-gaps-554636.aspx
+- https://www.insurancejournal.com/news/national/2026/08/19/882152.htm
+- https://www.insurancejournal.com/news/national/2026/09/17/885463.htm
+- https://www.insurancejournal.com/news/national/2026/09/25/886788.htm
+- https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/media-release-2026-08-19.html
+- https://www.theinsurer.com/ti/news/lma-gives-details-on-incoming-standardised-cyber-wordings-for-uk-sme-market-2026-05-21/
+
+### 10a. UK and Lloyd's-market SMB cyber: ideas worth adapting for Harborline
+
+- https://brooksbraithwaite.com/wp-content/uploads/2025/07/Coalition-UK-Cyber-and-Technology-policy-3.0.pdf
+- https://cdn.prowritersins.com/wp-content/uploads/2020/07/CFC-Policy-Cyber-Private-Enterprise-US-v3.0.pdf
+- https://d10ou7l0uhgg4f.cloudfront.net/wp-content/uploads/2017/07/13161213/CFC-Cyber-Insurance_Private-Enterprise_UK_April2017.pdf
+- https://ewbpc.org.uk/wp-content/uploads/2026/05/2460114550-Coalition-Cyber-Insurance-Specimen-Policy-2026-East-Wittering-and-Bracklesham-Parish-Council.pdf
+- https://iasme.co.uk/cyber-essentials/cyber-liability-insurance/
+- https://insurance-edge.net/2025/04/03/cfc-claims-two-world-firsts-lets-get-into-it/
+- https://mgaa.co.uk/parametric-solutions-in-cyber-on-the-up-as-sme-coverage-needs-grow/
+- https://my.lmalloyds.com/WP/WP/Event_display.aspx?EventKey=EUW26010
+- https://thecyphere.com/blog/cyber-essentials-changes-april-2026-danzell/
+- https://uk.markel.com/insurance/insurance-products/cyber
+- https://webcdn.cfc.com/media/kidpckkm/cyber-proactive-response-key-facts-v40.pdf
+- https://www.abi.org.uk/news/news-articles/2025/11/nearly-200-million-paid-in-cyber-claims-to-help-uk-businesses-recover/
+- https://www.aig.co.uk/content/dam/aig/emea/united-kingdom/documents/Financial-lines/Cyber/cyberedge-loss-control-services-sme.pdf
+- https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2026/07/aviva-strengthens-cyber-offering-to-help-businesses-tackle-evolving-threat/
+- https://www.britinsurance.com/insurance/cyber/c360
+- https://www.britinsurance.com/news/brit-launches-new-cyber-product-for-smes
+- https://www.cfc.com/en-us/knowledge/news/2025/04/cfc-reinvents-cyber-insurance-with-launch-of-new-product/
+- https://www.cfc.com/en-us/knowledge/resources/articles/2025/03/cyber-product-enhancements-cybercrime/
+- https://www.cfc.com/en-us/knowledge/resources/case-studies/cyber-proactive-response-policy-in-action/
+- https://www.cirmagazine.com/cir/c2026031901.php
+- https://www.coalitioninc.com/announcements/coalition-adds-deepfake-response-endorsement
+- https://www.coalitioninc.com/blog/cyber-insurance/uk-gov-ransomware-proposal-update
+- https://www.computerweekly.com/news/366628013/UK-government-to-bring-in-ransomware-payment-ban
+- https://www.goodwinlaw.com/en/insights/publications/2026/02/alerts-technology-dpc-the-uks-ransomware-strategy
+- https://www.hiscox.co.uk/business-insurance/cyber-and-data-insurance/cyberclear-academy
+- https://www.hiscox.co.uk/hiscox-launches-cyberclear-academy
+- https://www.hiscox.co.uk/sites/default/files/documents/2024-12/19326%20PS-PIP-UK-CCLEAR(6
+- https://www.hunton.com/privacy-and-information-security-law/uk-ncsc-and-insurance-associations-publish-guidance-on-the-approach-to-ransom-payments
+- https://www.icaew.com/insights/viewpoints-on-the-news/2025/oct-2025/everything-you-needed-to-know-about-cyber-insurance
+- https://www.insurancebusinessmag.com/uk/news/cyber/aviva-overhauls-cyber-proposition-as-aidriven-threats-and-sme-exposure-grow-581442.aspx
+- https://www.insurancebusinessmag.com/uk/news/cyber/brit-targets-sme-cyber-gap-with-new-any-one-claim-product-569152.aspx
+- https://www.insurancejournal.com/news/international/2025/11/14/847636.htm
+- https://www.insurancejournal.com/news/national/2025/04/02/818156.htm
+- https://www.insurancejournal.com/news/national/2026/09/25/886788.htm
+- https://www.insurancetimes.co.uk/news/markel-launches-pre-loss-services-for-uk-cyber-clients/1455738.article
+- https://www.legislation.gov.uk/ukpga/2015/4/section/11
+- https://www.ncsc.gov.uk/guidance/organisations-considering-payment-in-ransomware-incidents
+- https://www.ncsc.gov.uk/news/cyber-insurance-industry-unites-reduce-ransom-harm
+- https://www.pinsentmasons.com/out-law/news/ransomware-payments-ban-uk
+- https://www.prnewswire.com/news-releases/markel-launches-pre-loss-services-for-uk-cyber-clients-302499101.html
+- https://www.surecloud.com/blog-hub/cyber-essentials-v3.3-danzell-what-changed-how-to-prep
+- https://www.sutcliffeinsurance.co.uk/wp-content/uploads/2018/04/Insurance-with-Cyber-Essentials-FAQ.pdf
+- https://www.theinsurer.com/cyber-risk/news/beazley-launches-cyber-cover-for-ai-shutdowns-and-regulatory-risks-2026-09-24/
+- https://www.theinsurer.com/cyber-risk/news/kovrilo-enhances-cyber-and-electronic-cover-for-smes-2026-07-07/
+- https://www.theinsurer.com/cyber-risk/news/qbe-north-america-launches-cyber-enhancement-to-accelerate-financial-support-2026-07-09/
+- https://www.theinsurer.com/ti/news/lma-gives-details-on-incoming-standardised-cyber-wordings-for-uk-sme-market-2026-05-21/
+
+### 10b. Continental Europe: SMB cyber ideas worth adapting for Harborline
+
+- https://brochureware.hiscox.de/sites/default/files/documents/bedingungen-hiscox-cyberclear-062022-1.pdf
+- https://brochureware.hiscox.de/sites/default/files/documents/cyberversicherung-by-hiscox-synopse-102023.pdf
+- https://cibersafety.com/kit-digital-ciberseguridad/
+- https://content.markel.com/api/public/content/MARKEL-Cyber-Pro-Cyber-Bedingungen-GER
+- https://hetccv.nl/app/uploads/2025/12/DBV-MKB-versie-1.0.pdf
+- https://justement.ch/de/doc/act/ch/221_229_1/chap_1/sec_8/lvl_u3/art_45
+- https://partner.gothaer.de/media/bilder_partnerportal/produkte_1/sach/gewerbekunden/cyber_versicherung/faq_kriegsauschluss_cyber.pdf
+- https://presse.bpifrance.fr/dattak-leve-11meur-en-serie-a-et-affirme-ses-grandes-ambitions-pour-offrir-la-meilleure-protection-de-cyber-assurance-et-cyber-securite
+- https://systag.com/blog/din-spec-27076/
+- https://versicherungsmonitor.de/2024/02/19/gdv-legt-neue-cyber-musterbedingungen-vor/
+- https://www.allianz.at/content/dam/onemarketing/cee/azat/privat_pdf/assistance/IPID-2025-Assistance-Cyber.pdf
+- https://www.aon.com/attachments/risk-services/Aon_DLA-Piper-GDPR-Fines-Guide_Final_May2018.pdf
+- https://www.axa.ch/de/unternehmenskunden/angebote/inventar-immobilien/cyberversicherung.html
+- https://www.baerkarrer.ch/de/publications/claims-made-policen,-art.-38-vvg-und-der-revidierte-art.-45-vvg
+- https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/KMU/CyberRisikoCheck/CyberRisikoCheck_node.html
+- https://www.channelnews.fr/la-souscription-dune-assurance-cyber-par-les-tpe-pme-francaises-est-en-recul-158896
+- https://www.cpme.fr/actualites/economie/dirigeants-de-tpe-pme-prenez-votre-cyberdepart-avec-un-diagnostic-gratuit-propose-par-letat
+- https://www.cyberdirekt.de/wann-cyberversicherung-zahlung-verweigern-kann/
+- https://www.cybermalveillance.gouv.fr/tous-nos-contenus/label-expertcyber/decouvrir-le-label-expertcyber
+- https://www.cyberservices.beazley.com/globalassets/2026-02/beazley-bbr-ipid-aoc-version.pdf
+- https://www.cyberversicherung.ch/cyberversicherung-vergleich/
+- https://www.dattak.io/fr/blog/francais-dattak-levee-fonds
+- https://www.dr-bahr.com/news/cyberversicherung-muss-bei-falschangaben-fuer-schaeden-aus-einem-hacker-angriff-nicht-zahlen.html
+- https://www.echangesassurances.org/actualites/stoik-cyber-assurance-avis-garanties-tarifs-2026
+- https://www.eiopa.europa.eu/eiopa-launches-survey-access-cyber-insurance-smes-2023-09-20_en
+- https://www.experten.de/id/4929502/cyberurteil-lg-kiel-wertet-falschangaben-als-arglistige-taeuschung/
+- https://www.ferner-alsdorf.de/lg-hagen-zur-einstandspflicht-einer-cyberversicherung/
+- https://www.fidal.com/en/node/16218
+- https://www.gdv.de/gdv/medien/medieninformationen/versicherungsschutz-gegen-cyberangriffe-gdv-veroeffentlicht-neue-musterbedingungen--168132
+- https://www.gdv.de/resource/blob/6100/a0fed56c4947751cdc20b5206c171d98/01-allgemeine-versicherungsbedingungen-fuer-die-cyberrisiko-versicherung-avb-cyber--data.pdf
+- https://www.gdv.de/resource/blob/6102/0e5e65afe025a091c76d45ed5cb0bdbe/02-risikofragebogen-cyber-data.pdf
+- https://www.gesetze-im-internet.de/vvg_2008/__28.html
+- https://www.gleisslutz.com/de/know-how/cybersecurity-cyberversicherung-vor-gericht
+- https://www.hiscox.de/geschaeftskunden/cyber-versicherung/vergleich/
+- https://www.hiscox.fr/courtage/blog/rapport-2025-sur-la-gestion-des-risques-cyber
+- https://www.iais.org/uploads/2026/06/FSI-IAIS-Insights-Cyber-insurance-unpacked-the-corporate-digital-safety-net.pdf
+- https://www.incibe.es/incibe/linea-de-ayuda-en-ciberseguridad/kit-difusion
+- https://www.ing-ism.de/magazin/cyberversicherung-obliegenheiten-leitfaden-kmu/
+- https://www.klgates.com/Insurability-of-Financial-Penalties-for-Personal-Data-Breaches-Overview-of-Leading-European-Jurisdictions-2-23-2026
+- https://www.kuv24-cyber.de/_downloads/assets/746_BEDINGUNGEN_Hiscox_CyberClear_202206.pdf
+- https://www.lassuranceenmouvement.com/2026/04/22/mma-et-stoik-sunissent-pour-la-cyber-des-pme/
+- https://www.legifrance.gouv.fr/codes/id/LEGISCTA000047048148
+- https://www.maklermitfliege.de/cyber-vergleich.html
+- https://www.mobiliar.ch/unternehmen/haftung-und-recht/cyberversicherung
+- https://www.noerr.com/de/insights/cyberversicherung-der-verzicht-auf-technische-obliegenheiten-und-seine-folgen
+- https://www.planet-fintech.com/Stoik-devoile-Stoik-Protect_a4717.html
+- https://www.stoik.com/assurance
+- https://www.versicherungsbote.de/id/4913641/Cyberversicherung-GDV-aktualisiert-Musterbedingungen/
+- https://www.verspieren.com/fr/entreprise/article/iard/consequences-loi-lopmi-assurance-risques-cyber
+- https://www.verzekeraars.nl/publicaties/actueel/keurmerk-digitale-basisveiligheid-mkb-gelanceerd
+- https://www.verzekeraars.nl/publicaties/actueel/nieuwe-risicoklasseindeling-vergroot-cyberweerbaarheid-mkb
+- https://www.vgv-gmbh.de/blog/2024/03/05/cyber-versicherung-gdv-fasst-musterbedingungen-neu/
+- https://www.vsma.de/urteil-zur-cyberversicherung-landgericht-tuebingen-bringt-licht-ins-cyber-dunkel/
+- https://www.wilhelm-rae.de/en/node/174
+- https://www.wtwco.com/fr-fr/insights/2023/05/risques-cyber-decryptage-de-la-loi-lopmi
+- https://www.zurich.ch/de/firmenkunden/sach-cyber/cyberversicherung
+
+### 10c. Ideas from Asia-Pacific and Canadian small-business cyber policies, adapted for Harborline
+
+- https://4it.com.au/cybersecurity/cyber-insurance-australian-sme-2026/
+- https://arkshield.sg/cyber-essentials-mark-singapore-guide/
+- https://cyberscout.com/en/press-releases/cyberscout-partners-with-northbridge-to-offer-commercial-policyholders-two-privacy
+- https://deltainsurance.com.au/products/cyber-liability-insurance
+- https://emergenceinsurance.com/emergence-strengthens-cyber-event-protection-with-cep-005-1-upgrade/
+- https://emergenceinsurance.com/wp-content/uploads/sites/6/2024/02/Emergence-NZ_Cyber-Event-Protection_CEP-005.1_General-Information-Policy-Wording_02.26.pdf
+- https://emergenceinsurance.com/wp-content/uploads/sites/6/2024/02/Emergence_Cyber-Event-Protection_CEP-005.1_Important-Information-Policy-Wording_02.26.pdf
+- https://emergenceinsurance.com/wp-content/uploads/sites/6/2026/02/Emergence_Cyber-Event-Protection_Summary-of-Key-Changes_CEP005-to-CEP005.1_02.26.pdf
+- https://gowlingwlg.com/en/insights-resources/articles/2022/law-25-the-cost-of-a-privacy-breach-just-went-up
+- https://insurance-canada.ca/2026/03/11/coalition-launch-active-cyber-policy/
+- https://insurance-edge.net/2025/04/03/cfc-claims-two-world-firsts-lets-get-into-it/
+- https://practiceguides.chambers.com/practice-guides/cybersecurity-2026/india/
+- https://privacymatters.dlapiper.com/2025/03/malaysia-guidelines-issued-on-data-breach-notification-and-data-protection-officer-appointment/
+- https://protectera.com.au/au-cyber-insurance-market-2026-what-smes-need-to-know-now/
+- https://psychology.org.au/getmedia/115ccab2-75db-462d-af0d-1a6fdf7d7b78/cyber-proactive-response-policy-wording-2025.pdf
+- https://resourcehub.bakermckenzie.com/en/resources/global-data-and-cyber-handbook/asia-pacific/malaysia/topics/security-requirements-and-breach-notification
+- https://securitypulse.ai/resources/cyber-essentials-certification-singapore/
+- https://sompo-japan-cyber.jp/coverage/
+- https://www.centrewest.com.au/wp-content/uploads/2024/02/Emergence-Cyber-Event-Protection-CEP-005.pdf
+- https://www.cfc.com/en-us/knowledge/news/2025/04/cfc-reinvents-cyber-insurance-with-launch-of-new-product/
+- https://www.cfc.com/en-us/knowledge/resources/articles/2024/08/cyber-coverage-highlights-nil-deductible-and-separate-limit-for-incident-response/
+- https://www.cfc.com/en-us/knowledge/resources/articles/2025/04/interactive-cyber-policy-wording/
+- https://www.chubb.com/au-en/business/cyber-services-overview.html
+- https://www.chubb.com/content/dam/chubb-sites/chubb-com/au-en/business/cyber-insurance/documents/pdf/cyber-erm-version-2-2-policy-sme-marketplace-platform-au.pdf
+- https://www.chubb.com/content/dam/chubb-sites/chubb-com/au-en/business/cyber-insurance/documents/pdf/erm-v2-2-e13-widespread-event-endorsement.pdf
+- https://www.chubb.com/content/dam/chubb-sites/chubb-com/ca-en/business-insurance/cyber-enterprise-risk-management-cyber-erm/documents/pdf/chubb_chubbcyberstack_stackingupyourdigitaldefense_sheet_110525-ca-en.pdf
+- https://www.chuokai.or.jp/archive/insu/pdf/privacy/tokiomarine-nichido_pamphlet_2025.pdf
+- https://www.coalitioninc.com/blog/cyber-insurance/australia-ransomware-reporting-laws
+- https://www.coalitioninc.com/en-ca/announcements/coalition-brings-active-cyber-policy-to-canada
+- https://www.csa.gov.sg/news-events/press-releases/csa-s-cyber-essentials-and-cyber-trust-marks-expanded-to-include-cloud-security--artificial-intelligence-and-operational-technology/
+- https://www.csa.gov.sg/our-programmes/support-for-enterprises/sg-cyber-safe-programme/cybersecurity-certification-for-organisations/cyber-essentials/certification-for-the-cyber-essentials-mark/
+- https://www.cyberpulse.com.au/2026/02/25/cyber-insurance-in-australia/
+- https://www.insurancebusinessmag.com/au/news/cyber/emergence-insurance-revamps-cyber-policy-478685.aspx
+- https://www.insurancebusinessmag.com/au/news/cyber/emergence-updates-cyber-policy-wording-for-australian-smes-565467.aspx
+- https://www.insurancebusinessmag.com/au/news/cyber/zurich-rolls-out-standalone-cyber-policy-for-australian-smes-564522.aspx
+- https://www.insurancejournal.com/news/international/2025/10/24/845042.htm
+- https://www.insurancejournal.com/news/international/2026/03/13/861837.htm
+- https://www.insurancejournal.com/news/national/2025/04/02/818156.htm
+- https://www.ipa.go.jp/security/otasuketai-pr/
+- https://www.mccarthy.ca/en/insights/publications/navigating-the-legislative-landscape-on-data-breaches-2026-data-breach-insights-part-3
+- https://www.mccarthy.ca/en/insights/publications/quebec-modulates-duty-defend-certain-categories-insurance-and-insureds
+- https://www.medianama.com/2026/04/223-lowdown-insurers-comply-dpdp-irdai-updates-cyber-security-guidelines/
+- https://www.meti.go.jp/policy/netsecurity/otasuketai.html
+- https://www.minterellison.com/articles/mandatory-ransomware-payment-reporting-obligations-in-force
+- https://www.ms-ins.com/business/indemnity/pd-protector/
+- https://www.northbridgeinsurance.ca/specialty-solutions/cyber-risk-insurance/
+- https://www.qbe.com/media/qbe/apac/new-zealand/document-listing/2025/08/13/22/38/cyb0625-nz-qcyberprotect.pdf
+- https://www.qbe.com/media/qbe/apac/new-zealand/files/qbe-nz-qcyberprotect-coverage-sheet-2025.pdf
+- https://www.qbe.com/newsroom/news/how-qbes-global-cyber-proposition-is-constantly-evolving-to-support-brokers-and-customers
+- https://www.tokiomarine-nichido.co.jp/hojin/baiseki/cyber/hosho02.html
+- https://www.tokiomarine-nichido.co.jp/hojin/baiseki/cyber/service.html
+- https://www.torys.com/our-latest-thinking/publications/2022/06/un-nouveau-reglement-assouplit-lobligation-de-defendre-des-assureurs-au-quebec
+- https://www.travelerscanada.ca/iw-documents/canada/CyberRisk-Coverage-Highlight-Sheet_230117.pdf
+- https://www.twobirds.com/en/insights/2024/australia/australias-first-standalone-cyber-security-law-the-cyber-security-act-2024
+
+### 10d. Standout US forms and novel cyber structures: what Harborline should borrow
+
+- https://aaisviews.aaisonline.com/aais-views/tag/cyber
+- https://content.leg.colorado.gov/sites/default/files/documents/2025A/bills/sl/2025a_sl_084.pdf
+- https://docs.stoik.io/onboarding/why-do-insurees-have-a-stoik-protect-account
+- https://elphasecure.com/docasset/documents/Sample-Policy.pdf
+- https://eperils.com/wp-content/uploads/2016/09/f00043-042014.pdf
+- https://heartlandmutualinsurance.com/wp-content/uploads/2024/12/Cyber-Suite-Coverage-Form-CSC-02-2025.pdf
+- https://ir.thehartford.com/news/news-details/2025/The-Hartford-Bolsters-Cyber-Insurance-for-Small-Businesses/default.aspx
+- https://leg.colorado.gov/bills/sb25-058
+- https://lmalloyds.com/lma-launches-new-sme-property-and-business-interruption-model-wording/
+- https://mgaa.co.uk/parametric-solutions-in-cyber-on-the-up-as-sme-coverage-needs-grow/
+- https://siliconangle.com/2025/12/09/coalition-expands-cyber-insurance-cover-deepfake-driven-reputation-attacks/
+- https://sustainability.travelers.com/drivers-of-sustained-value/cybersecurity/cyber-product-offerings
+- https://www.acuity.com/the-focus/agent/acuitys-newest-cyber-coverages
+- https://www.artemis.bm/news/aig-launches-parametric-cloud-outage-insurance-working-with-parametrix/
+- https://www.artemis.bm/news/parametrix-pays-claims-swiftly-after-aws-outage-triggers-parametric-policies/
+- https://www.britinsurance.com/news/brit-launches-new-cyber-product-for-smes
+- https://www.businesswire.com/news/home/20251002591457/en/
+- https://www.cfc.com/en-us/knowledge/resources/articles/2024/07/cyber-coverage-highlights-unlimited-reinstatements/
+- https://www.cfins.com/property-casualty/cyber-insurance/simple-cyber-policy/
+- https://www.cfins.com/wp-content/uploads/2021/05/Simple-Cyber-General-v6-2025.09.04.pdf
+- https://www.chubb.com/au-en/articles/business/a-better-way-to-define-and-insure-systemic-cyber-events.html
+- https://www.chubb.com/content/dam/chubb-sites/chubb-com/au-en/business/cyber-insurance/documents/pdf/erm-v2-2-e13-widespread-event-endorsement.pdf
+- https://www.cirmagazine.com/cir/c2026031901.php
+- https://www.coalitioninc.com/announcements/coalition-adds-deepfake-response-endorsement
+- https://www.coalitioninc.com/announcements/coalition-eliminates-out-of-pocket-security-and-forensics-costs-for-policyholders-facing-a-cyber-claim
+- https://www.coalitioninc.com/announcements/coalition-unveils-enhanced-business-recovery-endorsements
+- https://www.cysurance.com/services/
+- https://www.gny.com/sites/default/files/file/2024-12/CyberSuite_Coverage_GNY.pdf
+- https://www.greatamericaninsurancegroup.com/about-us/business-operations/product/cyber-risk/public-entity-risk-pools
+- https://www.hunton.com/hunton-insurance-recovery-blog/court-refuses-to-slice-up-cicis-cyber-extortion-coverage
+- https://www.iamagazine.com/2025/12/08/the-hartford-bolsters-cyber-insurance-for-small-businesses/
+- https://www.iamagazine.com/2026/08/17/coalition-releases-enhanced-business-recovery-endorsements/
+- https://www.insurancebusinessmag.com/reinsurance/news/breaking-news/parametrix-issues-largest-cumulus-re-cat-bond-for-cloud-risks-571189.aspx
+- https://www.insurancebusinessmag.com/uk/news/cyber/brit-targets-sme-cyber-gap-with-new-any-one-claim-product-569152.aspx
+- https://www.insurancebusinessmag.com/us/news/cyber/court-blocks-hsbs-ransomware-sublimit-in-firstofitskind-cyber-ruling-567006.aspx
+- https://www.insurancejournal.com/news/national/2026/09/25/886788.htm
+- https://www.insurancexdate.com/insurance-forms/CY/CY-00-02/
+- https://www.law.com/insurance-coverage-law-center/2021/07/26/iso-commercial-cyber-product-replaced-part-one-cy-00-03-11-21-sections-i-iv-423-117619/
+- https://www.munichre.com/specialty/north-america/en/insights/cyber-and-technology/cyber-losses-public-entities-face-cyber-risk.html
+- https://www.phelps.com/insights/drafting-ransomware-sublimits-that-hold-up-what-insurers-can-learn-from-cici-enterprises.html
+- https://www.pianational.org/docs/default-source/products/west-bend_cyber-suite-coverage_wb-2827.pdf
+- https://www.propertycasualty360.com/fcs/2021/08/08/iso-commercial-cyber-product-replaced-part-one-cy-00-03-11-21-sections-i-iv/
+- https://www.stoik.com/en-us/insurance
+- https://www.theinsurer.com/cyber-risk/news/aig-launches-parametric-cloud-outage-solution-backed-by-parametrixs-monitoring-2026-08-13/
+- https://www.theinsurer.com/ti/news/lma-gives-details-on-incoming-standardised-cyber-wordings-for-uk-sme-market-2026-05-21/
+- https://www.tmhcc.com/en-us/products/cyber-and-tech/cyber-for-healthcare
+- https://www.tmhcc.com/en-us/products/cyber-and-tech/cyber-netguard-plus
+- https://www.travelers.com/business-insurance/cyber-insurance/cyberrisk
+
+### 11b. Loss utility of the 34 borrowed ideas: do they really protect Cedar Ridge?
+
+- https://blogs.duanemorris.com/classactiondefense/2026/02/03/hot-off-the-presses-the-duane-morris-data-breach-class-action-review-2026-and-the-duane-morris-privacy-class-action-review-2026/
+- https://colevannote.com/2026/03/20/schiff-associates-cpa-data-breach-investigation/
+- https://coveware.com/2026/07/adverse-cyber-extortions-are-more-common-than-commonly-advised/
+- https://cybersecuritynews.com/microsof-new-exchange-online/
+- https://grahamcluley.com/irs-extends-tax-filing-deadline-following-attack-on-wolters-kluwer-cch-cloud-accounting-service/
+- https://keepnetlabs.com/blog/deepfake-statistics-and-trends
+- https://pierferd.com/news/business-interruption-claims-in-cyber-insurance
+- https://rsmus.com/content/dam/rsm/insights/services/risk-fraud-cybersecurity/1pdf/net-diligence-cyber-claims-study-2025-report.inline.pdf
+- https://statusgator.com/services/cch-axcess/outage-history
+- https://www.accountingtoday.com/news/the-wolters-kluwer-cch-outage-what-happened
+- https://www.asi-networks.com/blog/why-cyber-insurance-claims-get-denied/
+- https://www.at-bay.com/articles/insursec-report-2026-key-findings-cyber-risk/
+- https://www.businessinsurance.com/cloud-services-see-decline-in-downtime-in-2025-parametrix/
+- https://www.carriermanagement.com/news/2025/09/25/279803.htm
+- https://www.cisa.gov/news-events/news/getting-ahead-ransomware-epidemic-cisas-pre-ransomware-notifications-help-organizations-stop-attacks
+- https://www.classaction.org/data-breach-lawsuits/forrestall-cpas-august-2026
+- https://www.classaction.org/data-breach-lawsuits/mbe-cpas-may-2025
+- https://www.cloudsecuretech.com/insights/will-your-cyber-insurance-claim-pay-out/
+- https://www.coalitioninc.com/announcements/2026-cyber-claims-report
+- https://www.cpapracticeadvisor.com/2025/08/28/irs-reminds-tax-pros-to-guard-against-id-theft/168077/
+- https://www.cybersecuritydive.com/news/cisa-ransomware-warning-program-key-employee-left/808589/
+- https://www.duanemorris.com/pressreleases/duane_morris_class_action_review_2026_comprehensive_analysis_class_action_litigation_0126.html
+- https://www.eftsure.com/statistics/deepfake-statistics/
+- https://www.financialprofessionals.org/about/learn-more/press-releases/Details/over-75-percent-of-us-firms-experienced-payments-fraud-in-2025-while-ai-adoption-for-fraud-mitigation-lags
+- https://www.hrdive.com/news/all-hands-on-deck-for-hr-teams-as-kronos-outage-drags-on/611811/
+- https://www.idtheftcenter.org/post/2025-annual-data-breach-report-record-number-compromises/
+- https://www.insurancebusinessmag.com/us/news/cyber/one-ransomware-crew-now-drives-half-of-all-cyber-claims-atbay-573139.aspx
+- https://www.irs.gov/individuals/data-theft-information-for-tax-professionals
+- https://www.parametrixinsurance.com/in-the-news/2024-cloud-outage-risk-report
+- https://www.raiznerlaw.com/insights/how-long-does-a-business-interruption-insurance-claim-typically-take/
+- https://www.reinsurancene.ws/critical-cloud-outage-risk-remains-significant-despite-decline-in-occurrence-parametrix/
+- https://www.sophos.com/en-us/press/press-releases/2025/06/nearly-half-companies-opt-pay-ransom-sophos-report-finds
+- https://www.thousandeyes.com/blog/aws-outage-analysis-october-20-2025
+- https://www.veeam.com/blog/cyber-extortion-payment-trends-q2-2026.html
+
+### 11c. US market and buyer check: do the 34 borrowed ideas work in the US?
+
+- https://assets.ctfassets.net/o2pgk9gufvga/6GDAqNBNDON9cmkVdLCzd5/363be97c2125f8b89a7ca2a0515fd786/Coalition_Coverage-Advantage-Checklist-US.pdf
+- https://beancount.io/blog/2026/05/09/cyber-insurance-small-business-2026-mfa-requirements-ransomware-coverage-premium-benchmarks
+- https://blog.securafy.com/cyber-insurance-attestation-trap-mfa-denied-claims
+- https://caselaw.findlaw.com/court/us-5th-circuit/2110118.html
+- https://caselaw.findlaw.com/court/us-9th-circuit/1852086.html
+- https://cyberscoop.com/url-coalition-cybersecurity-insurance-coverage-deepfakes-reputational-harm/
+- https://fintech.global/2025/12/18/coalition-adds-deepfake-cover-to-cyber-insurance/
+- https://help.coalitioninc.com/hc/en-us/articles/33998071846811-Active-Cyber-Policy-FAQ
+- https://help.coalitioninc.com/hc/en-us/articles/7665533052315-What-is-Coalition-s-Criminal-Reward-Coverage
+- https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Risk-Index-Cyber-Threats-Return-as-the-Top-Business-Concern/default.aspx
+- https://law.justia.com/cases/federal/appellate-courts/ca5/21-10299/21-10299-2021-12-22.html
+- https://locktonaffinityadvisor.com/blog/understanding-the-fraud-coverage-within-a-cyber-liability-policy-computer-fraud-vs-funds-transfer-fraud/
+- https://natlawreview.com/article/social-engineering-fraud-and-your-crime-policy-why-your-insurer-may-deny-claim-and
+- https://netdiligence.com/blog/2025/12/understanding-domain-security-brand-impersonation/
+- https://propertycasualtyfocus.com/fifth-circuit-affirms-finding-of-no-coverage-for-phished-funds-never-held-by-insured/
+- https://riskandinsurance.com/aws-outage-loss-estimates-range-from-38m-to-581m-as-cyber-insurers-face-moderate-impact/
+- https://riskandinsurance.com/cyber-threats-top-business-concerns-agains-as-ai-reshapes-risk-travelers-survey/
+- https://seedpodcyber.com/cyber-insurance-for-accounting-firms/
+- https://surety.org/law_library/taylor-lieberman-v-federal-insurance-company/
+- https://thecoylegroup.com/the-crowdstrike-debacle-and-cyber-insurance/
+- https://tritoncomputercorp.com/blog/2026/05/01/why-cyber-insurance-policy-void-travelers-ics-declarations/
+- https://vantagepointrisk.com/learning-center/standalone-cyber-vs-bop-cyber/
+- https://www.acwajpia.com/wp-content/uploads/emember/downloads/2022%20Cyber%20Liability%20Policy.pdf
+- https://www.americanbar.org/groups/tort_trial_insurance_practice/resources/brief/2025-spring/lawyer-liability-wire-transfer-fraud/
+- https://www.amwins.com/resources-and-insights/market-insights/article/how-cyber-and-crime-insurance-policies-respond-to-social-engineering
+- https://www.amwins.com/resources-and-insights/market-insights/article/state-of-the-market-2026-outlook
+- https://www.aon.com/en/insights/alerts/crowdstrike-and-windows-event-briefing-implications-and-initial-findings-for-cyber-reinsurers
+- https://www.aon.com/risk-services/financial-services-group/the-evolving-nature-of-social-engineering-claims
+- https://www.aon.com/risk-services/professional-services/ransomware-payment-prohibitions-do-they-work-and-will-more-states-adopt-them
+- https://www.businessinsurance.com/article/20150515/NEWS06/150519893/Insurer-cites-cyber-policy-exclusion-to-dispute-data-breach-settlement-
+- https://www.businessinsurance.com/article/20210205/NEWS06/912339623/Axis-wins-computer-fraud-case-with-silicon-maker-Burnside-Mississippi-Mississipp
+- https://www.businessinsurance.com/ransomware-sublimit-doesnt-apply-to-cyber-claim-court/
+- https://www.calcpa.org/whats-happening/california-cpa-magazine/when-ransomware-hits-a-cpa
+- https://www.cfc.com/en-us/knowledge/resources/articles/2024/07/cyber-coverage-highlights-unlimited-reinstatements/
+- https://www.cfc.com/en-us/knowledge/resources/articles/2025/03/cyber-product-enhancements-nil-deductible/
+- https://www.cfc.com/en-us/knowledge/resources/articles/2025/07/assessing-the-adequacy-of-our-cyber-insurance-coverage/
+- https://www.cfc.com/en-us/knowledge/resources/case-studies/cyber-claims-case-study-two-policies-for-the-price-of-one/
+- https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia
+- https://www.claimsjournal.com/news/national/2025/10/23/333667.htm
+- https://www.claimsjournal.com/news/national/2026/09/23/340321.htm
+- https://www.coalitioninc.com/blog/crowdstrike-outage
+- https://www.cpomagazine.com/cyber-security/patchwork-of-us-state-regulations-becomes-more-complex-as-florida-north-carolina-ban-ransomware-payments/
+- https://www.crcgroup.com/Tools-Intel/Specialty-Tools-Intel/2026-cyber-state-of-the-market-at-a-glance
+- https://www.embroker.com/blog/risk-management/deepfake-fraud-insurance-gaps/
+- https://www.hinshawlaw.com/newsroom-updates-computer-fraud-and-funds-transfer-fraud-coverages-not-triggered-by-social-engineering-phishing-scam.html
+- https://www.hunton.com/hunton-insurance-recovery-blog/court-refuses-to-slice-up-cicis-cyber-extortion-coverage
+- https://www.hunton.com/privacy-and-cybersecurity-law-blog/cisa-plans-to-finalize-cyber-incident-reporting-regulations-in-september-2026
+- https://www.huntress.com/blog/cyber-insurance-trends
+- https://www.insurancebusinessmag.com/us/news/cyber/boxx-insurance-adds-affirmative-ai-and-deepfake-coverage-to-cyberboxx-business-policy-583408.aspx
+- https://www.insurancebusinessmag.com/us/news/cyber/court-blocks-hsbs-ransomware-sublimit-in-firstofitskind-cyber-ruling-567006.aspx
+- https://www.irmi.com/articles/expert-commentary/coverage-for-the-crowdstrike-incident-under-cyber-insurance
+- https://www.l2insuranceagency.com/blog/why-law-firms-with-trust-and-fiduciary-departments-need-professional-liability-cyber-insurance-and-crime-insurance/
+- https://www.legal500.com/intelligence/united-states/insurance/court-rejects-insurers-attempt-to-cap-cyber-extortion-coverage-based-on-ransomware-sub-limit
+- https://www.lexology.com/library/detail.aspx?g=1bbfe97f-27f4-4aa1-82e2-55c6047c29b6
+- https://www.mica-insurance.com/media/bffjzlav/micas-e-med-protection.pdf
+- https://www.moodys.com/web/en/us/insights/insurance/understanding-insured-losses-from-the-october-aws-cloud-outage.html
+- https://www.myhaus.com/blog/will-a-cyber-data-endorsement-protect-my-business
+- https://www.reedsmith.com/articles/cyber-insurance-claims/pressure-points-in-cyber-insurance-policies-revealed-in-litigation/
+- https://www.technethics.com/columbia-casualty-v-cottage-health-system-i-e-when-your-cyber-insurance-is-not-what-it-seems/
+- https://www.thehartford.com/cyber-insurance
+- https://www.traublieberman.com/perspectives/fifth-circuit-finds-no-coverage-for-6m-phishing-scheme-loss-where-insured-never-held-client-funds
