@@ -6,19 +6,17 @@
 
 ## 1. Summary
 
-I wrote one cyber policy for small and mid-sized businesses: firms with a few dozen staff, sensitive client data and a heavy reliance on cloud software. The goal: pay for what actually stops a small firm working, in words an owner can follow mid-incident.
+I wrote this policy for small and mid-sized businesses like Cedar Ridge Accounting Group, the fictional sample insured: a 62-person Denver accounting firm holding Social Security numbers and tax records for about 31,000 people. Its only cyber cover today is $50,000 inside its business policy, and two clients now require $1 million.
 
-Three choices shape the whole policy:
+A client requirement is why a firm like this buys. But the losses most likely to hurt it are its own: a ransomware outage, a diverted payment, its cloud tax platform going down. [5] So I made three calls.
 
-1. **The firm's own losses are core cover, not add-ons.** Incident response, ransomware, lost income, data restoration and payment fraud sit in every policy alongside liability. A small firm's work stops long before anyone sues. The price is more exposure for the insurer, which the caps in point 2 contain.
-2. **Coverage follows what failed.** The firm's own systems, including its cloud accounts, are treated differently from a provider's systems, and attacks differently from accidents. Provider outages and accidents can hit many insureds at once, so they carry their own lower caps. That limits the insurer's exposure without cutting the core.
-3. **Honest mistakes don't cost the business its cover.** A failed security control, an honest error in the application or a hotline call as the only notice does not, by itself, take away cover.
+1. **Ransomware, lost income, data restoration and payment fraud are core cover.** Corgi's startup form sells them as add-ons. [7] That works for buyers who know what to pick; a first-time buyer may not. The cost is more exposure for the insurer.
+2. **Provider outages and accidents get lower caps.** One vendor failure can hit many insured firms at once, so these risks are capped separately while the core stays at full limits.
+3. **A failed security control or an honest application error does not, by itself, cost the firm its cover.** That shifts risk to the insurer, and I have not priced it.
 
-Cedar Ridge Accounting Group, a fictional 62-person Denver accounting firm, is the sample insured, and its application fills in the Declarations (the summary page of limits and premium). All premiums, limits and loss figures below are my assumptions for this exercise, not quotes or actuarial results.
+All premiums, limits and loss figures are my assumptions, not quotes or actuarial results.
 
 ## 2. How I used outside sources
-
-I used three kinds of sources, each for a different job.
 
 - **Existing policies, to learn the standard shape.** I read complete small-business forms from At-Bay, Travelers, DUAL, Coalition and Chubb, following each coverage through its definitions, exclusions and conditions. [1–4, 10] Where they agreed, I kept the market's approach. Where they disagreed, I chose, and this paper says why. Coalition's specimen showed that an endorsement (an add-on page) can quietly change a base rule, so I read those too. [4]
 - **Claims reports, to see where losses are heading.** I read At-Bay's InsurSec Report 2026 to see which losses hurt small firms most. [5] Ransomware with downtime, payment fraud and provider outages stood out, so they get the most attention in the policy. I also added cover for newer risks the older forms say little about: deepfake fraud, AI agents acting outside their permissions, and invoice diversion after a hack of the firm's systems.
@@ -30,7 +28,7 @@ Someone reading a cyber policy during an incident wants to know three things: am
 
 - **Guide, Declarations, then the form.** A one-page reading guide explains four terms before the reader meets them: the aggregate (the most the policy pays in a year), a sublimit (a smaller cap inside it), the retention (the firm's deductible) and the waiting period (outage hours the firm absorbs before income cover starts). The Declarations list every coverage by name with its limit and the firm's share, and Item 5 shows how the shared annual pool gets used up. A one-page "Reporting an incident" checklist follows.
 - **Coverages grouped by the problem.** Section I has seven groups: respond to an incident, cyber extortion, recover income, restore data and systems, recover payments, claims against you, and other losses. Every coverage uses the same four headings: *When it applies*, *What we pay*, *Limit and your share* and *Special conditions*. Operating rules follow each group; defense and settlement rules for the liability coverages sit in Section IV.
-- **One letter per coverage, everywhere.** A incident response · B breach costs · C extortion · D own interruption · E provider cyber interruption · F data restoration · G security upgrades · H payment fraud · I–L liability (privacy, regulatory, PCI, media) · M computer replacement · N reputational harm · O cryptojacking and telecom fraud · P accidental provider outage (optional) · Q website tracking (optional). Each letter means the same thing everywhere.
+- **One letter per coverage, everywhere.** A incident response · B breach costs · C extortion · D own interruption · E provider cyber interruption · F data restoration · G security upgrades · H payment fraud · I–L liability (privacy, regulatory, PCI, media) · M computer replacement · N reputational harm · O cryptojacking and telecom fraud · P accidental provider outage (optional) · Q website tracking (optional).
 - **Two triggers.** Lawsuits can arrive years after a breach, so every loss needs one date that ties it to one policy year. For the firm's own losses (A–H, M–P), that date is when the incident is first discovered. Liability (I–L, Q) is "claims-made and reported": the claim must be made in the policy period and reported within 90 days of its end. Section VII, part 1.4 links the two: reporting an incident during the policy period locks later related lawsuits into this policy.
 - **A broad core with two options.** Corgi's startup product sells cover for the firm's own losses as add-ons to liability. [7] I put those losses in the core so a small buyer cannot be underinsured by omission. The trade-off is more exposure for the insurer. Only two risks are optional: accidental provider outages (P), which can hit many insureds at once, and website-tracking liability (Q), which is concentrated in businesses that run advertising pixels.
 
@@ -43,7 +41,7 @@ Someone reading a cyber policy during an incident wants to know three things: am
 | **Fast fraud reporting** | H retention falls to $2,500 if reported within 72 hours | Fast reporting improves the chance of getting stolen money back. [5, p. 34] The discount pays owners to call quickly. | $2,500 instead of $10,000. |
 | **Incident response services (A)** | $25,000 each incident, $75,000 a year, for the first 7 days; outside the aggregate; no retention. Pre-incident help: $2,500 a year. | Early expert help limits the damage, and a free call gets owners calling sooner. The caps bound the insurer's cost. | Nothing for the first 7 days, up to the caps. |
 | **Waiting periods** | 8 hours for D and E; 24 hours for P | Eight hours leaves short glitches with the firm but pays early for a real outage. Accidental provider outages can hit many insureds at once, so the firm keeps a full day. Chubb pays extra expense (costs to keep working) from the start [10, p. 17]; I applied the wait to both, so each claim has one start time. | Income and extra expense during the wait. |
-| **Accidental system failure (D and F)** | $250,000 shared; full-limit option not selected | Accidents are frequent. The cap pays the base case in the Appendix ($155,000) but not the stress case ($298,750). | $48,750 in the stress case, plus loss during the wait. |
+| **Accidental system failure (D and F)** | $250,000 shared; full-limit option not selected | One faulty vendor update can take down every insured at once, so accidents get a cap sized to an ordinary outage. The cap pays the base case in the Appendix ($155,000) but not the stress case ($298,750). | $48,750 in the stress case, plus loss during the wait. |
 | **Technology-provider cyber interruption (E)** / **Accidental technology-provider outage (P)** | $500,000 / $250,000, P purchased | Cedar Ridge has no full substitute for its cloud tax and payroll platforms. One provider failure can hit many insureds at once, so provider limits sit below the aggregate, and accidents lower still. | Provider outage losses above these caps. |
 | **Payment and invoice fraud (H)** | $250,000 (options: $500,000 or $1,000,000) | About 60 supplier payments a month, usually under $25,000: $250,000 covers at least ten typical payments. If a client pays a fake invoice, H pays the firm's cost of the work (no profit), not the invoice total. | A peak transfer above $250,000. |
 | **Period of restoration** (how long lost income is paid) | Up to 180 days | Long enough for a recovery that lasts months. Ninety days would stop too early; a year adds exposure without much benefit. | Loss after 180 days. |
@@ -80,7 +78,7 @@ Section V has 60 numbered definitions in alphabetical order, and bold terms in t
 | Definition | What I decided | Why |
 |---|---|---|
 | **Incident** (28) | One umbrella term for security failure, system failure, privacy event, cyber extortion, payment fraud, computer fraud and adverse publication. Related events are one incident. | One trigger, one retention rule and one related-events rule work across every own-loss coverage. A ransomware attack that triggers B, C and F costs the firm one $10,000 retention, not three. |
-| **Security failure** (53) | Includes stolen or phished credentials, rogue employees, lost devices, and an outsider manipulating an AI agent. | Most small-firm intrusions start with a valid but stolen password. Naming it removes the argument that the login was "authorized." |
+| **Security failure** (53) | Includes stolen or phished credentials, rogue employees, lost devices, and an outsider manipulating an AI agent. | Many small-firm intrusions start with a stolen password. Naming it removes the argument that the login was "authorized." |
 | **Cloud accounts** (9), **Computer systems** (12), **Dependent systems** (18) | The firm's cloud accounts, settings and data are its own systems. The provider's servers, code and network are not. | A hacked Microsoft 365 account is Cedar Ridge's own security failure (D, up to the full aggregate). A Microsoft outage is a provider event (E or P). At-Bay and Travelers also separate the firm's own interruption from a provider's. [1, p. 3; 2, pp. 2, 4, 7, 11] |
 | **Payment fraud** (37) and **Computer fraud** (10) | Outside deception or unauthorized system use, including deepfake audio and video. Excludes current owners, employees and individual contractors, and anyone colluding with them. | Keeps H as cyber-fraud cover. Employee theft belongs on a crime policy, a separate kind of insurance. |
 | **System failure** (56) | An unplanned, accidental outage, including human error, a faulty vendor update or a malfunctioning AI agent. Excludes utilities and public internet infrastructure. | Accidents happen often, and one faulty vendor update can hit many firms, so they get their own cap instead of security failure's full limit. |
@@ -89,13 +87,12 @@ Section V has 60 numbered definitions in alphabetical order, and bold terms in t
 ## 7. Choices that make the policy usable in a claim
 
 - **A hotline call is notice** (Section VII, part 1.1). DUAL treats its hotline as help only and requires separate formal notice. [3, pp. 3, 15] I made the call count, which means the insurer must record and route every call reliably.
-- **No consent needed** to use our pre-approved vendors, make legally required notices, contain an attack in the first 72 hours or settle within the retention (Section VII, part 2.2). In the first hours, speed matters more than approval.
+- **No consent needed** to use our pre-approved vendors, make legally required notices, contain an attack in the first 72 hours or settle within the retention (Section VII, part 2.2).
 - **Shutting down to contain an attack is covered** (Section I, part 3.3), even when a government agency orders the shutdown; exclusion 14 carves this out. An owner who pulls the plug on good advice should not lose cover for doing the right thing.
 - **Security answers are not warranties** (promises that cost the firm its cover if broken; Section III, part 3). A missed callback or a failed backup does not, by itself, reduce a covered payment. I removed security credits and penalties; Coalition's managed-detection credit is a possible later model, but it needs service checks and pricing evidence. [9] The trade-off is more risk for the insurer, so the application checks controls before the policy is issued.
 - **Honest application mistakes** (Section VII, part 3.2). We will not rescind (void the policy from the start), and only premium and retention can change, from the date we give notice. Rescission is reserved for an executive's knowing, material misstatement.
 - **Full prior acts**: no cut-off date for events before the policy starts. Cedar Ridge has operated since 2009 and is replacing existing cover, so a cut-off would open a gap. Problems the firm already knew about stay excluded, judged as of October 15, 2026, the continuity date.
 - **Service standards** (Section VII, part 7). We aim to make contact within one hour and give a coverage decision within 30 days of receiving the documents we ask for. We pay agreed amounts within 15 days, with 8% annual interest when late. Once we confirm D, E or P applies, we advance 50% of the estimated loss within 10 business days, and can use one shared forensic accountant.
-- **Fair disputes** (Section VII, part 8). A free internal review, then mediation that we pay for, then court or arbitration.
 - **Calling early never counts against the firm at renewal** (Section VII, part 6.2).
 
 ## 8. Three claim tests
@@ -144,4 +141,4 @@ Page numbers are PDF viewer pages. These are the editions I compared, not a clai
 11. **U.S. Treasury / OFAC, Updated Ransomware Advisory** (September 21, 2021). Used for: sanctions checks and reporting before any ransom payment (pp. 1, 3–6).
 12. **At-Bay, InsurSec Report 2025.** Background reading; all At-Bay figures cite [5].
 
-*Prepared by Rana for the Corgi take-home. This paper explains the accompanying policy; it does not amend its terms.*
+*Prepared by Rana for the Corgi take-home.*
