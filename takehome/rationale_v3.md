@@ -2,7 +2,7 @@
 
 I wrote this policy for small and mid-sized businesses like Cedar Ridge Accounting Group, the fictional sample insured: a 62-person Denver accounting firm holding Social Security numbers and tax records for about 31,000 people. Its only cyber cover today is $50,000 inside its business policy, and two clients now require $1 million.
 
-A client requirement is why a firm like this buys. But the losses most likely to hurt it are its own: a ransomware outage, a diverted payment, its cloud tax platform going down. [5] So I made three calls.
+A client requirement is why a firm like this buys. But the losses most likely to hurt it are its own: a ransomware outage, a diverted payment, its cloud tax platform going down. So I made three calls.
 
 1. **Ransomware, lost income, data restoration and payment fraud are core cover.** Corgi's startup form sells them as add-ons. [7] That works for buyers who know what to pick; a first-time buyer may not. The cost is more exposure for the insurer.
 2. **Provider outages and accidents get lower caps.** One vendor failure can hit many insured firms at once, so these risks are capped separately while the core stays at full limits.
@@ -47,12 +47,13 @@ Each row gives the decision, the reason and what it costs. Two terms: the **dedu
 - **Deliberate theft by insiders.** If a current owner, employee or individual contractor wires money out or diverts a customer's invoice payment, fraud cover pays nothing. That keeps it cyber-fraud cover, not employee-dishonesty cover. Cedar Ridge has no crime policy, so this is a real gap, and the application flags it.
 - **Tracking suits** (covered only by the tracking option) **and biometric-privacy suits.** Statutory damages can far exceed a small-business premium. A hack that exposes biometric data is still covered.
 - **Utility, internet backbone and natural-disaster outages.** These cannot be priced into a small-business premium. Security failures in the firm's systems, and failures inside a provider's own systems, stay covered.
-- **War and major state-backed attacks.** Ordinary ransomware and fraud by state-linked groups stay covered, and systems outside the country under attack stay covered. The insurer must prove the exclusion applies, and response and defense continue until it does.
+- **War and major state-backed attacks.** Ordinary ransomware and fraud by state-linked groups stay covered. For major state-backed attacks, systems outside the country hit stay covered. The insurer must prove the exclusion applies, and response and defense continue until it does.
 
 ## 4. How I structured the definitions
 
-The policy has 60 numbered definitions. Each covers one idea and carries its own exceptions, so a reader does not have to hunt for a distant exclusion. Six choices do most of the work:
+The policy has 60 numbered definitions. Each covers one idea and carries its own exceptions, so a reader does not have to hunt for a distant exclusion. These choices do most of the work:
 
+- **Two timing rules.** The firm's own losses count if first discovered during the policy year. Lawsuits count if first made during the policy year and reported within 90 days after it ends. Lawsuits can arrive years after a breach, so they need a fixed date to tie them to one policy.
 - **One umbrella term, "incident".** It covers attacks, accidents, privacy breaches, extortion, fraud and bad press, and related events count as one. So one trigger and one deductible work across all of the firm's own losses: a ransomware attack costs one $10,000 deductible, not three.
 - **The firm's systems versus its provider's.** The firm's cloud accounts, settings and data count as its own systems; the provider's servers do not. A hacked Microsoft 365 account is Cedar Ridge's own security failure, covered up to the full $2 million. A Microsoft outage is a provider event with its own cap. At-Bay and Travelers draw the same line. [1, p. 3; 2, pp. 2, 4, 7, 11]
 - **Stolen passwords count as a hack.** Many small-firm intrusions start with a stolen or phished password. Naming it removes the argument that the login was "authorized".
@@ -83,7 +84,7 @@ Each test assumes unused limits, timely reporting and no other insurance or reco
 ## 7. How I used outside sources
 
 - **Existing policies, to learn the standard shape.** I read complete small-business forms from At-Bay, Travelers, DUAL, Coalition and Chubb, following each coverage through its definitions, exclusions and conditions. [1–4, 10] Where they differed, I picked one, and the tables above name the form and the reason. Coalition's specimen showed that an endorsement can quietly change a base rule, so I read those too. [4]
-- **Claims data, to see where losses are heading.** At-Bay's 2026 report showed that ransomware with downtime, payment fraud and provider outages drive small-firm losses. [5] Those three get the most attention in the policy: full limits for attacks, the 72-hour fraud discount, and separate provider caps. I also named newer risks the older forms say little about: deepfake fraud, AI tools acting outside their permissions, and invoice diversion after a hack.
+- **Claims data, to see where losses are heading.** At-Bay's 2026 report showed that ransomware with downtime costs about three times as much as ransomware without it, and that fraud reported fast is more often recovered. [5, pp. 26, 34, 43] That is why attacks get full limits and fraud gets the 72-hour discount. I also named newer risks the older forms say little about: deepfake fraud, AI tools acting outside their permissions, and invoice diversion after a hack.
 - **Frameworks and guidance, to keep it workable.** NIST's small-business guide shaped the application's security questions. [6] Treasury's OFAC advisory set the ransom-payment rules. [11] Travelers' fraud supplement helped with the payment questions. [8]
 
 ## Appendix: the income model behind the $250,000 accident cap
