@@ -10,10 +10,27 @@ for l in lines:
     out.append(l)
 md='\n'.join(out)
 body=markdown.markdown(md,extensions=['tables'])
-body=re.sub(r'\[(\d[^\]]*)\]',r'<span class="x">[\1]</span>',body)
+def cite(m):
+    inner=m.group(1)
+    parts=re.split(r';\s*',inner)
+    out=[]
+    for p in parts:
+        n=re.match(r'(\d+)',p).group(1)
+        out.append(f'<a class="cite" href="#ref-{n}">{p}</a>')
+    return '['+'; '.join(out)+']'
+ri=body.find('<h2>References</h2>')
+head,tail=body[:ri],body[ri:]
+head=re.sub(r'\[(\d[^\]]*)\]',cite,head)
+k=[0]
+def lid(m):
+    k[0]+=1; return f'<li id="ref-{k[0]}">'
+tail=re.sub(r'<li>',lid,tail)
+body=head+tail
 css=open('policy.css').read()
 css=css.replace('content:"Page " counter(page) " of " counter(pages)','content:counter(page) " of " counter(pages)')
 css+='''
+a.cite{color:#b84200;text-decoration:none}
+
 .cover-art{string-set:formno "Decision rationale | Cedar Ridge Accounting Group | September 2026"}
 h2{font-weight:600;font-size:15pt;margin:18pt 0 8pt;break-after:avoid}
 h2:first-of-type{margin-top:0}
