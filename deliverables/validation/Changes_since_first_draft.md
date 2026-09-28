@@ -1,0 +1,150 @@
+# Changes since the first draft (September 27, 2026)
+
+This log covers the changes from the first v2 draft PDFs to version 3. Three independent checks were run on the first draft:
+- a market fact check (`Verification_Market_Claims.md`);
+- a legal fact check (`Verification_Legal_Claims.md`);
+- a coverage-counsel review (`Coverage_Counsel_QA_Review.md`).
+
+A separate third-party review of the first draft PDFs, with a link test, was also folded in.
+
+## Policy
+
+| Change | Why | Source finding |
+| --- | --- | --- |
+| **Payment fraud** again requires impersonation by someone who isn't an insured | The broader wording paid ordinary commercial fraud and staff theft, which belong to crime insurance | QA C-1 |
+| Claims-made reporting made consistent: firm 90-day claim deadline; lock-in for reported incidents deems claims made and reported on the report date (or the last day of the period); the automatic 60-day extended reporting period applies on cancellation or non-renewal | The earlier text could leave a reported incident with no responding policy | QA C-2 |
+| Early warning: Coverages A and B trigger on an early warning or reported suspicion during the period; pre-inception warnings are no longer protected from exclusion 2; investigations that find nothing don't end a claim-free year | Trigger failure and an unintended grant | QA H-1, M-9 |
+| Vendor-side attacks on the insured's cloud accounts are a security failure under every coverage; provider outages go to E or P | The short coverage list left D, I, N and O gaps | QA H-2 |
+| Security causation rule is a threshold test ("only if we show"), not "to the extent"; states that credits and the claim-free reduction affect price | Avoids a proportional reading; "only three terms" was otherwise untrue | QA H-3 |
+| Ransomware coinsurance keyed to whether backups were verified when the incident happened | Previously fixed at issue | QA M-2 |
+| "Applies across coverages" limited to the coverages the label names; P keeps its own limit | Avoids folding P into the $250K system-failure cap | QA M-3 |
+| **Dependent systems** include the vendor's own hosting provider | Fourth-party gap (for example, a tax platform hosted on a hyperscaler) | QA M-4 |
+| System failure definition and exclusion 12 aligned (satellites; "you do not operate"; carve-back limited to security or system failures within a vendor's systems) | Mismatch and an accumulation leak | QA M-5 |
+| Computer fraud item 2 narrowed to altered records in the insured's systems; mailbox-sent requests stay payment fraud; diverted wages are the insured's loss | The $100K floor could be avoided; payroll diversion was unclear | QA M-6 |
+| **Extra expense** covers catch-up costs for 30 days after restoration | The main cost of an outage for a professional firm | QA M-7 |
+| Punitive-damages rule uses the law in Item 11; Item 11 states the Colorado rule; regulatory penalties use Item 11 law or the forum's, whichever allows | Keeps the general form general; one insurability test | QA M-8; legal #21 |
+| **Incident** includes key customer events and impersonation events when purchased | Coverage S could never trigger | QA M-10 |
+| Cancellation limited to two of Colorado's grounds (non-payment, 10 days with reasons; knowingly false application, 45 days), by first-class mail. An honest mistake never cancels the policy; the insurer may only decline to renew. Renewal-change notice states terms, premium, changes and reasons | C.R.S. 10-4-109.7 and 10-4-110.5 | Legal #12–16; QA M-1; third-party review |
+| Full TRIA disclosure; fraud-warning comma | Required notice text | Legal §3, #17 |
+| War definition adds "revolution" and "whether or not war is declared" | Closer to LMA 5567 | Legal #47 |
+| Declarations restructured under one heading; proof-of-loss help shown in Item 4; option R shows $1M also available; T and system-failure option shown without placeholders; waiting periods referenced to Item 6 | Formatting and consistency | QA L-1, L-3, L-7, L-12; third-party review |
+| Smaller wording fixes: extortion-expense consent, claim-expense consent, settlement clause, exclusion 13, run-off for wrongful collection, advance cap, retention and reputational-harm waiting periods | Consistency | QA L-2, L-4 to L-9 |
+| Hotline changed to a reserved fictional number, (303) 555-0142 | An 800-555 number may be real | Market #64 |
+
+## Application
+
+| Change | Source finding |
+| --- | --- |
+| Eligibility line; "deny or reduce"; realistic completion time; starred answers explained | QA L-11; third-party review |
+| 7.1, 7.4 and 7.5 ask facts, not legal conclusions; Colorado Privacy Act thresholds stated correctly | Legal #24, #51; QA M-14 |
+| 3.6 retention answer no longer attributes 7 years to the IRS | Market #9 |
+| Underwriter page: Coverage R and P reasons corrected; scan finding moved to the public website; MDR waiting period wording | QA H-4, M-13, L-1, L-11 |
+
+## Decision rationale
+
+| Change | Source finding |
+| --- | --- |
+| Coalition $116K described as its all-policyholder average; At-Bay figures sourced to the full report | Market #24, #25 |
+| CCH and Kronos identified as attacks (Coverage E); Atlassian 2022 used as the non-malicious example for P | Market #5; QA H-4 |
+| Severe-event table counts catch-up costs, and says $2M covers all but the very top of the range | QA H-5 |
+| Corgi described as showing a sample $2M aggregate / $1M per event policy | Third-party review; QA M-12 |
+| "Other numbers, and why" table; exclusions row completed; option prices; the second million's load explained | QA M-11; nice-to-haves 4 and 5 |
+| "Three claims, start to finish" added to part 8 | QA nice-to-have 1 |
+| War exclusion credited to Y5381, LMA 5567 and Beazley accurately | Legal #46; Market #6 |
+| SB 690, *Travelers v. ICS*, *Apache* and cancellation rows described precisely; *Lira* and CiCi sources added | Legal #3, #8, #14, #37 |
+| Overclaims removed (legal review wording, "broader than" list, "every coverage maps to a row") | QA M-12 |
+| Sources: issued policies labelled as publicly posted; AIG link replaced with Insurance Journal; CCH extension, Atlassian and CFC sources added; bare links made clickable | Third-party review; market check |
+
+## Final pass: fresh review of version 3
+
+A second independent coverage-counsel review of version 3 (`Coverage_Counsel_QA_Review_v3.md`) found no critical issues and graded the package 8/10 on clarity, judgment, practicality and resourcefulness. Its findings were then applied:
+
+| Change | Finding |
+| --- | --- |
+| Theft by the firm's own people excluded from **payment fraud** and **computer fraud**, and said so in "Rogue insiders". Staff theft belongs to crime or fidelity insurance | N-1 |
+| Coverages D, E and P now pay catch-up costs for 30 days after restoration, and E and P reach the vendor's own hosting provider | N-2, N-6 |
+| "Applies across coverages" defined the same way in Item 6 and III.1.1. Breach-cost window for suspected incidents. One insurability test. An early warning is a *reasonably* suspected incident | N-3, N-4, N-5, N-12 |
+| Coverage R shows a single purchased limit; the application shows the $1M choice and why $500K was chosen | N-7 |
+| Diverted wages count as the insured's loss for computer fraud too | N-11 |
+| An honest mistake can no longer cancel the policy (the insurer may only decline to renew). Cancellation for a false application statement requires an executive's knowing, material misstatement | Third-party review; L-5 |
+| Draft-history wording and overclaims removed from the rationale; Corgi described as its page reads in search results ($1M per claim, $2M aggregate) | N-8, N-9, N-10 |
+| Smaller fixes: Item 7 fraud row, patching sentence, exclusion 3, extortion-expense consent, Coverage A cap on the back page, the numbers table (70% row, H fast-report retention, N waiting period), the retention table, the advance cap, the application's 7.1, 8.2 and backup row, and the options table without a "Purchased?" column | L-1 to L-17 |
+| A send-only zip that excludes the private working files | L-18 |
+| Atlassian source link corrected | Link check |
+
+## Corgi specimen pass (September 28, 2026)
+
+The policy was turned into a generic specimen drafted for Corgi, then revised after a comparison with public cyber wordings (Chubb, Coalition, At-Bay, Beazley, AIG and others, plus an outside review of DUAL, QBE, Emergence and Etiqa wordings).
+
+| Change | Why |
+| --- | --- |
+| Insurer is Corgi Insurance Company, Inc.; form numbers follow Corgi's style (CORG-CY-0200 and related forms); insurer contact details are placeholders | The draft is written for Corgi. Real contact details are not invented for a real company |
+| Declarations are a blank specimen showing the standard limits, options and credits; Cedar Ridge's entries moved to the application's underwriter page | One form for every business |
+| Cover page is a policy jacket: claims-made notice, contents, officer signature lines; "SPECIMEN" watermark; Declarations end with the entire-contract statement and an authorized-representative signature | Matches real US policy packages |
+| Removed reader commentary: "One form for every business", tagline, "What's inside", "How to read", the drafting note, the "plain English" column, the "What this policy does not exclude" section and one commentary sentence in **computer fraud** | Real policies keep explanations outside the contract; each removed point was already stated as policy wording elsewhere |
+| Incident steps moved from the back page to the notices page | Practical guidance belongs up front |
+| Core coverages grouped under plain headings (A–C, D–E, F–G, H, I–L, M–O) in Section I and the schedule, each with a pointer to its limits and rules. Letters unchanged | Easier to find the answer to one incident without breaking cross-references |
+| "Your share beyond the retention" shown under the schedule: ransomware coinsurance, known-exploited-vulnerability coinsurance, $100K fraud limit | Restrictions visible beside the limits |
+| A hotline call is notice; written confirmation within one business day; claim documents to follow | Some carriers (for example Chubb) say a hotline report is not notice of a claim |
+| Partial outages that stop a significant part of the business count as an interruption | Payroll can be down while email works |
+| **Dependent provider** limited to technology and outsourced-processing providers | Usual market scope; controls accumulation |
+| Retention rule split into four short clauses | Readability |
+| Rationale: first-party core vs Corgi's add-on model; a tax-season test of the $250K system-failure cap; an "alternative I rejected" column for every number; per-event and incident-limit alternatives with their cost; two new worked claims (a class action, and a limited and a declined claim) | Show the alternatives and the trade-offs, not just the choice |
+
+## Layout pass (September 28, 2026)
+
+Borrowed from a second, independently drafted version of the policy, and kept to the generic Corgi specimen:
+
+| Change | Why |
+| --- | --- |
+| Every coverage in Section I reads the same way: when it applies, what we pay, limit and your share, special conditions; each points to its detailed rules in Section III | Answer one incident from one place |
+| New exclusion 20: professional errors (accounting, tax, audit, payroll calculations), with a carve-back for any **incident** or **media wrongful act** during professional work | Separates cyber cover from accountants' professional liability |
+| Interrupted hours from the same **incident** add up toward the **waiting period**, which applies once per **incident** | Intermittent outages and multiple providers |
+| Notice is effective when given, even if our written confirmation is late | Removes a trap for the insured |
+| Design: sans-serif body, tables with row rules only, uppercase item headings, schedule group rows spanning the table, navy notice boxes, footer rule | Reads like a carrier's policy |
+
+Not adopted from that version: its branded cover, the insured-specific schedules inside the policy, the looser payment-fraud trigger, and the four-step retention-ordering rule.
+
+## Consistency pass (September 28, 2026)
+
+From a review of the layout-pass PDF:
+
+| Change | Why |
+| --- | --- |
+| Forms list shows only forms in the package; the Colorado requirements are stated as built into this edition; the TRIA listing points to Important Notices, item 7 | A listed endorsement was missing |
+| Reputational harm is lost net profit only, everywhere (Section III, part 8.2 now matches the definition) | The two rules could produce different payments |
+| The retention is applied first to the part of a loss that carries coinsurance (Section III, part 1.3.5) | The payout depended on an unstated order |
+| Coverage G: "the same retention as the incident; no separate retention" | The earlier wording read as if the upgrade sat inside the retention |
+| Coverage blocks kept on one page; Sections II–V flow without forced page breaks; cover contents show page numbers | Near-empty pages and split blocks |
+
+## Precision pass from a second edit (September 28, 2026)
+
+A separately edited copy of the policy was compared side by side. Its layout was not adopted (it lost some headings, bullets and checkboxes), but these clauses were:
+
+| Change | Why |
+| --- | --- |
+| Specimen notice says the form is independently drafted for Corgi and is not an issued or approved Corgi product | Uses a real company's name |
+| Item 12 lists "Additional endorsements: none unless listed and supplied"; entire-agreement clause matches | No endorsement can be incorporated by accident |
+| A **claim** is first made when any **insured** first receives it | Fixes the trigger date |
+| Subsidiaries are those owned at the start of the policy period; acquisitions follow Section V, part 4.1 | Removes overlap between the two clauses |
+| Merchant-services demands only under K, regulatory proceedings only under J | K's and J's terms cannot be avoided through Coverage I |
+| Retention for a Coverage L or Q claim with no **incident** | That retention was undefined |
+| Vulnerability coinsurance does not apply to Coverage A or pre-incident help | Free services stay free |
+| Privilege is supported, not promised | "Stays protected by privilege" overstated the law |
+| Waiting-period detail: simultaneous hours count once; the credit does not shorten P; E takes priority over P; restoration does not restart | Closes gaps in intermittent and multi-provider outages |
+| Duty to defend covers claims alleging facts that could be covered | Standard, clearer trigger |
+| Lock-in does not revive a claim already missed | Prevents an unintended loophole |
+| Honest-mistake adjustments apply only from written notice, never to a known incident or claim | Clearer and fairer |
+| Acquisitions: more than 50% ownership, 90 days or to expiry, post-acquisition events only | Precision |
+| Optional extended reporting includes the automatic 60 days, adds no discovery period, cannot be cancelled | Precision |
+| Advance is net of the waiting period and coinsurance; overpayments are returned | Precision |
+| Exclusion 20's carve-back includes **wrongful collection**; the system failure full-limit option has its own four-part block | Consistency |
+| Running header on each policy page | Real-policy look |
+
+Not adopted: extending **regulatory proceeding** to wrongful collection under Coverage Q (an unpriced expansion).
+
+## Not changed (deliberate)
+
+- No widespread-event cap on Coverage E. The $500K sublimit is the accumulation control (rationale part 3).
+- Market checks couldn't open some items (for example, some At-Bay figures, the Beazley form number, Coalition carve-backs). These rely on the author's earlier reading of the full documents, and are cited to those documents.
+- Before sending: recheck California SB 690 after September 30, 2026, and the CIRCIA final rule.

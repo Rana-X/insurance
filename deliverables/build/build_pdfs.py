@@ -1,0 +1,283 @@
+"""Build HTML and PDF versions of the cyber policy deliverables, plus the submission package.
+
+Usage: python3 deliverables/build/build_pdfs.py
+Needs: pip install markdown playwright pypdf; a Chromium binary (CHROME env var or the Playwright default path).
+"""
+import html
+import os
+import re
+import shutil
+import sys
+from pathlib import Path
+
+import markdown
+from pypdf import PdfReader, PdfWriter
+from pypdf.generic import ArrayObject, NameObject, NullObject
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT_HTML = ROOT / "html"
+OUT_PDF = ROOT / "pdf"
+PKG = ROOT / "package" / "Corgi_Cyber_Policy_Package"
+CHROME = os.environ.get("CHROME", "/opt/pw-browsers/chromium-1194/chrome-linux/chrome")
+
+DOCS = [
+    # source, title, footer, package name
+    ("Submission_Guide.md", "Submission Guide", "Cyber Protection Policy · Submission Guide", "00_Submission_Guide.pdf"),
+    ("Cyber_Protection_Policy.md", "Cyber Protection Policy (Specimen)", "Corgi Insurance Company, Inc. · CORG-CY-0200 (10/26) · Specimen", "01_Cyber_Protection_Policy_Specimen.pdf"),
+    ("Sample_Application_Cedar_Ridge.md", "Cyber Protection Policy Application (Sample)", "CORG-CY-0202 (10/26) · Sample", "02_Sample_Application_Cedar_Ridge.pdf"),
+    ("Decision_Rationale.md", "Decision Rationale", "Cyber Protection Policy · Decision Rationale", "03_Decision_Rationale.pdf"),
+]
+
+CSS = """
+@page { size: Letter; margin: 0.8in 0.75in 0.85in 0.75in; }
+html { font-family: "Liberation Sans", Arial, Helvetica, sans-serif; font-size: 9.8pt; color: #1d232a; }
+body { line-height: 1.45; margin: 0; }
+h1 { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 20pt; color: #0b3954; margin: 0 0 8pt; }
+h2 { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14pt; color: #0b3954; border-bottom: 1.5pt solid #0b3954;
+     padding-bottom: 3pt; margin: 18pt 0 8pt; break-after: avoid; }
+h3 { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 11.5pt; color: #0b3954; margin: 12pt 0 5pt; break-after: avoid; }
+h4 { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10.5pt; color: #0b3954; margin: 10pt 0 4pt; break-after: avoid; }
+p, li { orphans: 3; widows: 3; }
+p { margin: 0 0 6pt; }
+ol, ul { margin: 0 0 6pt 18pt; padding: 0; }
+li { margin: 0 0 3pt; }
+table { border-collapse: collapse; width: 100%; margin: 4pt 0 10pt; font-size: 8.8pt; }
+table.keep { break-inside: avoid; }
+tr { break-inside: avoid; }
+th, td { border: none; border-bottom: 0.6pt solid #d3dbe2; padding: 3.5pt 6pt; vertical-align: top; text-align: left; }
+th { background: #eef2f6; border-top: 1.2pt solid #0b3954; border-bottom: 0.8pt solid #0b3954; font-weight: bold; }
+blockquote { margin: 6pt 0 10pt; padding: 7pt 11pt; border-left: 3pt solid #0b3954; background: #f1f5f8; }
+a { color: #0b5394; text-decoration: none; word-break: break-all; }
+.pagebreak { break-before: page; }
+tr.group td { background: #f5f7f9; font-weight: bold; color: #0b3954; text-transform: uppercase; letter-spacing: 0.5pt; font-size: 8pt; padding-top: 5pt; }
+.cover { text-align: center; padding-top: 0.5in; }
+.cover-insurer { font-family: "Helvetica Neue", Arial, sans-serif; font-weight: bold; letter-spacing: 2pt; color: #0b3954; font-size: 12pt; margin-bottom: 22pt; }
+.cover h1 { font-size: 30pt; margin: 0 0 6pt; }
+.cover-sub { font-size: 13pt; margin: 0 0 4pt; }
+.cover-form { font-size: 9.5pt; color: #555; margin: 0 0 26pt; }
+.cover-notice { border: 1.2pt solid #0b3954; padding: 8pt 14pt 4pt; text-align: left; margin: 0 0.25in 16pt; }
+.cover-report { margin: 0 0.25in 18pt; }
+table.cover-contents { width: 55%; margin: 0 auto 26pt; font-size: 10.5pt; }
+table.cover-contents td { border: none; border-bottom: 0.5pt dotted #9aa5b1; text-align: left; padding: 3pt 2pt; }
+table.cover-contents td:last-child { text-align: right; width: 12%; }
+table.cover-contents a { color: inherit; }
+.cov { break-inside: avoid; }
+.cover-witness { font-size: 9pt; text-align: left; margin: 0 0.25in 4pt; }
+table.cover-sign { width: 90%; margin: 0 auto; }
+table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-size: 9.5pt; }
+"""
+
+# Policy only: carrier-style headings.
+SPECIMEN_CSS = """
+h3 { text-transform: uppercase; letter-spacing: 0.6pt; font-size: 10pt; margin: 11pt 0 4pt; }
+table { margin-bottom: 7pt; }
+h4 { border-left: 3pt solid #0b3954; padding-left: 6pt; margin: 12pt 0 5pt; }
+h4 + p, h4 + p + p, h4 + p + p + p, h4 + p + p + p + p { margin-bottom: 3.5pt; }
+.cover h1 { text-transform: none; }
+
+"""
+
+MAJOR = re.compile(
+    r"^## (Important Notices|Declarations|Section I\.|Part 1:|For underwriter use|Sources)"
+)
+LIST_ITEM = re.compile(r"^(- |\d+\. )")
+URL = re.compile(r"(?<![<(\"])(https?://[^\s<>|)]+)")
+
+
+def preprocess(md_text: str) -> str:
+    out = []
+    first_h2 = True
+    for line in md_text.splitlines():
+        # A list must follow a blank line, or Markdown runs it into the paragraph above.
+        if LIST_ITEM.match(line) and out and out[-1].strip() and not LIST_ITEM.match(out[-1]) \
+                and not out[-1].startswith("|") and not out[-1].startswith("    "):
+            out.append("")
+        if line.startswith("## ") and MAJOR.match(line) and not first_h2:
+            out.append('<div class="pagebreak"></div>')
+            out.append("")
+        if line.startswith("## "):
+            first_h2 = False
+        # Bare URLs become autolinks, which also protects underscores from emphasis.
+        line = URL.sub(lambda m: "<" + m.group(1).rstrip(".,;") + ">" + m.group(1)[len(m.group(1).rstrip(".,;")):], line)
+        out.append(line)
+    return "\n".join(out)
+
+
+def postprocess(body: str) -> str:
+    # Keep short tables on one page.
+    def mark(m):
+        rows = m.group(0).count("<tr>")
+        return m.group(0).replace("<table>", '<table class="keep">', 1) if rows <= 8 else m.group(0)
+    body = re.sub(r"<table>.*?</table>", mark, body, flags=re.S)
+    # A row with only a bold label in the second cell is a group heading: span it across the table.
+    return re.sub(r"<tr>\s*<td></td>\s*<td><strong>([^<]+)</strong></td>((?:\s*<td></td>)+)\s*</tr>",
+                  lambda m: f'<tr class="group"><td colspan="{1 + 1 + m.group(2).count("<td>")}">{m.group(1)}</td></tr>', body)
+
+
+POLICY = "Cyber_Protection_Policy.md"
+# Cover contents: placeholder -> heading whose page number fills it.
+CONTENTS = {"PG_NOTICES": "Important Notices and Disclaimers", "PG_DECS": "Declarations",
+            "PG_S1": "Section I. Insuring Agreements", "PG_S2": "Section II. Definitions",
+            "PG_S3": "Section III. Coverage Sections", "PG_S4": "Section IV. Exclusions", "PG_S5": "Section V. Conditions"}
+
+
+def keep_coverages(body: str) -> str:
+    # Keep each coverage block in Section I on one page where it fits.
+    s, e = body.find("<h2>Section I. Insuring Agreements</h2>"), body.find("<h2>Section II. Definitions</h2>")
+    if s < 0 or e < 0:
+        return body
+    seg = re.sub(r"(<h4>.*?)(?=<h[234]>|$)", lambda m: f'<div class="cov">{m.group(1)}</div>', body[s:e], flags=re.S)
+    return body[:s] + seg + body[e:]
+
+
+def outline_pages(pdf: Path) -> dict:
+    reader = PdfReader(str(pdf))
+    pages = {}
+
+    def walk(items):
+        for item in items:
+            if isinstance(item, list):
+                walk(item)
+            else:
+                pages.setdefault(item.title.strip(), reader.get_destination_page_number(item) + 1)
+    walk(reader.outline)
+    return pages
+
+
+GUIDE_CSS = "html { font-size: 9pt; } table { font-size: 8pt; margin: 2pt 0 6pt; } th, td { padding: 2.5pt 5pt; } h1 { font-size: 17pt; } h3 { margin: 7pt 0 3pt; } li, p { margin-bottom: 2pt; }"
+
+
+def build(md_name: str, title: str, footer: str, fill: dict | None = None) -> Path:
+    src = ROOT / md_name
+    text = src.read_text(encoding="utf-8")
+    for k, v in (fill or {}).items():
+        text = text.replace("{" + k + "}", str(v))
+    body = postprocess(markdown.markdown(preprocess(text), extensions=["tables", "sane_lists", "toc"]))
+    if md_name == POLICY:
+        body = keep_coverages(body)
+    extra_css = GUIDE_CSS if md_name.startswith("Submission_Guide") else ""
+    if md_name == "Cyber_Protection_Policy.md":
+        extra_css = SPECIMEN_CSS
+    OUT_HTML.mkdir(exist_ok=True)
+    OUT_PDF.mkdir(exist_ok=True)
+    page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{html.escape(title)}</title>
+<style>{CSS}{extra_css}</style></head><body>{body}</body></html>"""
+    html_path = OUT_HTML / (src.stem + ".html")
+    html_path.write_text(page, encoding="utf-8")
+    pdf_path = OUT_PDF / (src.stem + ".pdf")
+    footer_tpl = (
+        '<div style="font-size:7.5pt;width:100%;margin:0 0.75in;padding-top:4pt;border-top:0.5pt solid #c9d1d9;color:#666;display:flex;justify-content:space-between;font-family:Liberation Sans,Arial,sans-serif;">'
+        f"<span>{html.escape(footer)}</span>"
+        '<span>Page <span class="pageNumber"></span> of <span class="totalPages"></span></span></div>'
+    )
+    header_tpl = "<span></span>"
+    if md_name == POLICY:
+        header_tpl = ('<div style="font-size:7pt;width:100%;margin:0 0.75in;padding-bottom:3pt;border-bottom:0.5pt solid #c9d1d9;'
+                      'color:#0b3954;letter-spacing:0.8pt;font-weight:bold;font-family:Liberation Sans,Arial,sans-serif;">'
+                      'CORGI INSURANCE COMPANY, INC. &nbsp;·&nbsp; CYBER PROTECTION POLICY</div>')
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(executable_path=CHROME, args=["--no-sandbox"])
+        page_obj = browser.new_page()
+        page_obj.goto(html_path.as_uri())
+        kwargs = dict(
+            path=str(pdf_path), format="Letter", print_background=True, prefer_css_page_size=True,
+            display_header_footer=True, header_template=header_tpl, footer_template=footer_tpl,
+            margin={"top": "0.8in", "bottom": "0.85in", "left": "0.75in", "right": "0.75in"},
+        )
+        try:
+            page_obj.pdf(outline=True, tagged=True, **kwargs)
+        except TypeError:
+            page_obj.pdf(**kwargs)
+        browser.close()
+    return pdf_path
+
+
+def package(built):
+    send = PKG / "1_Send_to_Corgi"
+    private = PKG / "2_Keep_Private_Working_Files"
+    if PKG.exists():
+        shutil.rmtree(PKG)
+    send.mkdir(parents=True)
+    private.mkdir(parents=True)
+    writer = PdfWriter()
+    for (src, title, _footer, pkg_name), pdf in zip(DOCS, built):
+        shutil.copy(pdf, send / pkg_name)
+        start = len(writer.pages)
+        reader = PdfReader(str(pdf))
+        for p in reader.pages:
+            writer.add_page(p)
+        parent = writer.add_outline_item(title, start)
+        # Keep the cover's contents links working in the combined file: point each named link at its page.
+        targets = {}
+        for dest_name, dest in reader.named_destinations.items():
+            try:
+                targets[str(dest_name)] = start + reader.get_destination_page_number(dest)
+            except Exception:
+                pass
+        for i in range(start, len(writer.pages)):
+            for annot in writer.pages[i].get("/Annots") or []:
+                obj = annot.get_object()
+                dest = obj.get("/Dest")
+                if dest is not None and str(dest) in targets:
+                    obj[NameObject("/Dest")] = ArrayObject([writer.pages[targets[str(dest)]].indirect_reference,
+                                                           NameObject("/XYZ"), NullObject(), NullObject(), NullObject()])
+
+        def copy_outline(items, parent_item, depth):
+            last = None
+            for item in items:
+                if isinstance(item, list):
+                    if last is not None and depth < 2:
+                        copy_outline(item, last, depth + 1)
+                    continue
+                try:
+                    last = writer.add_outline_item(item.title, start + reader.get_destination_page_number(item), parent=parent_item)
+                except Exception:
+                    last = None
+
+        # Chromium nests everything under the H1; skip that level so sections sit directly under the document.
+        top = reader.outline
+        if len(top) >= 2 and not isinstance(top[0], list) and isinstance(top[1], list):
+            top = top[1]
+        copy_outline(top, parent, 0)
+    writer.add_metadata({"/Title": "Cyber Protection Policy: Complete Submission"})
+    with open(send / "Rana_Corgi_Cyber_Policy_Submission.pdf", "wb") as f:
+        writer.write(f)
+    for name in ["Cyber_Protection_Policy.md", "Sample_Application_Cedar_Ridge.md", "Decision_Rationale.md"]:
+        shutil.copy(ROOT / name, private / ("source_" + name))
+    for extra in (ROOT / "validation").glob("*.md"):
+        shutil.copy(extra, private / extra.name)
+    (PKG / "READ_ME_FIRST.txt").write_text((ROOT / "build" / "READ_ME_FIRST.txt").read_text(encoding="utf-8"), encoding="utf-8")
+    zip_base = ROOT / "Corgi_Cyber_Policy_Package"
+    shutil.make_archive(str(zip_base), "zip", root_dir=PKG.parent, base_dir=PKG.name)
+    # A send-only zip: nothing from the private folder may leave the machine by accident.
+    # The final folder to send: unzips to one folder, Rana_Corgi_Final, holding only the send files.
+    final_root = ROOT / "final"
+    if final_root.exists():
+        shutil.rmtree(final_root)
+    shutil.copytree(send, final_root / "Rana_Corgi_Final")
+    shutil.make_archive(str(ROOT / "Rana_Corgi_Final"), "zip", root_dir=final_root, base_dir="Rana_Corgi_Final")
+    return zip_base.with_suffix(".zip")
+
+
+if __name__ == "__main__":
+    built = {}
+    for name, title, footer, _pkg in DOCS[1:]:
+        if name == POLICY:
+            # Two passes: the first finds each section's page for the cover's contents list.
+            first = build(name, title, footer, {k: "00" for k in CONTENTS})
+            found = outline_pages(first)
+            built[name] = build(name, title, footer, {k: found[v] for k, v in CONTENTS.items()})
+        else:
+            built[name] = build(name, title, footer)
+    counts = {k: len(PdfReader(str(v)).pages) for k, v in built.items()}
+    fill = {"POLICY_PAGES": counts["Cyber_Protection_Policy.md"], "APP_PAGES": counts["Sample_Application_Cedar_Ridge.md"],
+            "RAT_PAGES": counts["Decision_Rationale.md"]}
+    g = DOCS[0]
+    built[g[0]] = build(g[0], g[1], g[2], fill)
+    built = [built[d[0]] for d in DOCS]
+    for p in built:
+        print(p, len(PdfReader(str(p)).pages), "pages")
+    z = package(built)
+    print(z, z.stat().st_size, "bytes")
+    sys.exit(0)
