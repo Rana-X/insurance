@@ -106,14 +106,6 @@ Each test assumes unused limits, timely reporting, eligible costs and no other i
 | **Accidental outage of the firm's own systems:** $200,000 lost income + $100,000 restoration = $300,000 | $290,000 qualifies after the $10,000 retention on restoration. The shared accident cap pays **$250,000**; the firm bears **$50,000** plus loss during the wait; **$1.75 million remains**. The accident cap is now used up for the year. |
 | **A payroll clerk deliberately steals $100,000** | H pays **$0**; theft by an employee is neither payment fraud nor computer fraud. The firm bears $100,000 and the full $2 million remains. A separate cyber loss caused by an employee can still qualify under other coverages. |
 
-## 9. What I would check before launch
-
-- **Price the core and test provider concentration.** Map shared cloud providers across the book of business before confirming the E and P limits.
-- **Staff the 24/7 hotline**, including call recording, since a call counts as notice.
-- **Verify Cedar Ridge's controls:** callback records, the internal scanner account without MFA, the Windows Server 2012 R2 print server due for replacement in December 2026, and alert monitoring that runs during business hours only.
-- **Check payment peaks and available cash** against the $250,000 fraud limit and the $10,000 retention.
-- **Test the 30% settlement share and the extended-reporting prices** against claims data.
-
 ## Appendix: the income model behind the $250,000 accident cap
 
 The application gives $8.1 million prior revenue and $8.5 million projected revenue. The breakdown below is my assumption.
