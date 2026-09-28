@@ -16,9 +16,15 @@ Three choices shape the whole policy:
 
 Cedar Ridge Accounting Group, a fictional 62-person Denver accounting firm, is the sample insured, and its application drives the Declarations. All premiums, limits and loss figures below are my assumptions for this exercise, not quotes or actuarial results.
 
-**How I worked.** I read complete At-Bay, Travelers and DUAL forms, following each coverage through its definitions, exclusions and conditions rather than stopping at the insuring agreement. [1–3] Coalition's specimen showed that an endorsement can quietly replace a base reporting rule, so I checked endorsements too. [4] I used the NIST small-business guide to test the application's security questions. [6]
+## 2. How I used outside sources
 
-## 2. How the policy is built
+I used three kinds of sources, each for a different job.
+
+- **Existing policies, to learn the standard shape.** I read complete small-business forms from At-Bay, Travelers, DUAL, Coalition and Chubb, following each coverage through its definitions, exclusions and conditions. [1–4, 10] Where they agreed, I kept the market's approach. Where they disagreed, I had a real choice to make, and the rest of this paper explains those choices. Coalition's specimen also showed that an endorsement can quietly change a base rule, so I checked endorsements too. [4]
+- **Claims reports, to see where losses are heading.** I read At-Bay's InsurSec Reports for 2025 and 2026 to see which losses hurt small firms most and how that is changing. [5, 12] Ransomware with downtime, payment fraud and provider outages stood out, so they get the most attention in the policy. I also added cover for newer risks the older forms say little about: deepfake fraud, AI agents acting outside their permissions, and invoice diversion.
+- **Frameworks and regulatory guidance, to keep it workable.** NIST's small-business guide shaped the application's security questions. [6] Treasury's OFAC advisory set the ransom-payment rules. [11] Travelers' fraud supplement helped with the payment questions. [8]
+
+## 3. How the policy is built
 
 Someone reading a cyber policy during an incident wants to know three things: am I covered, what do I pay, and what do I do now. The layout answers them in that order.
 
@@ -28,7 +34,7 @@ Someone reading a cyber policy during an incident wants to know three things: am
 - **Two triggers.** Coverage for the firm's own losses (A–H, M–P) applies to incidents first discovered during the policy period. Liability (I–L, Q) is claims-made and reported. Own losses are known when they are discovered; lawsuits can arrive years later, so liability needs a firm claim date to tie it to one policy year. Section VII, part 1.4 links the two: reporting an incident during the policy period locks later related lawsuits into this policy.
 - **A broad core with two options.** Corgi's startup product sells cover for the firm's own losses as add-ons to liability. [7] I put those losses in the core so a small buyer cannot be underinsured by omission. The trade-off is more exposure for the insurer. Only two risks are optional: accidental provider outages (P), which are highly correlated across insureds, and website-tracking liability (Q), which is concentrated in businesses that run advertising pixels.
 
-## 3. Limits, retention and waiting periods
+## 4. Limits, retention and waiting periods
 
 | Term | My choice | Why | What the business keeps |
 |---|---|---|---|
@@ -46,7 +52,7 @@ Someone reading a cyber policy during an incident wants to know three things: am
 | **Extended reporting** | 60 days automatic; 12 months for 75% or 24 months for 125% of premium | A free short bridge, and a longer tail for a firm closing or switching insurers. At the $8,000 sample premium, that is $6,000 or $10,000. | The factors need testing against claims data. |
 | **Premium** | $8,000 illustrative: $7,500 core + $500 for P | Round figures to complete the sample Declarations. | — |
 
-## 4. What I included and what I left out
+## 5. What I included and what I left out
 
 **Included as core cover**
 - **Breach response costs (B)**, including help for people facing tax-related identity theft. Cedar Ridge holds Social Security numbers and tax records for about 31,000 people, so this is the breach cost its clients are most likely to need.
@@ -66,7 +72,7 @@ Someone reading a cyber policy during an incident wants to know three things: am
 - **Utility, internet backbone and natural-disaster outages** (exclusions 12 and 13). These cannot be priced into a small-business premium. Under exclusion 12, security failures in the firm's systems, and failures inside a provider's systems under E and P, stay covered. A provider outage caused by fire or flood stays excluded.
 - **War and major state-backed cyber operations** (exclusion 15). Ordinary ransomware and fraud by state-linked groups stay covered. Under the state-operation branch, systems outside the country that suffered the major impact stay covered. We carry the burden of proof, and response and defense continue until we prove the exclusion applies.
 
-## 5. Key definitions
+## 6. Key definitions
 
 Section V has 60 numbered definitions in alphabetical order, and bold terms in the text link to them. Each definition covers one idea and states its own exceptions, so a reader doesn't have to hunt for a distant exclusion. These six carry the most weight:
 
@@ -79,7 +85,7 @@ Section V has 60 numbered definitions in alphabetical order, and bold terms in t
 | **System failure** (56) | An unplanned, accidental outage, including human error, a faulty vendor update or a malfunctioning AI agent. Excludes utilities and public internet infrastructure. | Accidents are frequent and correlated, so they get their own cap instead of being folded into security failure. |
 | **AI agent** (2) | Software that acts without a person approving each step, with a test for when it "exceeds its authority." | AI tools already sit in email and payment workflows. The policy says how they are treated, and Section I confirms that the use of AI alone never excludes a loss. |
 
-## 6. Choices that make the policy usable in a claim
+## 7. Choices that make the policy usable in a claim
 
 - **A hotline call is notice** (Section VII, part 1.1). DUAL treats its hotline as help only and requires separate formal notice. [3, pp. 3, 15] I made the call count, which means the insurer must record and route every call reliably.
 - **No consent needed** to use panel vendors, make legally required notices, contain an attack in the first 72 hours or settle within the retention (Section VII, part 2.2).
@@ -90,7 +96,7 @@ Section V has 60 numbered definitions in alphabetical order, and bold terms in t
 - **Fair disputes** (Section VII, part 8). A free internal review, then mediation that we pay for, then court or arbitration.
 - **Calling early never counts against the firm at renewal** (Section VII, part 6.2).
 
-## 7. Three claim tests
+## 8. Three claim tests
 
 Each test assumes unused limits, timely reporting, eligible costs and no other insurance or recoveries. Interruption amounts are after the waiting period.
 
@@ -100,7 +106,7 @@ Each test assumes unused limits, timely reporting, eligible costs and no other i
 | **Accidental outage of the firm's own systems:** $200,000 lost income + $100,000 restoration = $300,000 | $290,000 qualifies after the $10,000 retention on restoration. The shared accident cap pays **$250,000**; the firm bears **$50,000** plus loss during the wait; **$1.75 million remains**. The accident cap is now used up for the year. |
 | **A payroll clerk deliberately steals $100,000** | H pays **$0**; theft by an employee is neither payment fraud nor computer fraud. The firm bears $100,000 and the full $2 million remains. A separate cyber loss caused by an employee can still qualify under other coverages. |
 
-## 8. What I would check before launch
+## 9. What I would check before launch
 
 - **Price the core and test provider concentration.** Map shared cloud providers across the book of business before confirming the E and P limits.
 - **Staff the 24/7 hotline**, including call recording, since a call counts as notice.
@@ -129,16 +135,19 @@ I kept the $250,000 cap knowing the stress case exceeds it. Seasonal accounts, r
 
 ## References
 
-1. At-Bay, Cyber Insurance Policy AB-CYB-001.2, edition 08/2023, U.S. specimen. Page 3: own and provider interruption. Page 6: settlement-sharing rule.
-2. Travelers, CyberRisk Coverage CYB-16001, revision 06/2020, U.S. sample coverage form. Pages 2, 4, 7 and 11: coverage, systems and provider distinctions.
-3. DUAL, Cyber and Data Protection Policy, North America resource labeled Cyber Wording 2026. Pages 3 and 15: hotline assistance and formal claim notification.
-4. Coalition, Oregon specimen policy package, base form CYUSP-00PF-1022-01 with endorsements. Page 64: endorsement replacing the base reporting obligations.
-5. At-Bay, InsurSec Report 2026, published April 2026. Pages 26 and 43: 2025 ransomware severity and methodology. Page 34: fraud reporting and recovery.
-6. NIST, CSF 2.0 Small Business Quick-Start Guide, NIST SP 1300, February 2024. Pages 3–8.
-7. Corgi, Cyber Liability Insurance for Startups, public summary of CORG-CY-0100, reviewed April 24, 2026.
-8. Travelers, Social Engineering Fraud Short Form Supplement, CYB-14301, edition 01/2019. Pages 1–2.
-9. Coalition, Managed Detection and Response, US, servicing guidance updated August 1, 2024.
-10. Chubb, Cyber Enterprise Risk Management, PF-48169, edition 02/2019, U.S. small-business sample. Page 17, VII.B.
-11. U.S. Treasury / OFAC, Updated Advisory on Potential Sanctions Risks for Facilitating Ransomware Payments, September 21, 2021.
+Page numbers are PDF viewer pages. These are the editions I compared, not a claim that each is the insurer's current product.
+
+1. **At-Bay, Cyber Insurance Policy** (AB-CYB-001.2, 08/2023 specimen). Used for: own vs. provider interruption (p. 3); the settlement split (p. 6).
+2. **Travelers, CyberRisk Coverage** (CYB-16001, 06/2020 sample). Used for: how coverage, systems and providers are separated (pp. 2, 4, 7, 11).
+3. **DUAL, Cyber and Data Protection Policy** (North America, "Cyber Wording 2026"). Used for: hotline help vs. formal notice (pp. 3, 15).
+4. **Coalition, Oregon specimen policy package** (CYUSP-00PF-1022-01 with endorsements). Used for: how an endorsement can replace base reporting rules (p. 64).
+5. **At-Bay, InsurSec Report 2026** (April 2026). Used for: 2025 ransomware costs (pp. 26, 43); fraud reporting and recovery (p. 34).
+6. **NIST, CSF 2.0 Small Business Quick-Start Guide** (SP 1300, February 2024). Used for: the application's security questions (pp. 3–8).
+7. **Corgi, Cyber Liability Insurance for Startups** (summary of CORG-CY-0100, reviewed April 24, 2026). Used for: comparing how own-loss cover is packaged.
+8. **Travelers, Social Engineering Fraud Supplement** (CYB-14301, 01/2019). Used for: payment-control questions (pp. 1–2).
+9. **Coalition, Managed Detection and Response, US** (updated August 1, 2024). Used for: security credits as a possible later model.
+10. **Chubb, Cyber Enterprise Risk Management** (PF-48169, 02/2019 small-business sample). Used for: waiting period and extra expense (p. 17).
+11. **U.S. Treasury / OFAC, Updated Ransomware Advisory** (September 21, 2021). Used for: sanctions checks and reporting before any ransom payment (pp. 1, 3–6).
+12. **At-Bay, InsurSec Report 2025.** Used for: comparing loss trends year over year.
 
 *Prepared by Rana for the Corgi take-home. This paper explains the accompanying policy; it does not amend its terms.*
