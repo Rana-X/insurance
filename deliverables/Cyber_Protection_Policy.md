@@ -11,13 +11,13 @@
 </div>
 <p class="cover-report"><strong>To report an incident or claim, 24 hours a day:</strong> use any channel in Item 10 of the Declarations.</p>
 <table class="cover-contents">
-<tr><td>Important Notices and Disclaimers</td><td>{PG_NOTICES}</td></tr>
-<tr><td>Declarations</td><td>{PG_DECS}</td></tr>
-<tr><td>Section I. Insuring Agreements</td><td>{PG_S1}</td></tr>
-<tr><td>Section II. Definitions</td><td>{PG_S2}</td></tr>
-<tr><td>Section III. Coverage Sections</td><td>{PG_S3}</td></tr>
-<tr><td>Section IV. Exclusions</td><td>{PG_S4}</td></tr>
-<tr><td>Section V. Conditions</td><td>{PG_S5}</td></tr>
+<tr><td><a href="#important-notices-and-disclaimers">Important Notices and Disclaimers</a></td><td>{PG_NOTICES}</td></tr>
+<tr><td><a href="#declarations">Declarations</a></td><td>{PG_DECS}</td></tr>
+<tr><td><a href="#section-i-insuring-agreements">Section I. Insuring Agreements</a></td><td>{PG_S1}</td></tr>
+<tr><td><a href="#section-ii-definitions">Section II. Definitions</a></td><td>{PG_S2}</td></tr>
+<tr><td><a href="#section-iii-coverage-sections">Section III. Coverage Sections</a></td><td>{PG_S3}</td></tr>
+<tr><td><a href="#section-iv-exclusions">Section IV. Exclusions</a></td><td>{PG_S4}</td></tr>
+<tr><td><a href="#section-v-conditions">Section V. Conditions</a></td><td>{PG_S5}</td></tr>
 </table>
 <p class="cover-witness">In witness whereof, Corgi Insurance Company, Inc. has caused this policy to be signed by its President and its Secretary. This policy is not valid unless completed by Declarations issued by us.</p>
 <table class="cover-sign">

@@ -12,6 +12,7 @@ from pathlib import Path
 
 import markdown
 from pypdf import PdfReader, PdfWriter
+from pypdf.generic import ArrayObject, NameObject, NullObject
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT_HTML = ROOT / "html"
@@ -59,6 +60,7 @@ tr.group td { background: #f5f7f9; font-weight: bold; color: #0b3954; text-trans
 table.cover-contents { width: 55%; margin: 0 auto 26pt; font-size: 10.5pt; }
 table.cover-contents td { border: none; border-bottom: 0.5pt dotted #9aa5b1; text-align: left; padding: 3pt 2pt; }
 table.cover-contents td:last-child { text-align: right; width: 12%; }
+table.cover-contents a { color: inherit; }
 .cov { break-inside: avoid; }
 .cover-witness { font-size: 9pt; text-align: left; margin: 0 0.25in 4pt; }
 table.cover-sign { width: 90%; margin: 0 auto; }
@@ -73,7 +75,7 @@ h4 { border-left: 3pt solid #0b3954; padding-left: 6pt; margin: 12pt 0 5pt; }
 h4 + p, h4 + p + p, h4 + p + p + p, h4 + p + p + p + p { margin-bottom: 3.5pt; }
 .cover h1 { text-transform: none; }
 body::before { content: "SPECIMEN"; position: fixed; top: 40%; left: 0; right: 0; text-align: center;
-  font: bold 110pt "Helvetica Neue", Arial, sans-serif; color: rgba(11, 57, 84, 0.05);
+  font: bold 84pt "Helvetica Neue", Arial, sans-serif; color: rgba(11, 57, 84, 0.028);
   transform: rotate(-35deg); z-index: -1; }
 """
 
@@ -152,7 +154,7 @@ def build(md_name: str, title: str, footer: str, fill: dict | None = None) -> Pa
     text = src.read_text(encoding="utf-8")
     for k, v in (fill or {}).items():
         text = text.replace("{" + k + "}", str(v))
-    body = postprocess(markdown.markdown(preprocess(text), extensions=["tables", "sane_lists"]))
+    body = postprocess(markdown.markdown(preprocess(text), extensions=["tables", "sane_lists", "toc"]))
     if md_name == POLICY:
         body = keep_coverages(body)
     extra_css = GUIDE_CSS if md_name.startswith("Submission_Guide") else ""
@@ -208,6 +210,20 @@ def package(built):
         for p in reader.pages:
             writer.add_page(p)
         parent = writer.add_outline_item(title, start)
+        # Keep the cover's contents links working in the combined file: point each named link at its page.
+        targets = {}
+        for dest_name, dest in reader.named_destinations.items():
+            try:
+                targets[str(dest_name)] = start + reader.get_destination_page_number(dest)
+            except Exception:
+                pass
+        for i in range(start, len(writer.pages)):
+            for annot in writer.pages[i].get("/Annots") or []:
+                obj = annot.get_object()
+                dest = obj.get("/Dest")
+                if dest is not None and str(dest) in targets:
+                    obj[NameObject("/Dest")] = ArrayObject([writer.pages[targets[str(dest)]].indirect_reference,
+                                                           NameObject("/XYZ"), NullObject(), NullObject(), NullObject()])
 
         def copy_outline(items, parent_item, depth):
             last = None
