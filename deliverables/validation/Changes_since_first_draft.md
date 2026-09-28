@@ -91,6 +91,20 @@ The policy was turned into a generic specimen drafted for Corgi, then revised af
 | Retention rule split into four short clauses | Readability |
 | Rationale: first-party core vs Corgi's add-on model; a tax-season test of the $250K system-failure cap; an "alternative I rejected" column for every number; per-event and incident-limit alternatives with their cost; two new worked claims (a class action, and a limited and a declined claim) | Show the alternatives and the trade-offs, not just the choice |
 
+## Layout pass (September 28, 2026)
+
+Borrowed from a second, independently drafted version of the policy, and kept to the generic Corgi specimen:
+
+| Change | Why |
+| --- | --- |
+| Every coverage in Section I reads the same way: when it applies, what we pay, limit and your share, special conditions; each points to its detailed rules in Section III | Answer one incident from one place |
+| New exclusion 20: professional errors (accounting, tax, audit, payroll calculations), with a carve-back for any **incident** or **media wrongful act** during professional work | Separates cyber cover from accountants' professional liability |
+| Interrupted hours from the same **incident** add up toward the **waiting period**, which applies once per **incident** | Intermittent outages and multiple providers |
+| Notice is effective when given, even if our written confirmation is late | Removes a trap for the insured |
+| Design: sans-serif body, tables with row rules only, uppercase item headings, schedule group rows spanning the table, navy notice boxes, footer rule | Reads like a carrier's policy |
+
+Not adopted from that version: its branded cover, the insured-specific schedules inside the policy, the looser payment-fraud trigger, and the four-step retention-ordering rule.
+
 ## Not changed (deliberate)
 
 - No widespread-event cap on Coverage E. The $500K sublimit is the accumulation control (rationale part 3).

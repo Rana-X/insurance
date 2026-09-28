@@ -199,6 +199,8 @@ These Declarations, together with the **application**, the policy form and any e
 
 In exchange for your premium, and relying on your **application**, we agree to provide the coverages below. They are subject to the limits, retentions, exclusions, conditions and other terms of this policy. Core coverages A–O apply to every policy. Optional coverages P–T apply only if Item 6 of the Declarations shows them as purchased.
 
+Each coverage is set out the same way: when it applies, what we pay, the limit and your share, and any special conditions. Amounts are those shown in the Declarations; if an amount in this Section differs from the Declarations, the Declarations control.
+
 ### When coverage applies
 
 Every coverage requires all of the following:
@@ -213,80 +215,213 @@ Every coverage requires all of the following:
 - **Artificial intelligence.** An **incident** or **claim** is not excluded merely because artificial intelligence, machine learning or synthetic media (including deepfakes) was used to cause, carry out or detect it.
 - **We pay vendors directly.** Wherever possible, we pay covered vendors (forensics, lawyers, negotiators) directly, so you do not have to pay first and wait to be reimbursed.
 
-### Core coverages (always included)
+### Responding to an incident (A–C)
 
-#### Responding to an incident (A–C)
+#### A. Incident Response Services
 
-*Limits and your share: Item 6 of the Declarations. How it works: Section III, parts 2 and 3.*
+**When it applies.** You report an actual or suspected **incident** through any channel in Item 10. An **early warning** is always a reasonably suspected **incident** for Coverages A and B.
 
-**A. Incident Response Services.** When you report an actual or suspected **incident** through any channel in Item 10, we will provide **incident response services** for the first 7 days after your report, up to the amounts shown in Item 4 of the Declarations. These services are provided in addition to the policy aggregate limit, and no **retention** applies. An **early warning** is always a reasonably suspected **incident** for Coverages A and B. By itself, it does not mean you have **discovered** an **incident** for any other coverage.
+**What we pay.** We provide **incident response services** for the first 7 days after your report.
 
-**B. Breach Response Costs.** We will pay **breach response costs** you incur because of an actual or reasonably suspected **security failure** or **privacy event**, including the cost of finding out that none happened.
+**Limit and your share.** $25,000 each **incident** and $75,000 for the **policy period** (Item 4), in addition to the policy aggregate limit. No **retention**.
 
-**C. Cyber Extortion and Ransomware.** We will pay **extortion expenses** you incur because of **cyber extortion**. We will pay a ransom or other extortion payment only with our prior written consent and only where lawful, including under applicable sanctions laws. You never have to pay a ransom to keep any other coverage (Section III, part 3). We will still pay reasonable negotiation, investigation and sanctions-screening costs if a payment cannot lawfully be made or you decide not to pay.
+**Special conditions.** By itself, an **early warning** does not mean you have **discovered** an **incident** for any other coverage. How the response works: Section III, part 2.
 
-#### Lost income (D–E)
+#### B. Breach Response Costs
 
-*Limits and your share: Item 6 of the Declarations. How it works: Section III, part 4.*
+**When it applies.** An actual or reasonably suspected **security failure** or **privacy event**, including one involving paper records.
 
-**D. Business Interruption.** When a **security failure** or **system failure** interrupts your **computer systems** for longer than the **waiting period**, we will pay the **business income loss** you incur during the **period of restoration** and your **extra expense**, including catch-up costs incurred up to 30 days after the **period of restoration** ends. Loss caused by a **system failure** is subject to the system failure limit in Item 6, which applies across Coverages D and F combined.
+**What we pay.** **Breach response costs**, including the cost of finding out that no **security failure** or **privacy event** happened.
 
-**E. Dependent Business Interruption.** When a **security failure** affecting the **dependent systems** you rely on interrupts them for longer than the **waiting period**, we will pay the **business income loss** you incur during the **period of restoration** and your **extra expense**, including catch-up costs incurred up to 30 days after the **period of restoration** ends.
+**Limit and your share.** Up to the policy aggregate limit (Item 4), after the **retention** (Item 5).
 
-#### Data and systems (F–G)
+**Special conditions.** Costs must be incurred within 12 months after you **discover** the event or, for one that is only suspected, after you report it. Legally required notices never need our consent; voluntary notices do. Section III, part 2.
 
-*Limits and your share: Item 6 of the Declarations. How it works: Section III, part 5.*
+#### C. Cyber Extortion and Ransomware
 
-**F. Data and System Restoration.** We will pay **restoration costs** to restore, recreate or recollect your **digital assets**, and to remove **malicious code** from your **computer systems**, because of a **security failure** or **system failure**. **Restoration costs** caused by a **system failure** are subject to the system failure limit in Item 6.
+**When it applies.** **Cyber extortion**, including **ransomware** that has already encrypted or locked your systems.
 
-**G. Security Improvement Costs.** After a **security failure** covered under B, C, D, F or H, we will pay **security improvement costs** for upgrades our incident response team recommends in writing to prevent a similar **incident**.
+**What we pay.** **Extortion expenses**: negotiators, investigation, sanctions screening and legal advice on whether a payment is lawful and, only with our prior written consent and where lawful, a ransom or other extortion payment.
 
-#### Payment fraud (H)
+**Limit and your share.** Up to the policy aggregate limit (Item 4), after the **retention** (Item 5).
 
-*Limits and your share: Item 6 of the Declarations. How it works: Section III, part 6.*
+**Special conditions.** You never have to pay a ransom to keep any other coverage. If a payment cannot lawfully be made, or you decide not to pay, we still pay negotiation, investigation and sanctions-screening costs. Consent and reporting steps: Section III, part 3.
 
-**H. Payment Fraud and Invoice Fraud.** We will pay:
+### Lost income (D–E)
 
-1. **funds transfer loss** you incur because of **payment fraud** or **computer fraud**; and
-2. **invoice manipulation loss** you incur when a **security failure** lets someone send your customers fraudulent invoices or payment instructions, and you cannot collect payment you are owed.
+#### D. Business Interruption
 
-Both parts share the Coverage H limit in Item 6 (or the Coverage R limit, if purchased). The lower limit in Item 6 applies only as Section III, part 6 says. If you report the loss to us within 72 hours of **discovering** it, the reduced **retention** shown in Item 6 applies.
+**When it applies.** A **security failure** or **system failure** interrupts your **computer systems** for longer than the **waiting period**. A partial outage that stops a significant part of your business, such as payroll processing, counts.
 
-#### Claims and investigations against you (I–L)
+**What we pay.** The **business income loss** you incur during the **period of restoration** and your **extra expense**, including catch-up costs incurred up to 30 days after the **period of restoration** ends.
 
-*Limits and your share: Item 6 of the Declarations. How it works: Section III, part 7.*
+**Limit and your share.** For a **security failure**, up to the policy aggregate limit. For a **system failure**, $250,000 for Coverages D and F combined (Item 6). No dollar **retention**: the **waiting period** in Item 6 applies instead (8 hours, or 4 hours with the managed detection credit in Item 7).
 
-**I. Network Security and Privacy Liability.** We will pay **damages** and **claim expenses** you are legally obligated to pay because of a **claim** for a **security failure** or **privacy event**. This includes **claims** brought by your own **employees** about their personal information.
+**Special conditions.** The **period of restoration** lasts up to 180 days. If your backups were not verified, ransomware coinsurance can apply (Section III, part 1.6). How we measure the loss: Section III, part 4.
 
-**J. Regulatory Defense and Penalties.** We will pay **claim expenses** and **regulatory penalties** you are legally obligated to pay because of a **regulatory proceeding** arising from a **security failure** or **privacy event**. We pay **regulatory penalties** only where insurable, as that definition explains.
+#### E. Dependent Business Interruption
 
-**K. PCI Fines and Assessments.** We will pay **PCI fines and assessments** and **claim expenses** you are legally obligated to pay under a **merchant services agreement** because of a **security failure** or **privacy event** involving payment card data.
+**When it applies.** A **security failure** affecting the **dependent systems** you rely on interrupts them for longer than the **waiting period**.
 
-**L. Media Liability.** We will pay **damages** and **claim expenses** you are legally obligated to pay because of a **claim** for a **media wrongful act** in your **media content**.
+**What we pay.** The **business income loss** you incur during the **period of restoration** and your **extra expense**, including catch-up costs incurred up to 30 days after the **period of restoration** ends.
 
-#### Other losses (M–O)
+**Limit and your share.** $500,000 (Item 6). No dollar **retention**: the **waiting period** in Item 6 applies instead (8 hours, or 4 hours with the managed detection credit).
 
-*Limits and your share: Item 6 of the Declarations. How it works: Section III, part 8.*
+**Special conditions.** Providers do not need to be named, but only technology and outsourced-processing providers are **dependent providers** (Section II). An outage caused by a provider's own non-malicious failure falls under Coverage P, if purchased. Section III, part 4.
 
-**M. Computer Replacement (Bricking).** We will pay **computer replacement costs** to replace computer hardware you own or lease that no longer works as intended because a **security failure** corrupted its firmware or software, where replacement costs no more than repair.
+### Data and systems (F–G)
 
-**N. Reputational Harm.** We will pay **reputational harm loss** you incur during the **reputational harm period** because of an **adverse publication** about a **security failure** or **privacy event**.
+#### F. Data and System Restoration
 
-**O. Cryptojacking and Telecom Fraud.** We will pay **service fraud loss** you incur because a **security failure** allows unauthorized use of your computing resources, cloud or artificial intelligence services, utilities or telephone systems.
+**When it applies.** A **security failure** or **system failure** damages, corrupts or deletes your **digital assets**, or leaves **malicious code** in your **computer systems**.
 
-### Optional coverages (only if purchased)
+**What we pay.** **Restoration costs** to restore, recreate or recollect your **digital assets**, and to remove **malicious code** from your **computer systems**.
 
-*Limits and your share: Item 6, Part 2. How they work: P, Section III, part 4; Q, part 7; R, part 6; S and T, as set out below.*
+**Limit and your share.** For a **security failure**, up to the policy aggregate limit. For a **system failure**, the $250,000 limit shared with Coverage D (Item 6). The **retention** (Item 5) applies.
 
-**P. Dependent System Failure Business Interruption.** When a **system failure** affecting the **dependent systems** you rely on interrupts them for longer than the **waiting period** shown for Coverage P in Item 6, we will pay the **business income loss** you incur during the **period of restoration** and your **extra expense**, including catch-up costs incurred up to 30 days after the **period of restoration** ends.
+**Special conditions.** If your backups were not verified, ransomware coinsurance can apply (Section III, part 1.6). Upgrades are paid only under Coverage G. Section III, part 5.
 
-**Q. Website Tracking Liability.** We will pay **damages** and **claim expenses** you are legally obligated to pay because of a **claim** alleging **wrongful collection** of personal information through **tracking technology** on your websites or apps. This coverage does not apply to biometric information.
+#### G. Security Improvement Costs
 
-**R. Increased Fraud Limit.** The limit for Coverage H becomes the amount shown for Coverage R in Item 6. The lower limit in Item 6 still applies as Section III, part 6 says.
+**When it applies.** After a **security failure** covered under Coverage B, C, D, F or H, our incident response team recommends in writing an upgrade to prevent a similar **incident**.
 
-**S. Key Customer Interruption.** We will pay the net profit you lose because a **key customer event** forces a **key customer** to cancel or reduce its orders from you. We pay for the time its systems are down and for up to 90 days after they are restored.
+**What we pay.** **Security improvement costs** for that upgrade, including the first year of any subscription.
 
-**T. Impersonation Response.** We will pay **impersonation response costs** you incur because of an **impersonation event** you first **discover** during the **policy period**. No **security failure** or **privacy event** is needed.
+**Limit and your share.** $25,000 (Item 6), within the **incident's** **retention**.
+
+**Special conditions.** The upgrade must be made within 90 days after you **discover** the **security failure**. Section III, part 5.
+
+### Payment fraud (H)
+
+#### H. Payment Fraud and Invoice Fraud
+
+**When it applies.** Either (1) **payment fraud** or **computer fraud** causes a **funds transfer loss**; or (2) a **security failure** lets someone send your customers fraudulent invoices or payment instructions, and you cannot collect payment you are owed.
+
+**What we pay.** **Funds transfer loss**, including amounts you must repay clients from **client accounts** and reasonable recovery costs, and **invoice manipulation loss**.
+
+**Limit and your share.** $250,000 for both parts combined, or the Coverage R limit if purchased (Item 6). $100,000 if you had no payment verification procedure or had not trained your staff, and that mattered (Section III, part 6.2). The **retention** (Item 5), or $2,500 if you report the loss to us within 72 hours of **discovering** it.
+
+**Special conditions.** Theft by your own owners, partners, employees or individual contractors is not **payment fraud** or **computer fraud**. Tell your bank at once and keep your rights against it. Section III, part 6.
+
+### Claims and investigations against you (I–L)
+
+#### I. Network Security and Privacy Liability
+
+**When it applies.** A **claim** is first made against you, as described above, for a **security failure** or **privacy event**, including a **claim** by your own **employee** about their personal information.
+
+**What we pay.** **Damages** and **claim expenses** you are legally obligated to pay.
+
+**Limit and your share.** Up to the policy aggregate limit (Item 4), after the **retention** (Item 5). **Claim expenses** reduce the limit.
+
+**Special conditions.** Errors in your professional services, such as accounting or tax advice, are not covered, but a breach that happens while you provide those services is (exclusion 20). We defend without waiting for your professional liability insurer (Section V, part 9.2). Defense and settlement: Section III, part 7.
+
+#### J. Regulatory Defense and Penalties
+
+**When it applies.** A **regulatory proceeding** arising from a **security failure** or **privacy event**.
+
+**What we pay.** **Claim expenses**, and **regulatory penalties** you are legally obligated to pay where insurable, as that definition explains.
+
+**Limit and your share.** Up to the policy aggregate limit (Item 4), after the **retention** (Item 5).
+
+**Special conditions.** Costs of complying with orders or improving your security are not covered. Section III, part 7.
+
+#### K. PCI Fines and Assessments
+
+**When it applies.** A demand under your **merchant services agreement** because of a **security failure** or **privacy event** involving payment card data.
+
+**What we pay.** **PCI fines and assessments** and **claim expenses** you are legally obligated to pay.
+
+**Limit and your share.** $250,000 (Item 6), after the **retention** (Item 5).
+
+**Special conditions.** Chargebacks and ordinary processing fees are not covered.
+
+#### L. Media Liability
+
+**When it applies.** A **claim** for a **media wrongful act** in your **media content**.
+
+**What we pay.** **Damages** and **claim expenses** you are legally obligated to pay, including for content created with artificial intelligence tools.
+
+**Limit and your share.** Up to the policy aggregate limit (Item 4), after the **retention** (Item 5).
+
+**Special conditions.** Patents and trade secrets are not covered (exclusion 11). Section III, part 7.
+
+### Other losses (M–O)
+
+#### M. Computer Replacement (Bricking)
+
+**When it applies.** A **security failure** corrupts the firmware or software of computer hardware you own or lease, so that it no longer works as intended.
+
+**What we pay.** **Computer replacement costs**, where replacement costs no more than repair.
+
+**Limit and your share.** $100,000 (Item 6), after the **retention** (Item 5).
+
+**Special conditions.** Section III, part 8.
+
+#### N. Reputational Harm
+
+**When it applies.** An **adverse publication** about a **security failure** or **privacy event**.
+
+**What we pay.** **Reputational harm loss** you incur during the **reputational harm period**.
+
+**Limit and your share.** $100,000 (Item 6). No dollar **retention**: the first 14 days after the **adverse publication** are not covered, and we then pay for up to 90 days (Item 6).
+
+**Special conditions.** We do not pay loss already paid under Coverage D, E or P. The cost of repairing your reputation is paid under Coverage B. Section III, part 8.
+
+#### O. Cryptojacking and Telecom Fraud
+
+**When it applies.** A **security failure** allows unauthorized use of your computing resources, cloud or artificial intelligence services, utilities or telephone systems.
+
+**What we pay.** **Service fraud loss**.
+
+**Limit and your share.** $50,000 (Item 6), after the **retention** (Item 5).
+
+**Special conditions.** You must first ask your provider to waive or reverse the charges; we pay what it will not. Section III, part 8.
+
+### Optional coverages (P–T, only if purchased)
+
+#### P. Dependent System Failure Business Interruption
+
+**When it applies.** A **system failure** affecting the **dependent systems** you rely on interrupts them for longer than the **waiting period** shown for Coverage P in Item 6.
+
+**What we pay.** The **business income loss** you incur during the **period of restoration** and your **extra expense**, including catch-up costs incurred up to 30 days after the **period of restoration** ends.
+
+**Limit and your share.** $250,000 (Item 6), separate from the Coverage D and F **system failure** limit. No dollar **retention**: a 24-hour **waiting period** applies instead.
+
+**Special conditions.** Same measurement rules as Coverage E (Section III, part 4).
+
+#### Q. Website Tracking Liability
+
+**When it applies.** A **claim** alleging **wrongful collection** of personal information through **tracking technology** on your websites or apps.
+
+**What we pay.** **Damages** and **claim expenses** you are legally obligated to pay.
+
+**Limit and your share.** $250,000 (Item 6), after the **retention** (Item 5).
+
+**Special conditions.** Biometric information is not covered.
+
+#### R. Increased Fraud Limit
+
+The limit for Coverage H becomes the amount shown for Coverage R in Item 6 ($500,000 or $1,000,000). The lower limit in Item 6 still applies as Section III, part 6 says.
+
+#### S. Key Customer Interruption
+
+**When it applies.** A **key customer event** forces a **key customer** to cancel or reduce its orders from you.
+
+**What we pay.** The net profit you lose, for the time the **key customer's** systems are down and for up to 90 days after they are restored.
+
+**Limit and your share.** $100,000 (Item 6), after the **retention** (Item 5).
+
+**Special conditions.** Only customers named for Coverage S in Item 6 are **key customers**.
+
+#### T. Impersonation Response
+
+**When it applies.** You first **discover** an **impersonation event** during the **policy period**. No **security failure** or **privacy event** is needed.
+
+**What we pay.** **Impersonation response costs**.
+
+**Limit and your share.** $25,000, with a $2,500 **retention** (Item 6).
+
+**Special conditions.** Costs must be incurred with our consent within 90 days after you **discover** the **impersonation event**.
 
 ## Section II. Definitions
 
@@ -546,7 +681,7 @@ Before any extortion payment:
 1. **How we calculate your loss.** We look at your net profit and operating expenses over the 12 months before the interruption, adjusted for trends, seasonality (such as a retailer's holiday season or an accounting firm's tax season) and the business you would likely have had.
 2. **Partial outages count.** An interruption includes a partial outage, or a slowdown, that stops you from carrying on a significant part of your normal business, such as processing payroll or filing tax returns, even while other systems still work. We measure the loss of the part of your business affected.
 3. **Shutting down to limit damage.** If you shut down or disconnect **computer systems**, or your connection to **dependent systems**, to contain an actual or reasonably suspected **security failure** (in your systems or at a **dependent provider**), the resulting interruption is treated as caused by that **security failure**, under Coverage D or E as the case may be. This applies if you act on the advice of our incident response team, a government agency or a **dependent provider**, or in your own reasonable judgment. If the suspected **security failure** did not happen, we cover up to 72 hours of the interruption.
-4. **Waiting periods.** The **waiting period** starts when the interruption begins. Item 6 shows it for each coverage, and Item 7 shows any reduction you earned.
+4. **Waiting periods.** The **waiting period** starts when the interruption begins. Item 6 shows it for each coverage, and Item 7 shows any reduction you earned. If an interruption from the same **incident** stops and starts again, the interrupted hours add up toward the **waiting period**. It applies once per **incident**, however many systems or providers are affected.
 5. **Dependent providers do not need to be named.** Coverages E and P apply to any **dependent provider** as defined in Section II. Other suppliers and customers are not **dependent providers**; Coverage S can cover key customers.
 6. **Proof of loss.** Send us a signed proof of loss within 120 days after the **period of restoration** ends. We will extend this deadline on request if you need more time. Forensic accounting fees to prepare it are covered as described in part 1.8.
 7. **Getting back to business.** You must take reasonable steps to resume operations. Reasonable steps do not include paying a ransom or other extortion payment. We may review the records that relate to your loss for up to 12 months after receiving your proof of loss.
@@ -608,6 +743,7 @@ This policy does not cover loss, **claims** or costs arising from the matters li
 17. **Prohibited payments.** Any payment that trade or economic sanctions laws prohibit us from making, including reimbursing you for a payment you made to a person those laws prohibit paying.
 18. **Investment losses.** Changes in the value of securities, cryptocurrency or other assets, or trading losses. This does not apply to **funds transfer loss** or **extortion expenses**.
 19. **Profits you weren't entitled to.** Any profit or advantage you were not legally entitled to, once a final, non-appealable ruling or the person's written admission establishes it. Until then we will defend the **claim**.
+20. **Professional services.** Errors, omissions or advice in your professional services, such as accounting, tax preparation, audit or payroll calculations. This does not apply to a **claim** or loss arising from an **incident** or a **media wrongful act**, even if it happened while you were providing professional services.
 
 ## Section V. Conditions
 
@@ -615,7 +751,7 @@ These conditions apply to every coverage.
 
 ### 1. Reporting incidents and claims
 
-1. **How to give notice.** Tell us through any channel in Item 10 of the Declarations as soon as practicable after you **discover** an **incident** or a **claim** is made against you. A call to the hotline is notice under this policy; you do not need to send anything else to give notice. We will confirm each report to you in writing, by email, within one business day. For a **claim**, also send us a copy of the demand, lawsuit or other document you received as soon as practicable.
+1. **How to give notice.** Tell us through any channel in Item 10 of the Declarations as soon as practicable after you **discover** an **incident** or a **claim** is made against you. A call to the hotline is notice under this policy; you do not need to send anything else to give notice. We will confirm each report to you in writing, by email, within one business day. Your notice is effective when you give it, even if our confirmation is late. For a **claim**, also send us a copy of the demand, lawsuit or other document you received as soon as practicable.
 2. **Deadline for claims.** You must report a **claim** no later than 90 days after the **policy period** ends. For a **claim** first made during an optional extended reporting period, the deadline is 60 days after that period ends. These deadlines are firm, except as part 1.4 says.
 3. **Late notice of incidents.** If you report an **incident** late, we will reduce what we pay only to the extent the delay actually harmed our ability to respond to it.
 4. **Reports lock in coverage.** If, during the **policy period** or within 90 days after it ends, you report an **incident** you **discovered** during the **policy period**, or facts you learned of during the **policy period** that could reasonably lead to a **claim**, every later **claim** arising from it, or from the same or **related** facts, is treated as first made and reported on the date you reported, or on the last day of the **policy period** if you reported after it ended. It is covered only under this policy, whenever it is actually made. You do not need to say who might sue. Send us each such **claim** as soon as practicable after it is made; the deadline in part 1.2 does not apply to it.

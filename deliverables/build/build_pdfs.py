@@ -29,8 +29,8 @@ DOCS = [
 
 CSS = """
 @page { size: Letter; margin: 0.8in 0.75in 0.85in 0.75in; }
-html { font-family: "Source Serif 4", Georgia, "Times New Roman", serif; font-size: 10.5pt; color: #1b1b1b; }
-body { line-height: 1.42; margin: 0; }
+html { font-family: "Liberation Sans", Arial, Helvetica, sans-serif; font-size: 9.8pt; color: #1d232a; }
+body { line-height: 1.45; margin: 0; }
 h1 { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 20pt; color: #0b3954; margin: 0 0 8pt; }
 h2 { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14pt; color: #0b3954; border-bottom: 1.5pt solid #0b3954;
      padding-bottom: 3pt; margin: 18pt 0 8pt; break-after: avoid; }
@@ -40,14 +40,15 @@ p, li { orphans: 3; widows: 3; }
 p { margin: 0 0 6pt; }
 ol, ul { margin: 0 0 6pt 18pt; padding: 0; }
 li { margin: 0 0 3pt; }
-table { border-collapse: collapse; width: 100%; margin: 4pt 0 10pt; font-size: 9pt; }
+table { border-collapse: collapse; width: 100%; margin: 4pt 0 10pt; font-size: 8.8pt; }
 table.keep { break-inside: avoid; }
 tr { break-inside: avoid; }
-th, td { border: 0.6pt solid #9aa5b1; padding: 3pt 5pt; vertical-align: top; text-align: left; }
-th { background: #e8eef3; font-family: "Helvetica Neue", Arial, sans-serif; }
-blockquote { margin: 6pt 0; padding: 6pt 10pt; border-left: 3pt solid #c0392b; background: #fbeeee; }
+th, td { border: none; border-bottom: 0.6pt solid #d3dbe2; padding: 3.5pt 6pt; vertical-align: top; text-align: left; }
+th { background: #eef2f6; border-top: 1.2pt solid #0b3954; border-bottom: 0.8pt solid #0b3954; font-weight: bold; }
+blockquote { margin: 6pt 0 10pt; padding: 7pt 11pt; border-left: 3pt solid #0b3954; background: #f1f5f8; }
 a { color: #0b5394; text-decoration: none; word-break: break-all; }
 .pagebreak { break-before: page; }
+tr.group td { background: #f5f7f9; font-weight: bold; color: #0b3954; text-transform: uppercase; letter-spacing: 0.5pt; font-size: 8pt; padding-top: 5pt; }
 .cover { text-align: center; padding-top: 0.5in; }
 .cover-insurer { font-family: "Helvetica Neue", Arial, sans-serif; font-weight: bold; letter-spacing: 2pt; color: #0b3954; font-size: 12pt; margin-bottom: 22pt; }
 .cover h1 { font-size: 30pt; margin: 0 0 6pt; }
@@ -62,8 +63,12 @@ table.cover-sign { width: 90%; margin: 0 auto; }
 table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-size: 9.5pt; }
 """
 
-# Light diagonal watermark on every page of the specimen policy.
+# Policy only: carrier-style headings and a light diagonal watermark on every page.
 SPECIMEN_CSS = """
+h3 { text-transform: uppercase; letter-spacing: 0.6pt; font-size: 10pt; margin-top: 14pt; }
+h4 { border-left: 3pt solid #0b3954; padding-left: 6pt; margin: 12pt 0 5pt; }
+h4 + p, h4 + p + p, h4 + p + p + p, h4 + p + p + p + p { margin-bottom: 3.5pt; }
+.cover h1 { text-transform: none; }
 body::before { content: "SPECIMEN"; position: fixed; top: 40%; left: 0; right: 0; text-align: center;
   font: bold 110pt "Helvetica Neue", Arial, sans-serif; color: rgba(11, 57, 84, 0.05);
   transform: rotate(-35deg); z-index: -1; }
@@ -101,10 +106,13 @@ def postprocess(body: str) -> str:
     def mark(m):
         rows = m.group(0).count("<tr>")
         return m.group(0).replace("<table>", '<table class="keep">', 1) if rows <= 8 else m.group(0)
-    return re.sub(r"<table>.*?</table>", mark, body, flags=re.S)
+    body = re.sub(r"<table>.*?</table>", mark, body, flags=re.S)
+    # A row with only a bold label in the second cell is a group heading: span it across the table.
+    return re.sub(r"<tr>\s*<td></td>\s*<td><strong>([^<]+)</strong></td>((?:\s*<td></td>)+)\s*</tr>",
+                  lambda m: f'<tr class="group"><td colspan="{1 + 1 + m.group(2).count("<td>")}">{m.group(1)}</td></tr>', body)
 
 
-GUIDE_CSS = "html { font-size: 9.6pt; } table { font-size: 8.4pt; margin: 2pt 0 6pt; } h1 { font-size: 17pt; } h3 { margin: 7pt 0 3pt; } li, p { margin-bottom: 2pt; }"
+GUIDE_CSS = "html { font-size: 9pt; } table { font-size: 8pt; margin: 2pt 0 6pt; } th, td { padding: 2.5pt 5pt; } h1 { font-size: 17pt; } h3 { margin: 7pt 0 3pt; } li, p { margin-bottom: 2pt; }"
 
 
 def build(md_name: str, title: str, footer: str, fill: dict | None = None) -> Path:
@@ -124,7 +132,7 @@ def build(md_name: str, title: str, footer: str, fill: dict | None = None) -> Pa
     html_path.write_text(page, encoding="utf-8")
     pdf_path = OUT_PDF / (src.stem + ".pdf")
     footer_tpl = (
-        '<div style="font-size:7.5pt;width:100%;padding:0 0.75in;color:#666;display:flex;justify-content:space-between;">'
+        '<div style="font-size:7.5pt;width:100%;margin:0 0.75in;padding-top:4pt;border-top:0.5pt solid #c9d1d9;color:#666;display:flex;justify-content:space-between;font-family:Liberation Sans,Arial,sans-serif;">'
         f"<span>{html.escape(footer)}</span>"
         '<span>Page <span class="pageNumber"></span> of <span class="totalPages"></span></span></div>'
     )

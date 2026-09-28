@@ -134,7 +134,7 @@ These are judgment calls, set to be reasonable for this segment and easy to expl
 
 ## 4. What the policy covers, and why
 
-The coverages follow Coalition's plain "we will pay" style and At-Bay's split between first-party and liability triggers. They are grouped by what the business needs at that moment: respond to an incident (A–C), replace lost income (D–E), restore data and systems (F–G), recover stolen money (H), defend claims and investigations (I–L), and other losses (M–O). The letters stay in order so every cross-reference still works, and each group points to its limits and its rules.
+The coverages follow Coalition's plain "we will pay" style and At-Bay's split between first-party and liability triggers. They are grouped by what the business needs at that moment: respond to an incident (A–C), replace lost income (D–E), restore data and systems (F–G), recover stolen money (H), defend claims and investigations (I–L), and other losses (M–O). The letters stay in order so every cross-reference still works. Every coverage reads the same way: when it applies, what we pay, the limit and your share, and special conditions. The reader can answer a question about one incident from one place, and the detailed rules stay in one authoritative section.
 
 | Coverage | Loss path | Borrowed from, and what I changed | Why |
 | --- | --- | --- | --- |
@@ -183,6 +183,7 @@ Each restriction is tied to one or more of five reasons:
 | Intentional wrongdoing | MH | A final ruling or admission establishes it. It applies to the firm only if its top leaders took part or knew |
 | Known problems | MH | An executive knew before the continuity date and should have expected a loss. Unexploited weaknesses, anything disclosed (unless endorsed out) and early warnings cleared before the continuity date are carved out |
 | Sanctions; uninsurable penalties and punitive damages | PP | The law forbids payment. Colorado does not allow punitive damages to be insured, and Item 11 of the Declarations says so plainly |
+| Professional errors (exclusion 20) | OP | A claim about the quality of accounting or tax work belongs to professional liability insurance. A breach, fraud or media claim that happens during professional work stays covered |
 | Bodily injury, property damage, patents, employment practices, securities | OP | Another line of insurance is built for it. Breach-related emotional distress and employee privacy claims stay covered |
 | Wrongful collection (tracking pixels) and biometric collection laws | NP | The claim is about how data was collected, not a breach. Coverage Q offers pixel cover for businesses that need it |
 | Contract liability, claims between insureds, unsolicited communications, natural disasters, government orders, nuclear and pollution, investment losses, ill-gotten profits, the retroactive date | OP, PP, MH | Standard market exclusions. Each has a carve-back where a cyber event is the real cause (for example, contract duties to protect data, or spam sent by an attacker) |
