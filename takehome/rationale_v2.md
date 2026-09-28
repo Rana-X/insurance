@@ -11,8 +11,8 @@ I wrote one cyber policy for small and mid-sized businesses: firms with a few do
 Three choices shape the whole policy:
 
 1. **The firm's own losses are core cover, not add-ons.** Incident response, ransomware, lost income, data restoration and payment fraud sit in every policy alongside liability. A small firm's work stops long before anyone sues.
-2. **Coverage follows what failed.** The firm's own systems, including its cloud accounts, are treated differently from a provider's systems, and attacks differently from accidents. Each route has its own limit and waiting period, so the correlated risks are capped without cutting the core.
-3. **Honest mistakes don't cost the business its cover.** A failed security control, an honest error in the application or a hotline call without follow-up paperwork does not reduce what we pay.
+2. **Coverage follows what failed.** The firm's own systems, including its cloud accounts, are treated differently from a provider's systems, and attacks differently from accidents. Provider outages and accidents carry their own caps, so the correlated risks are limited without cutting the core.
+3. **Honest mistakes don't cost the business its cover.** A failed security control, an honest error in the application or a hotline call without follow-up paperwork does not, by itself, take away cover.
 
 Cedar Ridge Accounting Group, a fictional 62-person Denver accounting firm, is the sample insured, and its application drives the Declarations. All premiums, limits and loss figures below are my assumptions for this exercise, not quotes or actuarial results.
 
@@ -23,7 +23,7 @@ Cedar Ridge Accounting Group, a fictional 62-person Denver accounting firm, is t
 Someone reading a cyber policy during an incident wants to know three things: am I covered, what do I pay, and what do I do now. The layout answers them in that order.
 
 - **Guide, Declarations, then the form.** A one-page reading guide explains aggregate, sublimit, retention and waiting period before the reader meets them. The Declarations list every coverage by name with its limit and the firm's share, and Item 5 shows how the shared annual pool gets used up. A one-page "Reporting an incident" checklist follows.
-- **Coverages grouped by the problem.** Section I has seven groups: respond to an incident, cyber extortion, recover income, restore data and systems, recover payments, claims against you, and other losses. Every coverage uses the same four headings: *When it applies*, *What we pay*, *Limit and your share* and *Special conditions*. Operating rules follow each group.
+- **Coverages grouped by the problem.** Section I has seven groups: respond to an incident, cyber extortion, recover income, restore data and systems, recover payments, claims against you, and other losses. Every coverage uses the same four headings: *When it applies*, *What we pay*, *Limit and your share* and *Special conditions*. Operating rules follow each group; defense and settlement rules for the liability coverages sit in Section IV.
 - **One letter per coverage, everywhere.** A–O are core and P and Q are optional. Each letter means the same thing in the Declarations, Section I and the outage guide.
 - **Two triggers.** Coverage for the firm's own losses (A–H, M–P) applies to incidents first discovered during the policy period. Liability (I–L, Q) is claims-made and reported. Own losses are known when they are discovered; lawsuits can arrive years later, so liability needs a firm claim date to tie it to one policy year. Section VII, part 1.4 links the two: reporting an incident during the policy period locks later related lawsuits into this policy.
 - **A broad core with two options.** Corgi's startup product sells cover for the firm's own losses as add-ons to liability. [7] I put those losses in the core so a small buyer cannot be underinsured by omission. The trade-off is more exposure for the insurer. Only two risks are optional: accidental provider outages (P), which are highly correlated across insureds, and website-tracking liability (Q), which is concentrated in businesses that run advertising pixels.
@@ -50,9 +50,9 @@ Someone reading a cyber policy during an incident wants to know three things: am
 
 **Included as core cover**
 - **Breach response costs (B)**, including help for people facing tax-related identity theft. Cedar Ridge holds Social Security numbers and tax records for about 31,000 people, so this is the breach cost its clients are most likely to need.
-- **Cyber extortion and ransomware (C).** The firm never has to pay a ransom to keep its cover. Any payment needs our consent, a sanctions check and a report to the FBI or CISA, in line with Treasury's OFAC advisory. [11]
+- **Cyber extortion and ransomware (C).** The firm never has to pay a ransom to keep its cover. Any payment needs our written consent and a sanctions check, following Treasury's OFAC advisory. [11] Before we consent, the policy also requires a report to the FBI or the Cybersecurity and Infrastructure Security Agency (CISA) unless law enforcement advises otherwise.
 - **Data and system restoration (F)** and **security improvement costs (G)**. Upgrades are paid only under G, and only when our response team recommends them in writing, so restoration never becomes a general IT refresh.
-- **Payment and invoice fraud (H)**, **network security and privacy liability (I)**, **regulatory defense and penalties (J)**, **PCI fines and assessments (K)** and **media liability (L)**.
+- **Payment and invoice fraud (H)**, **network security and privacy liability (I)**, **regulatory defense and penalties (J)**, **Payment Card Industry (PCI) fines and assessments (K)** and **media liability (L)**.
 - **Computer replacement (M)**, **reputational harm (N)** and **cryptojacking and telecom fraud (O)**, each with a small cap.
 
 **Optional**
@@ -84,8 +84,8 @@ Section V has 60 numbered definitions in alphabetical order, and bold terms in t
 - **A hotline call is notice** (Section VII, part 1.1). DUAL treats its hotline as help only and requires separate formal notice. [3, pp. 3, 15] I made the call count, which means the insurer must record and route every call reliably.
 - **No consent needed** to use panel vendors, make legally required notices, contain an attack in the first 72 hours or settle within the retention (Section VII, part 2.2).
 - **Security answers are not warranties** (Section III, part 3). A missed callback or a failed backup does not, by itself, reduce a covered payment. I removed security credits and penalties; Coalition's managed-detection credit is a possible later model, but it needs service checks and pricing evidence. [9] The trade-off is more risk for the insurer, so the application checks controls before the policy is issued.
-- **Honest application mistakes** (Section VII, part 3.2). No rescission, and only premium and retention can change, from the date we give notice. Rescission is reserved for an executive's knowing, material misstatement.
-- **Full prior acts**, with a continuity date of October 15, 2026. Cedar Ridge has operated since 2009 and is replacing its existing cover. The known-problems exclusion still applies.
+- **Honest application mistakes** (Section VII, part 3.2). We will not rescind (void the policy from the start), and only premium and retention can change, from the date we give notice. Rescission is reserved for an executive's knowing, material misstatement.
+- **Full prior acts**: no cut-off date for earlier events. Known problems are judged as of the continuity date, October 15, 2026. Cedar Ridge has operated since 2009 and is replacing its existing cover. The known-problems exclusion still applies.
 - **Service standards** (Section VII, part 7). We aim to make contact within one hour and give a coverage decision within 30 days of receiving the documents we ask for. We pay agreed amounts within 15 days, with 8% annual interest when late. Business-interruption claims get a cash advance within 10 business days and can use one shared forensic accountant.
 - **Fair disputes** (Section VII, part 8). A free internal review, then mediation that we pay for, then court or arbitration.
 - **Calling early never counts against the firm at renewal** (Section VII, part 6.2).
@@ -128,8 +128,6 @@ The application gives $8.1 million prior revenue and $8.5 million projected reve
 I kept the $250,000 cap knowing the stress case exceeds it. Seasonal accounts, recoverable work and available cash could change that choice.
 
 ## References
-
-*(Unchanged from the current version: keep the same 11 entries, descriptions and "Read form" links.)*
 
 1. At-Bay, Cyber Insurance Policy AB-CYB-001.2, edition 08/2023, U.S. specimen. Page 3: own and provider interruption. Page 6: settlement-sharing rule.
 2. Travelers, CyberRisk Coverage CYB-16001, revision 06/2020, U.S. sample coverage form. Pages 2, 4, 7 and 11: coverage, systems and provider distinctions.
