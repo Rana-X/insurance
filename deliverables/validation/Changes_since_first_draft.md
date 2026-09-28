@@ -117,6 +117,32 @@ From a review of the layout-pass PDF:
 | Coverage G: "the same retention as the incident; no separate retention" | The earlier wording read as if the upgrade sat inside the retention |
 | Coverage blocks kept on one page; Sections II–V flow without forced page breaks; cover contents show page numbers | Near-empty pages and split blocks |
 
+## Precision pass from a second edit (September 28, 2026)
+
+A separately edited copy of the policy was compared side by side. Its layout was not adopted (it lost some headings, bullets and checkboxes), but these clauses were:
+
+| Change | Why |
+| --- | --- |
+| Specimen notice says the form is independently drafted for Corgi and is not an issued or approved Corgi product | Uses a real company's name |
+| Item 12 lists "Additional endorsements: none unless listed and supplied"; entire-agreement clause matches | No endorsement can be incorporated by accident |
+| A **claim** is first made when any **insured** first receives it | Fixes the trigger date |
+| Subsidiaries are those owned at the start of the policy period; acquisitions follow Section V, part 4.1 | Removes overlap between the two clauses |
+| Merchant-services demands only under K, regulatory proceedings only under J | K's and J's terms cannot be avoided through Coverage I |
+| Retention for a Coverage L or Q claim with no **incident** | That retention was undefined |
+| Vulnerability coinsurance does not apply to Coverage A or pre-incident help | Free services stay free |
+| Privilege is supported, not promised | "Stays protected by privilege" overstated the law |
+| Waiting-period detail: simultaneous hours count once; the credit does not shorten P; E takes priority over P; restoration does not restart | Closes gaps in intermittent and multi-provider outages |
+| Duty to defend covers claims alleging facts that could be covered | Standard, clearer trigger |
+| Lock-in does not revive a claim already missed | Prevents an unintended loophole |
+| Honest-mistake adjustments apply only from written notice, never to a known incident or claim | Clearer and fairer |
+| Acquisitions: more than 50% ownership, 90 days or to expiry, post-acquisition events only | Precision |
+| Optional extended reporting includes the automatic 60 days, adds no discovery period, cannot be cancelled | Precision |
+| Advance is net of the waiting period and coinsurance; overpayments are returned | Precision |
+| Exclusion 20's carve-back includes **wrongful collection**; the system failure full-limit option has its own four-part block | Consistency |
+| Running header on each policy page | Real-policy look |
+
+Not adopted: extending **regulatory proceeding** to wrongful collection under Coverage Q (an unpriced expansion).
+
 ## Not changed (deliberate)
 
 - No widespread-event cap on Coverage E. The $500K sublimit is the accumulation control (rationale part 3).

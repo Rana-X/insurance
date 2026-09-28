@@ -170,6 +170,11 @@ def build(md_name: str, title: str, footer: str, fill: dict | None = None) -> Pa
         f"<span>{html.escape(footer)}</span>"
         '<span>Page <span class="pageNumber"></span> of <span class="totalPages"></span></span></div>'
     )
+    header_tpl = "<span></span>"
+    if md_name == POLICY:
+        header_tpl = ('<div style="font-size:7pt;width:100%;margin:0 0.75in;padding-bottom:3pt;border-bottom:0.5pt solid #c9d1d9;'
+                      'color:#0b3954;letter-spacing:0.8pt;font-weight:bold;font-family:Liberation Sans,Arial,sans-serif;">'
+                      'CORGI INSURANCE COMPANY, INC. &nbsp;·&nbsp; CYBER PROTECTION POLICY</div>')
     from playwright.sync_api import sync_playwright
     with sync_playwright() as pw:
         browser = pw.chromium.launch(executable_path=CHROME, args=["--no-sandbox"])
@@ -177,7 +182,7 @@ def build(md_name: str, title: str, footer: str, fill: dict | None = None) -> Pa
         page_obj.goto(html_path.as_uri())
         kwargs = dict(
             path=str(pdf_path), format="Letter", print_background=True, prefer_css_page_size=True,
-            display_header_footer=True, header_template="<span></span>", footer_template=footer_tpl,
+            display_header_footer=True, header_template=header_tpl, footer_template=footer_tpl,
             margin={"top": "0.8in", "bottom": "0.85in", "left": "0.75in", "right": "0.75in"},
         )
         try:
