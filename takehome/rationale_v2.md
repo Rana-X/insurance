@@ -58,7 +58,8 @@ Someone reading a cyber policy during an incident wants to know three things: am
 - **Breach response costs (B)**, including help for people facing tax-related identity theft. Cedar Ridge holds Social Security numbers and tax records for about 31,000 people, so this is the breach cost its clients are most likely to need.
 - **Cyber extortion and ransomware (C).** The firm never has to pay a ransom to keep its cover. Any payment needs our written consent and a sanctions check, following Treasury's OFAC advisory. [11] Before we consent, the policy also requires a report to the FBI or the Cybersecurity and Infrastructure Security Agency (CISA) unless law enforcement advises otherwise.
 - **Data and system restoration (F)** and **security improvement costs (G)**. Upgrades are paid only under G, and only when our response team recommends them in writing, so restoration never becomes a general IT refresh.
-- **Payment and invoice fraud (H)**, one of the losses hurting small firms most. [5]" then a real line break, then "- **Liability (I–L):** privacy lawsuits, regulatory defense and penalties, Payment Card Industry (PCI) fines and media liability. With tax records for about 31,000 people, a breach at Cedar Ridge brings claims as well as costs.
+- **Payment and invoice fraud (H)**, one of the losses hurting small firms most. [5]
+- **Liability (I–L):** privacy lawsuits, regulatory defense and penalties, Payment Card Industry (PCI) fines and media liability. With tax records for about 31,000 people, a breach at Cedar Ridge brings claims as well as costs.
 - **Computer replacement (M)**, **reputational harm (N)** and **cryptojacking and telecom fraud (O)** (outsiders running up the firm's computing or phone bills). Each is a follow-on loss, so each has a small cap.
 
 **Optional**
