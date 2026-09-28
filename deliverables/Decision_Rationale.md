@@ -333,12 +333,12 @@ I checked the package three ways:
 2. **Law.** I checked each clause against Colorado and federal law and the cases listed below (notice, cancellation, punitive damages, fraud warnings, terrorism disclosure, rebating, and fraud and sublimit case law). A licensed Colorado coverage lawyer should review it before filing.
 3. **Market.** A test of every feature against loss data and U.S. market practice, which led me to drop several features that looked good but protected little.
 
-Regulatory status as of September 27, 2026:
+Regulatory status as of September 28, 2026:
 
 | Item | Status | Effect on the policy |
 | --- | --- | --- |
 | CIRCIA final rule (federal incident and ransom-payment reporting) | Not confirmed as published | The policy already lets insureds make any legally required report without consent |
-| California SB 690 (ends private suits under California's pen-register and trap-and-trace law over website and app tracking) | Passed the Legislature August 28, 2026; awaiting the Governor's decision (deadline September 30, 2026); would take effect January 1, 2027 | Wiretapping and other California Invasion of Privacy Act claims would remain, so Coverage Q stays |
+| California SB 690 (ends private suits under California's pen-register and trap-and-trace law over website and app tracking) | Passed the Legislature unanimously on August 28, 2026; awaiting the Governor (deadline September 30, 2026). A veto looks unlikely, and in California a bill not acted on by the deadline becomes law anyway. It would take effect January 1, 2027, and would also reach pending suits | Wiretapping and other California Invasion of Privacy Act claims would remain, so Coverage Q stays |
 | California SB 446 | In effect January 1, 2026: 30-day consumer breach notice | Breach response is built around 30-day deadlines |
 | Colorado AI law (SB 26-189) | Signed May 2026; effective January 1, 2027 | AI regulatory defense deferred (part 9) |
 | ISO generative-AI exclusions for general liability | Optional endorsements since January 2026 | Affirmative AI cover is now common in cyber (Beazley, CFC). The policy's distinctive element is its AI-agent definition |
@@ -357,6 +357,7 @@ Regulatory status as of September 27, 2026:
 - HSB Cyber Suite Coverage Form CSC 02-2025: https://heartlandmutualinsurance.com/wp-content/uploads/2024/12/Cyber-Suite-Coverage-Form-CSC-02-2025.pdf
 - Cowbell Prime 100 overview: https://cowbell.insure/wp-content/uploads/pdfs/CB-Prime100-Overview.pdf
 - Corgi, Cyber Liability: https://www.corgi.insure/cyber-liability
+- Sidley Austin, "California's SB 690 Clears the Legislature" (September 2026): https://www.sidley.com/en/insights/newsupdates/2026/09/californias-sb-690-clears-the-legislature-what-it-means-for-cipa-website-tracking-claims
 - Chubb, Cyber ERM small-business sample policy (PF-48169): https://studio.chubb.com/connect/files/NA_CyberSmallBusiness_Sample.pdf
 - Chubb, Cyber Alert services sheet: https://www.chubb.com/content/dam/chubb-sites/chubb-com/us-en/business-insurance/cyber-alert/documents/pdf/17-01-0219-cyber-services-sheet_cyberalert.pdf
 - Insurance Business, "Emergence updates cyber policy wording for Australian SMEs" (2026): https://www.insurancebusinessmag.com/au/news/cyber/emergence-updates-cyber-policy-wording-for-australian-smes-565467.aspx

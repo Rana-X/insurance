@@ -33,5 +33,5 @@
 - The policy is a specimen drafted for Corgi Insurance Company, Inc. It is not a filed Corgi form. Cedar Ridge Accounting Group and all people named are fictional, and the insurer's contact details are left as placeholders.
 - The premium is illustrative and would need actuarial rating before use.
 - The specimen is the Colorado edition, with Colorado's requirements built into the form. Another state's edition would add that state's amendatory endorsement.
-- Regulatory status is as of September 27, 2026: the federal CIRCIA final rule was not confirmed as published, and California SB 690 was awaiting the Governor (deadline September 30).
+- Regulatory status is as of September 28, 2026: the federal CIRCIA final rule was not confirmed as published, and California SB 690 was awaiting the Governor (deadline September 30; it becomes law if not vetoed).
 - External references (policy forms, frameworks, regulatory guidance and case law) are cited with links at the end of the Decision Rationale.
