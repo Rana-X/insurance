@@ -2,9 +2,9 @@
 
 ## Application form
 
-**Harborline Insurance Company** · Cyber Protection Policy Application · Form HIC-CY-APP (10/26)
+**Corgi Insurance Company, Inc.** · Cyber Protection Policy Application · Form CIC-CY-APP (10/26)
 
-*SPECIMEN: completed sample for illustration only. Harborline Insurance Company and all people named below are fictional.*
+*SPECIMEN: completed sample for illustration only. Cedar Ridge Accounting Group and all people named below are fictional.*
 
 ### Before you start
 
@@ -176,7 +176,7 @@ Questions follow the six functions of the NIST Cybersecurity Framework 2.0 and t
 
 ### Our statement
 
-We have answered these questions after reasonable inquiry, including with our IT provider. We will tell Harborline if any answer changes before the effective date. We understand that an honest mistake leads to adjusted terms rather than a void policy, but that a deliberate, material misstatement can void coverage.
+We have answered these questions after reasonable inquiry, including with our IT provider. We will tell Corgi if any answer changes before the effective date. We understand that an honest mistake leads to adjusted terms rather than a void policy, but that a deliberate, material misstatement can void coverage.
 
 | Signed | Name and title | Date |
 | --- | --- | --- |
@@ -202,7 +202,7 @@ We agree to receive policy documents and notices electronically.
 
 ## For underwriter use: how these answers set the policy terms
 
-Every ★ answer, and each answer below, maps to a specific term on the Declarations issued to Cedar Ridge (policy HIC-CY-2026-004817).
+Every ★ answer, and each answer below, sets a term in the Declarations we would issue to Cedar Ridge. The entries themselves are in the last table.
 
 | Answer | Result on the Declarations |
 | --- | --- |
@@ -224,3 +224,16 @@ Every ★ answer, and each answer below, maps to a specific term on the Declarat
 | Mid-term changes | Cedar Ridge must tell us within 30 days if it stops using a verified control in Item 7 |
 
 **Premium build:** core coverages at the $1M base limit $6,120, plus the increase to $2M $1,530, plus Coverage P $600, plus Coverage R $280, equals $8,530. Less the 10% security credit ($853): **$7,677**.
+
+**Cedar Ridge's Declarations entries (as quoted):**
+
+| Declarations item | Entry |
+| --- | --- |
+| Item 1. Named insured | Cedar Ridge Accounting Group, LLC · 1450 Market Street, Suite 600, Denver, CO 80202 · cedarridgecpa.com |
+| Item 2. Policy period | October 15, 2026 to October 15, 2027 |
+| Item 3. Premium | $7,677; terrorism portion $0; taxes and fees $0. Producer: direct |
+| Item 4. Policy aggregate limit | $2,000,000 |
+| Item 5. Retention | $7,500 each incident (after the 25% credit) |
+| Item 6. Optional coverages | P purchased ($250,000, 24-hour waiting period). R purchased at $500,000. Q, S, T and the system failure full limit not purchased |
+| Item 7. Security credits | MFA plus EDR: earned. Hardened remote access: earned. 24/7 managed detection and response: not earned |
+| Item 8. Claims-made dates | Retroactive date: full prior acts. Continuity date: October 15, 2026 |

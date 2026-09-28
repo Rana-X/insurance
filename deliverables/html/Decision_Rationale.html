@@ -20,11 +20,23 @@ th { background: #e8eef3; font-family: "Helvetica Neue", Arial, sans-serif; }
 blockquote { margin: 6pt 0; padding: 6pt 10pt; border-left: 3pt solid #c0392b; background: #fbeeee; }
 a { color: #0b5394; text-decoration: none; word-break: break-all; }
 .pagebreak { break-before: page; }
-</style></head><body><h1>Decision Rationale: How the Harborline Policy Was Built</h1>
-<p>This document explains the reasoning behind the Harborline Cyber Protection Policy: who it is for, how its numbers were set, what it covers and leaves out, and the trade-offs I accepted. It follows the order in which I made the decisions. Each step answers one question, and each answer sets part of the policy.</p>
-<p><strong>A note on numbers.</strong> Harborline and Cedar Ridge are fictional. Market statistics come from the published sources listed at the end, with links where the source is public. At-Bay figures come from the full 2026 InsurSec Report. Premiums, limits and loss estimates for Cedar Ridge are my own illustrative judgments, and the arithmetic is shown so each can be challenged.</p>
+.cover { text-align: center; padding-top: 0.5in; }
+.cover-insurer { font-family: "Helvetica Neue", Arial, sans-serif; font-weight: bold; letter-spacing: 2pt; color: #0b3954; font-size: 12pt; margin-bottom: 22pt; }
+.cover h1 { font-size: 30pt; margin: 0 0 6pt; }
+.cover-sub { font-size: 13pt; margin: 0 0 4pt; }
+.cover-form { font-size: 9.5pt; color: #555; margin: 0 0 26pt; }
+.cover-notice { border: 1.2pt solid #0b3954; padding: 8pt 14pt 4pt; text-align: left; margin: 0 0.25in 16pt; }
+.cover-report { margin: 0 0.25in 18pt; }
+table.cover-contents { width: 55%; margin: 0 auto 26pt; font-size: 10.5pt; }
+table.cover-contents td { border: none; border-bottom: 0.5pt dotted #9aa5b1; text-align: left; padding: 3pt 2pt; }
+.cover-witness { font-size: 9pt; text-align: left; margin: 0 0.25in 4pt; }
+table.cover-sign { width: 90%; margin: 0 auto; }
+table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-size: 9.5pt; }
+</style></head><body><h1>Decision Rationale: How the Cyber Protection Policy Was Built</h1>
+<p>This document explains the reasoning behind the Cyber Protection Policy I drafted for Corgi: who it is for, how its numbers were set, what it covers and leaves out, and the trade-offs I accepted. It follows the order in which I made the decisions. Each step answers one question, and each answer sets part of the policy.</p>
+<p><strong>A note on numbers.</strong> The policy is a specimen, not a Corgi product, and Cedar Ridge is fictional. Market statistics come from the published sources listed at the end, with links where the source is public. At-Bay figures come from the full 2026 InsurSec Report. Premiums, limits and loss estimates for Cedar Ridge are my own illustrative judgments, and the arithmetic is shown so each can be challenged.</p>
 <h2>Summary</h2>
-<p><strong>What the policy is for.</strong> Harborline keeps a small business open and solvent after a cyber event. It pays the losses the business can't absorb, pays them fast enough to keep it running, and leaves the small, predictable costs with the business. Every term had to serve that purpose, or protect the insurer's ability to keep offering it (by limiting moral hazard, accumulation or what the law forbids).</p>
+<p><strong>What the policy is for.</strong> It keeps a small business open and solvent after a cyber event. It pays the losses the business can't absorb, pays them fast enough to keep it running, and leaves the small, predictable costs with the business. Every term had to serve that purpose, or protect the insurer's ability to keep offering it (by limiting moral hazard, accumulation or what the law forbids).</p>
 <p><strong>Who it's for.</strong> U.S. businesses with $1M–$50M in revenue, such as accounting firms, clinics, agencies, retailers and light manufacturers. In my view, most buy cyber insurance to survive ransomware and fraud, and many have no broker or in-house IT team to guide them. The sample policyholder is Cedar Ridge Accounting Group, a Denver CPA firm with $8.5M revenue and 62 staff that runs payroll for 40 clients.</p>
 <p><strong>The five decisions that matter most:</strong></p>
 <ol>
@@ -57,8 +69,8 @@ a { color: #0b5394; text-decoration: none; word-break: break-all; }
 </tr>
 <tr>
 <td>Form design</td>
-<td>One general form; Declarations show what each business bought</td>
-<td>The same wording works for a dental office or a CPA firm. The Declarations, the options and the application carry the differences</td>
+<td>One general form; each business's Declarations show what it bought</td>
+<td>The same wording works for a dental office or a CPA firm. The Declarations, the options and the application carry the differences. The specimen's Declarations are left blank for that reason; Cedar Ridge's entries are on the application's last page</td>
 </tr>
 <tr>
 <td>Sample policyholder</td>
@@ -67,7 +79,7 @@ a { color: #0b5394; text-decoration: none; word-break: break-all; }
 </tr>
 </tbody>
 </table>
-<p><strong>Fit with Corgi.</strong> Corgi Insurance Company, Inc., Corgi's admitted carrier announced on August 26, 2026, targets main-street businesses including professional and administrative offices. Harborline is written as the kind of cyber form such a carrier could file for that segment, and for startups graduating into it. Corgi's cyber page describes its startup policy as offering up to $1M per claim and $2M in the aggregate. I considered that two-number structure but chose a single $2M aggregate for Cedar Ridge, because its danger is one severe event, not two average ones (part 3).</p>
+<p><strong>Fit with Corgi.</strong> Corgi Insurance Company, Inc., Corgi's admitted carrier announced on August 26, 2026, targets main-street businesses including professional and administrative offices. I wrote the policy as a cyber form that carrier could file for that segment, and for startups graduating into it. Corgi's cyber page describes its startup policy as offering up to $1M per claim and $2M in the aggregate. I considered that two-number structure but chose a single $2M aggregate for Cedar Ridge, because its danger is one severe event, not two average ones (part 3).</p>
 <h2>2. How these businesses lose money</h2>
 <p>Every loss path has a coverage. Media liability (L), the smaller core coverages (G, M, N and O) and the options are explained in part 4.</p>
 <table>
@@ -458,7 +470,7 @@ a { color: #0b5394; text-decoration: none; word-break: break-all; }
 <li>only accounts the insured "holds" for clients;</li>
 <li>a "direct result" test.</li>
 </ul>
-<p>Harborline's <strong>payment fraud</strong> definition closes all four. It covers anyone authorized to make, approve or change payments, including partners and AI agents. It covers the insured or its <strong>financial institution</strong> being deceived, and client accounts the firm operates. It uses "resulting from". It still requires impersonation: commercial disputes and theft by the firm's own staff stay with crime insurance. It also tells the insured to preserve its rights against the bank, since a bank must sometimes refund a fraudulent transfer.</p>
+<p>The policy's <strong>payment fraud</strong> definition closes all four. It covers anyone authorized to make, approve or change payments, including partners and AI agents. It covers the insured or its <strong>financial institution</strong> being deceived, and client accounts the firm operates. It uses "resulting from". It still requires impersonation: commercial disputes and theft by the firm's own staff stay with crime insurance. It also tells the insured to preserve its rights against the bank, since a bank must sometimes refund a fraudulent transfer.</p>
 <h2>5. What the policy limits or excludes, and why</h2>
 <p>Each restriction is tied to one or more of five reasons:</p>
 <ul>
@@ -531,7 +543,7 @@ a { color: #0b5394; text-decoration: none; word-break: break-all; }
 </table>
 <p><strong>One rule for security.</strong> Section III, part 1.9 lists the only three terms that can reduce a payment because of security practices, and applies each only if the missing control caused the incident or made the loss larger. The insurer must show that link. The idea comes from the UK Insurance Act 2015 (s11), which stops an insurer relying on a risk-control term when the breach could not have mattered to the loss. I found no Colorado equivalent, so the policy supplies the rule itself.</p>
 <p>I did not copy the German approach of cutting payment in proportion to how careless the insured was. In a Colorado form that becomes a discretionary percentage dispute, and it can't be priced.</p>
-<p><strong>The war exclusion.</strong> At-Bay's AB-CYB-001.2 (08/2023) form and the Coalition policy issued for 2025–26 that I reviewed still use legacy "war, hostilities, warlike operations" wording. That is the kind of language the New Jersey courts refused to apply to NotPetya in <em>Merck v. ACE</em>. Harborline follows the Lloyd's Y5381 criteria and the LMA 5567 model clause, and borrows the physical-force war definition and bystander carve-back from Beazley's war and cyber war exclusion. Beazley's clause has no attribution process, so Harborline uses LMA 5567's rule (attribution by the government where the affected systems are located). It takes the insurer's burden of proof and the "sovereign state" meaning from LMA 5567 and states both in plain words, adding that "state" never means a U.S. state. For small insureds it adds one thing the models lack: continued help while attribution is pending, with no repayment.</p>
+<p><strong>The war exclusion.</strong> At-Bay's AB-CYB-001.2 (08/2023) form and the Coalition policy issued for 2025–26 that I reviewed still use legacy "war, hostilities, warlike operations" wording. That is the kind of language the New Jersey courts refused to apply to NotPetya in <em>Merck v. ACE</em>. The policy follows the Lloyd's Y5381 criteria and the LMA 5567 model clause, and borrows the physical-force war definition and bystander carve-back from Beazley's war and cyber war exclusion. Beazley's clause has no attribution process, so the policy uses LMA 5567's rule (attribution by the government where the affected systems are located). It takes the insurer's burden of proof and the "sovereign state" meaning from LMA 5567 and states both in plain words, adding that "state" never means a U.S. state. For small insureds it adds one thing the models lack: continued help while attribution is pending, with no repayment.</p>
 <h2>6. How the definitions are built</h2>
 <p><strong>Principles:</strong></p>
 <ol>
@@ -611,7 +623,7 @@ a { color: #0b5394; text-decoration: none; word-break: break-all; }
 <li>professional liability in force.</li>
 </ul>
 <p>The application avoids traps: it asks for facts, not legal conclusions (for example, how many Colorado consumers' data the firm processes, not whether a privacy statute applies). Optional answers can't be used against the insured.</p>
-<p><strong>Monitoring and services.</strong> Insurtech carriers such as Coalition and At-Bay use scans and alerts both to choose risks and to prevent losses. Harborline scans before issue and warns about known-exploited vulnerabilities. Other services sit outside the contract. Colorado's 2025 rebate reform (SB25-058) allows value-added loss-mitigation services not specified in the policy. The policy promises that using them, or not, never reduces cover.</p>
+<p><strong>Monitoring and services.</strong> Insurtech carriers such as Coalition and At-Bay use scans and alerts both to choose risks and to prevent losses. The policy assumes the insurer scans before issue and warns about known-exploited vulnerabilities. Other services sit outside the contract. Colorado's 2025 rebate reform (SB25-058) allows value-added loss-mitigation services not specified in the policy. The policy promises that using them, or not, never reduces cover.</p>
 <p><strong>Premium for Cedar Ridge (illustrative):</strong></p>
 <table class="keep">
 <thead>
@@ -726,7 +738,7 @@ a { color: #0b5394; text-decoration: none; word-break: break-all; }
 </thead>
 <tbody>
 <tr>
-<td>Q. Website tracking liability</td>
+<td>Q. Website tracking liability ($250K)</td>
 <td>$450</td>
 </tr>
 <tr>
@@ -734,11 +746,11 @@ a { color: #0b5394; text-decoration: none; word-break: break-all; }
 <td>$520 (instead of $280)</td>
 </tr>
 <tr>
-<td>S. Key customer interruption</td>
+<td>S. Key customer interruption ($100K)</td>
 <td>$300</td>
 </tr>
 <tr>
-<td>T. Impersonation response</td>
+<td>T. Impersonation response ($25K)</td>
 <td>$75</td>
 </tr>
 <tr>
@@ -790,7 +802,7 @@ a { color: #0b5394; text-decoration: none; word-break: break-all; }
 </tr>
 <tr>
 <td>Cancellation only for non-payment (10 days, with reasons) or a knowingly false application answer (45 days). An honest mistake never cancels the policy; at most we decline to renew</td>
-<td>Colorado (C.R.S. 10-4-109.7) allows cancellation of a commercial policy only for non-payment, a knowingly false application statement or a substantial change in the risk, and requires 45 days' notice for all but non-payment. Harborline uses only the first two</td>
+<td>Colorado (C.R.S. 10-4-109.7) allows cancellation of a commercial policy only for non-payment, a knowingly false application statement or a substantial change in the risk, and requires 45 days' notice for all but non-payment. The policy uses only the first two</td>
 </tr>
 <tr>
 <td>Coverage I responds even where the firm's professional liability policy might also apply</td>
@@ -827,7 +839,7 @@ a { color: #0b5394; text-decoration: none; word-break: break-all; }
 <tr>
 <td>Full-limit system failure in the core (Coalition's surplus-lines form)</td>
 <td>Priced option</td>
-<td>Accumulation. Harborline is narrower than Coalition here, and says so</td>
+<td>Accumulation. The policy is narrower than Coalition here, and says so</td>
 </tr>
 <tr>
 <td>Deepfake and impersonation response (Coalition, December 2025)</td>
@@ -837,7 +849,7 @@ a { color: #0b5394; text-decoration: none; word-break: break-all; }
 <tr>
 <td>$0 retention paths (At-Bay's MDR packages; Coalition's in-house incident response)</td>
 <td>Credit only</td>
-<td>Harborline doesn't sell MDR or run its own response team; the 50% credit rewards MDR</td>
+<td>The policy doesn't assume an in-house MDR service or response team; the 50% credit rewards MDR</td>
 </tr>
 <tr>
 <td>AI regulatory defense (Beazley, September 2026)</td>
@@ -851,7 +863,7 @@ a { color: #0b5394; text-decoration: none; word-break: break-all; }
 </tr>
 </tbody>
 </table>
-<p><strong>Where Harborline is broader than the forms I compared:</strong></p>
+<p><strong>Where the policy is broader than the forms I compared:</strong></p>
 <ul>
 <li>any-channel payment fraud that reaches the bank and client accounts in one trigger (HSB and CFC each cover part of this);</li>
 <li>a firm, not discretionary, business interruption advance;</li>
@@ -913,7 +925,7 @@ a { color: #0b5394; text-decoration: none; word-break: break-all; }
 <tr>
 <td>ISO generative-AI exclusions for general liability</td>
 <td>Optional endorsements since January 2026</td>
-<td>Affirmative AI cover is now common in cyber (Beazley, CFC). Harborline's distinctive element is its AI-agent definition</td>
+<td>Affirmative AI cover is now common in cyber (Beazley, CFC). The policy's distinctive element is its AI-agent definition</td>
 </tr>
 </tbody>
 </table>

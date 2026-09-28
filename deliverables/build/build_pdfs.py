@@ -1,4 +1,4 @@
-"""Build HTML and PDF versions of the Harborline deliverables, plus the submission package.
+"""Build HTML and PDF versions of the cyber policy deliverables, plus the submission package.
 
 Usage: python3 deliverables/build/build_pdfs.py
 Needs: pip install markdown playwright pypdf; a Chromium binary (CHROME env var or the Playwright default path).
@@ -16,15 +16,15 @@ from pypdf import PdfReader, PdfWriter
 ROOT = Path(__file__).resolve().parents[1]
 OUT_HTML = ROOT / "html"
 OUT_PDF = ROOT / "pdf"
-PKG = ROOT / "package" / "Harborline_Corgi_Package"
+PKG = ROOT / "package" / "Corgi_Cyber_Policy_Package"
 CHROME = os.environ.get("CHROME", "/opt/pw-browsers/chromium-1194/chrome-linux/chrome")
 
 DOCS = [
     # source, title, footer, package name
-    ("Submission_Guide.md", "Submission Guide", "Harborline Cyber Protection Policy · Submission Guide", "00_Submission_Guide.pdf"),
-    ("Harborline_Policy.md", "Harborline Cyber Protection Policy (Specimen)", "HIC-CY-100 (10/26) · Specimen", "01_Harborline_Policy_Specimen.pdf"),
-    ("Harborline_Application_Cedar_Ridge.md", "Cyber Protection Policy Application (Sample)", "HIC-CY-APP (10/26) · Sample", "02_Sample_Application_Cedar_Ridge.pdf"),
-    ("Harborline_Decision_Rationale.md", "Decision Rationale", "Harborline Cyber Protection Policy · Decision Rationale", "03_Decision_Rationale.pdf"),
+    ("Submission_Guide.md", "Submission Guide", "Cyber Protection Policy · Submission Guide", "00_Submission_Guide.pdf"),
+    ("Cyber_Protection_Policy.md", "Cyber Protection Policy (Specimen)", "Corgi Insurance Company, Inc. · CIC-CY-100 (10/26) · Specimen", "01_Cyber_Protection_Policy_Specimen.pdf"),
+    ("Sample_Application_Cedar_Ridge.md", "Cyber Protection Policy Application (Sample)", "CIC-CY-APP (10/26) · Sample", "02_Sample_Application_Cedar_Ridge.pdf"),
+    ("Decision_Rationale.md", "Decision Rationale", "Cyber Protection Policy · Decision Rationale", "03_Decision_Rationale.pdf"),
 ]
 
 CSS = """
@@ -48,11 +48,30 @@ th { background: #e8eef3; font-family: "Helvetica Neue", Arial, sans-serif; }
 blockquote { margin: 6pt 0; padding: 6pt 10pt; border-left: 3pt solid #c0392b; background: #fbeeee; }
 a { color: #0b5394; text-decoration: none; word-break: break-all; }
 .pagebreak { break-before: page; }
+.cover { text-align: center; padding-top: 0.5in; }
+.cover-insurer { font-family: "Helvetica Neue", Arial, sans-serif; font-weight: bold; letter-spacing: 2pt; color: #0b3954; font-size: 12pt; margin-bottom: 22pt; }
+.cover h1 { font-size: 30pt; margin: 0 0 6pt; }
+.cover-sub { font-size: 13pt; margin: 0 0 4pt; }
+.cover-form { font-size: 9.5pt; color: #555; margin: 0 0 26pt; }
+.cover-notice { border: 1.2pt solid #0b3954; padding: 8pt 14pt 4pt; text-align: left; margin: 0 0.25in 16pt; }
+.cover-report { margin: 0 0.25in 18pt; }
+table.cover-contents { width: 55%; margin: 0 auto 26pt; font-size: 10.5pt; }
+table.cover-contents td { border: none; border-bottom: 0.5pt dotted #9aa5b1; text-align: left; padding: 3pt 2pt; }
+.cover-witness { font-size: 9pt; text-align: left; margin: 0 0.25in 4pt; }
+table.cover-sign { width: 90%; margin: 0 auto; }
+table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-size: 9.5pt; }
+"""
+
+# Light diagonal watermark on every page of the specimen policy.
+SPECIMEN_CSS = """
+body::before { content: "SPECIMEN"; position: fixed; top: 40%; left: 0; right: 0; text-align: center;
+  font: bold 110pt "Helvetica Neue", Arial, sans-serif; color: rgba(11, 57, 84, 0.05);
+  transform: rotate(-35deg); z-index: -1; }
 """
 
 MAJOR = re.compile(
-    r"^## (Important notices|Declarations|Section I\.|Section II\.|Section III\.|Section IV\.|Section V\.|"
-    r"If something happens|Part 1:|For underwriter use|Sources)"
+    r"^## (Important Notices|Declarations|Section I\.|Section II\.|Section III\.|Section IV\.|Section V\.|"
+    r"Part 1:|For underwriter use|Sources)"
 )
 LIST_ITEM = re.compile(r"^(- |\d+\. )")
 URL = re.compile(r"(?<![<(\"])(https?://[^\s<>|)]+)")
@@ -95,6 +114,8 @@ def build(md_name: str, title: str, footer: str, fill: dict | None = None) -> Pa
         text = text.replace("{" + k + "}", str(v))
     body = postprocess(markdown.markdown(preprocess(text), extensions=["tables", "sane_lists"]))
     extra_css = GUIDE_CSS if md_name.startswith("Submission_Guide") else ""
+    if md_name == "Cyber_Protection_Policy.md":
+        extra_css = SPECIMEN_CSS
     OUT_HTML.mkdir(exist_ok=True)
     OUT_PDF.mkdir(exist_ok=True)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{html.escape(title)}</title>
@@ -158,18 +179,18 @@ def package(built):
         if len(top) >= 2 and not isinstance(top[0], list) and isinstance(top[1], list):
             top = top[1]
         copy_outline(top, parent, 0)
-    writer.add_metadata({"/Title": "Harborline Cyber Protection Policy: Complete Submission"})
-    with open(send / "Harborline_Complete_Submission.pdf", "wb") as f:
+    writer.add_metadata({"/Title": "Cyber Protection Policy: Complete Submission"})
+    with open(send / "Complete_Submission.pdf", "wb") as f:
         writer.write(f)
-    for name in ["Harborline_Policy.md", "Harborline_Application_Cedar_Ridge.md", "Harborline_Decision_Rationale.md"]:
+    for name in ["Cyber_Protection_Policy.md", "Sample_Application_Cedar_Ridge.md", "Decision_Rationale.md"]:
         shutil.copy(ROOT / name, private / ("source_" + name))
     for extra in (ROOT / "validation").glob("*.md"):
         shutil.copy(extra, private / extra.name)
     (PKG / "READ_ME_FIRST.txt").write_text((ROOT / "build" / "READ_ME_FIRST.txt").read_text(encoding="utf-8"), encoding="utf-8")
-    zip_base = ROOT / "Harborline_Corgi_Package"
+    zip_base = ROOT / "Corgi_Cyber_Policy_Package"
     shutil.make_archive(str(zip_base), "zip", root_dir=PKG.parent, base_dir=PKG.name)
     # A send-only zip: nothing from the private folder may leave the machine by accident.
-    send_base = ROOT / "Harborline_Send_to_Corgi"
+    send_base = ROOT / "Send_to_Corgi"
     shutil.make_archive(str(send_base), "zip", root_dir=PKG, base_dir="1_Send_to_Corgi")
     return zip_base.with_suffix(".zip")
 
@@ -179,8 +200,8 @@ if __name__ == "__main__":
     for name, title, footer, _pkg in DOCS[1:]:
         built[name] = build(name, title, footer)
     counts = {k: len(PdfReader(str(v)).pages) for k, v in built.items()}
-    fill = {"POLICY_PAGES": counts["Harborline_Policy.md"], "APP_PAGES": counts["Harborline_Application_Cedar_Ridge.md"],
-            "RAT_PAGES": counts["Harborline_Decision_Rationale.md"]}
+    fill = {"POLICY_PAGES": counts["Cyber_Protection_Policy.md"], "APP_PAGES": counts["Sample_Application_Cedar_Ridge.md"],
+            "RAT_PAGES": counts["Decision_Rationale.md"]}
     g = DOCS[0]
     built[g[0]] = build(g[0], g[1], g[2], fill)
     built = [built[d[0]] for d in DOCS]

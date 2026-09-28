@@ -1,187 +1,165 @@
-# Harborline Cyber Protection Policy (Specimen)
+<div class="cover">
+<p class="cover-insurer">CORGI INSURANCE COMPANY, INC.</p>
+<h1>Cyber Protection Policy</h1>
+<p class="cover-sub">For small and mid-sized businesses</p>
+<p class="cover-form">Policy form CIC-CY-100 (10/26) · Colorado edition · Specimen</p>
+<div class="cover-notice">
+<p><strong>Please read this entire policy carefully.</strong></p>
+<p>Coverages I, J, K, L and Q are claims-made and reported coverages. They apply only to <strong>claims</strong> first made against you during the <strong>policy period</strong> or an extended reporting period and reported to us as this policy requires. All other coverages apply to <strong>incidents</strong> you first <strong>discover</strong> during the <strong>policy period</strong>.</p>
+<p><strong>Claim expenses</strong> reduce the limits of insurance and count toward the <strong>retention</strong>.</p>
+<p>Words in <strong>bold</strong> are defined in Section II.</p>
+</div>
+<p class="cover-report"><strong>To report an incident or claim, 24 hours a day:</strong> use any channel in Item 10 of the Declarations.</p>
+<table class="cover-contents">
+<tr><td>Important Notices and Disclaimers</td></tr>
+<tr><td>Declarations</td></tr>
+<tr><td>Section I. Insuring Agreements</td></tr>
+<tr><td>Section II. Definitions</td></tr>
+<tr><td>Section III. Coverage Sections</td></tr>
+<tr><td>Section IV. Exclusions</td></tr>
+<tr><td>Section V. Conditions</td></tr>
+</table>
+<p class="cover-witness">In witness whereof, Corgi Insurance Company, Inc. has caused this policy to be signed by its President and its Secretary. This policy is not valid unless completed by Declarations issued by us.</p>
+<table class="cover-sign">
+<tr><td>______________________________<br>President</td><td>______________________________<br>Secretary</td></tr>
+</table>
+</div>
+<div class="pagebreak"></div>
 
-**HARBORLINE INSURANCE COMPANY**
+## Important Notices and Disclaimers
 
-**Cyber Protection Policy for Small and Mid-Sized Businesses**
-
-Protection from cyberattacks, data breaches and online fraud, plus help getting back to business fast.
-
-| Sample policyholder | Cedar Ridge Accounting Group, LLC |
-| --- | --- |
-| Policy number | HIC-CY-2026-004817 |
-| Policy period | October 15, 2026 to October 15, 2027 |
-| Policy form | HIC-CY-100 (10/26) |
-
-**One form for every business.** This policy wording (Sections I to V) is the same for every small or mid-sized business we insure. Only the Declarations change: they show what each business bought. This specimen's Declarations are for a sample policyholder, Cedar Ridge Accounting Group, the business in the accompanying sample application.
-
-> **Think something is wrong? Call us first: (303) 555-0142 (24/7).** Suspicious email, locked files or a strange payment request? Calling early costs you nothing and never counts against you.
-
-### What's inside
-
-| Part | What it tells you |
-| --- | --- |
-| Important notices and disclaimers | What you should know before you read the policy |
-| Declarations | What you bought: limits, retentions, credits and dates |
-| Section I: Insuring agreements | What we cover |
-| Section II: Definitions | What the bold words mean |
-| Section III: Coverage details | How each coverage works in practice |
-| Section IV: Exclusions | What we don't cover, and what we deliberately don't exclude |
-| Section V: Conditions | The rules both sides follow, and our service standards |
-| If something happens | Six steps to take first |
-
-### How to read this policy
-
-1. **Start with the Declarations.** They show exactly what you bought.
-2. **Words in bold are defined** in Section II and mean the same thing everywhere.
-3. **The cover page, the "plain English" column in Item 6 and the "If something happens" page are summaries.** Where they differ from the policy wording, the wording controls (Section V, part 11.6).
-
-*Harborline Insurance Company · licensed as an admitted insurer in Colorado · SPECIMEN, for illustration only*
-
-## Important notices and disclaimers
-
-1. **Specimen.** This is a sample policy prepared for illustration. Harborline Insurance Company, Cedar Ridge Accounting Group and all contact details are fictional. This document is not an offer of insurance and provides no coverage.
+1. **Specimen.** This is a specimen policy form. It has not been filed with or approved by any insurance regulator, is not an offer of insurance and provides no coverage. Items in [brackets] are completed when a policy is issued.
 2. **Claims-made liability coverage.** Coverages I, J, K, L and Q apply only to **claims** first made against you during the **policy period** (or an extended reporting period) and reported to us as the policy requires.
 3. **Defense costs reduce your limits.** Amounts we pay for lawyers and other **claim expenses** reduce, and can use up, your limits, and count toward your **retention**.
-4. **Admitted insurer.** Harborline Insurance Company is licensed by the Colorado Division of Insurance, and this policy form is filed with it.
+4. **State edition.** This is the Colorado edition of the policy. A policy issued in another state includes that state's amendatory endorsement, which changes this policy where that state's law requires.
 5. **Your privacy.** We collect information from your application, our security scans and claims to underwrite and service your policy. We share it only with our reinsurers, service providers and incident response panel, or as the law requires. We never sell it.
 6. **Sanctions.** We cannot provide coverage or make any payment, including a ransom payment, that U.S. trade or economic sanctions prohibit.
-7. **Terrorism (disclosure under the Terrorism Risk Insurance Act).** Coverage for acts of terrorism certified under the federal Terrorism Risk Insurance Act, as amended, is included in this policy on the same terms, conditions and exclusions as other covered losses. Losses from certified acts of terrorism may be partly reimbursed by the United States Government under a formula set by federal law. Under that formula, the United States Government generally reimburses 80% of covered terrorism losses above the deductible that the law sets for the insurance company providing the coverage. The Act contains a $100 billion cap that limits U.S. Government reimbursement, and insurers' liability, for losses from certified acts of terrorism when those losses exceed $100 billion in any one calendar year. If the combined insured losses of all insurers exceed $100 billion, your coverage may be reduced. The U.S. Treasury confirmed on December 27, 2016 that stand-alone cyber policies fall within the program. The part of your annual premium for this coverage is $0.
+7. **Terrorism (disclosure under the Terrorism Risk Insurance Act).** Coverage for acts of terrorism certified under the federal Terrorism Risk Insurance Act, as amended, is included in this policy on the same terms, conditions and exclusions as other covered losses. Losses from certified acts of terrorism may be partly reimbursed by the United States Government under a formula set by federal law. Under that formula, the United States Government generally reimburses 80% of covered terrorism losses above the deductible that the law sets for the insurance company providing the coverage. The Act contains a $100 billion cap that limits U.S. Government reimbursement, and insurers' liability, for losses from certified acts of terrorism when those losses exceed $100 billion in any one calendar year. If the combined insured losses of all insurers exceed $100 billion, your coverage may be reduced. The portion of your annual premium attributable to this coverage is shown in Item 3 of the Declarations.
 8. **Fraud warning (Colorado).** It is unlawful to knowingly provide false, incomplete, or misleading facts or information to an insurance company for the purpose of defrauding or attempting to defraud the company. Penalties may include imprisonment, fines, denial of insurance, and civil damages. Any insurance company or agent of an insurance company who knowingly provides false, incomplete, or misleading facts or information to a policyholder or claimant for the purpose of defrauding or attempting to defraud the policyholder or claimant with regard to a settlement or award payable from insurance proceeds shall be reported to the Colorado Division of Insurance within the Department of Regulatory Agencies.
-9. **State rules.** A state amendatory endorsement changes this policy where your state's law requires. It is listed in Item 12 of the Declarations but not reproduced in this specimen.
-10. **Specimen drafting note (not part of a filed form).** This specimen was written with reference to the NIST Cybersecurity Framework 2.0, CIS Controls v8.1, the U.S. Treasury OFAC ransomware advisory (2021), the FTC Safeguards Rule, Lloyd's Market Bulletin Y5381, and published policy forms from At-Bay, Coalition and Beazley. Full citations are in the accompanying Decision Rationale.
+
+### If you suspect an incident
+
+1. **Call the hotline in Item 10 first.** A breach coach answers 24/7. The first 7 days of expert help cost you nothing, up to $25,000.
+2. **Don't pay a ransom, negotiate or admit fault** before talking to us. You never have to pay a ransom to keep your coverage.
+3. **Preserve evidence.** Don't wipe or rebuild systems until our forensic team says so.
+4. **Money sent to a fraudster? Call your bank at once**, then us. The first 24 hours matter most for getting it back.
+5. **Make legally required notices on time.** You never need our permission to meet a legal deadline.
+
+This summary does not change the policy. The policy wording controls.
 
 ## Declarations
 
-**Harborline Insurance Company** · Cyber Protection Policy for Small and Mid-Sized Businesses · Form HIC-CY-DEC (10/26)
+**Corgi Insurance Company, Inc.** · Cyber Protection Policy · Form CIC-CY-DEC (10/26)
 
-*SPECIMEN: for illustration only. Harborline Insurance Company, its phone number and web addresses are fictional.*
+> **This policy contains claims-made and reported coverage. Claim expenses reduce the limits of insurance and count toward the retention. Please read the entire policy carefully.**
 
-### Important notices: please read
-
-- **Your liability coverages (I through L, and Q if purchased) are claims-made and reported.** They cover **claims** first made against you during the **policy period** and reported to us as this policy requires.
-- **Defense costs reduce your limits.** Money spent on lawyers counts toward your limit and your **retention**.
-- **How to read this page.** Items 1–12 are part of your policy. The "plain English" column in Item 6 is a summary; the policy wording controls. Words in bold are defined in Section II.
-
-| Policy detail | Entry |
+| Policy number | [Policy number] |
 | --- | --- |
-| Policy number | HIC-CY-2026-004817 |
-| New or renewal | New |
-| Producer | Direct (no broker) |
-| Issuing company | Harborline Insurance Company, an admitted insurer |
+| New or renewal | [New / Renewal of policy number] |
+| Producer | [Producer name and address, or "Direct"] |
 
-### Item 1. Named insured
+### Item 1. Named insured and address
 
-Cedar Ridge Accounting Group, LLC · 1450 Market Street, Suite 600, Denver, CO 80202 · Website and email domain: cedarridgecpa.com
+[Named insured] · [Street address, city, state, ZIP code] · Websites and email domains: [domains]
 
 ### Item 2. Policy period
 
-**From** October 15, 2026 **to** October 15, 2027, both dates at 12:01 a.m. local time at the address in Item 1.
+From [effective date] to [expiration date], both at 12:01 a.m. standard time at the address in Item 1.
 
 ### Item 3. Premium
 
 | Premium line | Amount |
 | --- | --- |
-| Core coverages, $1,000,000 base limit | $6,120 |
-| Increase to $2,000,000 policy aggregate limit | $1,530 |
-| Optional Coverage P (dependent system failure) | $600 |
-| Optional Coverage R (increased fraud limit, $500,000) | $280 |
-| Subtotal | $8,530 |
-| Security credit, 10% (see Item 7) | −$853 |
-| Taxes and fees | $0 |
-| **Total due** | **$7,677** |
+| Premium, including optional coverages purchased in Item 6 | $[amount] |
+| Portion attributable to certified acts of terrorism (TRIA) | $0 |
+| Taxes, surcharges and fees | $[amount] |
+| **Total** | **$[amount]** |
 
-*Premium shown is illustrative and subject to actuarial rating. The Decision Rationale shows how it was built.*
-
-### Item 4. Limits of liability
+### Item 4. Limits of insurance
 
 | Limit | Amount |
 | --- | --- |
-| **Limits available on this form** | $1,000,000, $2,000,000 or $3,000,000 policy aggregate |
-| **Policy aggregate limit (selected)** | **$2,000,000**. The most we will pay for all coverages combined during the **policy period**, including **claim expenses** |
-| **Incident response services (Coverage A)** | First 7 days after you report, up to $25,000 for each **incident** and $75,000 for the **policy period**. In addition to the aggregate limit, with no **retention** |
-| **Pre-incident assistance** | Up to $2,500 for the **policy period** of legal or forensic advice before an **incident** happens. In addition to the aggregate limit, with no **retention** |
-| **Proof-of-loss help** | Up to $50,000 per **incident** for a forensic accountant (Section III, part 1.8). Part of the aggregate limit, not of the coverage it supports |
+| **Policy aggregate limit** | $[1,000,000, 2,000,000 or 3,000,000]. The most we will pay for all coverages combined during the **policy period**, including **claim expenses** |
+| **Incident response services (Coverage A)** | $25,000 each **incident**; $75,000 for the **policy period**. In addition to the policy aggregate limit, with no **retention** |
+| **Pre-incident assistance** | $2,500 for the **policy period**. In addition to the policy aggregate limit, with no **retention** |
+| **Proof-of-loss help** | $50,000 each **incident**. Part of the policy aggregate limit |
 
-### Item 5. Retention (your deductible)
+### Item 5. Retention
 
 | Retention | Amount |
 | --- | --- |
-| Standard retention for your revenue band ($5M–$25M) | $10,000 each **incident** |
-| **Your retention after security credit** | **$7,500 each incident** (25% credit for MFA plus EDR; see Item 7) |
-| **One retention per incident** | One **incident**, and every **claim** arising from it, carries one dollar **retention**: the largest that applies (Section III, part 1.3) |
-| **Claim-free reduction** | Drops 25% for each claim-free year you renew with us, to a minimum of $2,500 (Section V, part 6) |
+| **Each incident** | $[amount], after any retention credit in Item 7 |
+| **Coverage H, reported within 72 hours** | $2,500 |
+| **Claim-free reduction** | 25% for each consecutive claim-free year you renew with us, to a minimum of $2,500 (Section V, part 6) |
 
 ### Item 6. Coverage schedule
 
-**How to read the limits.** Each limit below is the most we will pay under that coverage for all **incidents** and **claims** in the **policy period** combined. Each is part of the policy aggregate limit in Item 4, not in addition to it, unless it says "in addition". A limit marked **"applies across coverages"** is the most we will pay for that kind of loss under the coverages it names, combined (Section III, part 1.1).
+Each limit is the most we will pay under that coverage for all **incidents** and **claims** in the **policy period** combined, and is part of the policy aggregate limit unless marked "in addition". "Policy aggregate" means the coverage can use the full policy aggregate limit. A limit marked "applies across coverages" is the most we will pay for that kind of loss under the coverages it names, combined (Section III, part 1.1).
 
-#### Part 1: Core coverages (always included)
+#### Part 1: Core coverages (included in every policy)
 
-|  | Coverage | What it pays for, in plain English | Limit for the policy period | Retention |
+|  | Coverage | Limit for the policy period | Retention or waiting period |
+| --- | --- | --- | --- |
+| A | Incident Response Services | $25,000 each **incident**; $75,000 for the period (in addition) | None |
+| B | Breach Response Costs | Policy aggregate | Item 5 |
+| C | Cyber Extortion and Ransomware | Policy aggregate | Item 5 |
+| D | Business Interruption | **Security failure:** policy aggregate. **System failure:** $250,000 for D and F combined, applies across coverages | 8-hour waiting period |
+| E | Dependent Business Interruption | $500,000 | 8-hour waiting period |
+| F | Data and System Restoration | Policy aggregate (**system failure:** see D) | Item 5 |
+| G | Security Improvement Costs | $25,000 | Included in the **incident's** retention |
+| H | Payment Fraud and Invoice Fraud | $250,000 for both parts combined; $100,000 where Section III, part 6.2 applies | Item 5; $2,500 if reported within 72 hours |
+| I | Network Security and Privacy Liability | Policy aggregate | Item 5 |
+| J | Regulatory Defense and Penalties | Policy aggregate | Item 5 |
+| K | PCI Fines and Assessments | $250,000 | Item 5 |
+| L | Media Liability | Policy aggregate | Item 5 |
+| M | Computer Replacement (Bricking) | $100,000 | Item 5 |
+| N | Reputational Harm | $100,000 | 14-day waiting period, then up to 90 days of lost profit |
+| O | Cryptojacking and Telecom Fraud | $50,000 | Item 5 |
+
+**Period of restoration** for Coverages D, E and P: up to 180 days, plus catch-up costs for 30 days after it ends.
+
+#### Part 2: Optional coverages (only if marked purchased)
+
+|  | Optional coverage | Limit if purchased | Retention or waiting period | Purchased |
 | --- | --- | --- | --- | --- |
-| A | Incident Response Services | 24/7 hotline, breach coach and first-response forensics for the first 7 days after you call | $25,000 each **incident**; $75,000 for the period (in addition to the aggregate) | $0 |
-| B | Breach Response Costs | Forensics, legal advice, notification letters, call center, credit monitoring, identity restoration (including tax-related identity theft), crisis PR | $2,000,000 | $7,500 |
-| C | Cyber Extortion and Ransomware | Expert negotiators and, where legally allowed, ransom payments | $2,000,000 | $7,500 |
-| D | Business Interruption | Lost income and extra costs while your own systems are down | Attacks: $2,000,000. **System failure: $250,000 for D and F combined, applies across coverages** (Coverage P has its own limit) | 8-hour waiting period |
-| E | Dependent Business Interruption | The same, when an attack on a provider you rely on takes you offline | $500,000 | 8-hour waiting period |
-| F | Data and System Restoration | Restoring data and software after an attack or system failure, and removing malware | $2,000,000 (system failure: see D) | $7,500 |
-| G | Security Improvement Costs | Security upgrades our incident team recommends after a covered attack | $25,000 | Included in incident retention |
-| H | Payment Fraud and Invoice Fraud | Money you or your bank are tricked or hacked into sending, including from client accounts you run, and customer payments diverted by fake invoices sent from your hacked systems | $250,000 (shared by both parts); raised to $500,000 by Coverage R | $7,500 ($2,500 if reported within 72 hours) |
-| I | Network Security and Privacy Liability | Lawsuits from customers, clients or others after a breach or privacy violation | $2,000,000 | $7,500 |
-| J | Regulatory Defense and Penalties | Government investigations, and fines where insurable by law | $2,000,000 | $7,500 |
-| K | PCI Fines and Assessments | Card brand fines and assessments after a payment card breach | $250,000 | $7,500 |
-| L | Media Liability | Claims over your website or social media content (defamation, copyright) | $2,000,000 | $7,500 |
-| M | Computer Replacement (Bricking) | Replacing hardware made unusable by an attack | $100,000 | $7,500 |
-| N | Reputational Harm | Lost profit when news of a breach drives customers away | $100,000 | 14-day waiting period, then up to 90 days of lost profit |
-| O | Cryptojacking and Telecom Fraud | Extra cloud, utility, phone and AI-service charges from unauthorized use of your systems | $50,000 | $7,500 |
+| P | Dependent System Failure Business Interruption | $250,000 | 24-hour waiting period | ☐ |
+| Q | Website Tracking Liability | $250,000 | Item 5 | ☐ |
+| R | Increased Fraud Limit | Coverage H limit raised to ☐ $500,000 or ☐ $1,000,000 | As Coverage H | ☐ |
+| S | Key Customer Interruption | $100,000. Key customers: [names] | Item 5 | ☐ |
+| T | Impersonation Response | $25,000 | $2,500 | ☐ |
+| | System Failure Full Limit | System failure limit for D and F raised to the policy aggregate limit | As D and F | ☐ |
 
-**Business interruption period of restoration:** up to 180 days from when the outage begins.
+### Item 7. Security credits
 
-#### Part 2: Optional coverages
+Credits are based on controls verified at issue (Section III, part 1.5). Retention credits do not add together: the single largest one earned applies. The premium credit applies in addition.
 
-|  | Optional coverage | What it pays for | Limit for the policy period | Retention |
-| --- | --- | --- | --- | --- |
-| P | Dependent System Failure Business Interruption **(purchased)** | Lost income when a provider you rely on (such as a cloud accounting, tax, payroll or practice-management platform) has a non-malicious outage | $250,000 | 24-hour waiting period |
-| R | Increased Fraud Limit **(purchased)** | Raises the Coverage H limit to $500,000 or $1,000,000 | $500,000 (replaces $250,000 for Coverage H) | As Coverage H |
-| Q | Website Tracking Liability | Lawsuits over website pixels and cookies (e.g., California's CIPA) | Not purchased | N/A |
-| S | Key Customer Interruption | Lost profit when a cyberattack on a key customer forces it to cancel or cut orders. Key customers are named here when purchased | Not purchased | N/A |
-| T | Impersonation Response | Expert analysis, takedown requests, PR and customer warnings when criminals impersonate your business online (fake websites, lookalike domains, deepfakes), even without a breach. Available at $25,000 with a $2,500 retention | Not purchased | N/A |
-
-**System failure full-limit option:** raises the system failure limit under Coverages D and F from $250,000 to the policy aggregate limit. Not purchased.
-
-### Item 7. Security credits (based on your application)
-
-Retention credits do not add together: you get the single largest retention credit you earned. Premium credits apply in addition.
-
-| Security control | Verified? | What you earned |
+| Control | Credit | Earned |
 | --- | --- | --- |
-| 24/7 managed detection and response: EDR alerts watched around the clock by a provider authorized to isolate devices | No | Not earned. It would cut your retention by 50% (to $5,000) instead of 25%, and cut the waiting period for Coverages D and E from 8 to 4 hours |
-| Multi-factor authentication (MFA) on email, remote access and admin accounts, plus EDR on all laptops and servers | Yes | Retention cut 25%, from $10,000 to $7,500 |
-| Hardened remote access: MFA on every remote-access path, and no end-of-life VPN or remote-access tools | Yes | 10% premium credit |
-| Verified backups: a restore tested in the last 12 months, and an offline or immutable copy | Yes | No ransomware coinsurance while backups stay verified (restore tested within the last 12 months; Section III, part 1.6). Otherwise you pay 20% of certain ransomware losses |
-| Written verification procedure for payment requests, with staff trained on it (Section III, part 6) | Yes | Coverage H at its full limit. Without the procedure or training, a $100,000 limit can apply, but only as Section III, part 6.2 allows |
+| 24/7 managed detection and response: endpoint alerts watched around the clock by a provider authorized to isolate devices | **Retention** reduced 50%; **waiting period** for Coverages D and E reduced to 4 hours | ☐ |
+| Multi-factor authentication on email, remote access and administrator accounts, plus endpoint detection and response on all laptops and servers | **Retention** reduced 25% | ☐ |
+| Hardened remote access: multi-factor authentication on every remote-access path, and no end-of-life VPN or remote-access tools | Premium reduced 10% | ☐ |
 
 ### Item 8. Claims-made dates
 
 | Date | Entry |
 | --- | --- |
-| **Retroactive date** | Full prior acts (no date restriction) |
-| **Continuity date** | October 15, 2026. We do not cover problems your **executives** knew about before this date and should have expected to lead to a **claim** or loss (exclusion 2) |
+| **Retroactive date** | [Full prior acts, or date] |
+| **Continuity date** | [Date: the first day of the first policy we issued to you, if renewed without a break] |
 
 ### Item 9. Extended reporting period
 
 | Option | Terms |
 | --- | --- |
 | Automatic | 60 days after the policy ends, if it is cancelled or not renewed (Section V, part 5.4) |
-| Optional | 12 months for 75% of annual premium, or 24 months for 125% |
+| Optional | 12 months for 75% of the annual premium, or 24 months for 125% (Section V, part 5.5) |
 
-### Item 10. How to report an incident (24/7)
+### Item 10. Reporting an incident or claim (24/7)
 
 | Channel | Contact |
 | --- | --- |
-| **Hotline** | (303) 555-0142 |
-| **Email** | incidents@harborlineinsurance.com |
-| **Online** | harborlineinsurance.com/report |
+| **Hotline** | [24/7 incident hotline number] |
+| **Email** | [Incident reporting email address] |
+| **Online** | [Online reporting address] |
 
 Report as soon as possible. **Never delay a notice that the law requires you to make.**
 
@@ -193,15 +171,19 @@ Colorado. Colorado law does not allow punitive or exemplary damages to be insure
 
 | Form | Title |
 | --- | --- |
-| HIC-CY-DEC (10/26) | Declarations |
-| HIC-CY-100 (10/26) | Cyber Protection Policy |
-| HIC-CY-APP (10/26) | Application (attached) |
-| HIC-CY-CO (10/26) | Colorado Amendatory Endorsement (state form, not reproduced in this specimen) |
-| HIC-IL-TRIA (10/26) | Terrorism Risk Insurance Act Disclosure (reproduced in Important notices, item 7) |
+| CIC-CY-DEC (10/26) | Declarations |
+| CIC-CY-100 (10/26) | Cyber Protection Policy |
+| CIC-CY-APP (10/26) | Application |
+| CIC-CY-CO (10/26) | Colorado Amendatory Endorsement |
+| CIC-IL-TRIA (10/26) | Terrorism Risk Insurance Act Disclosure |
 
-*Signed on behalf of Harborline Insurance Company*: President · Secretary · Date: October 15, 2026
+These Declarations, together with the **application**, the policy form and any endorsements, complete this policy.
 
-## Section I. Insuring agreements: what we cover
+| Authorized representative | Date |
+| --- | --- |
+| ______________________________ | [Date issued] |
+
+## Section I. Insuring Agreements
 
 In exchange for your premium, and relying on your **application**, we agree to provide the coverages below. They are subject to the limits, retentions, exclusions, conditions and other terms of this policy. Core coverages A–O apply to every policy. Optional coverages P–T apply only if Item 6 of the Declarations shows them as purchased.
 
@@ -214,7 +196,7 @@ Every coverage requires all of the following:
 3. For liability coverages (I–L and Q), the **claim** is first made against you during the **policy period** or any extended reporting period.
 4. You report the **incident** or **claim** to us through any channel in Item 10, as Section V (Conditions) requires.
 
-### Two promises that apply to every coverage
+### Terms that apply to every coverage
 
 - **Artificial intelligence.** An **incident** or **claim** is not excluded merely because artificial intelligence, machine learning or synthetic media (including deepfakes) was used to cause, carry out or detect it.
 - **We pay vendors directly.** Wherever possible, we pay covered vendors (forensics, lawyers, negotiators) directly, so you do not have to pay first and wait to be reimbursed.
@@ -240,7 +222,7 @@ Every coverage requires all of the following:
 1. **funds transfer loss** you incur because of **payment fraud** or **computer fraud**; and
 2. **invoice manipulation loss** you incur when a **security failure** lets someone send your customers fraudulent invoices or payment instructions, and you cannot collect payment you are owed.
 
-Both parts share the Coverage H limit in Item 6 (or the Coverage R limit, if purchased). The lower limit in Item 7 applies only as Section III, part 6 says. If you report the loss to us within 72 hours of **discovering** it, the reduced **retention** shown in Item 6 applies.
+Both parts share the Coverage H limit in Item 6 (or the Coverage R limit, if purchased). The lower limit in Item 6 applies only as Section III, part 6 says. If you report the loss to us within 72 hours of **discovering** it, the reduced **retention** shown in Item 6 applies.
 
 **I. Network Security and Privacy Liability.** We will pay **damages** and **claim expenses** you are legally obligated to pay because of a **claim** for a **security failure** or **privacy event**. This includes **claims** brought by your own **employees** about their personal information.
 
@@ -262,13 +244,13 @@ Both parts share the Coverage H limit in Item 6 (or the Coverage R limit, if pur
 
 **Q. Website Tracking Liability.** We will pay **damages** and **claim expenses** you are legally obligated to pay because of a **claim** alleging **wrongful collection** of personal information through **tracking technology** on your websites or apps. This coverage does not apply to biometric information.
 
-**R. Increased Fraud Limit.** The limit for Coverage H becomes the amount shown for Coverage R in Item 6. The lower limit in Item 7 still applies as Section III, part 6 says.
+**R. Increased Fraud Limit.** The limit for Coverage H becomes the amount shown for Coverage R in Item 6. The lower limit in Item 6 still applies as Section III, part 6 says.
 
 **S. Key Customer Interruption.** We will pay the net profit you lose because a **key customer event** forces a **key customer** to cancel or reduce its orders from you. We pay for the time its systems are down and for up to 90 days after they are restored.
 
 **T. Impersonation Response.** We will pay **impersonation response costs** you incur because of an **impersonation event** you first **discover** during the **policy period**. No **security failure** or **privacy event** is needed.
 
-## Section II. Definitions: what the bold words mean
+## Section II. Definitions
 
 Words in **bold** have these meanings wherever they appear in this policy, including the Declarations.
 
@@ -479,9 +461,9 @@ For Coverage E, it means the same events affecting **dependent systems**.
 
 **Wrongful collection** means collecting, recording, sharing or using personal information through **tracking technology** without legally required notice or consent, including under wiretapping, eavesdropping or video privacy laws such as the California Invasion of Privacy Act.
 
-## Section III. Coverage details: how each coverage works
+## Section III. Coverage Sections
 
-This section explains how limits, retentions and each coverage work in practice once an **incident** or **claim** happens.
+Part 1 applies to every coverage. Parts 2 to 8 set out how each coverage works once an **incident** or **claim** happens.
 
 ### 1. Limits and retentions
 
@@ -535,7 +517,7 @@ Before any extortion payment:
 ### 6. Fraud (Coverages H and R)
 
 1. **Verification procedure.** The full Coverage H limit in Item 6 applies if, when the loss happened, you had a written procedure requiring whoever receives a request to confirm it before acting. The confirmation must use a phone number from your own records (never one supplied in the request) or another channel set up in advance. The procedure must cover: (a) any request to add or change the bank or payment details of a vendor, client, **employee** or client's employee; and (b) any request to transfer more than $5,000 received by email, text, messaging app, phone or video call.
-2. **When the lower limit applies.** The $100,000 limit in Item 7 applies only if you did not have that procedure, or had not trained the people who acted on the request, and part 1.9 of this Section is met. It never applies to **computer fraud**, to **invoice manipulation loss**, or to **payment fraud** in which the party deceived was a **financial institution**. If you had the procedure and trained your people, a failure to follow it, by one person or several on the same request, does not reduce your limit. A request sent from, or through, a compromised mailbox or account is still **payment fraud** for this part.
+2. **When the lower limit applies.** The $100,000 limit in Item 6 applies only if you did not have that procedure, or had not trained the people who acted on the request, and part 1.9 of this Section is met. It never applies to **computer fraud**, to **invoice manipulation loss**, or to **payment fraud** in which the party deceived was a **financial institution**. If you had the procedure and trained your people, a failure to follow it, by one person or several on the same request, does not reduce your limit. A request sent from, or through, a compromised mailbox or account is still **payment fraud** for this part.
 3. **Act fast.** Tell your bank and report the fraud to the FBI's Internet Crime Complaint Center as soon as possible, ideally within 24 hours. Our funds-recovery team will help. Reporting to us within 72 hours of **discovery** earns the reduced **retention** in Item 6.
 4. **Keep your rights against the bank.** Under the law on funds transfers, a bank must sometimes refund an unauthorized or fraudulent transfer. Tell your bank in writing about any such transfer as soon as you can, and within the time your account agreement and the law allow. We will not wait for the bank's decision before paying covered loss. After we pay, we may pursue the bank in your name under Section V, part 10.
 5. **Recoveries.** Money recovered after we pay goes first to reimburse your **retention** and any uninsured loss, then to us.
@@ -555,22 +537,9 @@ Before any extortion payment:
 2. **Reputational harm (N).** After the reputational harm waiting period in Item 6, we calculate **reputational harm loss** the same way as **business income loss**, excluding any loss already paid under Coverages D, E or P.
 3. **Cryptojacking and telecom fraud (O).** This includes extra cloud, artificial intelligence service, utility and telephone charges. You must first ask your provider to waive or reverse the unauthorized charges; we pay what the provider will not.
 
-## Section IV. Exclusions: what we don't cover
+## Section IV. Exclusions
 
-This policy does not cover loss, **claims** or costs arising from the matters listed in part 2. Each exclusion applies only as written. Where an exclusion says it does not apply to something, that exclusion does not remove coverage for it; whether it is covered still depends on the insuring agreements, definitions and other terms of this policy.
-
-### 1. What this policy does not exclude
-
-Many cyber policies deny claims for the reasons below. This one does not. This part is policy wording, not a summary.
-
-- **Security lapses.** We do not exclude loss because you failed to patch software, encrypt a device or maintain a security control. Your security affects your price and credits, not whether you are covered. Only three disclosed terms can reduce what we pay because of your security practices (the ransomware coinsurance, the known-exploited-vulnerability coinsurance and the lower fraud limit), and each applies only if the gap mattered to the loss (Section III, part 1.9). Losing a security credit can raise your **retention** (Section III, part 1.5).
-- **Honest application mistakes.** An unintentional error on your **application** does not void this policy (Section V, part 3).
-- **Rogue insiders.** Attacks by **employees** or **executives** acting against your interests are covered for you, except theft of money or securities by your own people, which belongs to crime or fidelity insurance. Exclusion 4 applies to the insider personally, and to you only as it says.
-- **Artificial intelligence.** **Incidents** caused or carried out with artificial intelligence, including deepfakes and hijacked **AI agents**, are covered like any other. So are **media content** claims about material created with AI tools.
-- **Cyber terrorism and state-linked criminals.** Only war and major state-backed cyber operations are excluded (exclusion 15).
-- **Choosing not to pay a ransom.** It never reduces what we pay (Section III, part 3).
-
-### 2. Exclusions
+This policy does not cover loss, **claims** or costs arising from the matters listed below. Each exclusion applies only as written. Where an exclusion says it does not apply to something, that exclusion does not remove coverage for it; whether it is covered still depends on the insuring agreements, definitions and other terms of this policy.
 
 1. **Bodily injury and property damage.** Physical injury, sickness or death, or physical damage to tangible property. This does not apply to emotional distress claims under Coverages I and L, or to Coverage M.
 2. **Known problems.** Any **incident**, **claim** or circumstance that an **executive** knew about before the **continuity date** and that a reasonable person in that role would have expected to lead to a **claim** or loss, or that you reported under an earlier policy that covers it. A circumstance does not include: (a) a vulnerability, missing patch or other security weakness that, as far as any **executive** knew, had not been exploited; (b) anything disclosed in your **application**, unless the Declarations or an endorsement exclude it; or (c) an **early warning** that an investigation completed before the **continuity date** found was not an **incident**.
@@ -597,9 +566,9 @@ Many cyber policies deny claims for the reasons below. This one does not. This p
 18. **Investment losses.** Changes in the value of securities, cryptocurrency or other assets, or trading losses. This does not apply to **funds transfer loss** or **extortion expenses**.
 19. **Profits you weren't entitled to.** Any profit or advantage you were not legally entitled to, once a final, non-appealable ruling or the person's written admission establishes it. Until then we will defend the **claim**.
 
-## Section V. Conditions: the rules both sides follow
+## Section V. Conditions
 
-These conditions apply to every coverage. Parts 7, 8 and 12 set out commitments we make to you.
+These conditions apply to every coverage.
 
 ### 1. Reporting incidents and claims
 
@@ -672,19 +641,10 @@ These conditions apply to every coverage. Parts 7, 8 and 12 set out commitments 
 3. **Assignment.** This policy cannot be assigned without our written consent.
 4. **Bankruptcy.** Your bankruptcy or insolvency does not relieve us of our obligations.
 5. **State law.** If any term conflicts with the law of the state where this policy is issued, it is amended to meet that law's minimum requirements.
-6. **Summaries and headings.** Headings, the "plain English" column in Item 6, the cover page, the "What's inside" table and the "If something happens" page are for convenience and do not change coverage. Everything else in the Declarations and Sections I to V, including Section IV, part 1, is policy wording.
+6. **Headings and summaries.** Headings, the cover page and the "If you suspect an incident" summary are for convenience and do not change coverage.
 7. **Liberalization.** If we broaden this policy form for new policies during your **policy period** without charging more, you automatically get the broader terms.
 8. **Entire agreement.** The Declarations, **application**, this policy form and any endorsements make up the entire contract. All amounts are in U.S. dollars.
 
 ### 12. Security services we offer
 
 We may offer you security tools and services, such as vulnerability alerts, phishing training or email security, free or at a reduced cost. They are not part of this policy's coverage, and we offer them on the same terms to every policyholder in the same risk class. Using them, choosing not to use them, or any failure of them is never a reason for us to deny or reduce payment under this policy, except under Section III, part 1.7 when we have sent the written notice it describes.
-
-## If something happens: six steps
-
-1. **Call the hotline first** ((303) 555-0142). Our breach coach answers 24/7, and the first 7 days of expert help cost you nothing, up to $25,000.
-2. **Don't pay a ransom, negotiate or admit fault** before talking to us. You never have to pay a ransom to keep your coverage.
-3. **Preserve evidence.** Don't wipe or rebuild systems until our forensics team says so.
-4. **Money sent to a fraudster? Call your bank at once**, then us. The first 24 hours matter most for getting it back.
-5. **We assemble your response team** of lawyers, forensic experts and negotiators from our panel.
-6. **Make legally required notices on time.** You never need our permission to meet a legal deadline.
