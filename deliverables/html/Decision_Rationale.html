@@ -39,11 +39,11 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <p>This document explains the reasoning behind the Cyber Protection Policy I drafted for Corgi: who it is for, how its numbers were set, what it covers and leaves out, and the trade-offs I accepted. It follows the order in which I made the decisions. Each step answers one question, and each answer sets part of the policy.</p>
 <p><strong>A note on numbers.</strong> The policy is a specimen, not a Corgi product, and Cedar Ridge is fictional. Market statistics come from the published sources listed at the end, with links where the source is public. At-Bay figures come from the full 2026 InsurSec Report. Premiums, limits and loss estimates for Cedar Ridge are my own illustrative judgments, and the arithmetic is shown so each can be challenged.</p>
 <h2>Summary</h2>
-<p><strong>What the policy is for.</strong> It keeps a small business open and solvent after a cyber event. It pays the losses the business can't absorb, pays them fast enough to keep it running, and leaves the small, predictable costs with the business. Every term had to serve that purpose, or protect the insurer's ability to keep offering it (by limiting moral hazard, accumulation or what the law forbids).</p>
+<p><strong>What the policy is for.</strong> It keeps a small or mid-sized business open and solvent after a cyber event. It pays the losses the business can't absorb, pays them fast enough to keep it running, and leaves the small, predictable costs with the business. Every term had to serve that purpose, or protect the insurer's ability to keep offering it (by limiting moral hazard, accumulation or what the law forbids).</p>
 <p><strong>Who it's for.</strong> U.S. businesses with $1M–$50M in revenue, such as accounting firms, clinics, agencies, retailers and light manufacturers. In my view, most buy cyber insurance to survive ransomware and fraud, and many have no broker or in-house IT team to guide them. The sample policyholder is Cedar Ridge Accounting Group, a Denver CPA firm with $8.5M revenue and 62 staff that runs payroll for 40 clients.</p>
 <p><strong>The five decisions that matter most:</strong></p>
 <ol>
-<li><strong>The losses that hit small businesses most are core coverages.</strong> Breach response, ransomware, downtime and payment fraud are in the core. Rarer or systemic risks are priced options.</li>
+<li><strong>The losses that hit small and mid-sized businesses most are core coverages.</strong> Breach response, ransomware, downtime and payment fraud are in the core. Rarer or systemic risks are priced options.</li>
 <li><strong>Numbers come from how these businesses lose money.</strong> The retention is set at what a business can absorb; the limit at the worst realistic single event. For Cedar Ridge that means a $2M limit rather than the $1M base.</li>
 <li><strong>Payment fraud is written around how firms that move money actually get robbed.</strong> It covers partners, the bank and client accounts, because U.S. courts have repeatedly denied these losses under narrower wording.</li>
 <li><strong>Security affects price, not whether you're covered.</strong> Only three disclosed terms can cut a payment for security reasons, and each applies only if the gap mattered to the loss. Losing a credit can raise the retention.</li>
@@ -68,7 +68,7 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <tr>
 <td>Paper</td>
 <td>Admitted, Colorado law</td>
-<td>Small businesses buy directly or through generalist agents and expect a filed, state-regulated form. Admitted paper is now common (Beazley, Cowbell, and since August 2026 Corgi's own admitted carrier), so it is a baseline rather than a selling point</td>
+<td>Small and mid-sized businesses often buy directly or through generalist agents and expect a filed, state-regulated form. Admitted paper is now common (Beazley, Cowbell, and since August 2026 Corgi's own admitted carrier), so it is a baseline rather than a selling point</td>
 </tr>
 <tr>
 <td>Form design</td>
@@ -76,8 +76,13 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <td>The same wording works for a dental office or a CPA firm. The Declarations, the options and the application carry the differences. The specimen's Declarations are left blank for that reason; Cedar Ridge's entries are on the application's last page</td>
 </tr>
 <tr>
+<td>How it scales</td>
+<td>The same wording for a 10-person shop and a 300-person firm</td>
+<td>The retention rises with revenue ($2,500 under $2.5M up to $25,000 at $25M–$50M) and the limit with data held, client money and contract demands ($1M, $2M or $3M). Firms that need more than $3M buy excess layers above this policy</td>
+</tr>
+<tr>
 <td>Sample policyholder</td>
-<td>Cedar Ridge Accounting Group</td>
+<td>Cedar Ridge Accounting Group ($8.5M revenue, 62 staff: the middle of the range)</td>
 <td>A demanding test: it holds Social Security numbers for thousands of people, moves client money, depends on cloud tax and payroll platforms, and peaks in tax season</td>
 </tr>
 </tbody>
@@ -241,7 +246,7 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 </table>
 <p>Tax-season work is mostly delayed rather than lost, so most of the lost-income line is the cost of catching up, which the policy pays as <strong>extra expense</strong>.</p>
 <p>A $1M limit covers the typical claim easily. At-Bay's average claim was $180K for firms under $25M revenue ($221K across all sizes), and Coalition's average across all its policyholders was $116K. But a $1M limit can run out in exactly the event that would threaten the business. A $2M limit covers all of this range except its very top, which assumes the worst case on every line at once. $3M stays available where a client contract requires it.</p>
-<p>I also considered Corgi's structure of $1M per claim with a $2M aggregate. That protects against two bad events in one year. It does not protect against one very bad event, which is the real danger for a small business. By my estimate, raising the single-event cover to $2M is worth $60–150 a year in expected payments to Cedar Ridge. A second, separate $1M is worth under $5.</p>
+<p>I also considered Corgi's structure of $1M per claim with a $2M aggregate. That protects against two bad events in one year. It does not protect against one very bad event, which is the real danger for a business this size. By my estimate, raising the single-event cover to $2M is worth $60–150 a year in expected payments to Cedar Ridge. A second, separate $1M is worth under $5.</p>
 <p><strong>The limit rule</strong> (shown on the application's underwriter page):</p>
 <ul>
 <li><strong>$1M</strong> is the base.</li>
@@ -318,7 +323,7 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <td>8-hour waiting period (4 with 24/7 managed detection and response)</td>
 <td>D, E</td>
 <td>Filters out short outages a business can absorb, in line with the market. Managed detection shortens outages, so it earns a shorter wait</td>
-<td>12 hours: would miss most of a working day, which is exactly the outage a small firm feels</td>
+<td>12 hours: would miss most of a working day, which is exactly the outage a firm this size feels</td>
 </tr>
 <tr>
 <td>24-hour waiting period</td>
@@ -336,7 +341,7 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <td>20% coinsurance</td>
 <td>III.1.6, 1.7</td>
 <td>Large enough to reward the control, small enough that the business still gets 80% of a serious loss</td>
-<td>An exclusion for missing backups: denies the very loss the policy exists for. 50%: more than a small business can absorb</td>
+<td>An exclusion for missing backups: denies the very loss the policy exists for. 50%: more than most firms this size can absorb</td>
 </tr>
 <tr>
 <td>45 days to fix a vulnerability we notify</td>
@@ -377,7 +382,7 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <tr>
 <td>Extended reporting: 60 days automatic; 12 or 24 months at 75% or 125%</td>
 <td>Item 9</td>
-<td>At-Bay's pricing, cheaper than the 100%/150%/200% in the Coalition policy I reviewed; fairer for a small business closing or switching insurers</td>
+<td>At-Bay's pricing, cheaper than the 100%/150%/200% in the Coalition policy I reviewed; fairer for a business closing or switching insurers</td>
 <td>Coalition-style 100/150/200%: expensive for a firm that is closing</td>
 </tr>
 <tr>
@@ -464,7 +469,7 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <td>K, L. PCI and media</td>
 <td>L3</td>
 <td>At-Bay, Coalition, Cowbell Prime 100 (core)</td>
-<td>Most small businesses take cards and publish content</td>
+<td>Most small and mid-sized businesses take cards and publish content</td>
 </tr>
 <tr>
 <td>M, N, O. Bricking, reputational harm, cryptojacking (including AI-service charges)</td>
@@ -571,13 +576,13 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 </table>
 <p><strong>One rule for security.</strong> Section III, part 1.9 lists the only three terms that can reduce a payment because of security practices, and applies each only if the missing control caused the incident or made the loss larger. The insurer must show that link. The idea comes from the UK Insurance Act 2015 (s11), which stops an insurer relying on a risk-control term when the breach could not have mattered to the loss. I found no Colorado equivalent, so the policy supplies the rule itself.</p>
 <p>I did not copy the German approach of cutting payment in proportion to how careless the insured was. In a Colorado form that becomes a discretionary percentage dispute, and it can't be priced.</p>
-<p><strong>The war exclusion.</strong> At-Bay's AB-CYB-001.2 (08/2023) form and the Coalition policy issued for 2025–26 that I reviewed still use legacy "war, hostilities, warlike operations" wording. That is the kind of language the New Jersey courts refused to apply to NotPetya in <em>Merck v. ACE</em>. The policy follows the Lloyd's Y5381 criteria and the LMA 5567 model clause, and borrows the physical-force war definition and bystander carve-back from Beazley's war and cyber war exclusion. Beazley's clause has no attribution process, so the policy uses LMA 5567's rule (attribution by the government where the affected systems are located). It takes the insurer's burden of proof and the "sovereign state" meaning from LMA 5567 and states both in plain words, adding that "state" never means a U.S. state. For small insureds it adds one thing the models lack: continued help while attribution is pending, with no repayment.</p>
+<p><strong>The war exclusion.</strong> At-Bay's AB-CYB-001.2 (08/2023) form and the Coalition policy issued for 2025–26 that I reviewed still use legacy "war, hostilities, warlike operations" wording. That is the kind of language the New Jersey courts refused to apply to NotPetya in <em>Merck v. ACE</em>. The policy follows the Lloyd's Y5381 criteria and the LMA 5567 model clause, and borrows the physical-force war definition and bystander carve-back from Beazley's war and cyber war exclusion. Beazley's clause has no attribution process, so the policy uses LMA 5567's rule (attribution by the government where the affected systems are located). It takes the insurer's burden of proof and the "sovereign state" meaning from LMA 5567 and states both in plain words, adding that "state" never means a U.S. state. For small and mid-sized insureds it adds one thing the models lack: continued help while attribution is pending, with no repayment.</p>
 <h2>6. How the definitions are built</h2>
 <p><strong>Principles:</strong></p>
 <ol>
 <li>Each definition is a plain "means" statement, in alphabetical order.</li>
 <li>Each concept has one definition, used everywhere.</li>
-<li>Definitions are broad where small businesses get hurt (rogue insiders, personal devices, paper records, deepfakes by any channel) and tight where risk accumulates (utilities, public internet infrastructure).</li>
+<li>Definitions are broad where smaller businesses get hurt (rogue insiders, personal devices, paper records, deepfakes by any channel) and tight where risk accumulates (utilities, public internet infrastructure).</li>
 </ol>
 <table>
 <thead>
@@ -611,7 +616,7 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <tr>
 <td><strong>Early warning</strong></td>
 <td>A notice from the FBI, a bank, the IT provider or us is always a suspected incident, but not by itself "discovery"</td>
-<td>Small firms usually learn of an attack from outsiders. They shouldn't have to argue about whether an FBI call was "reasonable suspicion", and an alert that finds nothing shouldn't count against them</td>
+<td>Firms without their own security team usually learn of an attack from outsiders. They shouldn't have to argue about whether an FBI call was "reasonable suspicion", and an alert that finds nothing shouldn't count against them</td>
 </tr>
 <tr>
 <td><strong>Related</strong></td>
@@ -807,11 +812,11 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 </tr>
 <tr>
 <td>A call to the hotline is notice; we confirm it in writing within one business day</td>
-<td>Some carriers say a hotline report is not notice of a claim (Chubb's cyber materials, for example), so a small business that calls but never emails can miss its deadline. The written confirmation gives both sides a record</td>
+<td>Some carriers say a hotline report is not notice of a claim (Chubb's cyber materials, for example), so a business that calls but never emails can miss its deadline. The written confirmation gives both sides a record</td>
 </tr>
 <tr>
 <td>We pay vendors directly</td>
-<td>Small businesses can't front forensic and legal fees mid-crisis</td>
+<td>Most businesses this size can't front forensic and legal fees mid-crisis</td>
 </tr>
 <tr>
 <td>A 50% business interruption advance within 10 business days, up to 25% of the aggregate or the coverage's own limit, whichever is lower</td>
@@ -870,7 +875,7 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <tr>
 <td>Per-event limits (Brit C360, March 2026), unlimited reinstatements (CFC), or incident limits in place of a yearly aggregate (Emergence also revised its incident limits in its 2026 Australian small-business wording)</td>
 <td>Declined</td>
-<td>Uncapped frequency is hard to rate and reinsure on admitted paper. For a small business, one severe event is the bigger risk, so a higher single limit protects more per dollar. The cost: a firm hit twice in one year shares one $2M limit. At an annual claim rate of 1–2%, two severe events in one year are rare</td>
+<td>Uncapped frequency is hard to rate and reinsure on admitted paper. For a small or mid-sized business, one severe event is the bigger risk, so a higher single limit protects more per dollar. The cost: a firm hit twice in one year shares one $2M limit. At an annual claim rate of 1–2%, two severe events in one year are rare</td>
 </tr>
 <tr>
 <td>Parametric "fast downtime payment" (AIG with Parametrix, August 2026; a UK Lloyd's Market Association draft)</td>
@@ -923,7 +928,7 @@ table.cover-sign td { border: none; text-align: center; padding-top: 26pt; font-
 <li>price every term against claims data with an actuary;</li>
 <li>confirm state rules with counsel before filing outside Colorado;</li>
 <li>review the war wording with reinsurers;</li>
-<li>test the Declarations with five small-business owners;</li>
+<li>test the Declarations with five owners of small and mid-sized businesses;</li>
 <li>measure the claims service standards against real results.</li>
 </ul>
 <h2>10. How I validated this</h2>

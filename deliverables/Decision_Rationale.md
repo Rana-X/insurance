@@ -6,13 +6,13 @@ This document explains the reasoning behind the Cyber Protection Policy I drafte
 
 ## Summary
 
-**What the policy is for.** It keeps a small business open and solvent after a cyber event. It pays the losses the business can't absorb, pays them fast enough to keep it running, and leaves the small, predictable costs with the business. Every term had to serve that purpose, or protect the insurer's ability to keep offering it (by limiting moral hazard, accumulation or what the law forbids).
+**What the policy is for.** It keeps a small or mid-sized business open and solvent after a cyber event. It pays the losses the business can't absorb, pays them fast enough to keep it running, and leaves the small, predictable costs with the business. Every term had to serve that purpose, or protect the insurer's ability to keep offering it (by limiting moral hazard, accumulation or what the law forbids).
 
 **Who it's for.** U.S. businesses with $1M–$50M in revenue, such as accounting firms, clinics, agencies, retailers and light manufacturers. In my view, most buy cyber insurance to survive ransomware and fraud, and many have no broker or in-house IT team to guide them. The sample policyholder is Cedar Ridge Accounting Group, a Denver CPA firm with $8.5M revenue and 62 staff that runs payroll for 40 clients.
 
 **The five decisions that matter most:**
 
-1. **The losses that hit small businesses most are core coverages.** Breach response, ransomware, downtime and payment fraud are in the core. Rarer or systemic risks are priced options.
+1. **The losses that hit small and mid-sized businesses most are core coverages.** Breach response, ransomware, downtime and payment fraud are in the core. Rarer or systemic risks are priced options.
 2. **Numbers come from how these businesses lose money.** The retention is set at what a business can absorb; the limit at the worst realistic single event. For Cedar Ridge that means a $2M limit rather than the $1M base.
 3. **Payment fraud is written around how firms that move money actually get robbed.** It covers partners, the bank and client accounts, because U.S. courts have repeatedly denied these losses under narrower wording.
 4. **Security affects price, not whether you're covered.** Only three disclosed terms can cut a payment for security reasons, and each applies only if the gap mattered to the loss. Losing a credit can raise the retention.
@@ -25,9 +25,10 @@ This document explains the reasoning behind the Cyber Protection Policy I drafte
 | Question | Answer | Reason |
 | --- | --- | --- |
 | Segment | U.S. businesses with $1M–$50M revenue | The brief asks for a small-to-mid-sized business. In my judgment this is also where standalone cyber cover is thinnest: many firms rely on a small cyber sublimit inside a business owners policy, as Cedar Ridge did ($50,000) |
-| Paper | Admitted, Colorado law | Small businesses buy directly or through generalist agents and expect a filed, state-regulated form. Admitted paper is now common (Beazley, Cowbell, and since August 2026 Corgi's own admitted carrier), so it is a baseline rather than a selling point |
+| Paper | Admitted, Colorado law | Small and mid-sized businesses often buy directly or through generalist agents and expect a filed, state-regulated form. Admitted paper is now common (Beazley, Cowbell, and since August 2026 Corgi's own admitted carrier), so it is a baseline rather than a selling point |
 | Form design | One general form; each business's Declarations show what it bought | The same wording works for a dental office or a CPA firm. The Declarations, the options and the application carry the differences. The specimen's Declarations are left blank for that reason; Cedar Ridge's entries are on the application's last page |
-| Sample policyholder | Cedar Ridge Accounting Group | A demanding test: it holds Social Security numbers for thousands of people, moves client money, depends on cloud tax and payroll platforms, and peaks in tax season |
+| How it scales | The same wording for a 10-person shop and a 300-person firm | The retention rises with revenue ($2,500 under $2.5M up to $25,000 at $25M–$50M) and the limit with data held, client money and contract demands ($1M, $2M or $3M). Firms that need more than $3M buy excess layers above this policy |
+| Sample policyholder | Cedar Ridge Accounting Group ($8.5M revenue, 62 staff: the middle of the range) | A demanding test: it holds Social Security numbers for thousands of people, moves client money, depends on cloud tax and payroll platforms, and peaks in tax season |
 
 **Fit with Corgi.** Corgi Insurance Company, Inc., Corgi's admitted carrier announced on August 26, 2026, targets main-street businesses including professional and administrative offices. I wrote the policy as a cyber form that carrier could file for that segment, and for startups graduating into it. Corgi's cyber page describes its startup policy as offering up to $1M per claim and $2M in the aggregate. I considered that two-number structure but chose a single $2M aggregate for Cedar Ridge, because its danger is one severe event, not two average ones (part 3).
 
@@ -86,7 +87,7 @@ Tax-season work is mostly delayed rather than lost, so most of the lost-income l
 
 A $1M limit covers the typical claim easily. At-Bay's average claim was $180K for firms under $25M revenue ($221K across all sizes), and Coalition's average across all its policyholders was $116K. But a $1M limit can run out in exactly the event that would threaten the business. A $2M limit covers all of this range except its very top, which assumes the worst case on every line at once. $3M stays available where a client contract requires it.
 
-I also considered Corgi's structure of $1M per claim with a $2M aggregate. That protects against two bad events in one year. It does not protect against one very bad event, which is the real danger for a small business. By my estimate, raising the single-event cover to $2M is worth $60–150 a year in expected payments to Cedar Ridge. A second, separate $1M is worth under $5.
+I also considered Corgi's structure of $1M per claim with a $2M aggregate. That protects against two bad events in one year. It does not protect against one very bad event, which is the real danger for a business this size. By my estimate, raising the single-event cover to $2M is worth $60–150 a year in expected payments to Cedar Ridge. A second, separate $1M is worth under $5.
 
 **The limit rule** (shown on the application's underwriter page):
 - **$1M** is the base.
@@ -119,17 +120,17 @@ These are judgment calls, set to be reasonable for this segment and easy to expl
 
 | Number | Where | Why | Alternative I rejected |
 | --- | --- | --- | --- |
-| 8-hour waiting period (4 with 24/7 managed detection and response) | D, E | Filters out short outages a business can absorb, in line with the market. Managed detection shortens outages, so it earns a shorter wait | 12 hours: would miss most of a working day, which is exactly the outage a small firm feels |
+| 8-hour waiting period (4 with 24/7 managed detection and response) | D, E | Filters out short outages a business can absorb, in line with the market. Managed detection shortens outages, so it earns a shorter wait | 12 hours: would miss most of a working day, which is exactly the outage a firm this size feels |
 | 24-hour waiting period | P | Vendor outages hit many insureds at once, so only multi-day failures are covered | 8 hours: would pay for short platform blips that hit every policyholder at once |
 | 180-day period of restoration, plus 30 days of catch-up costs | D, E, P | Covers a rebuild plus a full tax season. Catch-up time matters because much professional work is delayed rather than lost | 90 days: too short for a rebuild that runs into tax season. 12 months: prices a longer tail than these firms face |
-| 20% coinsurance | III.1.6, 1.7 | Large enough to reward the control, small enough that the business still gets 80% of a serious loss | An exclusion for missing backups: denies the very loss the policy exists for. 50%: more than a small business can absorb |
+| 20% coinsurance | III.1.6, 1.7 | Large enough to reward the control, small enough that the business still gets 80% of a serious loss | An exclusion for missing backups: denies the very loss the policy exists for. 50%: more than most firms this size can absorb |
 | 45 days to fix a vulnerability we notify | III.1.7 | About three times the two-week deadline U.S. federal agencies get for the same catalog, so a firm relying on an outside IT provider has time | 14 days: fine for a government IT team, too short for a firm that waits on its IT provider's schedule |
 | $100K fraud limit without verification; $5,000 verification threshold | III.6 | The lower limit still pays a typical small diversion. The threshold catches almost every fraudulent wire without forcing calls on routine payments | No cover without a procedure: too harsh on a firm that simply never wrote one down. A $10,000 threshold: misses mid-sized diversions |
 | K $250K; G $25K | Item 6 | Card assessments for a small merchant using a hosted payment page rarely reach six figures. $25K buys a year of MFA, EDR and backup upgrades for a firm of 60 people | K at the full limit: adds price for a risk most hosted-payment merchants don't have |
 | 70% after a refused settlement | III.7.2 | Shares the cost of a refused settlement 70/30: firmer than At-Bay's 80/20 (AB-CYB-001.2), softer than a full cap | A full cap at the refused amount: punishes an insured for a defensible refusal |
 | $2,500 H retention if reported within 72 hours | Item 6; III.6.3 | The first 24–72 hours decide whether a bank recall works, so fast reporting earns a lower retention | No incentive: loses the one lever that improves recovery odds |
 | 14-day wait, then up to 90 days | N | Filters out a short news cycle; 90 days captures the client losses that follow a public breach | A 7-day wait: pays for noise. 12 months: can't be separated from ordinary business decline |
-| Extended reporting: 60 days automatic; 12 or 24 months at 75% or 125% | Item 9 | At-Bay's pricing, cheaper than the 100%/150%/200% in the Coalition policy I reviewed; fairer for a small business closing or switching insurers | Coalition-style 100/150/200%: expensive for a firm that is closing |
+| Extended reporting: 60 days automatic; 12 or 24 months at 75% or 125% | Item 9 | At-Bay's pricing, cheaper than the 100%/150%/200% in the Coalition policy I reviewed; fairer for a business closing or switching insurers | Coalition-style 100/150/200%: expensive for a firm that is closing |
 | $50K proof-of-loss help; $2,500 pre-incident help | III.1.8, V.2.3 | About one forensic-accountant engagement; about five to eight hours of breach-coach advice | Unlimited pre-incident advice: hard to price and easy to overuse |
 
 ## 4. What the policy covers, and why
@@ -148,7 +149,7 @@ The coverages follow Coalition's plain "we will pay" style and At-Bay's split be
 | H. Payment fraud and invoice fraud | L1 | HSB Cyber Suite's single "wrongful transfer event" trigger (deception of the insured or its bank); CFC's client-account cover; Coalition's invoice manipulation | See below |
 | I. Privacy liability, including employees' own claims | L3 | Coalition carves back employee claims; Corgi sells this by endorsement | Payroll and HR data breaches are common |
 | J. Regulatory defense and penalties, including agencies outside the U.S. | L6 | At-Bay and Coalition (core) | Breach notice deadlines of 30–60 days make regulatory scrutiny normal |
-| K, L. PCI and media | L3 | At-Bay, Coalition, Cowbell Prime 100 (core) | Most small businesses take cards and publish content |
+| K, L. PCI and media | L3 | At-Bay, Coalition, Cowbell Prime 100 (core) | Most small and mid-sized businesses take cards and publish content |
 | M, N, O. Bricking, reputational harm, cryptojacking (including AI-service charges) | L2, L3 | Similar cover appears in the base forms of Coalition's Active Cyber Policy and Beazley BBR 5.0 | Real exposures; small sublimits keep them affordable |
 | P–T and the system-failure option | L4, L5, others | Optional | Systemic, rare or class-specific risks stay priced and visible |
 
@@ -192,14 +193,14 @@ Each restriction is tied to one or more of five reasons:
 
 I did not copy the German approach of cutting payment in proportion to how careless the insured was. In a Colorado form that becomes a discretionary percentage dispute, and it can't be priced.
 
-**The war exclusion.** At-Bay's AB-CYB-001.2 (08/2023) form and the Coalition policy issued for 2025–26 that I reviewed still use legacy "war, hostilities, warlike operations" wording. That is the kind of language the New Jersey courts refused to apply to NotPetya in *Merck v. ACE*. The policy follows the Lloyd's Y5381 criteria and the LMA 5567 model clause, and borrows the physical-force war definition and bystander carve-back from Beazley's war and cyber war exclusion. Beazley's clause has no attribution process, so the policy uses LMA 5567's rule (attribution by the government where the affected systems are located). It takes the insurer's burden of proof and the "sovereign state" meaning from LMA 5567 and states both in plain words, adding that "state" never means a U.S. state. For small insureds it adds one thing the models lack: continued help while attribution is pending, with no repayment.
+**The war exclusion.** At-Bay's AB-CYB-001.2 (08/2023) form and the Coalition policy issued for 2025–26 that I reviewed still use legacy "war, hostilities, warlike operations" wording. That is the kind of language the New Jersey courts refused to apply to NotPetya in *Merck v. ACE*. The policy follows the Lloyd's Y5381 criteria and the LMA 5567 model clause, and borrows the physical-force war definition and bystander carve-back from Beazley's war and cyber war exclusion. Beazley's clause has no attribution process, so the policy uses LMA 5567's rule (attribution by the government where the affected systems are located). It takes the insurer's burden of proof and the "sovereign state" meaning from LMA 5567 and states both in plain words, adding that "state" never means a U.S. state. For small and mid-sized insureds it adds one thing the models lack: continued help while attribution is pending, with no repayment.
 
 ## 6. How the definitions are built
 
 **Principles:**
 1. Each definition is a plain "means" statement, in alphabetical order.
 2. Each concept has one definition, used everywhere.
-3. Definitions are broad where small businesses get hurt (rogue insiders, personal devices, paper records, deepfakes by any channel) and tight where risk accumulates (utilities, public internet infrastructure).
+3. Definitions are broad where smaller businesses get hurt (rogue insiders, personal devices, paper records, deepfakes by any channel) and tight where risk accumulates (utilities, public internet infrastructure).
 
 | Definition | Choice | Why |
 | --- | --- | --- |
@@ -207,7 +208,7 @@ I did not copy the German approach of cutting payment in proportion to how carel
 | **Dependent provider** | Technology providers and outsourced processors only (cloud, software, managed IT, payroll, tax filing, payment processing) | The usual market scope. Other suppliers and customers are a different risk, and a much larger accumulation. Key customers are an option (Coverage S) |
 | **Payment fraud**, **financial institution**, **client accounts** | One trigger for every way an impostor tricks a firm or its bank into moving money | Part 4 above |
 | **Discover** | When an executive or the named security contact becomes aware of facts suggesting an incident | Triggers, notice and exclusions all turn on this word. Leaving it undefined invites a fight over which policy year responds |
-| **Early warning** | A notice from the FBI, a bank, the IT provider or us is always a suspected incident, but not by itself "discovery" | Small firms usually learn of an attack from outsiders. They shouldn't have to argue about whether an FBI call was "reasonable suspicion", and an alert that finds nothing shouldn't count against them |
+| **Early warning** | A notice from the FBI, a bank, the IT provider or us is always a suspected incident, but not by itself "discovery" | Firms without their own security team usually learn of an attack from outsiders. They shouldn't have to argue about whether an FBI call was "reasonable suspicion", and an alert that finds nothing shouldn't count against them |
 | **Related** | A common cause, the same attacker's continuing access, or a causally connected series | One incident means one limit and one retention. Reports made during the policy lock in later claims |
 | **Executive** | Named leaders and the designated IT or security lead, not an outside IT provider | Knowledge and exclusions should turn on the people who would actually know |
 | **Security failure** and **system failure** | A hijacked AI agent is a security failure. An AI agent that simply malfunctions is a system failure | Matches how the risk behaves, and routes each to the right limit |
@@ -273,8 +274,8 @@ At $1M with no options, the same business would pay $5,508. The rationale for sp
 | Promise | Why |
 | --- | --- |
 | 24/7 hotline; we aim to call back within one hour | Early response shrinks losses |
-| A call to the hotline is notice; we confirm it in writing within one business day | Some carriers say a hotline report is not notice of a claim (Chubb's cyber materials, for example), so a small business that calls but never emails can miss its deadline. The written confirmation gives both sides a record |
-| We pay vendors directly | Small businesses can't front forensic and legal fees mid-crisis |
+| A call to the hotline is notice; we confirm it in writing within one business day | Some carriers say a hotline report is not notice of a claim (Chubb's cyber materials, for example), so a business that calls but never emails can miss its deadline. The written confirmation gives both sides a record |
+| We pay vendors directly | Most businesses this size can't front forensic and legal fees mid-crisis |
 | A 50% business interruption advance within 10 business days, up to 25% of the aggregate or the coverage's own limit, whichever is lower | Coalition's 2026 cash-advance feature is discretionary. Payroll doesn't wait for forensic accountants, so ours is firm |
 | One forensic accountant, if the insured chooses | Two competing accountants can take months to agree |
 | A written coverage position we aim to give within 30 days; payment within 15 days of agreement, or 8% interest compounded annually (Colorado's statutory rate) on top of any legal remedy | Only the payment promise carries a contractual remedy. The others are stated as aims, and Colorado's unfair claims practices law still applies |
@@ -298,7 +299,7 @@ At $1M with no options, the same business would pay $5,508. The rationale for sp
 
 | Considered | Decision | Why |
 | --- | --- | --- |
-| Per-event limits (Brit C360, March 2026), unlimited reinstatements (CFC), or incident limits in place of a yearly aggregate (Emergence also revised its incident limits in its 2026 Australian small-business wording) | Declined | Uncapped frequency is hard to rate and reinsure on admitted paper. For a small business, one severe event is the bigger risk, so a higher single limit protects more per dollar. The cost: a firm hit twice in one year shares one $2M limit. At an annual claim rate of 1–2%, two severe events in one year are rare |
+| Per-event limits (Brit C360, March 2026), unlimited reinstatements (CFC), or incident limits in place of a yearly aggregate (Emergence also revised its incident limits in its 2026 Australian small-business wording) | Declined | Uncapped frequency is hard to rate and reinsure on admitted paper. For a small or mid-sized business, one severe event is the bigger risk, so a higher single limit protects more per dollar. The cost: a firm hit twice in one year shares one $2M limit. At an annual claim rate of 1–2%, two severe events in one year are rare |
 | Parametric "fast downtime payment" (AIG with Parametrix, August 2026; a UK Lloyd's Market Association draft) | Declined for now; test next | For a CPA firm it would pay for downtime that is mostly deferrable, at 25–50% of the premium. Every firm on the same platform would claim at once. The firm 50% advance delivers cash speed for covered outages |
 | Full-limit system failure in the core (Coalition's surplus-lines form) | Priced option | Accumulation. The policy is narrower than Coalition here, and says so |
 | Deepfake and impersonation response (Coalition, December 2025) | Optional Coverage T | Real, but a small-dollar exposure. Deepfake-driven payment fraud is already covered in H |
@@ -323,7 +324,7 @@ At $1M with no options, the same business would pay $5,508. The rationale for sp
 - price every term against claims data with an actuary;
 - confirm state rules with counsel before filing outside Colorado;
 - review the war wording with reinsurers;
-- test the Declarations with five small-business owners;
+- test the Declarations with five owners of small and mid-sized businesses;
 - measure the claims service standards against real results.
 
 ## 10. How I validated this
