@@ -36,6 +36,7 @@ Each row gives the decision, the reason and what it costs. Two terms: the **dedu
 - **Ransomware and extortion.** The firm never has to pay a ransom to keep its cover. Any payment needs our written consent, a sanctions check under Treasury's OFAC advisory [11], and a report to the FBI or CISA unless law enforcement advises otherwise.
 - **Lost income, data restoration and security upgrades.** Upgrades are paid only when our response team recommends them in writing, so a claim never becomes a general IT refresh.
 - **Payment and invoice fraud**, and **liability**: privacy lawsuits, regulators, card-brand fines and media claims.
+- **Why regulatory cover is core for a firm like this.** As a tax preparer, Cedar Ridge falls under the FTC Safeguards Rule, which since May 2024 requires notifying the FTC within 30 days of a breach affecting 500 or more people. [12] Colorado requires notice to affected residents within 30 days. [13] IRS Publication 4557 tells tax professionals to keep a written security plan. [14] So regulatory defense and penalties are core cover, legally required notices never need our consent, and the application asks for the written plan.
 - **Small capped extras:** replacing computers bricked by an attack, lost profit after bad press, and hackers running up cloud or phone bills.
 
 **Optional**
@@ -47,7 +48,7 @@ Each row gives the decision, the reason and what it costs. Two terms: the **dedu
 - **Deliberate theft by insiders.** If a current owner, employee or individual contractor wires money out or diverts a customer's invoice payment, fraud cover pays nothing. That keeps it cyber-fraud cover, not employee-dishonesty cover. Cedar Ridge has no crime policy, so this is a real gap, and the application flags it.
 - **Tracking suits** (covered only by the tracking option) **and biometric-privacy suits.** Statutory damages can far exceed a small-business premium. A hack that exposes biometric data is still covered.
 - **Utility, internet backbone and natural-disaster outages.** These cannot be priced into a small-business premium. Security failures in the firm's systems, and failures inside a provider's own systems, stay covered.
-- **War and major state-backed attacks.** Ordinary ransomware and fraud by state-linked groups stay covered. For major state-backed attacks, systems outside the country hit stay covered. The insurer must prove the exclusion applies, and response and defense continue until it does.
+- **War and major state-backed attacks.** The wording follows the structure of the Lloyd's Market Association model clauses. [15] Ordinary ransomware and fraud by state-linked groups stay covered. For major state-backed attacks, systems outside the country hit stay covered. The insurer must prove the exclusion applies, and response and defense continue until it does.
 
 ## 4. How I structured the definitions
 
@@ -71,7 +72,17 @@ The policy has 60 numbered definitions. Each covers one idea and carries its own
 - **No cut-off date for earlier events.** Cedar Ridge has operated since 2009 and is replacing existing cover, so a cut-off would open a gap. Problems it knew about but did not disclose stay excluded.
 - **Service targets.** We aim to call back within one hour and decide coverage within 30 days of receiving the documents we ask for. Agreed amounts are paid within 15 days, with 8% annual interest when late. Once lost-income cover is confirmed, we advance 50% of the estimated loss within 10 business days.
 
-## 6. Three claim tests
+## 6. Underwriting view of Cedar Ridge
+
+The application shows a well-run firm with four gaps. I would offer the policy with these conditions and notes.
+
+- **Conditions to bind.** Replace the Windows Server 2012 R2 print server, which no longer gets security updates, by December 2026 as the application plans. Put MFA on the internal scanner account that lacks it, or restrict what it can reach.
+- **Referral note: no 24/7 monitoring.** Front Range IT Partners reviews alerts on business days, 8 a.m. to 6 p.m. An attack that starts on a Friday night can run until Monday. I would price for that, or offer a credit for 24/7 managed detection later. [9]
+- **Advice to the client: insider theft.** Cedar Ridge has no crime policy, and this policy does not cover theft by its own staff. I would recommend a separate crime policy.
+- **Disclosed problems.** Anything disclosed in the application is not a "known problem" under exclusion 2, so it stays covered unless an endorsement excludes it. That puts the burden on the underwriter to read every disclosure before binding. Here, none describes a live compromise.
+- **Evidence the controls work.** In February 2025 a callback stopped a payment to false bank details, and in March 2026 MFA blocked a phished password. Both support the $250,000 fraud limit and the standard deductible.
+
+## 7. Three claim tests
 
 Each test assumes unused limits, timely reporting and no other insurance or recoveries. Lost-income amounts are after the waiting period.
 
@@ -81,11 +92,11 @@ Each test assumes unused limits, timely reporting and no other insurance or reco
 | **Accidental outage of the firm's own systems:** $200,000 lost income + $100,000 restoration = $300,000 | The deductible applies to restoration only, so $290,000 qualifies. The shared accident cap pays **$250,000**; the firm bears **$50,000** plus losses during the wait; **$1.75 million remains**. The accident cap is used up for the year. |
 | **A payroll clerk deliberately steals $100,000** | Fraud cover pays **$0**: theft by an employee is neither payment fraud nor computer fraud. The firm bears $100,000 and the full $2 million remains. |
 
-## 7. How I used outside sources
+## 8. How I used outside sources
 
 - **Existing policies, to learn the standard shape.** I read complete small-business forms from At-Bay, Travelers, DUAL, Coalition and Chubb, following each coverage through its definitions, exclusions and conditions. [1–4, 10] Where they differed, I picked one, and the tables above name the form and the reason. Coalition's specimen showed that an endorsement can quietly change a base rule, so I read those too. [4]
 - **Claims data, to see where losses are heading.** At-Bay's 2026 report showed that ransomware with downtime costs about three times as much as ransomware without it, and that fraud reported fast is more often recovered. [5, pp. 26, 34, 43] That is why attacks get full limits and fraud gets the 72-hour discount. I also named newer risks the older forms say little about: deepfake fraud, AI tools acting outside their permissions, and invoice diversion after a hack.
-- **Frameworks and guidance, to keep it workable.** NIST's small-business guide shaped the application's security questions. [6] Treasury's OFAC advisory set the ransom-payment rules. [11] Travelers' fraud supplement helped with the payment questions. [8]
+- **Frameworks, law and guidance, to keep it workable.** NIST's small-business guide shaped the application's security questions. [6] Treasury's OFAC advisory set the ransom-payment rules. [11] The FTC Safeguards Rule, Colorado's notice law and IRS Publication 4557 explain why regulatory cover is core for a tax preparer. [12–14] The Lloyd's model clauses shaped the war exclusion. [15] Travelers' fraud supplement helped with the payment questions. [8]
 
 ## Appendix: the income model behind the $250,000 accident cap
 
@@ -120,5 +131,10 @@ Page numbers are PDF viewer pages. These are the editions I compared, not a clai
 9. **Coalition, Managed Detection and Response, US** (updated August 1, 2024). Used for: security credits as a possible later model.
 10. **Chubb, Cyber Enterprise Risk Management** (PF-48169, 02/2019 small-business sample). Used for: waiting period and extra costs (p. 17).
 11. **U.S. Treasury / OFAC, Updated Ransomware Advisory** (September 21, 2021). Used for: sanctions checks and reporting before any ransom payment (pp. 1, 3–6).
+
+12. **FTC, Standards for Safeguarding Customer Information (Safeguards Rule)**, 16 C.F.R. Part 314, breach-notification amendment effective May 13, 2024. Used for: why regulatory cover is core for a tax preparer.
+13. **Colorado Revised Statutes § 6-1-716** (notification of security breach). Used for: the 30-day notice to Colorado residents.
+14. **IRS Publication 4557, Safeguarding Taxpayer Data.** Used for: the written security plan the application asks about.
+15. **Lloyd's Market Association, state-backed cyber-attack exclusion model clauses** (LMA5564–LMA5567, November 2021). Used for: the structure of the war exclusion.
 
 *Prepared by Rana for the Corgi take-home.*

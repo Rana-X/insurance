@@ -138,6 +138,7 @@ sub('5.5. Optional extended reporting. If either of us cancels or does not renew
 sub('Tell us and pay within 60 days after the policy ends. It starts when the policy ends and includes the automatic 60 days.','Tell us and pay within 60 days after the policy ends, including when it ends after an acquisition. It starts when the policy ends and includes any automatic 60 days.')
 sub('and a member of our incident response team will contact you within one hour of your report.','and we aim to have a member of our incident response team contact you within one hour of your report.')
 sub('Assumes one covered claim and no earlier payments.','Assumes one fully covered claim, no earlier payments, and that no smaller coverage limit or settlement-sharing rule applies.')
+sub('use their waiting periods in Item 7 instead','use their waiting periods in Item 6 instead')
 json.dump(items,open('items_final.json','w'))
 for l in log:
     if l[1]==0: print('MISS',l)

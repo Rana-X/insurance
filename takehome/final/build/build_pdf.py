@@ -30,7 +30,7 @@ body=body.replace('<!--TOC-->',toc)
 # Declarations form number
 body=re.sub(r'<h1([^>]*?) class="pb"([^>]*)>Declarations',r'<h1\1 class="pb decl"\2>Declarations',body,count=1)
 body=re.sub(r'<h1([^>]*?) class="pb"([^>]*)>Reporting an incident',r'<h1\1 class="pb nondecl"\2>Reporting an incident',body,count=1)
-for h in ('Core cover and your share','Core cover and optional choices','Premium, dates and policy forms'):
+for h in ('Core cover and your share','Core cover and optional choices','Premium, dates and policy forms','III. Retention'):
     body=re.sub(r'<h1([^>]*?) class="pb"([^>]*)>'+re.escape(h),r'<h1\1 class="cont"\2>'+h,body,count=1)
 CSS=open('policy.css').read()
 doc=f'''<!doctype html><html><head><meta charset="utf-8"><title>Corgi | Cyber Protection Policy</title>
